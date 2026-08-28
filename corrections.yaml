@@ -17,3 +17,29 @@
 #     added: 2026-08-28
 version: 1
 corrections: []
+
+# Suspects looked at against the scan and judged correct as they stand. They
+# leave the review queue for good; the entry stays here as the record of who
+# decided what, and why.
+dismissed:
+  - match: "1R"
+    reason: 'NASA criticality code, as in "Criticality 1 and 1R items". Correct as printed.'
+    added: 2026-08-29
+  - match: "2R"
+    reason: 'NASA criticality code, as in "criticality 1, lR, 2 or 2R". Correct as printed.'
+    added: 2026-08-29
+  - match: "2X"
+    reason: 'The "2X" rule on fastener torque. Correct as printed.'
+    added: 2026-08-29
+  - match: "5A"
+    reason: 'The C-5A aircraft. Correct as printed.'
+    added: 2026-08-29
+  - match: "6A"
+    reason: 'Page reference "A-6A, sheet 1". Correct as printed.'
+    added: 2026-08-29
+  - match: "2F"
+    reason: 'Equipment code "05-2F MICROWAVE SCAN BEAM LANDING". Correct as printed.'
+    added: 2026-08-29
+  - match: "2d"
+    reason: '"99th Congress, 2d Session" — the US legislative form. Correct as printed.'
+    added: 2026-08-29

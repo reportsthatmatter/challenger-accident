@@ -2,6 +2,8 @@
 
 Pages: 438  ·  Footnotes: 89  ·  Auto-fixes applied: 21  ·  Human corrections: 0
 
+**371 open**, 7 reviewed and judged correct.
+
 OCR suspects below are a **review queue, not errors**. Whether the text is
 faithful to the scan is a human judgement; these are the places most likely
 to need one.
@@ -9,18 +11,12 @@ to need one.
 When you make one, record it in `reports/challenger-accident/corrections.yaml` — never by
 editing `full.md`, which the next ingest overwrites. A correction there is
 applied deterministically, survives re-ingestion, and fails the build if it
-ever stops matching.
+ever stops matching. If the scan is right as it stands, say so in the same
+file under `dismissed:` and the entry leaves this queue for good.
 
 | Confidence | Pattern | Text | Where | Context |
 | --- | --- | --- | --- | --- |
-| likely | digit inside a word | `1R` | Vol 1 · PDF p.12 | t be conducted on all Criticality 1 and 1R items and hazard analyses; a study shou |
-| likely | digit inside a word | `2R` | Vol 1 · PDF p.224 | problems coded criticality, 1, lR, 2 or 2R,” it stated: will be considered la |
 | likely | digit inside a word | `1s` | Vol 1 · PDF p.133 |  GENERIC TEMPLATE (CIR 7.7 MO) 1s 14 13 12 11 10 |
-| likely | digit inside a word | `6A` | Vol 1 · PDF p.196 | l Items List,” December 17,1982, page A-6A, sheet 1.  |
-| likely | digit inside a word | `2X` | Vol 1 · PDF p.22 | t leaders (i.e., in vio- lation of the “2X” rule). Recommendations 1. NASA shou |
-| likely | digit inside a word | `5A` | Vol 1 · PDF p.102 | cumula- tive landing gear weight. The C-5A aircraft uses beryllium rotors and stat |
-| likely | digit inside a word | `2F` | Vol 1 · PDF p.342 |  05-2F MICROWAVE SCAN BEAM LANDING (MSBLS)  |
-| likely | digit inside a word | `2d` | Vol 1 · PDF p.1 |  Union Calendar No. 600 99th Congress, 2d Session - - - - - - - - - - - - - House |
 | likely | digit inside a word | `2o` | Vol 1 · PDF p.64 |  of the I< maximum expected erosion.” 2o February 12, 1985.-Mr. Mulloy and Th |
 | likely | digit inside a word | `2s` | Vol 1 · PDF p.203 |  cycle, which is the most critical time.2s (See A p pendices VII-B and VII-C. |
 | likely | digit inside a word | `2H` | Vol 1 · PDF p.321 |  SE-019-053-2H SD74-sn-O |
@@ -213,3 +209,10 @@ ever stops matching.
 | likely | digit inside a word | `respond1ng` | Vol 1 · PDF p.372 | of telemetry o r a creman respond1ng t o monitored displays. Fai 1ure detect |
 | likely | digit inside a word | `1ure` | Vol 1 · PDF p.372 |  respond1ng t o monitored displays. Fai 1ure detectabi 1i t y a1 so assumes  |
 | likely | digit inside a word | `1i` | Vol 1 · PDF p.372 |  monitored displays. Fai 1ure detectabi 1i t y a1 so assumes other m |
+| likely | digit inside a word | `3f` | Vol 1 · PDF p.372 |  a. The external leakage mode 3f functional hardware items from any  |
+| likely | digit inside a word | `o1ASI` | Vol 1 · PDF p.377 |  Annual B o d o1ASI'M Standard\. Vols 09.01 and 09.02  |
+| likely | digit inside a word | `4nnuol` | Vol 1 · PDF p.377 |  ' .4nnuol Booh o/ ASTM Siandardr, Vol 09.01 D  |
+| likely | digit inside a word | `4nnrioI` | Vol 1 · PDF p.377 | Precision State- ' 4nnrioI Boo!, oIASTM Siandurdr. VoI 14.02  |
+| likely | digit inside a word | `4Snl` | Vol 1 · PDF p.378 |  4Snl D 395 appropriate method, is calculated |
+| likely | digit inside a word | `0fO` | Vol 1 · PDF p.378 |  for Type 1 Diamclcr.mm(in.) 29.0fO.S(1.14 13.0f0.2(0.~1 specimens and |
+| likely | digit inside a word | `8I` | Vol 1 · PDF p.382 | ared in accordance with Practice D 3040-8I. 15.5 Bias-In test method stati |
