@@ -16,7 +16,85 @@
 #     reason: small-font OCR; checked against the scan
 #     added: 2026-08-28
 version: 1
-corrections: []
+corrections:
+  # "Recommendation(s)" — the report's own section headings, OCR'd with the
+  # canonical rn→m scanno. Checked against the scan: every one is the heading
+  # "Recommendation" or "Recommendations". Where the mangled word recurs it is
+  # narrowed to its printed page. (Several of these headings are also merged
+  # into the preceding paragraph by the parser — a separate heading-detection
+  # bug, tracked in Beads; this pass only repairs the token.)
+  - id: c-0001
+    where: { printed: 19 }
+    find: "Recomrnendation"
+    replace: "Recommendation"
+    reason: rn→m OCR of the section heading; checked against the scan (printed p.19)
+    added: 2026-09-07
+  - id: c-0002
+    where: { printed: 29 }
+    find: "Recomrnendation"
+    replace: "Recommendation"
+    reason: rn→m OCR of the section heading; checked against the scan (printed p.29)
+    added: 2026-09-07
+  - id: c-0003
+    where: { printed: 135 }
+    find: "Recomrnendation"
+    replace: "Recommendation"
+    reason: rn→m OCR of the section heading; checked against the scan (printed p.135)
+    added: 2026-09-07
+  - id: c-0004
+    where: { printed: 28 }
+    find: "Recomrnendations"
+    replace: "Recommendations"
+    reason: rn→m OCR of the section heading; checked against the scan (printed p.28)
+    added: 2026-09-07
+  - id: c-0005
+    where: { printed: 101 }
+    find: "Recomrnendations"
+    replace: "Recommendations"
+    reason: rn→m OCR of the section heading; checked against the scan (printed p.101)
+    added: 2026-09-07
+  - id: c-0006
+    where: { printed: 175 }
+    find: "Recomrnendations"
+    replace: "Recommendations"
+    reason: rn→m OCR of the section heading; checked against the scan (printed p.175)
+    added: 2026-09-07
+  - id: c-0007
+    find: "Recornmendat ion"
+    replace: "Recommendation"
+    reason: rn→m OCR of the "Recommendation" heading, split across the break; checked against the scan (printed p.15)
+    added: 2026-09-07
+  - id: c-0008
+    find: "Recornmendations"
+    replace: "Recommendations"
+    reason: rn→m OCR of the "Recommendations" heading; checked against the scan (printed p.33)
+    added: 2026-09-07
+  # rn→m in the running text, both in footnote citations of the Rogers
+  # Commission report. "Rogers Commission Report" is a fixed phrase used
+  # throughout; the adjacent footnotes on the same pages print it correctly.
+  - id: c-0009
+    find: "Cornmission"
+    replace: "Commission"
+    reason: rn→m OCR of "Commission" in footnote 78; checked against the scan (printed p.117)
+    added: 2026-09-07
+  - id: c-0010
+    find: "Cornmiasion"
+    replace: "Commission"
+    reason: rn→m plus ss→ia OCR of "Commission"; checked against the scan (printed p.182)
+    added: 2026-09-07
+  - id: c-0011
+    find: "returnng"
+    replace: "returning"
+    reason: dropped "i"; the scan prints "returning the Shuttle to flight readiness" (printed p.176)
+    added: 2026-09-07
+  # The lowercase roman page number "viii" on the Contents page, OCR'd as
+  # "lVlll" and not recognised as page furniture, so it trails the (already
+  # badly mangled) table-of-contents block. Strip it.
+  - id: c-0012
+    find: " lVlll"
+    replace: ""
+    reason: mis-OCR of the printed page number "viii"; page furniture, removed
+    added: 2026-09-07
 
 # Suspects looked at against the scan and judged correct as they stand. They
 # leave the review queue for good; the entry stays here as the record of who
@@ -43,3 +121,84 @@ dismissed:
   - match: "2d"
     reason: '"99th Congress, 2d Session" — the US legislative form. Correct as printed.'
     added: 2026-08-29
+  # --- 2026-09-07: report body (PDF pp. 1–200) reviewed against the scan. ---
+  # Common English words flagged only for containing an "rn"/"m" sequence.
+  # Read in context against the scan; each is correct as printed.
+  - match: "concerns"
+    reason: 'Common word; the scan prints "concerns". Flagged only for the "rn" sequence.'
+    added: 2026-09-07
+  - match: "concerned"
+    reason: 'Common word; the scan prints "concerned". Flagged only for the "rn" sequence.'
+    added: 2026-09-07
+  - match: "Concerns"
+    reason: 'Heading "Other Engineering Concerns"; correct as printed.'
+    added: 2026-09-07
+  - match: "cerns"
+    reason: 'Tail of "con- cerns" broken at a line end; the pipeline rejoins it to "concerns" in the output. Correct as printed.'
+    added: 2026-09-07
+  - match: "burning"
+    reason: 'Common word; the scan prints "burning gases of the propellant". Correct as printed.'
+    added: 2026-09-07
+  - match: "morning"
+    reason: 'Common word; the scan prints "the morning of January 28, 1986". Correct as printed.'
+    added: 2026-09-07
+  - match: "warning"
+    reason: 'Common word; the scan prints "available warning signs". Correct as printed.'
+    added: 2026-09-07
+  - match: "warnings"
+    reason: 'Common word; the scan prints "the warnings of the engineers". Correct as printed.'
+    added: 2026-09-07
+  - match: "warned"
+    reason: 'Common word; the scan prints "he warned that the rationale". Correct as printed.'
+    added: 2026-09-07
+  - match: "patterns"
+    reason: 'Common word; the scan prints "the patterns in NASA". Correct as printed.'
+    added: 2026-09-07
+  - match: "governing"
+    reason: 'Common word; the scan prints "governing permissible cannibalization". Correct as printed.'
+    added: 2026-09-07
+  - match: "governments"
+    reason: 'Common word; the scan prints "not just for NASA but for governments". Correct as printed.'
+    added: 2026-09-07
+  - match: "internationally"
+    reason: 'Common word; the scan prints "internationally competitive flight costs". Correct as printed.'
+    added: 2026-09-07
+  - match: "International"
+    reason: 'Proper name, "Rockwell International" / "North American Space Operations". Correct as printed.'
+    added: 2026-09-07
+  - match: "California"
+    reason: 'Place name in the Committee membership list. Correct as printed.'
+    added: 2026-09-07
+  - match: "afternoon"
+    reason: 'Common word; the scan prints "the afternoon of January 28". Correct as printed.'
+    added: 2026-09-07
+  - match: "overnight"
+    reason: 'Common word; the scan prints "remained in the external tank overnight". Correct as printed.'
+    added: 2026-09-07
+  - match: "harnesses"
+    reason: 'Common word; the scan prints "crew seats and restraint harnesses". Correct as printed.'
+    added: 2026-09-07
+  - match: "turns"
+    reason: 'Common word; the scan prints "it turns into more of a real time poll- ing". Correct as printed.'
+    added: 2026-09-07
+  - match: "alternatives"
+    reason: 'Common word; the scan prints "many design alternatives have been evaluated". Correct as printed.'
+    added: 2026-09-07
+  - match: "horns"
+    reason: 'Common word; the scan prints "take the bull by the horns". Correct as printed.'
+    added: 2026-09-07
+  - match: "preburner"
+    reason: 'SSME term; the scan prints "driven into the preburner". Correct as printed.'
+    added: 2026-09-07
+  - match: "preburners"
+    reason: 'SSME term; the scan prints "one of the turbopump preburners". Correct as printed.'
+    added: 2026-09-07
+  - match: "Barney"
+    reason: 'Given name, "Barney Roberts, Advanced Programs Office". Correct as printed.'
+    added: 2026-09-07
+  - match: "earned"
+    reason: 'Common word in a table row ("award fee earned"); the word itself is correct as printed.'
+    added: 2026-09-07
+  - match: "ternal"
+    reason: 'Tail of "Ex- ternal" broken at a line end; the pipeline rejoins it to "External" in the output. Correct as printed.'
+    added: 2026-09-07
