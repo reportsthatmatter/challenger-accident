@@ -1,11 +1,11 @@
 {
-  "markdownSha": "f45f9010bc2d39bd3a0aec5bb1d43f24eee4a4ef6943eff80c7854abe38105e2",
+  "markdownSha": "47dc8bf32a853a1a657eea987086b279343f874b12a30aca24981469f68bbc34",
   "words": 150507,
   "blocks": {
-    "heading": 245,
+    "heading": 244,
     "quote": 632,
     "list": 95,
-    "paragraph": 2980
+    "paragraph": 3191
   },
   "headings": [
     "INVESTIGATION OF THE CHALLENGER ACCIDENT",
@@ -27,7 +27,6 @@
     "THEACCIDENT",
     "INTRODUCTION",
     "SOLID ROCKET MOTORS",
-    "History Issue",
     "Summary of Casing Joint Design",
     "Testing and Certification",
     "Manufacturing Discussion Only",
