@@ -96,6 +96,125 @@ corrections:
     reason: mis-OCR of the printed page number "viii"; page furniture, removed
     added: 2026-09-07
 
+  # --- 2026-09-11: footnote apparatus (PDF pp. 48-200) reviewed against the
+  # scan. Footnote numbers here are mostly reconstructed by bracketing —
+  # a garbled number sitting between two clean ones, or matching a clean
+  # inline citation elsewhere on the same page — rather than by character
+  # shape alone; several were confirmed by looking at the actual page image
+  # (`pdftoppm`), not just the text layer. c-0022, c-0025, c-0026, c-0027,
+  # c-0028, c-0029, c-0030 were all confirmed this way.
+  - id: c-0013
+    find: "erosion.\" 2o"
+    replace: "erosion.\" 20"
+    reason: footnote 20; bracketed by clean footnotes 19 and 21/22 on the same page (printed p.56)
+    added: 2026-09-11
+  - id: c-0014
+    find: "7s Cmte HE Transcript, July 16, 1986, p. 42."
+    replace: "75 Cmte Hgs Transcript, July 16, 1986, p. 42."
+    reason: footnote 75; the same page's body prose already cites footnotes 74 and 75 cleanly inline (printed p.116)
+    added: 2026-09-11
+  # c-0015 intentionally not used: "1bid" (footnote 11, PDF p.62) is almost
+  # certainly "11 Ibid." — bracketed by a clean run of 8, 9, 10 — but it sits
+  # inside a footnote *definition* block (rendered "[^N]: ..."), which this
+  # corrections mechanism cannot reach: applyCorrections only searches
+  # paragraph/quote/list body blocks, never footnote-definition text.
+  # Confirmed empirically (a `find` for plain, unambiguous substrings of that
+  # exact definition never matches, while the same text matches fine in
+  # ordinary body prose). Left open; see reportsthatmatter-3jb.
+  - id: c-0016
+    find: "I6Ibid."
+    replace: "16 Ibid."
+    reason: footnote 16, bracketed by clean "I5 Ibid." before and "I'Ibid." (17) after (printed p.55)
+    added: 2026-09-11
+  - id: c-0017
+    find: "26 Ibid. 2T Ibid."
+    replace: "26 Ibid. 27 Ibid."
+    reason: footnote 27, bracketed by 26 immediately before and 28 immediately after (printed p.57)
+    added: 2026-09-11
+  - id: c-0018
+    find: "1ocation."
+    replace: "location."
+    reason: dropped "l" read as "1"; the scan prints "the 154 degree \"location.\"" (printed p.60)
+    added: 2026-09-11
+  - id: c-0019
+    find: "3T Ibid., Volume I, p. 41"
+    replace: "37 Ibid., Volume I, p. 41"
+    reason: footnote 37, bracketed by 36 immediately before and 38 immediately after (printed p.74)
+    added: 2026-09-11
+  - id: c-0020
+    find: "2nySeas"
+    replace: "2nd Sess"
+    reason: 'footnote reads "99th Cong., 2nd Sess." — the same abbreviation the document uses cleanly elsewhere (printed p.100)'
+    added: 2026-09-11
+  - id: c-0021
+    find: "lZ3Douglas"
+    replace: "123Douglas"
+    reason: footnote 123; the same paragraph's body prose already cites "Figure VI-3,123" cleanly (printed p.139)
+    added: 2026-09-11
+  - id: c-0022
+    find: "1eeCmte Hgs, Transcript, July 24, 1986, pp. 119-23"
+    replace: "166Cmte Hgs, Transcript, July 24, 1986, pp. 119-23"
+    reason: footnote 166; confirmed against the page image — bracketed by clean inline citations to footnotes 165 and 167 (printed p.156)
+    added: 2026-09-11
+  - id: c-0023
+    find: "ments2O 0"
+    replace: "ments.200"
+    reason: footnote 200 (end of "make technical judg-ments2O 0"); confirmed against the page image and the footnote's own clean definition ("200 Ibid., July 24, 1986, p. 94.") lower on the same page. Scoped to after the line-end hyphen in "judg-ments" — the hyphen-rejoin pass runs after corrections, so "judgments2O 0" as one string doesn't exist yet at correction time (printed p.172)
+    added: 2026-09-11
+  - id: c-0024
+    find: "0bserved"
+    replace: "observed"
+    reason: '"0" read for "O"; the scan prints "the liquid oxygen tank failing. Liquid oxygen then observed." (printed p.189)'
+    added: 2026-09-11
+  - id: c-0025
+    find: "the Air Force's Titan I11 solid rocket.4g"
+    replace: "the Air Force's Titan I11 solid rocket.49"
+    reason: footnote 49; confirmed against the page image (printed p.106)
+    added: 2026-09-11
+  - id: c-0026
+    find: "criteria.6g"
+    replace: "criteria.69"
+    reason: footnote 69; confirmed against the page image (printed p.112)
+    added: 2026-09-11
+  - id: c-0027
+    find: "[emphasis added].9s This is reinforced"
+    replace: "[emphasis added].96 This is reinforced"
+    reason: footnote 96; confirmed against the page image and the footnote's own clean definition ("96 NASA Response to Rogers Commission, July 14, 1986, p. 31.") lower on the same page (printed p.121)
+    added: 2026-09-11
+  - id: c-0028
+    find: "3b Thiokol, Roger Boisjoly, \"SRM 0-Ring ErosiodPotential Failure Criticality,\" Memo 2870 FY 86:073,July 31,1985."
+    replace: "31a Thiokol, Roger Boisjoly, \"SRM 0-Ring Erosion/Potential Failure Criticality,\" Memo 2870 FY 86:073, July 31, 1985."
+    reason: footnote 31a (a lettered sub-note); confirmed against the page image, where the body text reads "...on STS 51-B.31a See Appendix V-J.)" (printed p.58)
+    added: 2026-09-11
+  - id: c-0029
+    find: "1eMortOn%iokol, &-10212 (CD), Tab, 4-9, npical Propellant Design Data."
+    replace: "16Morton Thiokol, TWR-10212 (CD), Table 4-9, Typical Propellant Design Data."
+    reason: footnote 16; confirmed against the page image (printed p.192)
+    added: 2026-09-11
+  # c-0030 intentionally not used, for the same reason as c-0015: "iNm" is an
+  # editorial note within footnote 6 that reads "[NOTE.—The nozzle to case
+  # joint design is significantly different than the case field joint design
+  # which caused the Challenger accident. However, it is cited here because
+  # some of the problems are relevant to the failure of the aft field
+  # joint.]" — confirmed word-for-word against the page image — but it lives
+  # entirely inside a footnote-definition block, unreachable by
+  # corrections.yaml. Left open; see reportsthatmatter-3jb.
+  - id: c-0031
+    find: "lZ4 Cmt Hgs, Transcript, June 12, 1986, p. 186. lZs =id. p. 187."
+    replace: "124 Cmt Hgs, Transcript, June 12, 1986, p. 186. 125 Ibid. p. 187."
+    reason: footnotes 124 and 125; confirmed against the page image (printed p.141)
+    added: 2026-09-11
+  - id: c-0032
+    find: "lSo Rogers Commission Report, Volume 11, pp. K25-26"
+    replace: "130 Rogers Commission Report, Volume 11, pp. K25-26"
+    reason: footnote 130; confirmed against the page image, and matches the clean inline citation "...engine life time.130" earlier on the same page (printed p.143)
+    added: 2026-09-11
+  - id: c-0033
+    find: "December 1Z 1985."
+    replace: "December 17, 1985."
+    reason: a date, not a footnote; confirmed against the page image (printed p.60)
+    added: 2026-09-11
+
 # Suspects looked at against the scan and judged correct as they stand. They
 # leave the review queue for good; the entry stays here as the record of who
 # decided what, and why.
@@ -202,3 +321,126 @@ dismissed:
   - match: "ternal"
     reason: 'Tail of "Ex- ternal" broken at a line end; the pipeline rejoins it to "External" in the output. Correct as printed.'
     added: 2026-09-07
+  # The OCR-suspect scan runs against the raw source text, before
+  # corrections.yaml is applied — so a `find` above that fixes a mangled
+  # word does NOT remove it from this queue by itself; it keeps reappearing
+  # forever unless also dismissed. These are not "correct as printed" (they
+  # weren't, which is why c-0001..c-0012 exist) — they are retired *because*
+  # they were corrected. Noted here so the next reviewer doesn't wonder why
+  # an already-fixed word is still in fidelity.md.
+  - match: "Recomrnendation"
+    reason: "Corrected, not confirmed as printed — see corrections c-0001/c-0002/c-0003 (rn→m, 'Recommendation')."
+    added: 2026-09-11
+  - match: "Recomrnendations"
+    reason: "Corrected, not confirmed as printed — see corrections c-0004/c-0005/c-0006 (rn→m, 'Recommendations')."
+    added: 2026-09-11
+  - match: "Recornmendat"
+    reason: "Corrected, not confirmed as printed — see correction c-0007 (rn→m, 'Recommendation')."
+    added: 2026-09-11
+  - match: "Recornmendations"
+    reason: "Corrected, not confirmed as printed — see correction c-0008 (rn→m, 'Recommendations')."
+    added: 2026-09-11
+  - match: "Cornmission"
+    reason: "Corrected, not confirmed as printed — see correction c-0009 (rn→m, 'Commission')."
+    added: 2026-09-11
+  - match: "Cornmiasion"
+    reason: "Corrected, not confirmed as printed — see correction c-0010 (rn→m + ss→ia, 'Commission')."
+    added: 2026-09-11
+  - match: "returnng"
+    reason: "Corrected, not confirmed as printed — see correction c-0011 (dropped 'i', 'returning')."
+    added: 2026-09-11
+  - match: "lVl"
+    reason: "Corrected, not confirmed as printed — see correction c-0012 (mis-OCR of the printed page number \"viii\", stripped)."
+    added: 2026-09-11
+
+  # --- 2026-09-11: footnote apparatus (PDF pp. 48-200) reviewed against the
+  # scan. Real words/codes, correct as printed:
+  - match: "D6AC"
+    reason: 'Real material: "the segmented Solid Rocket Motor case is roll formed from D6AC steel." Correct as printed.'
+    added: 2026-09-11
+  - match: "2nd"
+    reason: 'Common abbreviation; the scan prints "99th Cong., 2nd Sess." (this document uses both "2d" and "2nd" for "second" in different footnotes). Correct as printed.'
+    added: 2026-09-11
+  - match: "1D"
+    reason: 'NASA document number, "NHB 5300.4 (1D-2)" — a handbook revision suffix, the same convention as document numbers already dismissed elsewhere ("100-2F", "100-2G"). Correct as printed.'
+    added: 2026-09-11
+  - match: "2G"
+    reason: 'NASA document number, "document 100-2G entitled Reliability Desk Instruction..." — same convention as "100-2F" (already dismissed). Correct as printed.'
+    added: 2026-09-11
+  - match: "5B"
+    reason: 'Real aircraft: "Concorde, B747, 757, 767 and C-5B" (Lockheed C-5B Galaxy). Correct as printed.'
+    added: 2026-09-11
+  - match: "6th"
+    reason: 'Common ordinal; the scan prints "launched on January 6th." Correct as printed.'
+    added: 2026-09-11
+  - match: "7th"
+    reason: 'Common ordinal; the scan prints "Standard Handbook for Mechanical Engineers, 7th Ed." Correct as printed.'
+    added: 2026-09-11
+  # Diagram content, not prose: Figure VI-2's rotated time-scale axis reads
+  # "15" (of a 15-to-0 month countdown) when checked against the page image,
+  # but the rest of the figure extracts as unreadable ASCII art — fixing
+  # this one token would not make the figure legible, so it is left as the
+  # extractor rendered it rather than half-corrected.
+  - match: "1s"
+    reason: "Figure VI-2 (\"Generic Template (CIR 7.7 MO)\") axis label, confirmed \"15\" against the page image; the figure itself has no readable text form to correct it into."
+    added: 2026-09-11
+  # The following were corrected (see corrections.yaml above), not confirmed
+  # as printed — see the note above c-0013 for why a correction alone does
+  # not retire a suspect from this queue.
+  - match: "2o"
+    reason: "Corrected, not confirmed as printed — see correction c-0013 (footnote 20)."
+    added: 2026-09-11
+  - match: "7s"
+    reason: "Corrected, not confirmed as printed — see correction c-0014 (footnote 75)."
+    added: 2026-09-11
+  - match: "I6Ibid"
+    reason: "Corrected, not confirmed as printed — see correction c-0016 (footnote 16)."
+    added: 2026-09-11
+  - match: "2T"
+    reason: "Corrected, not confirmed as printed — see correction c-0017 (footnote 27)."
+    added: 2026-09-11
+  - match: "1ocation"
+    reason: "Corrected, not confirmed as printed — see correction c-0018 (\"location\")."
+    added: 2026-09-11
+  - match: "3T"
+    reason: "Corrected, not confirmed as printed — see correction c-0019 (footnote 37)."
+    added: 2026-09-11
+  - match: "2nySeas"
+    reason: "Corrected, not confirmed as printed — see correction c-0020 (\"2nd Sess\")."
+    added: 2026-09-11
+  - match: "lZ3Douglas"
+    reason: "Corrected, not confirmed as printed — see correction c-0021 (footnote 123)."
+    added: 2026-09-11
+  - match: "1eeCmte"
+    reason: "Corrected, not confirmed as printed — see correction c-0022 (footnote 166)."
+    added: 2026-09-11
+  - match: "ments2O"
+    reason: "Corrected, not confirmed as printed — see correction c-0023 (footnote 200)."
+    added: 2026-09-11
+  - match: "0bserved"
+    reason: "Corrected, not confirmed as printed — see correction c-0024 (\"observed\")."
+    added: 2026-09-11
+  - match: "4g"
+    reason: "Corrected, not confirmed as printed — see correction c-0025 (footnote 49)."
+    added: 2026-09-11
+  - match: "6g"
+    reason: "Corrected, not confirmed as printed — see correction c-0026 (footnote 69)."
+    added: 2026-09-11
+  - match: "9s"
+    reason: "Corrected, not confirmed as printed — see correction c-0027 (footnote 96)."
+    added: 2026-09-11
+  - match: "3b"
+    reason: "Corrected, not confirmed as printed — see correction c-0028 (footnote 31a)."
+    added: 2026-09-11
+  - match: "1eMortOn"
+    reason: "Corrected, not confirmed as printed — see correction c-0029 (footnote 16, \"Morton Thiokol\")."
+    added: 2026-09-11
+  - match: "lZs"
+    reason: "Corrected, not confirmed as printed — see correction c-0031 (footnote 125)."
+    added: 2026-09-11
+  - match: "lSo"
+    reason: "Corrected, not confirmed as printed — see correction c-0032 (footnote 130)."
+    added: 2026-09-11
+  - match: "1Z"
+    reason: "Corrected, not confirmed as printed — see correction c-0033 (a date, \"December 17, 1985\")."
+    added: 2026-09-11
