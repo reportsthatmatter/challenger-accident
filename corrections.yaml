@@ -113,14 +113,17 @@ corrections:
     replace: "75 Cmte Hgs Transcript, July 16, 1986, p. 42."
     reason: footnote 75; the same page's body prose already cites footnotes 74 and 75 cleanly inline (printed p.116)
     added: 2026-09-11
-  # c-0015 intentionally not used: "1bid" (footnote 11, PDF p.62) is almost
-  # certainly "11 Ibid." — bracketed by a clean run of 8, 9, 10 — but it sits
-  # inside a footnote *definition* block (rendered "[^N]: ..."), which this
-  # corrections mechanism cannot reach: applyCorrections only searches
-  # paragraph/quote/list body blocks, never footnote-definition text.
-  # Confirmed empirically (a `find` for plain, unambiguous substrings of that
-  # exact definition never matches, while the same text matches fine in
-  # ordinary body prose). Left open; see reportsthatmatter-3jb.
+  # c-0015 intentionally not used: reportsthatmatter-3jb (corrections.yaml
+  # couldn't reach footnote-definition text at all) is fixed as of @rtm/ingest
+  # v0.12.6, but this specific one still can't land as a plain find/replace.
+  # Checked against the actual scanned page image (PDF p.62, printed p.54):
+  # footnotes 8-12 read "8 Ibid." "9 Ibid." "10 Ibid." "11 Ibid." "12 Morton
+  # Thiokol, ...". A misread leading digit somewhere in that run (rendered as
+  # something other than a digit in the extracted text) made parseFootnotes
+  # miss where a new note started, so all five collapsed into one [^8]:
+  # definition — "1bid" is what's left of footnote 11's number inside that
+  # merged blob. Splitting it back into five correctly-numbered notes is a
+  # structural fix, not a text substitution; see reportsthatmatter-lie.
   - id: c-0016
     find: "I6Ibid."
     replace: "16 Ibid."
@@ -191,14 +194,17 @@ corrections:
     replace: "16Morton Thiokol, TWR-10212 (CD), Table 4-9, Typical Propellant Design Data."
     reason: footnote 16; confirmed against the page image (printed p.192)
     added: 2026-09-11
-  # c-0030 intentionally not used, for the same reason as c-0015: "iNm" is an
-  # editorial note within footnote 6 that reads "[NOTE.—The nozzle to case
-  # joint design is significantly different than the case field joint design
-  # which caused the Challenger accident. However, it is cited here because
-  # some of the problems are relevant to the failure of the aft field
-  # joint.]" — confirmed word-for-word against the page image — but it lives
-  # entirely inside a footnote-definition block, unreachable by
-  # corrections.yaml. Left open; see reportsthatmatter-3jb.
+  # c-0030 intentionally not used, for the same reason as c-0015 (see its
+  # comment above): checked against the actual scanned page image (PDF p.61,
+  # printed p.53), footnotes 5, 6, 7 read "5 Ibid." "6 Ibid. [NOTE.—The
+  # nozzle to case joint design is significantly different than the case
+  # field joint design which caused the Challenger accident. However, it is
+  # cited here because some of the problems are relevant to the failure of
+  # the aft field joint.]" "7 Ibid." — three separate notes, confirmed
+  # word-for-word. A misread "6" collapsed all of footnote 6's text into
+  # [^5]:'s definition; "iNm" is what survives of "6 Ibid. [NOTE.—" inside
+  # that merged blob. Splitting it back into three correctly-numbered notes
+  # is a structural fix, not a text substitution; see reportsthatmatter-lie.
   - id: c-0031
     find: "lZ4 Cmt Hgs, Transcript, June 12, 1986, p. 186. lZs =id. p. 187."
     replace: "124 Cmt Hgs, Transcript, June 12, 1986, p. 186. 125 Ibid. p. 187."
