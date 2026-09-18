@@ -221,10 +221,219 @@ corrections:
     reason: a date, not a footnote; confirmed against the page image (printed p.60)
     added: 2026-09-11
 
+  # --- 2026-09-18: appendix prose and its footnote apparatus (printed
+  # pp.195-251), checked against the scanned page images. ---
+  - id: c-0034
+    where: { printed: 195 }
+    find: "pr0blems.~3Davids"
+    replace: "problems.23 Davids"
+    reason: '"0" read for "o" in "problems" and the leading 2 of inline footnote 23 dropped; checked against the scan'
+    added: 2026-09-18
+  - id: c-0035
+    where: { printed: 195 }
+    find: 'Winterhalter.23"'
+    replace: "Winterhalter.23a"
+    reason: footnote 23a; the lettered suffix was read as a closing quote; checked against the scan
+    added: 2026-09-18
+  - id: c-0036
+    where: { printed: 195 }
+    find: "critical time.2s"
+    replace: "critical time.26"
+    reason: inline footnote 26; checked against the scan and its definition at the foot of the page
+    added: 2026-09-18
+  - id: c-0037
+    where: { printed: 195 }
+    find: "'0Ring Seal Erosion Problems"
+    replace: "'O' Ring Seal Erosion Problems"
+    reason: 'letter O and closing quote read as zero/no character in the title of footnote 23; checked against the scan'
+    added: 2026-09-18
+  - id: c-0038
+    where: { printed: 195 }
+    find: "23. Mr. Weeks"
+    replace: "23a Mr. Weeks"
+    reason: footnote 23a; its lettered suffix was read as punctuation; checked against the scan
+    added: 2026-09-18
+  - id: c-0039
+    where: { printed: 198 }
+    find: "8RM O-ring $ask Force"
+    replace: "SRM O-ring Task Force"
+    reason: '"8" read for "S" and "$" for "T" in the title of footnote 34; checked against the scan'
+    added: 2026-09-18
+  - id: c-0040
+    where: { printed: 198 }
+    find: "30 bid."
+    replace: "36 Ibid."
+    reason: footnote 36; both digits/letters were misread, bracketed by footnotes 35 and 37 and checked against the scan
+    added: 2026-09-18
+  - id: c-0041
+    where: { printed: 198 }
+    find: "3 7 bid., Chart 2 2."
+    replace: "37 Ibid., Chart 2-2."
+    reason: footnote 37; spaces and the hyphen were lost; checked against the scan
+    added: 2026-09-18
+  - id: c-0042
+    where: { printed: 198 }
+    find: "3s bid.. Chart 3-1."
+    replace: "38 Ibid., Chart 3-1."
+    reason: footnote 38; 8 read as s and I dropped; checked against the scan
+    added: 2026-09-18
+  - id: c-0043
+    where: { printed: 198 }
+    find: "39 Kid.; Chart 4-1"
+    replace: "39 Ibid., Chart 4-1."
+    reason: footnote 39; Ibid. was misread as Kid.; checked against the scan
+    added: 2026-09-18
+  - id: c-0044
+    where: { printed: 202 }
+    find: "E'~~a~~2i~n,50"
+    replace: "Elongation in 50 mm or 2 in., percent"
+    reason: mangled table header; restored verbatim from the scan
+    added: 2026-09-18
+  - id: c-0045
+    where: { printed: 211 }
+    find: "ble risk.2s"
+    replace: "ble risk.25"
+    reason: inline footnote 25; 5 read as s; checked against the scan and its definition at the foot of the page
+    added: 2026-09-18
+  - id: c-0046
+    where: { printed: 209 }
+    find: "I4Discussion with Mr. McDonald"
+    replace: "14 Discussion with Mr. McDonald"
+    reason: footnote 14; leading 1 read as capital I and spacing lost; checked against the scan
+    added: 2026-09-18
+  - id: c-0047
+    where: { printed: 210 }
+    find: "assisted with recovery.2O"
+    replace: "assisted with recovery.20"
+    reason: inline footnote 20; capital O read for zero; checked against the scan
+    added: 2026-09-18
+  - id: c-0048
+    where: { printed: 216 }
+    find: '"as they are the same generic problem."4s'
+    replace: '"as they are the same generic problem."46'
+    reason: inline footnote 46; 6 read as s; checked against the scan
+    added: 2026-09-18
+  - id: c-0049
+    where: { printed: 218 }
+    find: '5JSee also "Safety, Reliability'
+    replace: '53 See also "Safety, Reliability'
+    reason: footnote 53; 3 read as J and spacing lost; checked against the scan
+    added: 2026-09-18
+  - id: c-0050
+    where: { printed: 228 }
+    find: "and it was.8o"
+    replace: "and it was.80"
+    reason: inline footnote 80; lowercase o read for zero; checked against the scan
+    added: 2026-09-18
+  - id: c-0051
+    where: { printed: 245 }
+    find: "12 2Mr. George Jeffs"
+    replace: "122 Mr. George Jeffs"
+    reason: footnote 122; an internal space was introduced and the following word joined; checked against the scan
+    added: 2026-09-18
+  - id: c-0052
+    where: { printed: 245 }
+    find: "Lz3Cmte. H,p., Transcript"
+    replace: "123 Cmte. Hgs, Transcript"
+    reason: footnote 123 and its citation abbreviation were mangled; checked against the scan
+    added: 2026-09-18
+  - id: c-0053
+    where: { printed: 246 }
+    find: "'2OIbid."
+    replace: "129 Ibid."
+    reason: footnote 129; 1/9 read as quote/capital O and spacing lost; checked against the scan
+    added: 2026-09-18
+  - id: c-0054
+    where: { printed: 251 }
+    find: "14. W o n with Carver Kennedy,ThioLol Wasateh Operations"
+    replace: "145 Discussion with Carver Kennedy, Thiokol Wasatch Operations"
+    reason: opening of footnote 145 was heavily mangled; restored verbatim from the scan
+    added: 2026-09-18
+  - id: c-0055
+    where: { printed: 251 }
+    find: "General Kutyna aL0 nded thb in the Commimion'r hearing"
+    replace: "General Kutyna also noted this in the Commission's hearing"
+    reason: middle of footnote 145 was heavily mangled; restored verbatim from the scan
+    added: 2026-09-18
+  - id: c-0056
+    where: { printed: 251 }
+    find: "Cornmimion Ibpon Volume N. 660). l S a0s ( 7 r"
+    replace: "Rogers Commission Report, Volume IV, p. 660)."
+    reason: end of footnote 145 was heavily mangled; restored verbatim from the scan
+    added: 2026-09-18
+  - id: c-0057
+    where: { printed: 251 }
+    find: "141 Channel 245, p. 218."
+    replace: "146 OIS Channel 245, p. 218."
+    reason: footnote 146; digit and acronym were misread; checked against the scan
+    added: 2026-09-18
+  - id: c-0058
+    where: { printed: 211 }
+    find: "24 Ibid., p. H-13. 2s Ibid., Chart 30 (p. H-18). 26 Ibid., p. H-42."
+    replace: "24 Ibid., p. H-13. 25 Ibid., Chart 30 (p. H-18). 26 Ibid., p. H-42."
+    reason: footnote 25 definition; 5 read as s; checked against the scan
+    added: 2026-09-18
+
 # Suspects looked at against the scan and judged correct as they stand. They
 # leave the review queue for good; the entry stays here as the record of who
 # decided what, and why.
 dismissed:
+  # --- 2026-09-18: appendix prose (printed pp.195-251). Corrected suspects
+  # are retired here because the suspect scan runs before corrections. ---
+  - match: "pr0blems"
+    reason: 'Corrected, not confirmed as printed — see c-0034 ("problems").'
+    added: 2026-09-18
+  - match: "3Davids"
+    reason: "Corrected, not confirmed as printed — see c-0034 (footnote 23 followed by 'Davids')."
+    added: 2026-09-18
+  - match: "0Ring"
+    reason: "Corrected, not confirmed as printed — see c-0037 ('O' Ring)."
+    added: 2026-09-18
+  - match: "2s"
+    reason: "Corrected, not confirmed as printed — see c-0036, c-0045, and c-0058 (footnotes 26 and 25)."
+    added: 2026-09-18
+  - match: "8RM"
+    reason: "Corrected, not confirmed as printed — see c-0039 (SRM)."
+    added: 2026-09-18
+  - match: "3s"
+    reason: "Corrected, not confirmed as printed — see c-0042 (footnote 38)."
+    added: 2026-09-18
+  - match: "2i"
+    reason: "Corrected, not confirmed as printed — see c-0044 (table header '2 in.')."
+    added: 2026-09-18
+  - match: "I4Discussion"
+    reason: "Corrected, not confirmed as printed — see c-0046 (footnote 14)."
+    added: 2026-09-18
+  - match: "2O"
+    reason: "Corrected, not confirmed as printed — see c-0047 (footnote 20)."
+    added: 2026-09-18
+  - match: "2B"
+    reason: 'Chart reference "3-2B" (and the same suffix in technical identifiers); correct as printed.'
+    added: 2026-09-18
+  - match: "4s"
+    reason: "Corrected, not confirmed as printed — see c-0048 (footnote 46)."
+    added: 2026-09-18
+  - match: "5JSee"
+    reason: "Corrected, not confirmed as printed — see c-0049 (footnote 53)."
+    added: 2026-09-18
+  - match: "8o"
+    reason: "Corrected, not confirmed as printed — see c-0050 (footnote 80)."
+    added: 2026-09-18
+  - match: "2Mr"
+    reason: "Corrected, not confirmed as printed — see c-0051 (footnote 122 followed by 'Mr.')."
+    added: 2026-09-18
+  - match: "Lz3Cmte"
+    reason: "Corrected, not confirmed as printed — see c-0052 (footnote 123)."
+    added: 2026-09-18
+  - match: "4B"
+    reason: 'Page reference "5.1-4B" (and the same suffix in technical identifiers); correct as printed.'
+    added: 2026-09-18
+  - match: "2OIbid"
+    reason: "Corrected, not confirmed as printed — see c-0053 (footnote 129, 'Ibid.')."
+    added: 2026-09-18
+  - match: "a0s"
+    reason: "Corrected, not confirmed as printed — see c-0056 (end of footnote 145)."
+    added: 2026-09-18
   - match: "1R"
     reason: 'NASA criticality code, as in "Criticality 1 and 1R items". Correct as printed.'
     added: 2026-08-29

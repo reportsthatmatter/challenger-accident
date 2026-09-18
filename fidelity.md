@@ -1,8 +1,8 @@
 # Fidelity review — Investigation of the Challenger Accident
 
-Pages: 438  ·  Footnotes: 90  ·  Auto-fixes applied: 21  ·  Human corrections: 31
+Pages: 438  ·  Footnotes: 90  ·  Auto-fixes applied: 21  ·  Human corrections: 56
 
-**310 open**, 68 reviewed and judged correct.
+**292 open**, 86 reviewed and judged correct.
 
 OCR suspects below are a **review queue, not errors**. Whether the text is
 faithful to the scan is a human judgement; these are the places most likely
@@ -16,12 +16,9 @@ file under `dismissed:` and the entry leaves this queue for good.
 
 | Confidence | Pattern | Text | Where | Context |
 | --- | --- | --- | --- | --- |
-| likely | digit inside a word | `2s` | Vol 1 · PDF p.203 |  cycle, which is the most critical time.2s (See A p pendices VII-B and VII-C. |
 | likely | digit inside a word | `2H` | Vol 1 · PDF p.321 |  SE-019-053-2H SD74-sn-O |
 | likely | digit inside a word | `2C` | Vol 1 · PDF p.338 |  01 NO. 100-2C  |
-| likely | digit inside a word | `2i` | Vol 1 · PDF p.210 |  strength yield strength ks, E’~~a~~2i~n,50  |
 | likely | digit inside a word | `8s` | Vol 1 · PDF p.212 | 9, p. 1. 6 1 Ibid. 6* bid., p. 2. 8s Ibid.  |
-| likely | digit inside a word | `4B` | Vol 1 · PDF p.254 | d by means of a curve shown on page 5.1-4B.13’ It is important to note that Note |
 | likely | known OCR artefact | `Thc` | Vol 1 · PDF p.281 | nd paragrapn f o l l o w i n g "g". Thc Test Plan should s p c l f y a h u d re |
 | likely | digit inside a word | `1SSU` | Vol 1 · PDF p.311 | ble 10.11.1 S D7 3-5 I-0069-2 (curcent 1SSU.J SD73-SY-0069-3 Stro |
 | likely | digit inside a word | `4A` | Vol 1 · PDF p.342 |  Air Data Sensor 02-4A HATCHES 05-3  |
@@ -33,21 +30,6 @@ file under `dismissed:` and the entry leaves this queue for good.
 | likely | known OCR artefact | `ofthe` | Vol 1 · PDF p.379 | t been applied and that the parallelism ofthe plates which the specimen is held |
 | likely | digit inside a word | `8nd` | Vol 1 · PDF p.385 | ho rimmry "0" ria roatr durln ignltion, 8nd rubroquontly fri!r, tho unroatod rocond |
 | likely | digit inside a word | `1bid` | Vol 1 · PDF p.62 | . 8 Ibid. Ibid. ‘ 0 bid. I 1bid. Morton Thiokol, “Program Plan, P |
-| likely | digit inside a word | `pr0blems` | Vol 1 · PDF p.203 |  and nozzle-to-case O-ring seal erosion pr0blems.~3Davids sent copies to Messrs. Weeks,  |
-| likely | digit inside a word | `3Davids` | Vol 1 · PDF p.203 | e-to-case O-ring seal erosion pr0blems.~3Davids sent copies to Messrs. Weeks, Hamby, He |
-| likely | digit inside a word | `0Ring` | Vol 1 · PDF p.203 | vids, “Case to Case and Nozzle to Case ‘0Ring Seal Erosion Problems,” July 11 1985.  |
-| likely | digit inside a word | `8RM` | Vol 1 · PDF p.206 | dered for use in the SRM. 34 Thiokol, 8RM O-ring $ask Force Status and QM-5 Rec |
-| likely | digit inside a word | `3s` | Vol 1 · PDF p.206 |  30 bid. 3 7 bid., Chart 2 2. 3s bid.. Chart 3-1. 39 Kid.; Chart 4-1  |
-| likely | digit inside a word | `I4Discussion` | Vol 1 · PDF p.217 |  pp. 1-2. See Appendix .vm-n _*- I . I4Discussion with Mr. McDonald, September 4, 1986.  |
-| likely | digit inside a word | `2O` | Vol 1 · PDF p.218 |  the divers that assisted with recovery.2O Mulloy’s presentation to the Associa |
-| likely | digit inside a word | `2B` | Vol 1 · PDF p.222 | 6143,’’ December 2, 1986, Charta 3-2; 3-2B. %e A pendix VfrI1-G. 30 y r ‘ O b |
-| likely | digit inside a word | `4s` | Vol 1 · PDF p.224 |  “as they are the same generic problem.”4s The logic behind this “resolution” of |
-| likely | digit inside a word | `5JSee` | Vol 1 · PDF p.226 | to waive the launch constraint?” 5JSee also “Safety, Reliability and ality Ass |
-| likely | digit inside a word | `8o` | Vol 1 · PDF p.236 |  to Kennedy and to Marshall, and it was.8o 713bid. lS Cmte Hgs, Transcript, J |
-| likely | digit inside a word | `2Mr` | Vol 1 · PDF p.253 | und system’s able to put in there? 12 2Mr. George Jeffs, President, North America |
-| likely | digit inside a word | `Lz3Cmte` | Vol 1 · PDF p.253 | e Operations, Rockwell International. Lz3Cmte. H,p., Transcript, July 25, 1986, pp. 7 |
-| likely | digit inside a word | `2OIbid` | Vol 1 · PDF p.254 | 219-20. 1 2 8 See Appendix VIII-L. ‘2OIbid. 130 “Launch Commit Criteria and Back |
-| likely | digit inside a word | `a0s` | Vol 1 · PDF p.259 |  Cornmimion Ibpon Volume N. 660). l S a0s ( 7 r 141 Channel 245, p. 218.  |
 | likely | digit inside a word | `4moF` | Vol 1 · PDF p.263 |  WASHtNGTCR ::546 R E R Y TC 4moF: 30-1 T3 :  |
 | likely | digit inside a word | `S2W` | Vol 1 · PDF p.263 |  Procuremenr Omcer !S2W: Marshall Space Plight Center  |
 | likely | digit inside a word | `9dbject` | Vol 1 · PDF p.263 |  3 i i a Rocket Motors 9dbject s+atezent, signed by the A&inisTrazor,  |
@@ -216,3 +198,21 @@ file under `dismissed:` and the entry leaves this queue for good.
 | likely | digit inside a word | `aui8ncd` | Vol 1 · PDF p.398 | ojects FRR, a copy of aui8ncd action Items v1U be provided to each ac |
 | likely | digit inside a word | `v1U` | Vol 1 · PDF p.398 |  aui8ncd action Items v1U be provided to each actionee by the Pro |
 | likely | digit inside a word | `SA1IIMr` | Vol 1 · PDF p.400 | n S A I IIMr. Lombudo SAJIIMr. Brldwrll SA1IIMr. Mulloy SAYIIMI. Taylor Sh711Mr. Bore S |
+| likely | digit inside a word | `EE3IIMr` | Vol 1 · PDF p.400 | ardy EEI IIMr. Horron EC21IYr. Thomaron EE3IIMr. Nichols tE51fMr. Goerr ECOIIMr. Brook  |
+| likely | digit inside a word | `LGO3IMr` | Vol 1 · PDF p.400 | . Nichols tE51fMr. Goerr ECOIIMr. Brook LGO3IMr. B u m EBOIIMr. Bradford EHOIIYr. Jchwi |
+| likely | digit inside a word | `EPC3IMr` | Vol 1 · PDF p.400 | ingbmer EfOllDr. Deader EPOIIMr. McCool EPC3IMr. W o r l d EL0 IIMr. Hop- E W 1lDr. McD |
+| likely | digit inside a word | `1lDr` | Vol 1 · PDF p.400 | l EPC3IMr. W o r l d EL0 IIMr. Hop- E W 1lDr. McDonough ElOl/Yr. Taylor PWIIMr. Manh |
+| likely | digit inside a word | `k7t` | Vol 1 · PDF p.401 |  ESOl/J. C . Walker ,k7t/S. G . Herderson: SecrcLariat E |
+| likely | digit inside a word | `8ssess` | Vol 1 · PDF p.401 | 8nd d8t8 so the Board can independently 8ssess t h e fli&ht readiness. The Shuttle Pro |
+| likely | digit inside a word | `z5icrl` | Vol 1 · PDF p.402 |  t y o r f l : g , h t end tr~z5icrl ~ U C C C S S , inc1ud:rp  |
+| likely | digit inside a word | `inc1ud` | Vol 1 · PDF p.402 |  end tr~z5icrl ~ U C C C S S , inc1ud:rp p o t t ~ t ! a l impact  |
+| likely | digit inside a word | `rev1s` | Vol 1 · PDF p.402 | " a : sj,;.rc.va!; and any rev1s:ons t o r.?za!-d  |
+| likely | digit inside a word | `8t` | Vol 1 · PDF p.402 | !r im:.-c s d r r l n > s t l 8t:!ir cintrol :f.<:ijr a s s o c i  |
+| likely | digit inside a word | `lncorpol2te` | Vol 1 · PDF p.402 | f Frojects elect to lncorpol2te c l a s s i f i e d d z t s w i t V |
+| likely | stray punctuation inside a word | `rrv!sions` | Vol 1 · PDF p.402 | g r o u n d t e s t a n ~ c a 1 : e s ; rrv!sions to h a r d h ' a r e ,  |
+| likely | stray punctuation inside a word | `regu;rez` | Vol 1 · PDF p.402 | t verlfivd o r w h i c h regu;rez e x : r ~ r " a : sj,;.r |
+| likely | stray punctuation inside a word | `pre!lminary` | Vol 1 · PDF p.402 |  i v i s i o n a t ? - S ? l o . A pre!lminary a p e n d a is e n c l o  |
+| likely | digit inside a word | `0REClW` | Vol 1 · PDF p.409 | PARACHUTE SEPARATION SYSTEM FUOMT 0REClW)L;  |
+| likely | digit inside a word | `6lC` | Vol 1 · PDF p.425 | ESS REVIEW SRH-24 (STS-6lC) 02 DECEHBER 1985  |
+| likely | digit inside a word | `3TS` | Vol 1 · PDF p.430 |  3TS-61B ( S T S - 3 1 ) (SRN-23) PERFORMANC |
+| likely | digit inside a word | `RIt4G` | Vol 1 · PDF p.430 | . t t l N E OF T!iE 18 S T I F - r M R RIt4G SEGMENTS WILL HAVE TO RE RE- ,*LACED. N |

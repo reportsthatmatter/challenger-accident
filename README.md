@@ -25,8 +25,8 @@ Work of the United States federal government — public domain.
 which PDFs, in what order, with what metadata, and which pipeline passes.
 
 ```bash
-pnpm install
-pnpm exec tsx ../reportsthatmatter/scripts/ingest/cli.ts run challenger-accident
+pnpm --dir ../reportsthatmatter install
+pnpm --dir ../reportsthatmatter ingest run challenger-accident
 ```
 
 Corrections to the text go in `corrections.yaml`, never into `full.md`. Each
