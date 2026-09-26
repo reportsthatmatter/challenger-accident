@@ -1,6 +1,6 @@
 # Fidelity review — Investigation of the Challenger Accident
 
-Pages: 438  ·  Footnotes: 90  ·  Auto-fixes applied: 21  ·  Human corrections: 56
+Pages: 438  ·  Footnotes: 82  ·  Auto-fixes applied: 21  ·  Human corrections: 56
 
 **292 open**, 86 reviewed and judged correct.
 
