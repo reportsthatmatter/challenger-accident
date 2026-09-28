@@ -1204,9 +1204,7 @@ For the benefit of those who may not be familiar with the Space Transportation S
 
 L
 
-TER
-
-## FIGURE
+## TER FIGURE
 
 V-1
 
@@ -1230,17 +1228,7 @@ THRUST AT LIFT-OFF (2,650,000 pounds)
 
 SREI SEGMENT I yon o x i d e powder
 
-(catalyst), 0 .[^1] 7 percent ( v a r i e s )
-
-## . SRM AFT CENTER
-
-> polybutadiene a c r y l i c a c i d a c r y l o n i t r i le ( b i n d e r ) , 12 percent
-
-## WEIGHT
-
-> AFT SEGMENT ' Empty: (193.000 p o u n d s ) P r o p e I l a n t : ( 1 ,[^1] 0 7 , 0 0 0 pounds) WITH NOZZLE Gross: (1,300,000 pounds)
-
-## AFT SKIRT
+> (catalyst), 0 .[^1] 7 percent ( v a r i e s ) . SRM AFT CENTER polybutadiene a c r y l i c a c i d a c r y l o n i t r i le ( b i n d e r ) , 12 percent WEIGHT AFT SEGMENT ' Empty: (193.000 p o u n d s ) P r o p e I l a n t : ( 1 ,[^1] 0 7 , 0 0 0 pounds) WITH NOZZLE Gross: (1,300,000 pounds) AFT SKIRT
 
 FIGUREV-2
 
@@ -1272,69 +1260,35 @@ The following chart describes the principal steps in the evolution, flight, and 
 
 %%page 45%%
 
-## SOLID ROCKET MOTOR PRINCIPAL STEPS I N THE EVOLUTION, FLIGHT AND RECONDITIONING OF SOLID ROCKET MOTORS
-
-- 1 — 7
-
-## PROGRAH DIRECTION BY
-
-..
-
-## 1 DEFINE PROGRAM REQUIREMENTS AND VERIFY
+## SOLID ROCKET MOTOR PRINCIPAL STEPS I N THE EVOLUTION, FLIGHT AND RECONDITIONING OF SOLID ROCKET MOTORS 1 7 PROGRAH DIRECTION BY ..[^1] DEFINE PROGRAM REQUIREMENTS AND VERIFY
 
 > THAT OBJECTIVES ARE CONSISTENTLY MET. NASA
 
-## CONTRACTOR DESIGN DESIGN THE MOTOR TO MEET ALL PERFORMANC REQUIREMENTS DURING ALL ANTICIPATED
+## CONTRACTOR DESIGN DESIGN THE MOTOR TO MEET ALL PERFORMANC REQUIREMENTS DURING ALL ANTICIPATED CONDITIONS OF FLIGHT. MORTON THIOKOL
 
-CONDITIONS OF FLIGHT.
+> (_' ., TESTING AND ASSURE THAT DESIGN MEETS ALL REQUlREMEh MORTON THIOKOL NASA
 
-## MORTON THIOKOL
+## PROCURE MATERIALS AND COMPONENTS, PRODU AND ASSEMBLE AN OPERATIONAL MOTOR IN ACCORDANCE WITH THE DESIGN. MORTON THIOKOL ROHR INDUSTRIES PARKER SEAL COMPANY
 
-> (_' ., TESTING AND ASSURE THAT DESIGN MEETS ALL REQUlREMEh
+> .. LOAD, TRANSPORT, UNLOAD AND STORE MOTOR
 
-## MORTON THIOKOL
-
-NASA
-
-## PROCURE MATERIALS AND COMPONENTS, PRODU AND ASSEMBLE AN OPERATIONAL MOTOR IN
-
-ACCORDANCE WITH THE DESIGN.
-
-## MORTON THIOKOL ROHR INDUSTRIES PARKER SEAL COMPANY
-
-> .. LOAD, TRANSPORT, UNLOAD AND STORE MOTOR SEGMENTS.
-
-## MORTON THIOKOL
+## SEGMENTS. MORTON THIOKOL
 
 0 STACK I NG ASSEMBLE MOTOR SEGMENTS IN PREPARATION .
 
-FOR FLIGHT.
+## FOR FLIGHT. MORTON THIOKOL
 
-## MORTON THIOKOL
+F ' i REVIEW AND DECISION ON LAUNCH, IGNITE
 
-F ' i
+MOTORS, SEPARATE AN0 RECOVER SPENT MOTOf
 
-## REVIEW AND DECISION ON LAUNCH, IGNITE
-
-> MOTORS, SEPARATE AN0 RECOVER SPENT MOTOf NASA
-
-## MORTON THIOKOL REFURBISHMENT RESTORE COMPONENTS IN ACCORDANCE WITH
-
-SPECIFICATIONS.
-
-## MORTON THIOKOL FIGURE
-
-V-4
-
-## FIGURE
+## NASA MORTON THIOKOL REFURBISHMENT RESTORE COMPONENTS IN ACCORDANCE WITH SPECIFICATIONS. MORTON THIOKOL FIGURE V-4 FIGURE
 
 V-4
 
 %%page 46%%
 
-Because of the difficulty the reader may find in understanding the NASA Flight Readiness Review for the Solid Rocket Booster for Flight 51-L and the terms used to describe the steps in the process, the following chart describes the level of review, office conducting the review, and the scope of the review. In addition to the following meeting chart, there were numerous other ad hoc meetings on the SRMs including the meeting between NASA and Thiokol personnel during the evening before the launch of Flight 51-L.
-
-## TABLE I.-FLIGHT READINESS REVIEWS
+Because of the difficulty the reader may find in understanding the NASA Flight Readiness Review for the Solid Rocket Booster for Flight 51-L and the terms used to describe the steps in the process, the following chart describes the level of review, office conducting the review, and the scope of the review. In addition to the following meeting chart, there were numerous other ad hoc meetings on the SRMs including the meeting between NASA and Thiokol personnel during the evening before the launch of Flight 51-L. TABLE I.-FLIGHT READINESS REVIEWS
 
 [STS-5111
 
@@ -1370,11 +1324,7 @@ Considerable reference will be made to the "joint design" throughout this sectio
 
 %%page 47%%
 
-## OPELLANT INSULAT -< TPPER STEEL ASING STEEL
-
-'INS
-
-## FIGURE
+## OPELLANT INSULAT -< TPPER STEEL ASING STEEL 'INS FIGURE
 
 V-5
 
@@ -1390,11 +1340,7 @@ CLEV I s
 
 ## B . JO I NT POTATED (OUT OF ALIGNFENTI -\7 PROPELLPNT PRESSUPE
 
-l- TY
-
-## FIGURE
-
-V-7
+> l- TY FIGURE V-7
 
 %%page 50%%
 
@@ -2782,9 +2728,7 @@ Discussion
 
 In a press release dated September 5, 1986, NASA announced that it has extended the SPC with Lockheed for three additional years, beginning October 1, 1986. Admiral Truly also announced his intent to conduct a thorough review of the SPC, a process which might lead to contract amendments.
 
-Lockheed's award fees at the Kennedy Space Center have not been at the highest possible levels due to mishaps and management problems. The contractor has received the following award fees for Shuttle processing at KSC:
-
-## LOCKHEED SHUTTLE PROCESSING CONTRACT-AWARD FEE HISTORY
+Lockheed's award fees at the Kennedy Space Center have not been at the highest possible levels due to mishaps and management problems. The contractor has received the following award fees for Shuttle processing at KSC: LOCKHEED SHUTTLE PROCESSING CONTRACT-AWARD FEE HISTORY
 
 > Percent of Period From : ! ; :A Rating adjective Rating maximum Award fee mre award lee earned earned
 
@@ -2998,9 +2942,7 @@ I 1 I
 
 > 0 L.3 b.5 1-7.7
 
-VI-2
-
-## FIGURE
+## VI-2 FIGURE
 
 %%page 126%%
 
@@ -4164,11 +4106,7 @@ Rogers Commission Report, Volume I, pp. 22-23 and 78-79.
 
 > / -RING IN BUT
 
-## UPSTREAM WRONG) POSITION
-
--
-
-## DOWNSTREAM SECONDARY
+## UPSTREAM WRONG) POSITION - DOWNSTREAM SECONDARY
 
 > 0-R ING h E A T E D
 
@@ -6010,9 +5948,7 @@ R E R Y TC 4moF: 30-1
 
 (255)
 
-* * * * * * *
-
-## TXIOKOL CHEMICAL CORPORATION
+## * * * * * * * TXIOKOL CHEMICAL CORPORATION
 
 r v
 
@@ -8906,11 +8842,7 @@ PC 0 3 7 7 1 1 w
 
 8ZP
 
-" W w am J1U EIIDSIUN L E N O I H IINCHEB) 1.0 7.0 IIEAT AYFECTEU L f N U l l f . 22.0 23.0
-
-## I INCHEU J
-
-E I U D I C U OEI'TJI INCIlEE> ,017 ,037 DEGREE L O C h T I O N 9 + 6 OEUREEU 0 OEO
+" W w am J1U EIIDSIUN L E N O I H IINCHEB) 1.0 7.0 IIEAT AYFECTEU L f N U l l f . 22.0 23.0 I INCHEU J E I U D I C U OEI'TJI INCIlEE> ,017 ,037 DEGREE L O C h T I O N 9 + 6 OEUREEU 0 OEO
 
 P n
 
