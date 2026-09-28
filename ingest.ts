@@ -1,4 +1,4 @@
-import { pipeline, type BodyPass } from "@rtm/ingest";
+import { pageBreakContinuations, pipeline, type BodyPass } from "@rtm/ingest";
 
 /**
  * The Committee sets each Issue/Finding/Recommendation label on its own
@@ -49,32 +49,38 @@ const isolateDivisionLabels: BodyPass = {
  * These exact lines are captions, table titles, a flowchart's box labels
  * (the "MORTON THIOKOL" repeats), and OCR noise that happen to stand alone
  * on their own line, checked against the surrounding text: none of them is
- * this report's own structure. Each is walked back into the paragraph before
- * it — the same printed text, no longer read as a heading — rather than
- * merged with unrelated neighbours or invented over.
+ * this report's own structure, and none reads as prose either — a bare
+ * "FIGURE" or "OK.134" is furniture belonging to an image or a running head
+ * that OCR left behind, the same kind of thing `runningFurniture` already
+ * drops elsewhere. Welding one onto whichever paragraph happened to be
+ * nearby only produced a second, uglier fake heading when that neighbour was
+ * itself another caption (the SRM flowchart's labels sit one after another
+ * with no real prose between them), so these are dropped outright, like
+ * furniture, not merged.
  */
 const FAKE_HEADINGS = new Set(
   [
     "FIGURE",
-    "SEGMENT FIGURE",
-    "MORTON THIOKOL FIGURE",
+    "SEGMENT",
     "MORTON THIOKOL",
+    "ROHR INDUSTRIES",
+    "PARKER SEAL COMPANY",
     "LEFT'SOLID ROCKET BOOSTER I",
     "STATISTICS FOR EACH BOOSTER FRUSTRUM",
     "I/ FORWARO SEGMENT PROPELLANT",
     ". SRM AFT CENTER",
     "WEIGHT",
     "AFT SKIRT",
-    "FORWARO SEGMENT",
-    "CENTER SEGMENT",
+    "FORWARO",
+    "CENTER",
     "SOLID ROCKET MOTOR PRINCIPAL STEPS I N THE EVOLUTION, FLIGHT AND RECONDITIONING OF SOLID ROCKET MOTORS",
     "PROGRAH DIRECTION BY",
     "1 DEFINE PROGRAM REQUIREMENTS AND VERIFY",
     "CONTRACTOR DESIGN DESIGN THE MOTOR TO MEET ALL PERFORMANC REQUIREMENTS DURING ALL ANTICIPATED",
     "PROCURE MATERIALS AND COMPONENTS, PRODU AND ASSEMBLE AN OPERATIONAL MOTOR IN",
-    "MORTON THIOKOL ROHR INDUSTRIES PARKER SEAL COMPANY",
+    "ROHR INDUSTRIES PARKER SEAL COMPANY",
     "REVIEW AND DECISION ON LAUNCH, IGNITE",
-    "MORTON THIOKOL REFURBISHMENT RESTORE COMPONENTS IN ACCORDANCE WITH",
+    "REFURBISHMENT RESTORE COMPONENTS IN ACCORDANCE WITH",
     "TABLE I.-FLIGHT READINESS REVIEWS",
     "OPELLANT INSULAT -< TPPER STEEL ASING STEEL",
     "A, JOINT I M MORYAL ALIGNMENT (NO GAPS BETYEEN O-RINGS AND TAME) TANG P PRESSURE POINT LOCKING",
@@ -88,9 +94,15 @@ const FAKE_HEADINGS = new Set(
     "DOWNSTREAM SECONDARY",
     "DOWNSTREAM (PROPER) POSIT ION )I; FIGUREVII-1",
     "-SPAC I NG",
-    "W I L L NOT 1 SEAL",
+    "W I L L NOT",
+    "1 SEAL",
     "TABLE I1 PRINCIPAL PARTICIPANTS IN THE TELECONFERENCE",
     "OK.134",
+    // A chronology entry, not a heading: "November 19, 1973.-In its report to
+    // NASA Administrator James" / "Fletcher, the Solid Rocket Motor Source
+    // Evaluation Board (SEB)" / "evaluated the proposals..." is one sentence
+    // split at the line wrap (reportsthatmatter-c1y).
+    "Fletcher, the Solid Rocket Motor Source Evaluation Board (SEB)",
     // Appendix material (reportsthatmatter-c1y): a letterhead and stray OCR
     // noise picked out of reprinted exhibits.
     "TXIOKOL CHEMICAL CORPORATION",
@@ -99,28 +111,23 @@ const FAKE_HEADINGS = new Set(
   ].map((text) => text.replace(/\s+/g, " ").trim())
 );
 
-const demoteFakeHeadings: BodyPass = {
-  name: "demoteFakeHeadings",
+const dropCaptionHeadings: BodyPass = {
+  name: "dropCaptionHeadings",
   stage: "body",
   run(lines) {
     const out: string[] = [];
     for (const line of lines) {
       const collapsed = line.replace(/\s+/g, " ").trim();
-      if (!FAKE_HEADINGS.has(collapsed)) {
-        out.push(line);
-        continue;
-      }
-      // Walk back past any blank line to the paragraph above and weld this
-      // line onto its tail, so it reads as the printed text always was —
-      // part of the surrounding prose — rather than standing alone.
-      let last = out.length - 1;
-      while (last >= 0 && !out[last].trim()) last--;
-      if (last < 0) {
-        out.push(line);
-        continue;
-      }
-      out.length = last + 1;
-      out[last] = `${out[last].replace(/\s+$/, "")} ${collapsed}`;
+      // Strip a leading list/speaker marker ("2.", "D.", "1.") the same way
+      // a numbered heading's own marker is read, so a caption is matched
+      // whether or not one happens to be glued in front of it.
+      const bare = collapsed.replace(/^(?:\([a-z0-9]{1,3}\)|[A-Za-z0-9]{1,3}\.)\s+/, "");
+      if (FAKE_HEADINGS.has(collapsed) || FAKE_HEADINGS.has(bare)) continue;
+      // A caption's removal can leave two blank lines where one stood on
+      // each side of it; collapse the pair back to the single break a real
+      // paragraph gap always is.
+      if (!line.trim() && out.length && !out[out.length - 1].trim()) continue;
+      out.push(line);
     }
     return out;
   },
@@ -143,5 +150,5 @@ export default pipeline({
   volumes: [
     { path: "archive/GPO-CRPT-99hrpt1016-challenger-accident-1986.pdf", sha256: "eb04493120feaf98e1944634260a2ab8b81339308a2c665a9414853652a8560e" },
   ],
-  passes: [isolateDivisionLabels, demoteFakeHeadings],
+  passes: [isolateDivisionLabels, dropCaptionHeadings, pageBreakContinuations()],
 });
