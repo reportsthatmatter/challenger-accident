@@ -1,0 +1,155 @@
+# Golden pages: ground truth for this report, read off the PDF page image and checked by `pnpm ingest verify`.
+# Format and rules: @rtm/ingest src/golden.ts and the site's docs/quality-harness.md ("Golden pages").
+# A page marked xfail is a known pipeline defect: it stays red here, verify stays green, and the bead says why.
+# The source is a page scan with an OCR text layer: line-end hyphens ("Chal- lenger") and garbled note numbers are expected noise.
+pages:
+  # Opening of the Conclusions: a heading, four paragraphs, three indented questions (one quotation), printed folio "(3)" (not text).
+  - pdf: 11
+    printed: "(3)"
+    verified_by: "Claude (Sonnet 5.5), 2026-10-02, against the page image"
+    features: [I, D, K]
+    xfail: reportsthatmatter-15h
+    xfail_only: [blocks]
+    blocks:
+      - heading: "II. CONCLUSIONS"
+      - paragraph: {start: "In execution of its oversight responsibilities", end: "organizational and programmatic excellence across the board."}
+      - paragraph: {start: "What we as a Committee, NASA as an agency", end: "will serve this much larger purpose."}
+      - paragraph: {start: "The Committee’s investigation included", end: "and other interested parties."}
+      - paragraph: {start: "From the outset, the focus of the Committee’s investigation", end: "each of the following:"}
+      - quote: {start: "What was the cause, or causes, of the Challenger accident", end: "returned to flight status?"}
+      - paragraph: {start: "The Committee found that NASA’s drive to achieve a launch schedule", end: "throughout the Shuttle program."}
+      - paragraph: {start: "The Committee, the Congress, and the Administration have played", end: "was a near-term objective."}
+      - paragraph: {start: "Pressures within NASA to attempt to evolve from an R&D agency", end: "at the cost of safety."}
+    footnotes: []
+    markers: []
+  # Numbered findings and recommendations with italic division labels ("Recommendations", "b. ...", "Issue").
+  - pdf: 29
+    printed: 21
+    verified_by: "Claude (Sonnet 5.5), 2026-10-02, against the page image"
+    features: [I, C]
+    xfail: reportsthatmatter-liv
+    xfail_only: [blocks]
+    continues_previous: true
+    opens_with: "tributing factor in a mission-threatening incident on Flight 61-C"
+    blocks:
+      - paragraph: {start: "3. There are numerous documented cases where contractor employees failed", end: "reporting violations of these procedures."}
+      - paragraph: {start: "4. At the time of the Challenger accident, the lack of spare parts", end: "contributes directly to excessive overtime."}
+      - paragraph: {start: "5. There is no clear evidence whether or not greater involvement", end: "would improve Shuttle operations."}
+      - heading: "Recommendations"
+      - paragraph: {start: "1. Because of the serious quality and safety concerns", end: "heavily involved the development contractors."}
+      - paragraph: {start: "2. NASA should examine the issues of spares availability", end: "correcting previous logistical problems."}
+      - paragraph: {start: "3. NASA should stop routine cannibalization", end: "governing permissible cannibalization."}
+      - paragraph: {start: "4. The Committee recommends that NASA provide its re-invigorated safety office", end: "safe overtime rates."}
+      - heading: "b. Pressures on Shuttle Operations"
+      - heading: "Issue"
+      - paragraph: {start: "Was NASA under pressure to fly more flights?", end: "Will it recur?"}
+    footnotes: []
+    markers: []
+  # Dated chronology entries (italic date, text, ".—" or "."), one paragraph each, notes 8-12 all "Ibid." with OCR-garbled numbers.
+  - pdf: 62
+    printed: 54
+    verified_by: "Claude (Sonnet 5.5), 2026-10-02, against the page image"
+    features: [E, F]
+    xfail: reportsthatmatter-48o
+    xfail_only: [blocks, footnotes, markers, opens]
+    continues_previous: true
+    opens_with: "er program which was supported by limited data"
+    blocks:
+      - paragraph: {start: "March 1984.—Thiokol submitted their", end: "the O-ring slots.”"}
+      - paragraph: {start: "March 20, 1984.—Acceptable erosion was again discussed", end: "Marshall Center Board.", notes: [9]}
+      - paragraph: {start: "March 27, 1984.—Mr. Mulloy discussed O-ring erosion", end: "flight of STS41-C.", notes: [10]}
+      - paragraph: {start: "Mr. Lawrence Wear, the Solid Rocket Motor (SRM) Element Manager", end: "acceptable and if so, why?", notes: [11]}
+      - paragraph: {start: "April 6, 1984.—Heat degradation of the O-ring", end: "in the putty."}
+      - paragraph: {start: "April 12, 1984.—In an internal Marshall Space Flight Center memorandum", end: "used prior to STS-8."}
+      - paragraph: {start: "May 4, 1984.—Morton Thiokol prepared a Program Plan", end: "See Appendix V-B.", notes: [12]}
+    footnotes: [8, 9, 10, 11, 12]
+    markers: [8, 9, 10, 11, 12]
+    must_not_contain: ["Morton Thiokol, “Program Plan, Protection of Space Shuttle SRM Primary Seals,”"]
+  # A chronology wrapped in a column that the scan shifted sideways: every line became a paragraph (yt8). Note "32a" is a note label with a letter.
+  - pdf: 68
+    printed: 60
+    verified_by: "Claude (Sonnet 5.5), 2026-10-02, against the page image"
+    features: [C, I, E]
+    xfail: reportsthatmatter-yt8
+    xfail_only: [blocks, must_not_contain]
+    blocks:
+      - paragraph: {start: "December 11, 1985. Thiokol management holds", end: "No discussion of O-ring anomalies occurs."}
+      - paragraph: {start: "December 17, 1985. Larry Wear holds", end: "Marshall Space Flight Center."}
+      - paragraph: {start: "January 3, 1986. The Level III Flight Readiness Review", end: "primary point of discussion."}
+      - paragraph: {start: "January 9, 1986. Larry Mulloy makes his Flight 51-L presentation", end: "O-rings are not."}
+      - paragraph: {start: "January 12, 1986. STS 61-C experienced nozzle joint O-ring erosion", end: "at the 154 degree location."}
+      - paragraph: {start: "January 13, 1986. Marshall Space Flight Center 51-L Readiness Review", end: "does not mention O-ring anomalies."}
+      - paragraph: {start: "January 14, 1986. Mulloy’s Flight 51-L presentation", end: "no 61-C flight anomalies.”"}
+      - paragraph: {start: "January 15, 1986. During the STS 51-L Level I Flight Readiness Review", end: "major problems or issues.”"}
+      - paragraph: {start: "January 25, 1986. According to Mr. McDonald", end: "Flight Readiness Review."}
+      - paragraph: {start: "January 26, 1986. The Orlando Sentinel printed an article titled", end: "clobber state Tuesday.”"}
+      - paragraph: {start: "January 27, 1986. Thiokol and Marshall personnel spend", end: "performance of the O-ring seals."}
+      - paragraph: {start: "January 28, 1986. The ice/frost evaluation team", end: "continue the launch countdown."}
+      - paragraph: {start: "January 28, 1986. STS 51-L was launched", end: "Eastern Standard Time."}
+      - heading: "2. SUMMARY OF CASING JOINT DESIGN"
+      - heading: "Issue"
+      - paragraph: {start: "Why did the aft field joint between the steel containers", end: "during lift-off and flight operations?"}
+    must_not_contain: ["John Wark, “Bitter Freeze is Expected to Clobber State Tuesday,”"]
+  # A memo quoted at length (one quotation of eight indented paragraphs) split by "fol-/lowed" across a quote, a paragraph and a quote.
+  - pdf: 85
+    printed: 77
+    verified_by: "Claude (Sonnet 5.5), 2026-10-02, against the page image"
+    features: [A, B, C, E]
+    xfail: reportsthatmatter-48o
+    xfail_only: [blocks, footnotes, markers, must_contain, opens]
+    continues_previous: true
+    opens_with: "through. I don’t think it is possible to build such a system"
+    blocks:
+      - paragraph: {start: "Specifically, the Committee finds that the Space Shuttle System", end: "VI.A.2.d.)", notes: [43]}
+      - paragraph: {start: "Joseph P. Kerwin of NASA’s Johnson Space Center", end: "The undated memo read as follows:"}
+      - quote: {start: "DEAR ADMIRAL TRULY: The search for wreckage", end: "lost two-tenths of a second after vehicle breakup."}
+    footnotes: [42, 43]
+    markers: [42, 43]
+    must_contain: ["evidence of damage occurring in the seconds which followed the explosion was masked"]
+  # A page opening on a word cut by the page break ("second-/ary"), quotations, and two notes the OCR numbers "*' " and "2 8".
+  - pdf: 204
+    printed: 196
+    verified_by: "Claude (Sonnet 5.5), 2026-10-02, against the page image"
+    features: [B, E, M]
+    xfail: reportsthatmatter-48o
+    xfail_only: [blocks, footnotes, markers, opens]
+    continues_previous: true
+    opens_with: "ary O-ring lift-off during pressurization"
+    blocks:
+      - quote: {start: "Because of recent experiences of flight and ground test motors", end: "during the entire SRM burn.", notes: [27]}
+      - paragraph: {start: "The letter requested an assessment", end: "of the secondary O-ring."}
+      - paragraph: {start: "In August of 1985 Jim Thomas", end: "The memo stated:"}
+      - quote: {start: "On July 11, 1985, you and Irv Davids were briefed", end: "concerns of the above subject."}
+      - paragraph: {start: "The memo than went on to discuss a number of questions.", end: "number of questions."}
+      - paragraph: {start: "1. What would happen if the secondary seal lifted off", end: "as the gap opened."}
+      - paragraph: {start: "The memo stated, “at 100 deg. F the O-ring maintained contact", end: "cannot be guaranteed.”", notes: [28]}
+      - paragraph: {start: "2. Another question concerned whether or not the secondary O-ring", end: "was as follows:"}
+      - quote: {start: "MTI has no reason to suspect that the primary seal", continues: true}
+    footnotes: [27, 28]
+    markers: [27, 28]
+  # Findings and recommendations: five numbered findings, three recommendations, italic division labels, hyphenated line ends.
+  - pdf: 22
+    printed: 14
+    verified_by: "Claude (Sonnet 5.5), 2026-10-02, against the page image"
+    features: [ordinary, I, M]
+    xfail: reportsthatmatter-liv, reportsthatmatter-pt6
+    xfail_only: [blocks]
+    blocks:
+      - heading: "Findings"
+      - paragraph: {start: "1. The Space Shuttle Main Engine is an impressive", end: "Space Shuttle and its crew."}
+      - paragraph: {start: "2. Some NASA officials familiar with the Space Shuttle Main Engine", end: "109 percent on a routine basis."}
+      - paragraph: {start: "3. It is widely accepted that the Space Shuttle Main Engine", end: "were increased."}
+      - paragraph: {start: "4. The Committee agrees with the sense of Dr. Feynman", end: "for flight."}
+      - paragraph: {start: "5. On a case by case basis, NASA regularly violates", end: "lation of the “2X” rule)."}
+      - heading: "Recommendations"
+      - paragraph: {start: "1. NASA should continue its active development program", end: "increasing operating margins."}
+      - paragraph: {start: "2. Because of the safety concerns raised by some knowledgeable officials", end: "present to maintain safety."}
+      - paragraph: {start: "3. NASA should closely scrutinize each of the concerns", end: "Main Engine flight hardware elements."}
+      - heading: "b. Recurrent Hardware Problems"
+      - heading: "Issue"
+      - paragraph: {start: "What resolutions of inadequacies revealed in the landing gear", end: "system are required?"}
+      - heading: "Findings"
+      - paragraph: {start: "1. The Orbiter landing gear, tires, wheels, brakes", continues: true}
+    footnotes: []
+    markers: []
+    must_read: ["is an impressive, technological achievement"]
