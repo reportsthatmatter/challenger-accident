@@ -172,29 +172,17 @@ In concurrence with the Rogers Commission, the Committee con- firms that the saf
 
 In other areas, the Committee reached somewhat different conclusions than the Rogers Commission:
 
-> The Rogers Commission concluded that NASA's decisionmaking process was flawed. The Committee does agree that the Marshall Space Flight Center should have passed along to higher management levels the temperature concerns that Thiokol engineers raised the night before the launch of Mission 51-L. However, the Committee feels that the underlying problem which led to the Challenger accident was not poor communication or inadequate procedures as implied by the Rogers Commission conclusion.' Rather, the fundamental problem was poor technical decision-making over a period of several years by top NASA
+> The Rogers Commission concluded that NASA's decisionmaking process was flawed. The Committee does agree that the Marshall Space Flight Center should have passed along to higher management levels the temperature concerns that Thiokol engineers raised the night before the launch of Mission 51-L. However, the Committee feels that the underlying problem which led to the Challenger accident was not poor communication or inadequate procedures as implied by the Rogers Commission conclusion.' Rather, the fundamental problem was poor technical decision-making over a period of several years by top NASA and contractor personnel, who failed to act decisively to solve the increasingly serious anomalies in the Solid Rocket Booster joints.
 
 %%page 5%%
 
-and contractor personnel, who failed to act decisively to solve the increasingly serious anomalies in the Solid
+Information on the flaws in the joint design and on the problems encountered in missions prior to 51-L was widely available and had been presented to all levels of Shuttle management. Despite the presence of significant amounts of information and the occurrence of at least one detailed briefing at Headquarters on the difficulties with the 0- rings, the NASA and Thiokol technical managers failed to understand or fully accept the seriousness of the problem. There was no sense of urgency on their part to correct the design flaws in the SRB. No one suggested grounding the fleet, nor did NASA embark on a concerted effort to remedy the deficiencies in O-ring performance. Rather, NASA chose to continue to fly with a flawed design and to follow a measured, 27-month, corrective program.
 
-Rocket Booster joints.
-
-Information on the flaws in the joint design and on the problems encountered in missions prior to 51-L was widely available and had been presented to all levels of Shuttle management. Despite the presence of significant amounts of information and the occurrence of at least one detailed briefing at Headquarters on the difficulties with the 0rings, the NASA and Thiokol technical managers failed to understand or fully accept the seriousness of the problem.
-
-There was no sense of urgency on their part to correct the design flaws in the SRB. No one suggested grounding the fleet, nor did NASA embark on a concerted effort to remedy the deficiencies in O-ring performance. Rather,
-
-NASA chose to continue to fly with a flawed design and to follow a measured, 27-month, corrective program.
-
-The Committee has more concerns than those expressed by the Rogers Commission about the relative safety of the
-
-Space Shuttle Main Engine. We are impressed by the sophistication and performance of the Main Engine, but are concerned that it may have inadequate safety margins to ensure continued safe operation. The Committee is also concerned by the presence of persistent operating problems with the engine (e.g., cracked turbine blades and defective hydraulic actuators and temperature sensors), and believes that NASA should give serious consideration to not allowing the Main Engine to be operated (except in emergency situations) at a thrust level greater than the standard 104 percent. On the other hand, should NASA determine that a higher engine thrust setting is needed for programmatic reasons, the Committee believes that the space agency should take whatever actions are required to ensure that adequate operating margins are present to maintain safety.
+The Committee has more concerns than those expressed by the Rogers Commission about the relative safety of the Space Shuttle Main Engine. We are impressed by the so- phistication and performance of the Main Engine, but are concerned that it may have inadequate safety margins to ensure continued safe operation. The Committee is also concerned by the presence of persistent operating problems with the engine (e.g., cracked turbine blades and defective hydraulic actuators and temperature sensors), and believes that NASA should give serious consideration to not allowing the Main Engine to be operated (except in emergency situations) at a thrust level greater than the standard 104 percent. On the other hand, should NASA determine that a higher engine thrust setting is needed for programmatic reasons, the Committee believes that the space agency should take whatever actions are required to ensure that adequate operating margins are present to maintain safety.
 
 The Committee has gone beyond the Rogers Commission in recommending a new system specification to overcome the inadequacies of the landing gear, tire, wheel, brake and nose wheel steering systems. The Committee also concluded that orbiter landings appear to be high risk even under ideal conditions, which seldom occur.
 
-The Rogers Commission stated that "there appears to be a departure from the philosophy of the 1960s and 1970s relating to the use of astronauts in management positions."2
-
-In contrast, after taking testimony from several former and current astronauts, the Committee could find no evidence that astronauts are denied the opportunity to enter management if they so choose. On the other hand, prior to the STS 51-L accident, astronauts were not encouraged to enter management.
+The Rogers Commission stated that "there appears to be a departure from the philosophy of the 1960s and 1970s relating to the use of astronauts in management positions."2 In contrast, after taking testimony from several former and current astronauts, the Committee could find no evidence that astronauts are denied the opportunity to enter management if they so choose. On the other hand, prior to the STS 51-L accident, astronauts were not encouraged to enter management.
 
 %%page 6%%
 
@@ -2184,8 +2172,6 @@ p. F-2.
 
 bid., p. K-3. l o bid., Volume I, p. 182.
 
-64-420 0 - 86 - 4
-
 %%page 90%%
 
 Therefore, the key question is: how safe is the Space Shuttle Main Engine? An informal review of failures that have occurred during ground testing over the past five years was reported to the Committee staff." It concluded that five of these failures would probably have been catastrophic if they had occurred in flight. It is also of note that each of these failures occurred at an engine thrust setting of 109 percent or greater. However, closer examination of the cause for each failure indicates that most were the result of: poorly installed test instrumentation (engine 2208); an improperly tested "fix" to an engineering problem (engine 2013); the use of "deactivated" components because no others were available (engine 0204); or the existence of a phenomenon that cannot recur because of the adoption of a new safety "red line" in current flight engines (engine 0108). The failure of engine 2308, on the other hand, did uncover a life limit on current engine hardware. That particular engine had accumulated about 20,000 seconds of operation (the equivalent of 40 Space Shuttle missions) in the component which failed (the main combustion chamber). Further, this engine had reportedly logged a significant amount of operating time at a power level of 109 percent.
@@ -2822,9 +2808,7 @@ NASA prepared several reports for the Rogers Commission, and the Mission Plannin
 
 The disturbing fact is the trend in the NASA statements. The earlier statements (i.e., the Truly memo and the MPOT report) indicated an awareness of the danger of trying to achieve an imposed flight rate. However, as mentioned above, the most recent statement, the NASA response to the Commission, once again speaks of achieving the planned flight rate.
 
-The Rogers Commission has documented the fact that before the Challenger accident the Shuttle system was approaching a state of saturation in which no more flights could be accommodated. If the accident had not occurred flight rate saturation may have eventually been reached due to bottlenecks in crew training on the mis- s 6 NASA Response to Rogers Commission, July 14, 1986, p. 31. 9'bid., p. 33. 9*Rogers Commission Report, Volume 11, p. 1-14, 99NASA Response to Rogers commission, July 14, 1986, p. 40.[^100] Rogers Commission Report, Volume 11, p. 5-31,
-
-64-420 0 - 86 - 5 sion simulators O or because of inadequate spare parts for the Orbiter. l o 2
+The Rogers Commission has documented the fact that before the Challenger accident the Shuttle system was approaching a state of saturation in which no more flights could be accommodated. If the accident had not occurred flight rate saturation may have eventually been reached due to bottlenecks in crew training on the mis- s 6 NASA Response to Rogers Commission, July 14, 1986, p. 31. 9'bid., p. 33. 9*Rogers Commission Report, Volume 11, p. 1-14, 99NASA Response to Rogers commission, July 14, 1986, p. 40.[^100] Rogers Commission Report, Volume 11, p. 5-31, sion simulators O or because of inadequate spare parts for the Orbiter. l o 2
 
 %%page 122%%
 
@@ -4099,8 +4083,6 @@ Rogers Commission Report, Volume I, pp. 22-23 and 78-79.
 Second, the low temperature throughout the night prior to launch left the fluorocarbon elastomer primary O-ring stiff and lacking in ability to spring into the downstream (seated) position at the 300 degree location in time, relative to the buildup of motor pressure, to provide a tight seal. The temperature of the aft field joint at time of launch was calculated by Thiokol after the accident to be 16 degree F. Part of the reason for this low temperature was the heat transfer away from the joint, by conduction through the aft attachment strut. The conduction was driven by liquid hydrogen, which remained in the external tank overnight. The supercold fuel created a 430 degree temperature differential across the ship, drawing heat out of the joint and O-rings.
 
 A t ignition, blowby occurred, either with erosion of the primary O-ring or without erosion.
-
-64-420 0 - 86 - 7
 
 %%page 186%%
 
@@ -5852,9 +5834,11 @@ Mr. Mulloy testified before the Commission that:
 
 1*0 NASA,"Space Shuttle News Reference," !?81, p. 2-40. 1'1 "Lauch Commit Criteria and Background, Amendment 20, p. G-23. Ira hid., p. G-1 143 hid.
 
-64-420 0 - 86 - 9 ria relative to temperatures. It was felt there was a need to look at the recovery battery temperatures that are in the forward skirt of the SRB and the fuel service module temperatures that are in the fuel service modules for the thrust vector control system in the aft skirt of the solid rocket booster. The input received back by me was that they did not feel that would be of any concern. They were going to continue to look at it, and if any concern arose they would let me know.
-
 %%page 250%%
+
+> ria relative to temperatures. It was felt there was a need to look at the recovery battery temperatures that are in the forward skirt of the SRB and the fuel service module temperatures that are in the fuel service modules for the thrust vector control system in the aft skirt of the solid rocket booster. The input received back by me was that they did not
+
+feel that would be of any concern. They were going to continue to look at it, and if any concern arose they would let me know.
 
 I went to the 2:OO Mission Management Team and reported that there were no constraints to the solid rocket booster for a 24-hour turnaround, that we had taken a look at the recovery battery temperatures and the fuel service module. We did not feel at this time that there would be any Launch Commit Criteria for the low temperature limits that were established for those systems, but that we were continuing to assess that; should anything change in that regard, I would so report that."
 
@@ -5918,25 +5902,7 @@ R E R Y TC 4moF: 30-1
 
 (255)
 
-* * * * * * * r v
-
-Tkiokol presented an approach to the SRM Program which clearly focused on m a x i m u m utilization of existing facilities a d low early year funding. In-house production efforr would be accomplished in the Wasatch Division,.Utah facility.
-
-Increment 111 production would be accomplished by acquisition of portion of the adjacent Air Force Plant 7 8 as Air force reqLirements Shased out. A p requirements would be met by increasing the capability of existing facilities in nearby
-
-Henderson, Nevada. Use of an existing, skilled, stable work force in a low labor rate area would minimize new hires and provide low labor costs. Thiokol's decision to fabricate nozzles in-house provided cost savings and good control over this extremely critical component: however, the Board concluded that this introduced some early risk because of lack of experience in fabricating nozzles of this size. Facility location resulted in high transportation cost of the SRM's:
-
-however, these costs were more than offset by low facility investments. The Thiokol proposal received the second highest overall Mission Suitability score by 'he SEB, being tied with UTC. The SEB ranked Thiokol fourth under the
-
-Design, Development and Verification Factor, second under the
-
-Manufacturing, Refurbishment and Product Support Factsr and first under the Management Factor.
-
-Design, DeVelODIIIent and Verification
-
-The Thiokol case design met the general SRM requirements;
-
-however, the cylindrical segment was close to the upper limits of size capability of the case fabricator. The nozzle design
+* * * * * * * r v Tkiokol presented an approach to the SRM Program which clearly focused on m a x i m u m utilization of existing facilities a d low early year funding. In-house production efforr would be accomplished in the Wasatch Division,.Utah facility. Increment 111 production would be accomplished by acquisition of portion of the adjacent Air Force Plant 7 8 as Air force reqLirements Shased out. A p requirements would be met by increasing the capability of existing facilities in nearby Henderson, Nevada. Use of an existing, skilled, stable work force in a low labor rate area would minimize new hires and provide low labor costs. Thiokol's decision to fabricate nozzles in-house provided cost savings and good control over this extremely critical component: however, the Board concluded that this introduced some early risk because of lack of experience in fabricating nozzles of this size. Facility location resulted in high transportation cost of the SRM's: however, these costs were more than offset by low facility investments. The Thiokol proposal received the second highest overall Mission Suitability score by 'he SEB, being tied with UTC. The SEB ranked Thiokol fourth under the Design, Development and Verification Factor, second under the Manufacturing, Refurbishment and Product Support Factsr and first under the Management Factor. Design, DeVelODIIIent and Verification The Thiokol case design met the general SRM requirements; however, the cylindrical segment was close to the upper limits of size capability of the case fabricator. The nozzle design
 
 %%page 257%%
 
@@ -6314,8 +6280,6 @@ N
 
 > Y ;e
 
-64-420 0 - 86 - 10
-
 %%page 282%%
 
 > PC 026418 il 'JY %- I
@@ -6364,31 +6328,33 @@ INC Wasatch Division
 
 InIeroflice Memo
 
-> 1 October 1985 E150/RVE-86-47
+1 October 1985 E150/RVE-86-47
 
-> TO : A. J. McDonald, Director Solid Rocket Motor Project FROM : Manager, SRM I g n i t i o n System, Final Assembly. Special Projects and Ground Test CC: B. McDougall, B. Russell, J. McCluskey. D. Cooper, J. Kilmlnster. B. Brinton. T. O'Grady, D. HagBeth. J. Sutton. J. Elmll. I. Adans, F. Call. J. Lanere. P. Ross, D. Fullmer. E. Bailey, D. Smlth, L. Bailey,
+TO : A. J. McDonald, Director
+
+Solid Rocket Motor Project FROM : Manager, SRM I g n i t i o n System, Final Assembly. Special
+
+Projects and Ground Test CC: B. McDougall, B. Russell, J. McCluskey. D. Cooper,
+
+> J. Kilmlnster. B. Brinton. T. O'Grady, D. HagBeth. J. Sutton. J. Elmll. I. Adans, F. Call. J. Lanere. P. Ross, D. Fullmer. E. Bailey, D. Smlth, L. Bailey,
 
 ### Kuchek, Q. Eskelsen. P. Petty, J. McCall
 
-> SUBJECT: Weekly A c t i v i t y Report 1 October 1985
+SUBJECT: Weekly A c t i v i t y Report
+
+1 October 1985
 
 ## EXECUTWE SUPWARY
 
-> .. . - HELP! The seal task force I s constantly being delayed by every possible means. People are quoting policy and systems without work-around. HSFC i s correct i n stating t h a t we do not know how t o run a development program.
+.. . - HELP! The seal task force I s constantly being delayed by every possible means. People are quoting policy and systems without work-around. HSFC i s correct i n stating t h a t we do not know how t o run a development program.
 
-1. The two (2) GTH center sepnents were recelved a t T-24 l a s t week.
-
-Optical measurements are being taken. Slgnlficant work has t o be done t o clean up the j o l n t s . I t should be noted t h a t when necessary SICBH takes p r l o r i ty.
+1. The two (2) GTH center sepnents were recelved a t T-24 l a s t week. Optical measurements are being taken. Slgnlficant work has t o be done t o clean up the j o l n t s . I t should be noted t h a t when necessary SICBH takes p r l o r i ty.
 
 2. The On-6 t e s t report less composite section was released l a s t week.
 
 ## ELECTRICAL
 
-As a r e s u l t of the l a t e s t engineering analysis o f the V - I case I t appears t h a t high-stress r i s e r s t o the case are created by the phenolic
-
-OF1 housings and fairings. As I t presently stands. these w i l l probably ' have t o be modified o r rmoved and i f rclloved w i l l have t o be replaced. n
-
-This could have an Impact on the launch schedule. c.
+As a r e s u l t of the l a t e s t engineering analysis o f the V - I case I t appears t h a t high-stress r i s e r s t o the case are created by the phenolic OF1 housings and fairings. As I t presently stands. these w i l l probably ' have t o be modified o r rmoved and i f rclloved w i l l have t o be replaced. n This could have an Impact on the launch schedule. c.
 
 > a N \n u! E
 
@@ -6732,8 +6698,6 @@ E . T -- i n z q j. 2.7.1 N a t u r a l fnv i r o n o e n t . Tne H M L a h a l 
 
 > Tneru a1 - - - b S 8 ;irJtinl YD73-SW-0181-? I -- Launch b Aacect He-entry Interfaoe YD7j-YH-0161-j SE-019-053-2H SD74-sn-OtU4, ICD 3-uu003 a3 Loads V i b r J t l O n , A c O U S t l C J SnS2k SE-i)19-049-2H and SE-019-067-21i ;as changed b y aoproued I W v 1 0 L i O n AM-0012R4) I n C J S O O f C O n f r l C t , SE-Olg-OU9-2H - Shall t J k 0 prOC8drnC8 C b r . ' SE-319-C67-2i1. Prelaunch t n r o u q h S p i r r t l o n SL-J19-057-2Ii, bok 1
 
-64-420 0 - 86 - 1 1
-
 %%page 314%%
 
 I 3 .[^2] .[^6] .[^3] r*rmnnel i i2 i z i
@@ -7060,23 +7024,43 @@ I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I 1 I I I 
 
 > I I
 
-I I I I I I I Pese 3 JI'[^3] j i Failure mce Effects Analysis I 2 IRA-26N I I 1 suopzcza l - t i s u m i t updates a t 6-nonth intervals rith s a i t t a l linked t o nearest schedule CIL i I m submtttal. I
+I I I I I I I Pese 3 JI'[^3] j i Failure mce Effects Analysis I 2 IRA-26N I I 1 suopzcza l - t i s u m i t updates a t 6-nonth intervals rith s a i t t a l linked t o nearest schedule CIL i I m submtttal. I '- I I I I I a n t - a c c s n Reference: . I I I Exhibit A, 5.3.3 I use:
 
 %%page 324%%
 
-'- I I
+> - Eroineerino Succcrt I I
 
-> I I I a n t - a c c s n Reference:
+I I I To identify c:itical fatlure modes t o be used a s a b a s i s for support of: (1) I I Additional Oesign .%%.ion; (2) S a f e g Analysis; and (3) Mission Continpncy P l a n i n g . I I I I I I incerreiatiwsnrp: I I I I I I I I Sc;peicncencs-r-ormat-~~ntenancsijverrmentiunrsneo gata: I I I I 1. SccoeKontents I
 
-. I I
+> - Failure moce e f f e c t s analysis w i l l be proparod for eactl Crater venicle Suosystsm, including the follcwing: I I
 
-> I Exhibit A, 5.3.3 I use: - Eroineerino Succcrt I I I I I To identify c:itical fatlure modes t o be used a s a b a s i s for support of: (1) I I Additional Oesign .%%.ion; (2) S a f e g Analysis; and (3) Mission Continpncy P l a n i n g . I I I I I I incerreiatiwsnrp: I I I I I I I I Sc;peicncencs-r-ormat-~~ntenancsijverrmentiunrsneo gata: I I I I 1. SccoeKontents I - Failure moce e f f e c t s analysis w i l l be proparod for eactl Crater venicle Suosystsm, including the follcwing: I I I I I a. Systm/Subsystem/Assembly/I~s! - I d e n t i f i a t i o n of it&! f o r which the FMEA II is being ccnductel. I I I I I tl- - Preparea/Approved a y Identification of ma:yst wno perforned t h e FMEA a d I indiviouals rrsponsible for overall FYEA aiforr. I I I
+I I I
 
-I c. Revision - Date indiViZUal ?aCes aro revissl.[^1]
+> a. Systm/Subsystem/Assembly/I~s! - I d e n t i f i a t i o n of it&! f o r which the FMEA II is being ccnductel. I
 
-> I I I d- Item Identification: I I I I (1) Name I I I (2) Identi?icaticn NUmOef - Ornwing numoer by wnicn t h e Ccntractor LlentiPLes and b e s c n b e s eacn CcmFonent or mcculs. I I I I I I (3) Drawing ileference Cesisnaticn mocule on the schenatic. - 1centi:icatian 01' the ccmponent cr I I I I I I I (a) Quantity - TcWl numcer of itzms in the ;~Csysiern. I
+I I I I
 
-> I e. FMEA Number - A number that unicuely i c e n t i f i e s w e sucsystea, cCmccnent, ana f a i l u r e moce. I I I I I I r. Fw,cricn - Ccccise s t i t e n e n t o f :ne f m c t i c n per'zraea. I I I I I I I I I I I I I P a p 1 cf 3 !
+> tl- - Preparea/Approved a y Identification of ma:yst wno perforned t h e FMEA a d I indiviouals rrsponsible for overall FYEA aiforr. I
+
+I I I c. Revision - Date indiViZUal ?aCes aro revissl.[^1] I I I d- Item Identification: I I I I (1) Name I I I (2) Identi?icaticn NUmOef -
+
+> Ornwing numoer by wnicn t h e Ccntractor LlentiPLes and b e s c n b e s eacn CcmFonent or mcculs. I I
+
+I I I I (3) Drawing ileference Cesisnaticn
+
+> mocule on the schenatic. - 1centi:icatian 01' the ccmponent cr I I
+
+I I I I I
+
+> (a) Quantity - TcWl numcer of itzms in the ;~Csysiern. I
+
+1 I e. FMEA Number - A number that unicuely i c e n t i f i e s w e sucsystea, cCmccnent,
+
+> ana f a i l u r e moce. I I
+
+I I I I r. Fw,cricn - Ccccise s t i t e n e n t o f :ne f m c t i c n per'zraea. I
+
+I I I I I I I I I I I I P a p 1 cf 3 !
 
 %%page 325%%
 
@@ -7617,8 +7601,6 @@ DI NO. 100-26
 > APPROVED BY: Design Signature Reliability (Analyst) Signature c. Figure 3 (CILI - APPROVED BY: Design (Supervisor) ;Signature Reliability (Supervisor) Slgnature
 
 > -SupeMsor. The I n l t f a l IsSue of a CIL sheet will be signed by t h e Reliability NOTE: Signatures W i l l not be required on subsequent Issues unless the CIL sheet Is fevlsed.
-
-64-420 0 - 86 - I?
 
 %%page 346%%
 
@@ -8490,25 +8472,15 @@ Each project manager musL certify t h e fll&ht readiness o f hir harouare ane pr
 
 %%page 394%%
 
-Errhasis w i l l h e p l a c e d on s b i e t y o r f l : g , h t end tr~z5icrl
+Errhasis w i l l h e p l a c e d on s b i e t y o r f l : g , h t end tr~z5icrl ~ U C C C S S , inc1ud:rp p o t t ~ t ! a l impact of prior f'lJSht a n o n e l i e s ; g r o u n d t e s t a n ~ c a 1 : e s ; rrv!sions to h a r d h ' a r e , l o f t w a r e , l a u n c h c o c c i t c r : t t r i r , o r r e d l i n e s wh:-& h s v e n o t been f l i g h t v e r i f i e d ; r e v i s i o n s Lo SRP r e c o v e r y r i s k s Z i n c @ t h e p r e i i o u s f 1 i E t . t ; s c y w n i v e r u h l c t , has n o t t e e n f : l g L ) t verlfivd o r w h i c h regu;rez e x : r ~ r " a : sj,;.rc.va!; and any rev1s:ons t o r.?za!-d or cr:ticel i:err, l i ~ ~ c T. c r n C t ' r n z , an: r i z i ~3 b j . ? t : i , ' i p c:terl,v :dt.r:Ci!-ieC P Z h me:hcd: of c i c f ; r e .
 
-~ U C C C S S , inc1ud:rp p o t t ~ t ! a l impact of prior f'lJSht a n o n e l i e s ; g r o u n d t e s t a n ~ c a 1 : e s ; rrv!sions to h a r d h ' a r e , l o f t w a r e , l a u n c h c o c c i t c r : t t r i r , o r r e d l i n e s wh:-& h s v e n o t been f l i g h t v e r i f i e d ; r e v i s i o n s Lo SRP r e c o v e r y r i s k s Z i n c @ t h e p r e i i o u s f 1 i E t . t ; s c y w n i v e r u h l c t , has n o t t e e n f : l g L ) t verlfivd o r w h i c h regu;rez e x : r ~ r " a : sj,;.rc.va!; and any rev1s:ons t o r.?za!-d or cr:ticel i:err, l i ~ ~ c T. c r n C t ' r n z , an: r i z i ~3 b j . ? t : i , ' i p c:terl,v :dt.r:Ci!-ieC P Z h me:hcd: of c i c f ; r e .
-
-I n a n e f f o r t t i n!r im:.-c s d r r l n > s t l 8t:!ir cintrol :f.<:ijr a s s o c i a t e d w i t h tlhe d i s s e a i n a t ~ o n o f c : e s s i f ~ e d d a t a , a n e f f o r t 1 3 t o b e r~.acie t o p r e s e n t c l s s r i r i e d i n f o r m a t i o n o r l y through viewgraphs. I f Frojects elect to lncorpol2te c l a s s i f i e d d z t s w i t V , l n t h e i r h a n d o u t s , l t Is t h e P r o J t C t . ' S r e s y o n s l b j l i t y t o a s s u r e t h a t t h e h a n d c u t s a r e ~ a r h e . ! and h a n d l e d ir, a c c o r d a n c e w i t h t h e RASA S e c u r i t y r e g u l z t l o n s .
-
-If a r y s s s i s t a n c r i s n r e d e d i n t t . : J r r . a t t e r , p l e a s e c c n t a c t t h e KSFC Security D i v i s i o n a t ? - S ? l o .
+I n a n e f f o r t t i n!r im:.-c s d r r l n > s t l 8t:!ir cintrol :f.<:ijr a s s o c i a t e d w i t h tlhe d i s s e a i n a t ~ o n o f c : e s s i f ~ e d d a t a , a n e f f o r t 1 3 t o b e r~.acie t o p r e s e n t c l s s r i r i e d i n f o r m a t i o n o r l y through viewgraphs. I f Frojects elect to lncorpol2te c l a s s i f i e d d z t s w i t V , l n t h e i r h a n d o u t s , l t Is t h e P r o J t C t . ' S r e s y o n s l b j l i t y t o a s s u r e t h a t t h e h a n d c u t s a r e ~ a r h e . ! and h a n d l e d ir, a c c o r d a n c e w i t h t h e RASA S e c u r i t y r e g u l z t l o n s . If a r y s s s i s t a n c r i s n r e d e d i n t t . : J r r . a t t e r , p l e a s e c c n t a c t t h e KSFC Security D i v i s i o n a t ? - S ? l o .
 
 A pre!lminary a p e n d a is e n c l o s e d .
 
-F.,/+
+F.,/+ -Y/'R. Lucas A Director Enclosure
 
--Y/'R. Lucas A Director
-
-Enclosure
-
-Distribution:
-
-S e e Fage 3
+Distribution: S e e Fage 3
 
 %%page 395%%
 
@@ -8548,9 +8520,7 @@ m . n u em N
 
 > a w
 
-> . - 7. tl : r; . -7
-
-l b 0 w pC 014746
+> . - 7. tl : r; . -7 l b 0 w pC 014746
 
 %%page 405%%
 
@@ -8884,11 +8854,9 @@ l b
 
 44 1
 
-> P Y f tri
+> P Y f tri i
 
 %%page 0#4%%
-
-i
 
 *E t
 
