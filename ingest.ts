@@ -1,4 +1,4 @@
-import { quoteListRunOns, pageBreakContinuations, pipeline, type BodyPass, shiftedPages, quoteRunOn } from "@rtm/ingest";
+import { layoutPageJoins, quoteListRunOns, pageBreakContinuations, pipeline, type BodyPass, shiftedPages, quoteRunOn } from "@rtm/ingest";
 
 /**
  * The Committee sets each Issue/Finding/Recommendation label on its own
@@ -167,5 +167,11 @@ export default pipeline({
   volumes: [
     { path: "archive/GPO-CRPT-99hrpt1016-challenger-accident-1986.pdf", sha256: "eb04493120feaf98e1944634260a2ab8b81339308a2c665a9414853652a8560e" },
   ],
-  passes: [quoteListRunOns(), isolateDivisionLabels, dropCaptionHeadings, dropGpoSignatures, pageBreakContinuations(), shiftedPages(), quoteRunOn()],
+  passes: [
+    // A paragraph run over a page break that opens on a capital, a digit or a
+    // quotation mark (or follows a full stop on a justified page) joins when the
+    // layout says it runs on: no first-line indent, same face (reportsthatmatter-38s.10).
+    // A scan: its OCR layer sizes consecutive lines a point apart.
+    layoutPageJoins({ scanned: true }),
+    quoteListRunOns(), isolateDivisionLabels, dropCaptionHeadings, dropGpoSignatures, pageBreakContinuations(), shiftedPages(), quoteRunOn()],
 });
