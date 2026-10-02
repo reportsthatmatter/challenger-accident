@@ -794,7 +794,9 @@ Findings
 
 1. There is no clear understanding or agreement among the various levels of NASA management as to what constitutes a launch constraint or the process for imposing and waiving constraints.
 
-2. Launch Constraints were often waived after developing a rationale for accepting the problem rather than correcting the problem; moreover, this rationale was not always based on sound engineering or scientific principles.[^6] 4 - 4 2 0 0 - 86 - 2
+2. Launch Constraints were often waived after developing a rationale for accepting the problem rather than correcting the problem; moreover, this rationale was not always based on sound engineering or scientific principles.
+
+6 4 - 4 2 0 0 - 86 - 2
 
 %%page 26%%
 
@@ -1396,7 +1398,9 @@ January 9, 1978.-Major problems with the joint design were identified when Mr. J
 
 November 7, 1978.-Ten months later it would appear that there was nothing to worry about when a letter from E. G. Dorsey of Thiokol to Mr. George Hardy of MSFC contained the statement, "The extrusion data presented in the review and mentioned in the minutes have confirmed the capability of the O-rings to prevent leakage under the worst hardware conditions." Mr. Dorsey attached the Thiokol TWR-12019, dated October 6, 1978 to his letter.
 
-February 2, 1979.-Mr. Eudy and Mr. Ray of NASA visited the Parker Seal Company. A trip report was sent to Messrs. Hardy/ Rice/McCool of NASA which contained the following statement "Parker experts would make no official statements concerning reliability and potential risk factors associated with the present design however, their first thought was that the O-ring was being asked to perform beyond its intended design and that a different type of seal should he considered. The need for additional testing of the present design was also discussed and it was agreed that tests which more ld NASA, Marshall Space Flight Center, "Design, Development and Verification Team Report. Solid Rocket M o t o ~Project," November 1973, p. 50.[^2] NASA, "Selectlon of Contractor for Space Shuttle Program, Solid Rocket Motors," January 2, 1974.
+February 2, 1979.-Mr. Eudy and Mr. Ray of NASA visited the Parker Seal Company. A trip report was sent to Messrs. Hardy/ Rice/McCool of NASA which contained the following statement "Parker experts would make no official statements concerning reliability and potential risk factors associated with the present design however, their first thought was that the O-ring was being asked to perform beyond its intended design and that a different type of seal should he considered. The need for additional testing of the present design was also discussed and it was agreed that tests which more ld NASA, Marshall Space Flight Center, "Design, Development and Verification Team Report. Solid Rocket M o t o ~Project," November 1973, p. 50.
+
+2 NASA, "Selectlon of Contractor for Space Shuttle Program, Solid Rocket Motors," January 2, 1974.
 
 %%page 53%%
 
@@ -1456,7 +1460,9 @@ January 31, 1985.-At the STS51-E Preboard review, Thiokol personnel described th
 
 "-ern Commission %port, V X m e XI, p. H-1.
 
-I5 Ibid.[^16] Ibid.
+I5 Ibid.
+
+16 Ibid.
 
 I'Ibid., p. H-2.
 
@@ -1512,7 +1518,9 @@ July 19, 1985.-An attempt to form an SRM Erosion team at Thiokol "virtually fail
 
 July 22, 1985.-One of the engineers who appreciated the joint problem was Mr. Boisjoly of Morton Thiokol. In a "Progress Report" he wrote, "This problems has escalated so badly in the eyes of everyone, especially our customer, NASA, that NASA has gone to our competitors on a proprietary basis and solicited their experiences on their joint configuration."31 (See Appendix V-G.)
 
-26 Ibid.[^27] Ibid.[^28] Ibid.[^2] 9 Ibid.[^30] Kid., p. H-3.[^31] Thiokol, Roger Boisjoly, "Progress Report: Applied Mechanics Center," July 22, 1985.[^6] 4 - 4 2 0 0 - 86 - 3
+26 Ibid.[^27] Ibid.[^28] Ibid.[^2] 9 Ibid.[^30] Kid., p. H-3.[^31] Thiokol, Roger Boisjoly, "Progress Report: Applied Mechanics Center," July 22, 1985.
+
+6 4 - 4 2 0 0 - 86 - 3
 
 %%page 58%%
 
@@ -1536,7 +1544,9 @@ August 27, 1985. Flight STS 51-1 was launched, after which it was discovered tha
 
 August 30, 1985. One year and four months after the original drafting of Thiokol's Program Plan TWR-14359, for improvement of Space Shuttle SRM Motor Seals, the revised version of the plan was issued.
 
-31a Thiokol, Roger Boisjoly, "SRM 0-Ring Erosion/Potential Failure Criticality," Memo 2870 FY 86:073, July 31, 1985.[^32] Rogers Commission Report, Volume 11, p. H-73.
+31a Thiokol, Roger Boisjoly, "SRM 0-Ring Erosion/Potential Failure Criticality," Memo 2870 FY 86:073, July 31, 1985.
+
+32 Rogers Commission Report, Volume 11, p. H-73.
 
 %%page 59%%
 
@@ -1926,7 +1936,9 @@ The failed joint in the Solid Rocket Motor permitted the burning solid propellan
 
 38 bid., Volume I, p. 42.
 
-40 Ibid.[^4] 1 Ibid.
+40 Ibid.
+
+4 1 Ibid.
 
 *In It should be noted that the right Solid Rocket Booster did not awing outward at the bottom and cause the now of the booster to collide with the External Tank as had originally been thought. For this to have happened, the right Solid Rocket Booster would have extended outward at the bottom at a wide angle that is not supported by any of the photographic or telemet- ric evidence.
 
@@ -1970,7 +1982,9 @@ evidence of damage occurring in the seconds which fol-
 
 support the above conclusions, and these are related below:
 
-> The forces on the Orbiter at breakup were probably too low to cause death or serious injury to the crew but were sufficient to separate the crew compartment from the forward fuselage, cargo bay, nose cone, and forward reaction control compartment. The forces applied to the Orbiter to cause such destruction clearly exceed its design limits. The data available to estimate the magnitude and direction of these forces included ground photographs and measurements from onboard accelerometers, which were lost two-tenths of a second after vehicle breakup.[^42] Rogers Commission Report, Volume V. p. 1431.[^45] bid., Volume I, p. 180.
+> The forces on the Orbiter at breakup were probably too low to cause death or serious injury to the crew but were sufficient to separate the crew compartment from the forward fuselage, cargo bay, nose cone, and forward reaction control compartment. The forces applied to the Orbiter to cause such destruction clearly exceed its design limits. The data available to estimate the magnitude and direction of these forces included ground photographs and measurements from onboard accelerometers, which were lost two-tenths of a second after vehicle breakup.
+
+42 Rogers Commission Report, Volume V. p. 1431.[^45] bid., Volume I, p. 180.
 
 %%page 78%%
 
@@ -2010,7 +2024,9 @@ Committee staff met with the Director of Safety, Reliability and Quality Assuran
 
 Issue
 
-Could the accident have been caused by some failure other than failure of the joint between the casings?[^44] This memo was part of a package release, NASA, 86-100, draft, July 21, 1986.
+Could the accident have been caused by some failure other than failure of the joint between the casings?
+
+44 This memo was part of a package release, NASA, 86-100, draft, July 21, 1986.
 
 %%page 80%%
 
@@ -2348,7 +2364,9 @@ In the months since the Challenger accident, there has been re- newed interest i
 
 > The 17 inch "flapper valves" on the fuel lines between the External Tank and the Orbiter. The inadvertent closing of one of these valves before Main Engine shutdown could be catastrophic, causing a rupture of a fuel line and/or the External Tank. Failure to close after engine shutdown, on the other hand, could cause the External Tank to crash into the Orbiter after being jettisoned. The heat exchanger used to produce gaseous oxygen to pres- surize the liquid oxygen tank in the External Tank. This heat exchanger is located inside one of the turbopump preburners of the Space Shuttle Main Engine. Should a rupture occur in the wall of the heat exchanger, high temperature hydrogen gas could be driven into the liquid oxygen tank or additional oxygen could be driven into the preburner-either situation could be catastrophic. A solution to this problem could be to move the heat exchanger outside of the Main Engine, possibly using the engine's hydrogen cooling jacket as a source of heat to produce the required gaseous oxygen. The Filament Wound Case version of the Solid Rocket Booster now under development for use in launches involving very heavy Space Shuttle payloads. The Aerospace Safety Advisory Panel argues that this system may have questionable structural strength safety margins in the transition areas between individual case segments.29 Safety concerns such as these have been raised regarding the Filament Wound Case Soild Rocket Boosters by the Aerospace Safety Advisory Panel for several years. In testimony before the Committee on May 15, 1986, Mr. John Brizendine, Chairman of the panel, repeated a conclusion from the panel's most recent report: "Until the issue can be resolved with a high level of confidence, . . . the Filament Wound Case Solid Rocket Boosters should not be used for STS launch. . . ."30
 
-Regarding the last concern in the above listing, the Committee notes that the recent decisions to substantially delay the availability of the Space Shuttle launch facilities at Vandenberg Air Force Base and to increase the availability of expendable launch vehicles could potentially eliminate the need for Filament Wound Case Soild Rocket Boosters. Specifically, the Filament Wound Case Solid Rocket Boosters were originally intended only for use at Vandenberg; and the increased availability of large expendable launch vehicles may provide a viable option to heavy-lift launches using the Space Shuttle.[^2] 9 Hearings before the Space Science and Applications Subcommittee of the House Science and Technolo Committee, "Strategy for Safely Returning Space Shuttle to Flight Status," 99th Cong., 2nd Sess., Transcript, May 15, 1986, p. 102.
+Regarding the last concern in the above listing, the Committee notes that the recent decisions to substantially delay the availability of the Space Shuttle launch facilities at Vandenberg Air Force Base and to increase the availability of expendable launch vehicles could potentially eliminate the need for Filament Wound Case Soild Rocket Boosters. Specifically, the Filament Wound Case Solid Rocket Boosters were originally intended only for use at Vandenberg; and the increased availability of large expendable launch vehicles may provide a viable option to heavy-lift launches using the Space Shuttle.
+
+2 9 Hearings before the Space Science and Applications Subcommittee of the House Science and Technolo Committee, "Strategy for Safely Returning Space Shuttle to Flight Status," 99th Cong., 2nd Sess., Transcript, May 15, 1986, p. 102.
 
 mid.
 
@@ -2492,7 +2510,11 @@ After evaluation of data from the SRM segments used up through STS-5 and data fr
 
 4 8 Rogers Commission Report, Volume I, p. 121.
 
-JODavid E. Sanger, "Flaw in Titan's Boosters is Identified," the New York Times, June 4, 1986, p. A-23.[^5] 1 Isikoff, pp. A-1, A-20.[^5] 2 Sanger, p. A-23 time of approximately eight months, no SRM segment inspected under this new policy was flown before the 51-L accident.54
+JODavid E. Sanger, "Flaw in Titan's Boosters is Identified," the New York Times, June 4, 1986, p. A-23.
+
+5 1 Isikoff, pp. A-1, A-20.
+
+5 2 Sanger, p. A-23 time of approximately eight months, no SRM segment inspected under this new policy was flown before the 51-L accident.54
 
 %%page 107%%
 
@@ -2706,7 +2728,9 @@ Lockheed's award fees at the Kennedy Space Center have not been at the highest p
 
 > Percent of Period From : ! ; :A Rating adjective Rating maximum Award fee mre award lee earned earned
 
-First ............................................... Oct. 1, 1983 ............ $6,618,880 Excellent ............... 90.0 80 $5,295,104 Second........................................... Apr. 1, 1984 ............ 1,299,404 Good ..................... 78.5 32 415,809 Third .............................................. Oct. 1, 1984 ............ 1,308,554 (;ood ..................... 76.0 24 314,053 Fourth............................................ Apr. 1, 1985 ............ 1,308,554 Excellent ............... 91.0 84 1,099,185 Fifth............................................... Oct. 1, 1985 ............ 1,308,554 Very good ............. 89.0 76 994,501 Sixth .............................................. Apr.1,1986 ............ 1,296,664 ( 1 ) ....................... (I) (l) (')[^1] To be determined.
+First ............................................... Oct. 1, 1983 ............ $6,618,880 Excellent ............... 90.0 80 $5,295,104 Second........................................... Apr. 1, 1984 ............ 1,299,404 Good ..................... 78.5 32 415,809 Third .............................................. Oct. 1, 1984 ............ 1,308,554 (;ood ..................... 76.0 24 314,053 Fourth............................................ Apr. 1, 1985 ............ 1,308,554 Excellent ............... 91.0 84 1,099,185 Fifth............................................... Oct. 1, 1985 ............ 1,308,554 Very good ............. 89.0 76 994,501 Sixth .............................................. Apr.1,1986 ............ 1,296,664 ( 1 ) ....................... (I) (l) (')
+
+1 To be determined.
 
 The rating scale runs from unacceptable to marginal, good, very good, excellent and superior. Two of the five ratings to date have been at the lower end of the scale.
 
@@ -2738,7 +2762,9 @@ Ultimately, SPC performance will determine the proper balance of development con
 
 '9 Rogers Commission Report, Volume I, p. 195.
 
-> Cmte Hgs, Transc+pt, July 15, 1986, p. 62. Cmte Hgs,Transcript, July 16, 1986, pp. 13-14.[^8] 2 NASA, documents on the SPC contract, supplied to the Committee in July, 1986; Cmte Hgs, Transcript, July 16,1986, p. 67, and Attachment C. The responsibility for high overtime rates in the SPC must be shared by both NASA and the contractor. Mr. E.D.Sargent, President of Lockheed Space Operations Company, testified:
+> Cmte Hgs, Transc+pt, July 15, 1986, p. 62. Cmte Hgs,Transcript, July 16, 1986, pp. 13-14.
+
+8 2 NASA, documents on the SPC contract, supplied to the Committee in July, 1986; Cmte Hgs, Transcript, July 16,1986, p. 67, and Attachment C. The responsibility for high overtime rates in the SPC must be shared by both NASA and the contractor. Mr. E.D.Sargent, President of Lockheed Space Operations Company, testified:
 
 %%page 118%%
 
@@ -2794,7 +2820,15 @@ The emphasis on reducing costs per flight and delivering launch services has cau
 
 Presumably, the Challenger accident has changed this situation. Recommendation VIII of the Rogers Commission states in part that "NASA must establish a flight rate that is consistent with its resource^."^ NASA's response to this recommendation hints that this may not be the case. NASA speaks of determining "the maximum achievable safe flight rate."g4 Such a flight rate would again leave no "margin in the system to accommodate unforeseen hardware problems" as the Commission found was the case before the accident.95 The NASA response makes it clear that the flight rate ~~~~~
 
-9 1 Hearings before the House Committee on Science and Technology, FY 1978 NASA Authori- +ion, %p,Fmber 14, 1976, Volume I, Part 1, 394; NASA, "Space Shuttle Payload Flight Assignments. August 15, 1983. NASA "Space Jhuttle Payload Flight Assignments," November, 1%.[^9] 1 Rogers Commission Report, Volume I, pp. 164-77.[^9] 3 Wid., p. 201.[^9] 4 NASA Response to Rogers Commission, Jul 14, 1986, pp. 30-31.[^9] 5 Rogers Commission Report, Volume I, p. 17f.
+9 1 Hearings before the House Committee on Science and Technology, FY 1978 NASA Authori- +ion, %p,Fmber 14, 1976, Volume I, Part 1, 394; NASA, "Space Shuttle Payload Flight Assignments. August 15, 1983. NASA "Space Jhuttle Payload Flight Assignments," November, 1%.
+
+9 1 Rogers Commission Report, Volume I, pp. 164-77.
+
+9 3 Wid., p. 201.
+
+9 4 NASA Response to Rogers Commission, Jul 14, 1986, pp. 30-31.
+
+9 5 Rogers Commission Report, Volume I, p. 17f.
 
 %%page 121%%
 
@@ -2856,7 +2890,9 @@ After flight assignments are made by NASA Headquarters and the mission is define
 
 Payload safety is the responsibility of the payload developer. He must be throughly familiar with NASA safety requirements and must certify that his payload meets them. NASA audits the certification process but performs no visual inspection of the payload for conformance to safety standards.
 
-Once the cargo of a particular mission has been defined, or "baselined", the significant engineering work of mission processing actually begins. NASA refers to this as the "production process". The product of the process is the launch of a particular mission,[^103] Ibid., pp. 82-151. lo4 Ibid., pp. 164-77.
+Once the cargo of a particular mission has been defined, or "baselined", the significant engineering work of mission processing actually begins. NASA refers to this as the "production process". The product of the process is the launch of a particular mission,
+
+103 Ibid., pp. 82-151. lo4 Ibid., pp. 164-77.
 
 %%page 124%%
 
@@ -2978,7 +3014,9 @@ I I 0 NASA briefing on STS Production Process by Elaine Hofstetler-Presented to 
 
 Rogers Commission Report, Volume I, pp. 166-73; Volume 11, pp. 5-26-29,J-33-51.
 
-l 1 * NASA briefing, May 19, 1986.[^1] 1 5 Rogers Commission Report, Volume 11, p. 5-46.
+l 1 * NASA briefing, May 19, 1986.
+
+1 1 5 Rogers Commission Report, Volume 11, p. 5-46.
 
 %%page 130%%
 
@@ -3044,7 +3082,9 @@ Findings
 
 %%page 133%%
 
-phasis on runway surface characteristics for repetitive tire use takes on a new dimension that is in addition to the Rogers Commission's recommendations.[^5] . Weather, by far, is the most significant factor governing operational decisions, Orbiter damage, and landing safety. The constraint is simply that acceptable weather must be forecast with confidence within the time frame needed. Ultra-conservative rules prevail because of the predictable unpredictability of Cape weather. New and innovative local weather analysis and forecasting research is a high priority. The African Coast and southwestern United States sites enjoy more stable and predictable weather.
+phasis on runway surface characteristics for repetitive tire use takes on a new dimension that is in addition to the Rogers Commission's recommendations.
+
+5 . Weather, by far, is the most significant factor governing operational decisions, Orbiter damage, and landing safety. The constraint is simply that acceptable weather must be forecast with confidence within the time frame needed. Ultra-conservative rules prevail because of the predictable unpredictability of Cape weather. New and innovative local weather analysis and forecasting research is a high priority. The African Coast and southwestern United States sites enjoy more stable and predictable weather.
 
 Recommendations
 
@@ -3206,7 +3246,9 @@ NASA has rejected the use of probability on the basis that such techniques are i
 
 12' It is the prime responsibility of the design engineers working with reliability analysts to nerform the FMEA in accordance with guidelines established in NASA documents (Apuendix b1-0. These documents are provided as part of each statement of work submitted to the contractor. From such FMEAs, a Critical Items List is established in which particular components under the responsibility of the contractor are categorized in accordance with their criticality to the mission, crew, and/or spacecraft. Included as Appendix VI-D is NASA's document 100-2G entitled Reliability Desk Instruction, Flight Hardware Failure Mode and Effects Analyses (FMEA) and Critical Items List (CIL).
 
-Rogers Commlsslon Report, Volume 11, p. F-4.[^1] 2 9 Hearine before Subcommittee on Energy Research and Production and Subcommittee on Space-&ien& and Applications of the Committee on Science and Technology, 99th Gong., 2nd Sew., March 4, 1986 (No. 97). "Review of RTG Utilization in Space Missions."
+Rogers Commlsslon Report, Volume 11, p. F-4.
+
+1 2 9 Hearine before Subcommittee on Energy Research and Production and Subcommittee on Space-&ien& and Applications of the Committee on Science and Technology, 99th Gong., 2nd Sew., March 4, 1986 (No. 97). "Review of RTG Utilization in Space Missions."
 
 %%page 143%%
 
@@ -3264,9 +3306,13 @@ Mr. Mulloy also explained his reliance on the experience base in testimony befor
 
 > That was presented to me as a rationale to continue flying, one we had seen it on STS-2, what we saw on the last flight wasn't as bad, therefore it was a n acceptable risk.
 
-l n 2 Rogers Commission Report, Volume V, p. 1513.[^1] 3 3 Ibid., p. 1590; note: Yet it was Mr. McDonald who wrote a letter to the SRB Project Office recommending that the O-ring problem be dropped from the Problem Assessment System (PAS), which was in fact equivalent to removing the launch constraint.
+l n 2 Rogers Commission Report, Volume V, p. 1513.
 
-L 3 4 Rogers Commission Report, Volume V, p. 1513.[^1] 3 5 Cmte Hgs, Transcript, June 17, 1986, p. 151.
+1 3 3 Ibid., p. 1590; note: Yet it was Mr. McDonald who wrote a letter to the SRB Project Office recommending that the O-ring problem be dropped from the Problem Assessment System (PAS), which was in fact equivalent to removing the launch constraint.
+
+L 3 4 Rogers Commission Report, Volume V, p. 1513.
+
+1 3 5 Cmte Hgs, Transcript, June 17, 1986, p. 151.
 
 %%page 146%%
 
@@ -3526,7 +3572,9 @@ One of them is we had broken the structural test article on the filament would c
 
 The other one was they were made aware that we had violated the primary seal in the nozzle and wanted to hear about that and what our rationale waa to continue.
 
-See also, Cmte Hgs, Transcri t, June 17, 1986, pp. 98-101.[^1] 7 0 Cmte Hgs, Transcript, Juyy 24, 1986, p. 97.
+See also, Cmte Hgs, Transcri t, June 17, 1986, pp. 98-101.
+
+1 7 0 Cmte Hgs, Transcript, Juyy 24, 1986, p. 97.
 
 %%page 158%%
 
@@ -3582,7 +3630,9 @@ In a subsequent interview with staff, Mr. Weeks recanted his earlier statement a
 
 176 Rogers Commission Report, Volume I, p. 148.
 
-177 Cmte Hgs, Transcript, June 12, 1986, p. 129.[^1] 7 8 Ibid., June 17, 1986, pp. 97-8, 101.
+177 Cmte Hgs, Transcript, June 12, 1986, p. 129.
+
+1 7 8 Ibid., June 17, 1986, pp. 97-8, 101.
 
 %%page 160%%
 
@@ -3604,7 +3654,9 @@ There was plainly a failure of NASA technical managers, and for that matter thos
 
 Ibid., June 12, 1986, p. 141.
 
-181 The issue of whether communications are filtered so that important information is prevented from reaching decision-makers is addressed in Section VI.B.2.b.[^1] 8 1 Cmte Hgs,Transcript, June 17, 1986, p. 207.
+181 The issue of whether communications are filtered so that important information is prevented from reaching decision-makers is addressed in Section VI.B.2.b.
+
+1 8 1 Cmte Hgs,Transcript, June 17, 1986, p. 207.
 
 %%page 161%%
 
@@ -3944,7 +3996,11 @@ It should be the responsibility of the new Associate Administrator for SR&QA to 
 
 The function of the safety engineers within the NSTS program has been to determine whether or not certain prescribed tests, analyses, and design descriptions have been followed appropriately
 
-*OQDiscussionwith the NASA Chief Engineer's Ofice, May 13, 1986. Also, Cmte Hgs, response to question by Mr. Roe,Transcript, June 11, 1986, pp. 59-60.[^2] 1 0 Cmte Hgs, response to question by Mr. Roe, Transcript, June 11, 1986, pp. 59-60.[^2] 1 1 Telephone Conversation, August 13, 1986.
+*OQDiscussionwith the NASA Chief Engineer's Ofice, May 13, 1986. Also, Cmte Hgs, response to question by Mr. Roe,Transcript, June 11, 1986, pp. 59-60.
+
+2 1 0 Cmte Hgs, response to question by Mr. Roe, Transcript, June 11, 1986, pp. 59-60.
+
+2 1 1 Telephone Conversation, August 13, 1986.
 
 %%page 178%%
 
@@ -3966,7 +4022,9 @@ Recommendations
 
 Although the controlling document describing the SR&QA functions for the Shuttle contractors was provided to the Committee, no corresponding document was identified that describes the implementation of these functions for the SR&QA engineers that are direct employees of NASA. NASA contends that the same controlling document applies to agency employees. The specific oversight
 
-Testimony before the Rogers Commission, Mr. Jack Walker, Deputy Director, MSFC Safety Office, ,$ ril, 1986.[^2] 1 5 NASA, &fety, Reliabiliz Maintainability and Quality Provisions for the Space Shuttle Program": NHB 5300.4 (1D-2), tober, 1979 responsibilities of these employees and their independent reviews and analyses requires a more complete delineation in the Committee's view. The Rogers Commission report provides definitions for the SR&QA disciplines. An expansion upon these definitions is required in order to establish a commonality of understanding of the various functions as they apply to the Shuttle program.
+Testimony before the Rogers Commission, Mr. Jack Walker, Deputy Director, MSFC Safety Office, ,$ ril, 1986.
+
+2 1 5 NASA, &fety, Reliabiliz Maintainability and Quality Provisions for the Space Shuttle Program": NHB 5300.4 (1D-2), tober, 1979 responsibilities of these employees and their independent reviews and analyses requires a more complete delineation in the Committee's view. The Rogers Commission report provides definitions for the SR&QA disciplines. An expansion upon these definitions is required in order to establish a commonality of understanding of the various functions as they apply to the Shuttle program.
 
 %%page 179%%
 
@@ -4106,7 +4164,9 @@ At ignition, the 190,000-pound force was instantly released when the SRB hold-do
 
 * NASA, MSFC Memo, Miller to Horton, April 12, 1984.
 
-Thiokol, "Erosion of SRM Preasure Seals," TWR 15160, Chart A-9, August 19, 1985 "Seal damage alwa s has associated putt blowhole."[^4] NASA, &FC, "51-L Analysis &erview," April 25,1986, p. H-203.
+Thiokol, "Erosion of SRM Preasure Seals," TWR 15160, Chart A-9, August 19, 1985 "Seal damage alwa s has associated putt blowhole."
+
+4 NASA, &FC, "51-L Analysis &erview," April 25,1986, p. H-203.
 
 %%page 188%%
 
@@ -4122,7 +4182,9 @@ Additional structural loads resulted from turbulence. Flight 51-L experienced th
 
 10. Shortly after the vehicle was loaded by these turbulent forces, at T+58 seconds, a flame appeared from the same general region where the puffs of smoke had been seen. But, this time the joint was continuously breached by the burning propellant gases. In a little over two seconds, the flame had grown and acted as a blowtorch to burn through the hydrogen tank. The appearance of the flame at this time is also indicative of a damaged primary 0- ring and failure of the secondary O-ring to seal, for reasons explained in the Critical Items List dated December 17, 1982.sa
 
-The telemetry data, photographs and cockpit voice recordings support evidence of turbulent conditions and the manner in which the Shuttle failed.[^6] The joint waa designed to accommodate these loads. 0 NASA, MSFC, "51-L Analysis Overview, STS 51-L-Wind Shears, April 25, 1986, p. H-597. 0' NASA, "SRB Critical Items List," December 17,1982, page A-6A, sheet 1.
+The telemetry data, photographs and cockpit voice recordings support evidence of turbulent conditions and the manner in which the Shuttle failed.
+
+6 The joint waa designed to accommodate these loads. 0 NASA, MSFC, "51-L Analysis Overview, STS 51-L-Wind Shears, April 25, 1986, p. H-597. 0' NASA, "SRB Critical Items List," December 17,1982, page A-6A, sheet 1.
 
 %%page 189%%
 
@@ -4164,7 +4226,9 @@ T+72.6 ......................................................... [Liquid hydroge
 
 > tive of the liquid oxygen tank failing. Liquid oxygen then observed.1~
 
-1 (CDR) Commander W, (PLT) Pilot Smith, (MS 1) Mission Specialist Onizuka. (MS 2) Mission S ialisl Resnik.[^8] NASA, D.M. Germany, STS 511 Incident Investigation. Integrated Events Time line, Johnson Space c h t Center, June 4, 1986, as modified.
+1 (CDR) Commander W, (PLT) Pilot Smith, (MS 1) Mission Specialist Onizuka. (MS 2) Mission S ialisl Resnik.
+
+8 NASA, D.M. Germany, STS 511 Incident Investigation. Integrated Events Time line, Johnson Space c h t Center, June 4, 1986, as modified.
 
 (c) Problems Discovered
 
@@ -4210,7 +4274,9 @@ What appeared to be a rather straightforward joint was far from simple. If the p
 
 To resolve this concern, NASA and its contractor, Morton Thiokol, changed the leak-check procedure by increasing the pressure until a pressure of 200 pounds per square inch (psi) was accepted as
 
-Theodore Baumeister, Editor, Standard Handbook for Mechanical Engineers, 7th Ed., (New York: McGraw-Hill, 1967). pp. 18-35.[^1] 2 Rogers Commission Report, Volume 11, p. H-1.
+Theodore Baumeister, Editor, Standard Handbook for Mechanical Engineers, 7th Ed., (New York: McGraw-Hill, 1967). pp. 18-35.
+
+1 2 Rogers Commission Report, Volume 11, p. H-1.
 
 %%page 192%%
 
@@ -4290,7 +4356,9 @@ Lastly the memo noted:
 
 On August 2, 1985, Larry Wear, MSFC's SRM Element Manager, sent a letter to Joseph Kilminster, Thiokol's Vice President for Space Booster Programs, on the subject of SRM field joint second23 NASA, Irving Davids, "Case to Case and Nozzle to Case 'O' Ring Seal Erosion Problems," July 11 1985.
 
-23a Mr. Weeks, Dep. Assoc. Administrator for Space Flight (Technical); Mr. Hamby, Dep. Dir., STS Program Integration; Mr.Herrington, De Dir. of Launch & Landing Operations; and Mr. k. Winterhalter, Acting E r . , Shuttle Propulsion z 4 hid., p. 2.[^86] bid.
+23a Mr. Weeks, Dep. Assoc. Administrator for Space Flight (Technical); Mr. Hamby, Dep. Dir., STS Program Integration; Mr.Herrington, De Dir. of Launch & Landing Operations; and Mr. k. Winterhalter, Acting E r . , Shuttle Propulsion z 4 hid., p. 2.
+
+86 bid.
 
 hid.
 
@@ -4316,7 +4384,9 @@ The memo stated, "at 100 deg. F the O-ring maintained contact. At 75 deg. F the 
 
 > MTI has no reason to suspect that the primary seal would ever fail after pressure equilibrium is reached, i.e., after the ignition transient. If the primary O-ring were to fail from 0 to 170 milliseconds, there is a very high probability that the secondary O-ring would hold pressure since the case has not expanded appreciable at this point. If the primary seal were to fail from 170 to 330 milliseconds, the probability of the secondary seal holding is reduced. From 330 to 600 milliseconds the chance of the secondary seal
 
-*' NASA, Larry Wear, "SRM Field Joint Secondary O-ring Lift-Of€ During Pressurization," SA 41-326-85,. August 2, 1985.[^2] 8 Engmeering consultants to the Committee have serious questions 88 to how this test relates to actual O-ring performance in flight hardware.
+*' NASA, Larry Wear, "SRM Field Joint Secondary O-ring Lift-Of€ During Pressurization," SA 41-326-85,. August 2, 1985.
+
+2 8 Engmeering consultants to the Committee have serious questions 88 to how this test relates to actual O-ring performance in flight hardware.
 
 %%page 197%%
 
@@ -4328,7 +4398,9 @@ Thiokol completed their engineering study of O-ring compression set and dated th
 
 A status report from Thiokol's SRM O-ring Task Force, presented on November 20, 1985, recommended that a slightly larger Viton O-ring of 0.292 inch diameter, along with thicker shims, be used as a short-term solution. The current O-rings were 0.280 inches. Thiokol pointed out that there would be more erosion margin due to greater material thickness at the sealing surface. They noted that the thicker shims would reduce the initial and absolute final gap opening dimension, resulting in more O-ring "squeeze" initially. Thiokol stated that the greater initial squeeze would be better for compression set and resiliency, and would give a higher probability of maintaining a secondary seal longer into the ignition transient. Thiokol also noted that various tests were conducted on the Randolph putty using hot five-inch char motors. Two tests were conducted, which determined that the en NASA, Larry Mulloy, "SRM JointDring Erosion," SA 42-349-85, Au st 1985, pp. 1-2.
 
-$ 0 Thiokol, B.L. Orme, "Enginering Study of O-ring Compression Set," &R-15218, October 2, 1985.[^3] * Refer to Appendix VII-A for ASTM specification.
+$ 0 Thiokol, B.L. Orme, "Enginering Study of O-ring Compression Set," &R-15218, October 2, 1985.
+
+3 * Refer to Appendix VII-A for ASTM specification.
 
 JzSmall scale teat motors.
 
@@ -4358,13 +4430,21 @@ The presentation then included a chart titled "O-ring (Viton) Shore Hardness vs.
 
 > Degree F Shore Hardness 70 degrees 77 hardness 60 degrees 81 hardness 50 degrees 84 hardness 40 degrees 88 hardness 30 degrees 92 hardness 20 degrees 94 hardness 10 degrees 96 hardness
 
-33 A type of, utty made b another company that also was considered for use in the SRM.[^34] Thiokol, SRM O-ring Task Force Status and QM-5 Recommendations," TWR-15349, November 20, 1985.
+33 A type of, utty made b another company that also was considered for use in the SRM.
 
-Thiokol. "Temuerature Concern on SRM Joints," January 27, 1986, chart 2-1.[^35] -..~
+34 Thiokol, SRM O-ring Task Force Status and QM-5 Recommendations," TWR-15349, November 20, 1985.
+
+Thiokol. "Temuerature Concern on SRM Joints," January 27, 1986, chart 2-1.
+
+35 -..~
 
 ~
 
-36 Ibid.[^37] Ibid., Chart 2-2.[^38] Ibid., Chart 3-1.
+36 Ibid.
+
+37 Ibid., Chart 2-2.
+
+38 Ibid., Chart 3-1.
 
 39 Ibid., Chart 4-1.
 
@@ -4414,7 +4494,9 @@ Days before launch .......... Transport to pad on Movement of Transporter ... St
 
 Days befcre launch .......... Addition of payloads ........ Added weight ..................... Static .......................... Additional compressive and shear loads. Within 24 hours of Loading of fuel ................Weight of liquid hydrogen Static.......................... Additional compressive launch. and liquid oxygen. and shear loads. Within 24 hours of Loading of fuel ................ External tank contracts in Static ............................ Lateral tensile force launch. diameter due to applied by aft
 
-> reduction in attachment structure temperature. between external tank and solid rocket motor casing.[^6] semds to launch ........ Firing of main engines Thrust of engines ............... Static and dynamic....... Further moments
+> reduction in attachment structure temperature. between external tank and solid rocket motor casing.
+
+6 semds to launch ........ Firing of main engines Thrust of engines ............... Static and dynamic....... Further moments
 
 > (SSME's). compressive and vibratory (25 to 30 Hz) .
 
@@ -4468,9 +4550,19 @@ The steel used to make the casings and the joint is a D-6A. D-6A is a low-alloy 
 
 Typical mechanical properties of D-6A steel:[^4] 9
 
-"Thiokol, S. Stein, "Analytical Evaluation of the Space Shuttle Solid Rocket Motor Tang/ Clevis Joint Behavior", TWR-12019, October 6, 1978, p. 1.[^4] 4 Thiokol, S. Stein, "Analytical Evaluation of Space Shuttle SRM Tang/Clevis Joint Behavior", TWR-12019, October 6, 1978.
+"Thiokol, S. Stein, "Analytical Evaluation of the Space Shuttle Solid Rocket Motor Tang/ Clevis Joint Behavior", TWR-12019, October 6, 1978, p. 1.
 
-'5 Ibid.[^4] e Ibid.[^4] 7 Discussion with Dr. Richard Feynman, California Institute of Technology, Pasadena, California, September 3, 1986.[^4] 8 1000 pounds per square inch equals 1 ksi.[^4] 9 American Society for Metals, Handbook Edited by H.E. Boyer and T.L. Gall, November, 1984.
+4 4 Thiokol, S. Stein, "Analytical Evaluation of Space Shuttle SRM Tang/Clevis Joint Behavior", TWR-12019, October 6, 1978.
+
+'5 Ibid.
+
+4 e Ibid.
+
+4 7 Discussion with Dr. Richard Feynman, California Institute of Technology, Pasadena, California, September 3, 1986.
+
+4 8 1000 pounds per square inch equals 1 ksi.
+
+4 9 American Society for Metals, Handbook Edited by H.E. Boyer and T.L. Gall, November, 1984.
 
 %%page 202%%
 
@@ -4502,7 +4594,11 @@ A new joint design was forwarded to NASA by Thiokol on July 19, 1984, which incl
 
 As stated previously, the putty was to insulate the O-ring seals from the hot propellant gases. It was also to remain flexible enough to move outward under the pressure of the burning propellant, thereby compressing the gas in the joint which, in turn, was
 
-5 0 NASA, John Miller, "Concerns with Randolph Vacuum Putty," EP-25 (84-35), April 12, 1984.[^5] 1 NASA, John Miller, "Zinc Chromate Putty Installation in Nozzle to Case Joint Discrepan- cy," EP-25 (84-53), June 18, 1984.[^5] 2 Thiokol, "Vacuum Putty Telecon," June 29, 1984.
+5 0 NASA, John Miller, "Concerns with Randolph Vacuum Putty," EP-25 (84-35), April 12, 1984.
+
+5 1 NASA, John Miller, "Zinc Chromate Putty Installation in Nozzle to Case Joint Discrepan- cy," EP-25 (84-53), June 18, 1984.
+
+5 2 Thiokol, "Vacuum Putty Telecon," June 29, 1984.
 
 %%page 203%%
 
@@ -4636,11 +4732,17 @@ This evaluation of the seal erosion problem does not indicate the seriousness of
 
 This point is readily apparent in the Commission's report. There is no implication that a serious problem exists, if Mr. Mulloy's presentations are examined. The presentation made to Level 1 during the STS 4 1 4 FRR indicated that erosion was "acceptable," and offered a rationale for accepting the possibility that the phenomenon would recur.
 
-l e Larry Mullo NASA, Marshftll Space Fight Center, "Center Board STS-51L Flight Readi- new Review Solidlkocket Booster, January 13,1986, Chart SRB-3.[^1] 7 lhirl
+l e Larry Mullo NASA, Marshftll Space Fight Center, "Center Board STS-51L Flight Readi- new Review Solidlkocket Booster, January 13,1986, Chart SRB-3.
+
+1 7 lhirl
 
 > %;; Chart SRB-28. Lark Mulloy, NASA, Marshall S ace Flight e n t e r , "STS-51L Level I Flight Readiness
 
-Review," January 15, 1986, Chart SRB-8. See Appendlx VIII-E. 2o bid., Chart SRB-4.[^2] 1 Larry Mulloy, NASA, Marshall Space Fli ht Center, "STS-51L Level I1 Flight Readiness Review,'' January 14,1986. See Appendix VIII-g.[^2] 2 Discussion with Allan McDonald, September 4, 1986.
+Review," January 15, 1986, Chart SRB-8. See Appendlx VIII-E. 2o bid., Chart SRB-4.
+
+2 1 Larry Mulloy, NASA, Marshall Space Fli ht Center, "STS-51L Level I1 Flight Readiness Review,'' January 14,1986. See Appendix VIII-g.
+
+2 2 Discussion with Allan McDonald, September 4, 1986.
 
 Z3 Rogers Commission Report, Volume 11. See Chart 15 (p. H-10) and Chart 19 (p. H-12).
 
@@ -4768,7 +4870,9 @@ Testifying before the Commission, Mulloy had also made this distinction.
 
 > Chairman ROGERS."Let's go back just a bit, because I think it is helpful to me if you-you use words that I understand a little bit. What caused the constraint to be put on in the first place?' Mr. MULLOY."The constraint was put on after we saw the secondary O-ring erosion on the nozzle, I believe." Chairman ROGERS. "Who decided that?'' Mr. MULLOY."I decided that, that that [the joint seal erosion] would be addressed, until that problem was resolved, it would be considered a launch constraint, and addressed at Flight Readiness Reviews to assure that we were staying within our flight experience base. , . ." Dr. RIDE. "Why didn't you put a launch constraint on the field joint at the same time?" Petroski, To E 'her is Human: The Role of Failure in Successful Design (New
 
-Y;rL?t?%artin's Press,[^1] 9 8 , pp. 69-73.[^4] s Cmte Hgs,Transcript,June 17, 1986, p. 205.
+Y;rL?t?%artin's Press,[^1] 9 8 , pp. 69-73.
+
+4 s Cmte Hgs,Transcript,June 17, 1986, p. 205.
 
 %%page 216%%
 
@@ -4814,7 +4918,9 @@ Mr. Mulloy's discussion with Chairman Roe, and his description provided to the C
 
 Robert Lindstrom, NASA, Marshall Space Fli ht Center, "Assigning Launch Constraints on dpen Problems Submitted to MSFC PAS," Septem%er 15,1980, p. 1. See Appendix WI-J.[^6] 1 -era Commission Report, Volume V, p. 1509.
 
-bid.[^6] 4 - 4 2 0 0 - 86 - 8 significant role in the Flight Readiness Review process. The information available on this topic suggests that this was not the case. The Committee is concerned by the invisibility of SR&QA in this area.
+bid.
+
+6 4 - 4 2 0 0 - 86 - 8 significant role in the Flight Readiness Review process. The information available on this topic suggests that this was not the case. The Committee is concerned by the invisibility of SR&QA in this area.
 
 %%page 218%%
 
@@ -4834,7 +4940,9 @@ The Committee, however, is concerned not only about the SR&QA organization at Ma
 
 Testifying before the Committee, however, Mr. Mulloy argued that both levels were informed.
 
-> Mr. VOLKMER. "Even though . . . you continued to see erosion of the O-ring, you continued to waive the launch constraint?"[^53] See also "Safety, Reliability and ality Assurance," Section VLB.Z.c(2)of this report.[^6] 4 This is documented in Section VI%Z.dl) of this report. s 6 PAS Record A09288, p. 1.
+> Mr. VOLKMER. "Even though . . . you continued to see erosion of the O-ring, you continued to waive the launch constraint?"
+
+53 See also "Safety, Reliability and ality Assurance," Section VLB.Z.c(2)of this report.[^6] 4 This is documented in Section VI%Z.dl) of this report. s 6 PAS Record A09288, p. 1.
 
 Rogers Commission Report, Volume I, p. 159.
 
@@ -4870,7 +4978,9 @@ He called me and said they had just received some word earlier that the weatherm
 
 Mr. Ebeling wanted Mr. McDonald to get some accurate predicted temperatures for the Cape so he could make some calculations to determine what could be expected of the O-rings. McDonald told him he would get the temperature data for him and call him back. Mr. Carver Kennedy, Vice President of Space Services for Thiokol, working at the Kennedy Space Center, obtained the information. Mr. McDonald then relayed the information to Mr. Ebeling in Utah. The information indicated that the temperature was to get as low as 22" in the early morning hours, probably around 6:OO a.m., and that they were predicting a temperature of about 26" at the intended time of launch, 9:38 a.m. on the 28th.s2
 
-6 9 Solid Rocket Motor Igniter and Final k m b l y Manager, Thiokol.[^8] 0 Thiokol, Robert Ebeling, Interview before the Presidential Commission on the Space Shuttle Challenger Accident, March 19, 1986,
+6 9 Solid Rocket Motor Igniter and Final k m b l y Manager, Thiokol.
+
+8 0 Thiokol, Robert Ebeling, Interview before the Presidential Commission on the Space Shuttle Challenger Accident, March 19, 1986,
 
 6 1 Rogers Commission Report, Volume f V
 
@@ -5088,7 +5198,9 @@ The Committee also reviewed tapes and transcripts of conversations that took pla
 
 > Two actions within the PLAN were intended to limit the ICE DEBRIS which potentially could cause damage to the Shuttle Vehicle during launch. The first action involved adding approximately fourteen hundred gallons of antifreeze into the overpressure water troughs. The water troughs in both SRB exhaust holes have a total capacity of 6,580 gallons. The resultant antifreeze to water ratio was calculated to be 21.3%. According to the manufacturer's specifications, solution protected against freezing down to a n ambient temperature of 16 degrees F. The second action involved the draining, where practical, of all water systems. Several systems, such as Firex [fire extinguish- ing], Deluge, and emergency shower and eyewash, were not drained. These systems were opened slightly and allowed to trickle into drains. The trickling water was found to cause drain overflows. High wind gusts then spread the water over large areas and it then froze.87
 
-Soon after the call-to-stations on 28 January, at approximately midnight, cameras on the pad allowed engineers in the Firing Room to see that the gantry was heavily encrusted with ice. Over the Engineering Support Room communications loops, the following conversation took place:[^8] 7 NASA, Kennedy Space Center, "STS-33 (51-L) IceIFrost Team Evaluation Report ESS/ RSS/MLP Deck/Pad Apron Icing," January 30, 1986, 1.
+Soon after the call-to-stations on 28 January, at approximately midnight, cameras on the pad allowed engineers in the Firing Room to see that the gantry was heavily encrusted with ice. Over the Engineering Support Room communications loops, the following conversation took place:
+
+8 7 NASA, Kennedy Space Center, "STS-33 (51-L) IceIFrost Team Evaluation Report ESS/ RSS/MLP Deck/Pad Apron Icing," January 30, 1986, 1.
 
 Conversations were recorded from the Kennedy ipace Center Operational Intercommunication System (OW, which permits members of the launch crew to discuss problems that occur during the countdown, and permits them to contact various mission support facilities around the country. The transcripts provided to the Committee do not indicate the exact times at which the referenced conversations occurred, and so the flow of conversations has been reconstructed in an attempt to provide logical consistency.
 
@@ -5304,7 +5416,9 @@ LD. Okay, but we need to have Rockwell in there where we need to ready to talk.
 
 DIRECTOR. We can get Don in and we'll do that.
 
-97 Ibid.[^9] s Bid. pp. 579-81.
+97 Ibid.
+
+9 s Bid. pp. 579-81.
 
 09 Ibid., pp. 581-82.
 
@@ -5662,7 +5776,9 @@ As for the effect of exceeding this redline, the launch commit criteria reads:
 
 '*@Ibid. 218.
 
-12' 01s &annel 245, pp. 219-20.[^1] 2 8 See Appendix VIII-L. 129 Ibid.
+12' 01s &annel 245, pp. 219-20.
+
+1 2 8 See Appendix VIII-L. 129 Ibid.
 
 130 "Launch Commit Criteria and Background," p. 5.1-4.
 
@@ -5736,7 +5852,9 @@ D. OK. You don't think we'll have any trouble getting that signed?
 
 UKN. No, as long as our pressure transducers are OK.
 
-5.1-4.[^1] 3 p bid.,
+5.1-4.
+
+1 3 p bid.,
 
 13301SCiannel245, pp. 220-21.
 
@@ -5862,9 +5980,13 @@ While there is no reason to believe that these waivers directly contributed to t
 
 %%page 251%%
 
-If the hydrogen tank was never emptied during the turnaround procedure, this would represent a violation of those criteria. Had the criteria been observed, STS-51L would have required an afternoon window on January 28, or it might have been necessary to attempt the launch on January 29. This has not been independently confirmed, however.[^145] Discussion with Carver Kennedy, Thiokol Wasatch Operations, Brigham City, Utah. Sep tember 4.1986. General Kutyna also noted this in the Commission's hearing on February 14.
+If the hydrogen tank was never emptied during the turnaround procedure, this would represent a violation of those criteria. Had the criteria been observed, STS-51L would have required an afternoon window on January 28, or it might have been necessary to attempt the launch on January 29. This has not been independently confirmed, however.
 
-Rogers Commission Report, Volume IV, p. 660).[^146] OIS Channel 245, p. 218.
+145 Discussion with Carver Kennedy, Thiokol Wasatch Operations, Brigham City, Utah. Sep tember 4.1986. General Kutyna also noted this in the Commission's hearing on February 14.
+
+Rogers Commission Report, Volume IV, p. 660).
+
+146 OIS Channel 245, p. 218.
 
 p.
 
@@ -5916,7 +6038,9 @@ Manufacturina, Refurbishment and Product Support Thiokol had extensive processin
 
 aoc:;xaticns, were t Q t a l l y adeqgate f o r 211 t h r e e incrszenzs. The one except'-on t o Llis was a f a i l u r e t o m e e t Quancicy Distance s a f e t y requirements between c a s t i n g p i t s f3r 1ncrP;nezt ITI, however, t h e r e a r e ways t o adequately ,-e t h i s aroblem. Thiokol maximized t h e ref'urbishment of C*'- c3mDonents and t\e p o t e n t i a l c o s t savings grovided by ref.z-Sish- m e s t . a.cz'ker less s i g n i f i c a n t s t r e n g t h was the enhancement
 
-- of s e p e n t assemjiy providea by t h r e e alignment p i n s thereby r e d m i n g =he assembly hours on the launch pad. Thiokol f a i l e d t o provide enough new cases and nozzles t o m e e t the launch schedule. Eight a d d i t i o n a l c a s e s and nozzles would Se r e c p i r e d t o provide assurance t h a t launch d a t e s could be met.[^3] , i c k s l str-xt.i=ed t h e development groqram so t h a t a l l mzjor c o s t s were defsrred. t o t h e l a t e s t p r a c t i c a b l e date. This - -es..? Led i n low e a r l y year funding, wnich i s a key program o j j e c r i v e . The a v a i l a b i l i t y of an operating p l a n t , with ample expezienced personnel and a proven organization which c x i d be pnased t o t h e SRM e f f o r t with minimum modification ' added considerable maturity and confidence and proved t o be c o s t effec=ive. The Board considered t h i s t o be a major s t r e n g t h f o r all three increments. A strong matrix management was evident and key l i n e organization supervisors w e r e experienced and had worked together a s a team on many successful development and production programs such a s Minuteman a d Pcseidon. Strong management p a r t i c i p a t i o n and v i s i b i l i t y i n variance a n a l y s i s was another strong f e a t u r e a s was t h e approach t o c o r r e c t i v e a c t i o n s and t h e i r e f f e c t on estimate-co-complete. Procurement Management was 'thorouqh and well planned. SRM commodity purchases would be consolidated wizh t h a t of o t h e r programs a t Wasatch, which should r e s u l t i n lower c a s t . The Procurement of major items was w e i l matcked. t o o v e r a l l SRM schedule requirements. Thiokol proposed a strong Configuration Flanagement System wnicn inclzdod thcrouc:? i d e n c i f i c a t i o n and t r a c e a b i l i t y during D D T G , p r r d u c t i o n and refurbishment. me t e n t a t i v e decision to make t h e molded and t a p e wrapped nozzle in-house was considered a s t r e n g t h i n t h i s area. It would c o n t r i b u t e t o t h e low c o s t - p e r - f l i g h t goal by using a v a i l a b l e resources, avciding s-ontract f e e s , lowering overhead r a t e s , and taking advantage of lower c o s t labor. The i n h e r e n t r i s k management aspects a l s o were considered.
+- of s e p e n t assemjiy providea by t h r e e alignment p i n s thereby r e d m i n g =he assembly hours on the launch pad. Thiokol f a i l e d t o provide enough new cases and nozzles t o m e e t the launch schedule. Eight a d d i t i o n a l c a s e s and nozzles would Se r e c p i r e d t o provide assurance t h a t launch d a t e s could be met.
+
+3 , i c k s l str-xt.i=ed t h e development groqram so t h a t a l l mzjor c o s t s were defsrred. t o t h e l a t e s t p r a c t i c a b l e date. This - -es..? Led i n low e a r l y year funding, wnich i s a key program o j j e c r i v e . The a v a i l a b i l i t y of an operating p l a n t , with ample expezienced personnel and a proven organization which c x i d be pnased t o t h e SRM e f f o r t with minimum modification ' added considerable maturity and confidence and proved t o be c o s t effec=ive. The Board considered t h i s t o be a major s t r e n g t h f o r all three increments. A strong matrix management was evident and key l i n e organization supervisors w e r e experienced and had worked together a s a team on many successful development and production programs such a s Minuteman a d Pcseidon. Strong management p a r t i c i p a t i o n and v i s i b i l i t y i n variance a n a l y s i s was another strong f e a t u r e a s was t h e approach t o c o r r e c t i v e a c t i o n s and t h e i r e f f e c t on estimate-co-complete. Procurement Management was 'thorouqh and well planned. SRM commodity purchases would be consolidated wizh t h a t of o t h e r programs a t Wasatch, which should r e s u l t i n lower c a s t . The Procurement of major items was w e i l matcked. t o o v e r a l l SRM schedule requirements. Thiokol proposed a strong Configuration Flanagement System wnicn inclzdod thcrouc:? i d e n c i f i c a t i o n and t r a c e a b i l i t y during D D T G , p r r d u c t i o n and refurbishment. me t e n t a t i v e decision to make t h e molded and t a p e wrapped nozzle in-house was considered a s t r e n g t h i n t h i s area. It would c o n t r i b u t e t o t h e low c o s t - p e r - f l i g h t goal by using a v a i l a b l e resources, avciding s-ontract f e e s , lowering overhead r a t e s , and taking advantage of lower c o s t labor. The i n h e r e n t r i s k management aspects a l s o were considered.
 
 %%page 259%%
 
@@ -6064,7 +6188,9 @@ FIBure 1
 
 %%page 270%%
 
-.[^27] 1
+.
+
+27 1
 
 %%page 272%%
 
@@ -6074,9 +6200,7 @@ IAW WmIR MIL STDI
 
 J. C. K i h l n 8 t e r I COO
 
-### J. McDoMld 1 COO
-
-- x. v. m i i n 8 1 — 111
+- J. McDoMld 1 COO x. v. m i i n 8 1 — 111
 
 t. c. IJai1.y 1 El 1 I?. 8. k I n t o 8 h 1 w3
 
@@ -8214,7 +8338,9 @@ It is 1. ortrnt to mot0 thot tho cruso rnd offoct o f tho putt rrrlor. fboro rro
 
 Thrro h a w boon f f v o ( I ) oc~urroncosduring flight whoro thors ras primary f i o l d joint "0" ring ororion. Thcro vas one car. whore tho rocondar "0" rln ras hoar affoctod rith no ororion. Tho ororion vlth tn, field folnt primary "0" rlngr is conrldorod b romo t o - b o moro critical than tho norrlo joint duo t o tho fact tgot during tho prorruro build up on tho p r i u r y "0" rin tho unprorrurirod fiold joint rocondrry rorl unroatr &a0 to f o h t rot t ion. Tho problom rlth tho unroating of tho rocondary "0" ring durlag joint rotation ha8 botn known for uito norno t h o . In ordor t o ollmlnatr thir roblom on tho FXC !iold joints capturo foaturo vas drslgnod uh!ch provontr tho ~ocondriyrorl from lifting off. Durin our dircurrlonr on this isrua rith MSFC, 8n rctlon war arsigno! for tho8 to idontlfy tho timing rrrociatod with tho unseatlag of tho rocondary '*O" ring and tho m 4 t i n # of tbo primary "0" rln durin rotation. How long it t a k a tho recondary "0" rfng to fift off during rotatlon and rbon in tho rerruro cyclo it lifts mro koy frctorr in tho dotor8inrtion of P t r criticality. Tho proront C O ~ ~ O I I SIs
 
-U ~that if tho rimmry "0" ria roatr durln ignltion, 8nd rubroquontly fri!r, tho unroatod rocondrry ''0" rfng will not rorvo Its intrndod purporo as r rodundont seal. Hovovor, rodundrnc door oxlrt during tbo Ignition cyclo, bhich tho most cri?icaI t h o . * t 1s rocommondod thrt ro rrrrn#o for WSFC t o provido an ovorrll brl0fing to you on tho SRll "0" rings, including friluro hlrtoty, currant status, and options for corrocting tho problo~r.[^6] 4 - 4 2 0 0 - 86 - 1 3
+U ~that if tho rimmry "0" ria roatr durln ignltion, 8nd rubroquontly fri!r, tho unroatod rocondrry ''0" rfng will not rorvo Its intrndod purporo as r rodundont seal. Hovovor, rodundrnc door oxlrt during tbo Ignition cyclo, bhich tho most cri?icaI t h o . * t 1s rocommondod thrt ro rrrrn#o for WSFC t o provido an ovorrll brl0fing to you on tho SRll "0" rings, including friluro hlrtoty, currant status, and options for corrocting tho problo~r.
+
+6 4 - 4 2 0 0 - 86 - 1 3
 
 %%page 378%%
 
@@ -8706,7 +8832,9 @@ AT AIlY F I E L D JOINT
 
 V
 
-0 h(' zz I 0 a v)+t -9 -?[^5] +u I- m- L
+0 h(' zz I 0 a v)+t -9 -?
+
+5 +u I- m- L
 
 4 v) +- z?
 
