@@ -1,4 +1,4 @@
-import { pageBreakContinuations, pipeline, type BodyPass } from "@rtm/ingest";
+import { pageBreakContinuations, pipeline, type BodyPass, shiftedPages, quoteRunOn } from "@rtm/ingest";
 
 /**
  * The Committee sets each Issue/Finding/Recommendation label on its own
@@ -134,6 +134,23 @@ const dropCaptionHeadings: BodyPass = {
 };
 
 /**
+ * The GPO's signature mark. Every sixteenth page of the print run carries the
+ * printing order at its foot — "64-420 0 - 86 - 5", with the signature number
+ * last, OCR'd as "1 1" or "I?" in places. It is neither text nor a page
+ * number, so nothing else removes it, and left in it ended a paragraph with
+ * the order number or opened the continuation that followed it
+ * ("64-420 0 - 86 - 9 ria relative to temperatures"). Eight in the whole
+ * report, and the shape (reportsthatmatter-nen) occurs nowhere in the prose.
+ */
+const GPO_SIGNATURE = /^\s*64-420\s+0\s*-\s*86\s*-\s*(?:\d+(?:\s\d)?|I\?)\s*$/;
+
+const dropGpoSignatures: BodyPass = {
+  name: "dropGpoSignatures",
+  stage: "body",
+  run: (lines) => lines.filter((line) => !GPO_SIGNATURE.test(line)),
+};
+
+/**
  * How this report is built. Owned by the report: every decision that shaped
  * its text is named here, and the passes it composes are library code, so a
  * fix to a shared pass reaches every report that calls it.
@@ -150,5 +167,5 @@ export default pipeline({
   volumes: [
     { path: "archive/GPO-CRPT-99hrpt1016-challenger-accident-1986.pdf", sha256: "eb04493120feaf98e1944634260a2ab8b81339308a2c665a9414853652a8560e" },
   ],
-  passes: [isolateDivisionLabels, dropCaptionHeadings, pageBreakContinuations()],
+  passes: [isolateDivisionLabels, dropCaptionHeadings, dropGpoSignatures, pageBreakContinuations(), shiftedPages(), quoteRunOn()],
 });
