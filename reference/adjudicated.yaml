@@ -1,0 +1,354 @@
+report: challenger-accident
+adjudicated: 2026-10-03
+by: "Claude (Opus 5.5) subagent, blind to the rules' call, reading the page images; every disagreement with the pipeline re-read"
+method: "Mini-reference for a report with no clean edition (38s.15; scripts/ingest/pagebreak-sample.ts, `pnpm ingest referee draft`). Population: every page turn, the last line of running text on the old page and the first on the new (pdftohtml -xml; notes, running heads and folios left out). 15 drawn by a seeded shuffle (stratum random), then 5 from each confidence tier of the layout rules at @rtm/ingest v0.21.0 (stratum tier-low/medium/high; a short tier topped up from the others). Each break was answered from the rendered page images (the foot of the old page, the head of the new one), blind to the rules' call: does a new block (paragraph, bullet, numbered paragraph, quotation, heading) start between the two lines, or does the block run on? prev and next are the running-text lines either side; when notes, a caption or a heading stand between, the verdict says whether the paragraph's text continues on the new page, and `between` names what stands between. `set` assigns the break to development or held-out (alternating within each stratum, seeded); `tier` and `rule` are the rules' call at v0.21.0 when drawn."
+seed: "38s.15"
+breaks:
+  - page: 18
+    prev: "of these kinds of  materials,  which are made  from  recipes  known "
+    next: "only by  the manufacturer  and which can be  changed  without  certi- "
+    verdict: join
+    stratum: tier-low
+    set: held-out
+    tier: high
+    rule: "R1: unfinished, next line flush"
+    between: none
+    image: true
+    drawn: "low; 2. Summary of  Casing Joint Design / only by  the manufacturer  and which can"
+    note: "Drawn prev was a heading from higher up (OCR order); real last line is 'of these kinds of materials, which are made from recipes known' running into 'only by the manufacturer'."
+  - page: 30
+    prev: "pressure  originate? Will it recur? "
+    next: "Findings "
+    verdict: split
+    stratum: random
+    set: held-out
+    tier: high
+    rule: "split: font changes across the break"
+    between: none
+    image: true
+    drawn: "high;  to  fly  more  flights?  How  did  this / 1. The Congress and the Executive  Branc"
+    note: "Drawn prev was the first line of the Issue question; real last line is 'pressure originate? Will it recur?'. New page opens with italic heading 'Findings'."
+  - page: 40
+    prev: "are fully reviewed by these disciplines. "
+    next: "Issue 4 "
+    verdict: split
+    stratum: tier-low
+    set: dev
+    tier: high
+    rule: "split: font changes across the break"
+    between: none
+    image: true
+    drawn: "low; icient  resources  to  support  adequate / tween centers, contractors and NASA Head"
+    note: "Drawn prev 47 is the Issue 2 text from the top of the page; real last line is 'are fully reviewed by these disciplines.' New page opens with heading 'Issue 4'."
+  - page: 44
+    prev: "reports as appropriate  so  that we  can  be  kept  advised  of "
+    next: "the activities of  your  Commission. At the conclusion of  the "
+    verdict: join
+    stratum: random
+    set: held-out
+    tier: high
+    rule: "R1: unfinished, next line flush"
+    between: notes
+    image: true
+    note: "Block quotation (letter) continues mid-sentence: 'kept advised of / the activities of your Commission'."
+  - page: 45
+    prev: "follows: "
+    next: "CHALLENGER  INVESTIGATION HEARINGS "
+    verdict: split
+    stratum: tier-high
+    set: dev
+    tier: high
+    rule: "split: font changes across the break"
+    between: notes
+    image: true
+    above: "during 10 days  of  hearings,  for  a total  of  41 hours.  A  compilation "
+    drawn: "high;   a total  of  41 hours.  A  compilation / CHALLENGER  INVESTIGATION HEARINGS"
+    note: "Real last line is 'follows:'. New page is a table, starting with its title 'CHALLENGER INVESTIGATION HEARINGS'."
+  - page: 60
+    prev: "increases reliability and improves checkout operations.” lC "
+    next: "Nouember 1973. -The SEB Design, Development and Verification "
+    verdict: split
+    stratum: tier-high
+    set: held-out
+    tier: high
+    rule: "split: unfinished, next line indented"
+    between: notes
+    image: true
+    note: "New indented dated chronology entry 'November 1973.--'."
+  - page: 75
+    prev: "ance, the right aft center  segment was also  reassigned  from  SRM- "
+    next: "26  to  the  SRM-25  flight  motor  set.  The  SRM-26  right aft  center "
+    verdict: join
+    stratum: tier-medium
+    set: dev
+    tier: medium
+    rule: "split: next opens on a label (layout)"
+    between: notes
+    image: true
+    note: "Hyphenated 'SRM-/26' runs across the page turn."
+  - page: 79
+    prev: "about  the  severity  of  the  SRM  seal  erosion  problem,  the  system "
+    next: "would  have  reacted  to  these  concerns  long before  the  51-L  Flight "
+    verdict: join
+    stratum: tier-high
+    set: held-out
+    tier: high
+    rule: "R1: unfinished, next line flush"
+    between: none
+    image: true
+    note: "Sentence unfinished: 'the system / would have reacted'."
+  - page: 83
+    prev: "the ET range safety package; "
+    next: "The photographic  evidence does not  support premature  deto- "
+    verdict: split
+    stratum: random
+    set: dev
+    tier: high
+    rule: "split: finished"
+    between: notes
+    image: true
+    note: "Indented list of reasons; next item 'The photographic evidence...' starts with a hanging-indent first line, just as the previous item did."
+  - page: 100
+    prev: "have “failed” until it actually broke in two.ls "
+    next: "The question  of  whether  two  “fleet  leader”  engines rep- "
+    verdict: split
+    stratum: tier-high
+    set: dev
+    tier: high
+    rule: "split: unfinished, next line indented"
+    between: notes
+    image: true
+    note: "Inside a block quotation listing Feynman's problems; the new item 'The question of whether...' starts with a first-line indent."
+  - page: 102
+    prev: "substantive  source  of  main  gear  problems.  Need  for  correction  of "
+    next: "this oversight  was most  apparent and is the simplest of  several dif- "
+    verdict: join
+    stratum: random
+    set: dev
+    tier: high
+    rule: "R1: unfinished, next line flush"
+    between: none
+    image: true
+    note: "Sentence unfinished: 'Need for correction of / this oversight'."
+  - page: 110
+    prev: "and contributed to the success of  the SSME program  unlike the ap- "
+    next: "parent complacent attitude toward  the mature solid  rocket  technol- "
+    verdict: join
+    stratum: tier-low
+    set: dev
+    tier: low
+    rule: "R1: unfinished, next line flush"
+    between: notes
+    image: true
+    drawn: "low; d. Desirable Tests Not Yet Approved / parent complacent attitude toward  the m"
+    note: "Drawn prev was a subheading from higher up; real last line 'unlike the ap-' is hyphenated into 'parent'."
+  - page: 111
+    prev: "t h a t  is  the  key  to a successful  SSME  program,  but  rather  the "
+    next: "amount of  hardware  available to  feed  the  test  stands.  The  Rogers "
+    verdict: join
+    stratum: random
+    set: held-out
+    tier: high
+    rule: "R1: unfinished, next line flush"
+    between: notes
+    image: true
+    drawn: "high; dividua s privately  noted that the SSME / amount of  hardware  available to  feed "
+    note: "OCR misordered the lines; the real last line is 'that is the key to a successful SSME program, but rather the' (id 45), continuing with 'amount of hardware'."
+  - page: 124
+    prev: "leads to safe overtime rates. "
+    next: "Discussion "
+    verdict: split
+    stratum: random
+    set: dev
+    tier: high
+    rule: "split: font changes across the break"
+    between: none
+    image: true
+    drawn: "high; leads to safe overtime rates. / In  a  press  release  dated  September "
+    note: "New page opens with italic heading 'Discussion'."
+  - page: 144
+    prev: "Shuttle must  put  payloads,  i.e.,  weight,  in  orbit.  Adding weight  to "
+    next: "the  Orbiter  reduces  the  payload  weight  that  can  be  orbited  and "
+    verdict: join
+    stratum: tier-medium
+    set: dev
+    tier: medium
+    rule: "split: finished, next line flush"
+    between: notes
+    image: true
+    note: "Sentence unfinished: 'Adding weight to / the Orbiter'."
+  - page: 147
+    prev: "programmatic  or  engineering  changes  necessary  to  enhance  the "
+    next: "safety  and  performance of flight  systems  while  controlling costs "
+    verdict: join
+    stratum: random
+    set: dev
+    tier: high
+    rule: "R1: unfinished, next line flush"
+    between: none
+    image: true
+    note: "Sentence unfinished: 'enhance the / safety and performance'."
+  - page: 154
+    prev: "risk. "
+    next: "The Committee concurs with  Dr.  Feynman’s analysis that NASA "
+    verdict: split
+    stratum: random
+    set: held-out
+    tier: high
+    rule: "split: finished"
+    between: notes
+    image: true
+    above: "last  flight  wasn’t as  bad,  therefore  it  was  a n   acceptable "
+    drawn: "high; e  the Science and Technology Committee: / The Committee concurs with  Dr.  Feynman"
+    note: "Drawn prev was the lead-in line; real last line is the end of the block quotation 'risk.135'. New page returns to prose with an indented paragraph."
+  - page: 161
+    prev: "heck of a lot  cheaper,  and  make just as good  inputs. . . "
+    next: "In  the  main,  you  like  to  keep  astronauts  around  to  fly "
+    verdict: split
+    stratum: tier-medium
+    set: held-out
+    tier: medium
+    rule: "split: finished, next line flush"
+    between: notes
+    image: true
+    sure: false
+    note: "The same Young quotation continues, but 'In the main...' is a new indented paragraph within it after '...inputs. . . .'"
+  - page: 187
+    prev: "ling  document  applies to  agency  employees. The  specific oversight "
+    next: "responsibilities  of  these  employees and  their  independent  reviews "
+    verdict: join
+    stratum: random
+    set: held-out
+    tier: high
+    rule: "R1: unfinished, next line flush"
+    between: notes
+    image: true
+    drawn: "high; am  require  improved  coordination  be- / responsibilities  of  these  employees a"
+    note: "Drawn prev was the Issue 4 question from higher up; real last line is 'The specific oversight' running into 'responsibilities of these employees'."
+  - page: 193
+    prev: "FIGURE "
+    next: "2. Upon  ignition, the primary  O-ring could  not  reseat  a t  the 300 "
+    verdict: unjudgeable
+    stratum: random
+    set: held-out
+    tier: high
+    rule: "split: next opens on a label"
+    between: figure
+    image: true
+    above: ")I; VII-1 "
+    drawn: "high; POSIT ION / 2. Upon  ignition, the primary  O-ring c"
+    note: "the old page is a full-page figure (Figure VII-1) with no running text; the new page opens with numbered paragraph \"2.\" (reviewer)"
+  - page: 199
+    prev: "rubber,  and Viton A . . that become brittle  at low  [temperature] "
+    next: "can be  used for static seal gaskets when  highly compressed a t  room "
+    verdict: join
+    stratum: random
+    set: held-out
+    tier: high
+    rule: "R1: unfinished, next line flush"
+    between: notes
+    image: true
+    note: "Quoted sentence unfinished: 'that become brittle at low [temperature] / can be used'."
+  - page: 203
+    prev: "Administrator  for  Space  Flight,  the  subject  of  which  was  case-to- "
+    next: "case and nozzle-to-case O-ring seal erosion pr0blems.~3 "
+    verdict: join
+    stratum: tier-low
+    set: held-out
+    tier: low
+    rule: "R1: unfinished, next line flush"
+    between: notes
+    image: true
+    note: "Hyphenated 'case-to-/case' runs across the page turn."
+  - page: 212
+    prev: "deg F).”55 The sheet  added:  “The brittle  point  of  Viton at a thick- "
+    next: "ness of 0.075 inches is in the neighborhood of  50 deg F. Yet, as "
+    verdict: join
+    stratum: random
+    set: dev
+    tier: high
+    rule: "R1: unfinished, next line flush"
+    between: notes
+    image: true
+    note: "Hyphenated 'thick-/ness' runs across the page turn."
+  - page: 217
+    prev: "would appear to require discussion: “the scope of the review should "
+    next: "cover  status  and  issues  in  areas  such as "
+    verdict: join
+    stratum: tier-low
+    set: dev
+    tier: low
+    rule: "R1: unfinished, next line flush"
+    between: notes
+    image: true
+    note: "Inline quotation unfinished: 'the scope of the review should / cover status'."
+  - page: 221
+    prev: "the  nozzle joint.  It was  this case  that  led  Thiokol engineers to the "
+    next: "conclusion  that  temperature  was  a  contributing  factor  to  joint "
+    verdict: join
+    stratum: random
+    set: dev
+    tier: high
+    rule: "R1: unfinished, next line flush"
+    between: notes
+    image: true
+    note: "Sentence unfinished: 'led Thiokol engineers to the / conclusion'."
+  - page: 223
+    prev: "In en- "
+    next: "gineering,  numbers are means,  not  ends,  and it ought "
+    verdict: join
+    stratum: random
+    set: dev
+    tier: high
+    rule: "R1: unfinished, next line flush"
+    between: notes
+    image: true
+    above: "renders myriad  structural successes irrelevant. "
+    drawn: "medium; myriad  structural successes irrelevant. / gineering,  numbers are means,  not  end"
+    note: "Real last line ends 'irrelevant. . . . In en-' (OCR split it off as id 46); the word is hyphenated into 'gineering' and the Petroski quotation continues."
+  - page: 234
+    prev: "dent of  Engineering.  His conclusion a t  that time was that the Shut- "
+    next: "tle  should  not  fly  outside  Thiokol’s database;  that,  is,  that  the 0- "
+    verdict: join
+    stratum: tier-high
+    set: held-out
+    tier: high
+    rule: "R1: unfinished, next line flush"
+    between: notes
+    image: true
+    note: "Hyphenated 'Shut-/tle' runs across the page turn."
+  - page: 250
+    prev: "ice team discovered that the situation had badly deteriorated. "
+    next: "The  results  of  the  meeting  were  reported  back  to  Rockwell  over "
+    verdict: split
+    stratum: tier-medium
+    set: held-out
+    tier: medium
+    rule: "split: finished, next line flush"
+    between: notes
+    image: true
+    note: "New indented paragraph 'The results of the meeting...' follows a finished paragraph."
+  - page: 261
+    prev: "confirmed, however. "
+    next: "DEFINITIONS OF TERMS AND ACRONYMS "
+    verdict: split
+    stratum: random
+    set: dev
+    tier: high
+    rule: "split: finished"
+    between: notes
+    image: true
+    drawn: "high; l S a s ( 7 r  245, 218. Volume N. 660). / DEFINITIONS OF TERMS AND ACRONYMS"
+    note: "Real last running line is 'confirmed, however.' (id 14); the drawn prev was a footnote. PDF page 260 is blank, and the new page opens with chapter heading 'IX. DEFINITIONS OF TERMS AND ACRONYMS'."
+  - page: 262
+    prev: "MER-Mission  Evaluation Room. "
+    next: "MLP-Mobile  Launch Platform. "
+    verdict: split
+    stratum: tier-medium
+    set: held-out
+    tier: medium
+    rule: "split: finished, next line flush"
+    between: none
+    image: true
+    drawn: "medium; HDP-Holddown O S ~ . / MLP-Mobile  Launch Platform."
+    note: "Glossary entries; the drawn prev was a misplaced OCR line. Real last entry is 'MER-Mission Evaluation Room.', and the new entry is 'MLP-Mobile Launch Platform.'"
