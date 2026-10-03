@@ -1,4 +1,4 @@
-import { layoutPageJoins, quoteListRunOns, pageBreakContinuations, pipeline, type BodyPass, shiftedPages, quoteRunOn } from "@rtm/ingest";
+import { layoutPageJoins, quoteListRunOns, pageBreakContinuations, pipeline, type BodyPass, shiftedPages, quoteRunOn, visionStructure } from "@rtm/ingest";
 
 /**
  * The Committee sets each Issue/Finding/Recommendation label on its own
@@ -173,5 +173,15 @@ export default pipeline({
     // layout says it runs on: no first-line indent, same face (reportsthatmatter-38s.10).
     // A scan: its OCR layer sizes consecutive lines a point apart.
     layoutPageJoins({ scanned: true }),
-    quoteListRunOns(), isolateDivisionLabels, dropCaptionHeadings, dropGpoSignatures, pageBreakContinuations(), shiftedPages(), quoteRunOn()],
+    quoteListRunOns(), isolateDivisionLabels, dropCaptionHeadings, dropGpoSignatures, pageBreakContinuations(), shiftedPages(), quoteRunOn(),
+    // Block structure from a vision model's reading of the page images (granite-docling, committed in
+    // reference/vision/ by reportsthatmatter-kyj3), on the pages where it agrees with this scan's own
+    // text layer: at least 80% of a page's blocks verified word for word (lenient setting), no notes or
+    // section headings lost. The words stay the text layer's; every other page keeps the pipeline's
+    // reading (reportsthatmatter-jsqw).
+    visionStructure({
+      dir: import.meta.dirname,
+      pack: { path: "reference/vision/doctags.jsonl.gz", sha256: "055e487376badb44899054f5507e64ba58eb51caf3e12f11b57fafa721a4aa61" },
+    }),
+  ],
 });

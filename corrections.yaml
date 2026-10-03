@@ -373,6 +373,12 @@ corrections:
     replace: "24 Ibid., p. H-13. 25 Ibid., Chart 30 (p. H-18). 26 Ibid., p. H-42."
     reason: footnote 25 definition; 5 read as s; checked against the scan
     added: 2026-09-18
+  - id: c-0059
+    where: { printed: 21 }
+    find: "3. NAJA should stop routine cannibalization"
+    replace: "3. NASA should stop routine cannibalization"
+    reason: a speck on the S read as J; checked against the scan (PDF p.29, Recommendation 3); golden page p.29 (reportsthatmatter-jsqw)
+    added: 2026-10-03
 
 # Suspects looked at against the scan and judged correct as they stand. They
 # leave the review queue for good; the entry stays here as the record of who
