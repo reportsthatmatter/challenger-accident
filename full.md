@@ -2534,7 +2534,7 @@ The Shuttle SRB has flown 25 flights with one unrelated failure. In testimony be
 
 Full X-ray inspection was conducted on all SRM segments used in the demonstration and qualification programs and the first five Shuttle flights. Full X-ray inspection of these early motors was required as part of the development and verification plan, and was scheduled for reassessment after the flight of STS-5. During this period 24 motors were fully X-rayed. Three demonstration center motor segments exhibited excessive voids in their propellant, but only one segment was rejected. Studies established the voids were due to low casting rate and the method of dispersing propellant into the segments. As a result controls were implemented and verified by X-ray inspection. It was also discovered during this time that an SRM segment of the size required for the Shuttle could contain 12,000 voids and be fired successfully without threat to the mission, vehicle or crew.
 
-After evaluation of data from the SRM segments used up through STS-5 and data from military Solid Rocket Motors, NASA's confidence in the SRM production process was such that the SRM X-ray policy was changed. A cost-benefit analysis also contributed to this decision. Beginning with STS-6, X-ray inspection was only conducted on all aft segments in the propellant hand-trimmed area and the segment produced following the identification of a process anomaly, process change, or design change. X-ray inspection of the aft segments in the propellant hand-trimmed area was continued because data indicated that only 3 percent of a segment's insulation had to be bonded, particularly the ends, in order of the segment to burn properly and safely. In October of 1985 NASA implemented a recommendation from the Aerospace Advisory Panel to change its X-ray policy to include random inspection of one SRM segment per month. Because of a SRM production lead
+After evaluation of data from the SRM segments used up through STS-5 and data from military Solid Rocket Motors, NASA's confidence in the SRM production process was such that the SRM X-ray policy was changed. A cost-benefit analysis also contributed to this decision. Beginning with STS-6, X-ray inspection was only conducted on all aft segments in the propellant hand-trimmed area and the segment produced following the identification of a process anomaly, process change, or design change. X-ray inspection of the aft segments in the propellant hand-trimmed area was continued because data indicated that only 3 percent of a segment's insulation had to be bonded, particularly the ends, in order of the segment to burn properly and safely. In October of 1985 NASA implemented a recommendation from the Aerospace Advisory Panel to change its X-ray policy to include random inspection of one SRM segment per month. Because of a SRM production lead time of approximately eight months, no SRM segment inspected under this new policy was flown before the 51-L accident.[^54]
 
 4 8 Rogers Commission Report, Volume I, p. 121.
 
@@ -2542,7 +2542,7 @@ JODavid E. Sanger, "Flaw in Titan's Boosters is Identified," the New York Times,
 
 5 1 Isikoff, pp. A-1, A-20.
 
-5 2 Sanger, p. A-23 time of approximately eight months, no SRM segment inspected under this new policy was flown before the 51-L accident.[^54]
+5 2 Sanger, p. A-23
 
 %%page 107%%
 
@@ -3364,7 +3364,7 @@ NASA should make every reasonable effort to record meetings where key decisions 
 
 #### Discussion
 
-The Flight Readiness Review process encompasses a series of reviews beginning with contractor reviews of their systems, and going through the Project Management review (Level III), and NSTS Program Management review (the "Pre-FRR'), and culmi- nating in the Level I (Headquarters) review which is referred to as "the" FRR. One additional formal review takes place 24 hours before launch and is called the "L-1" review. This is conducted by the Mission Management Team (MMT) which is appointed by the Associate Administrator for Space Flight at the time he calls for the FRR. All open work and action items identified at the FRR are closed out at the L-1. In addition to conducting the L-1 review, the MMT functions as a technical advisory body for the Program Manager and is on call beginning 48 hours before the launch until after the mission is completed and the Orbiter is safed.
+The Flight Readiness Review process encompasses a series of reviews beginning with contractor reviews of their systems, and going through the Project Management review (Level III), and NSTS Program Management review (the "Pre-FRR'), and culminating in the Level I (Headquarters) review which is referred to as "the" FRR. One additional formal review takes place 24 hours before launch and is called the "L-1" review. This is conducted by the Mission Management Team (MMT) which is appointed by the Associate Administrator for Space Flight at the time he calls for the FRR. All open work and action items identified at the FRR are closed out at the L-1. In addition to conducting the L-1 review, the MMT functions as a technical advisory body for the Program Manager and is on call beginning 48 hours before the launch until after the mission is completed and the Orbiter is safed.
 
 Rogers Commission Report, Volume 11, pp. 522-23.
 
@@ -4308,7 +4308,7 @@ In a memo from Larry Mulloy to Bob Lindstrom, Director, MSFC Shuttle Projects Of
 
 On a 0.280 inch diameter O-ring a 7.54 percent squeeze would be equal to a compression distance of 0.021 inches.22
 
-On July 17, 1985, Irv Davids, Manager of the Solid Rocket Booster Program at NASA Headquarters, sent a memo to the Associate Administrator for Space Flight, the subject of which was case-to- case and nozzle-to-case O-ring seal erosion problems.23 Davids sent copies to Messrs. Weeks, Hamby, Herrington and Winterhalter.23a In the memo it was noted that there has been twelve instances of primary O-ring erosion during Shuttle flights. In addition, in one specific case there had also been erosion of the secondary O-ring seal. There were also two primary O-ring seals that were heat affected without erosion and two cases in which soot blewby the primary seals. In this memo it was noted that the prime suspect for the cause of erosion on the primary O-ring seals was the type of putty being used. It was Thiokol's position that during assembly leak check, or ignition, a hole could be formed through the putty which then initiated O-ring erosion due to a "jetting effect." It was even mentioned in this memo that Thiokol was seriously considering the deletion of putty on the QM-5 nozzle/case joint since they believed the putty was the prime cause of the erosion. Davids, however, had reservations about deleting the putty because he recognized the significance of the QM-5 firing in qualifying the FWC (Filament Wound Case) for flight.
+On July 17, 1985, Irv Davids, Manager of the Solid Rocket Booster Program at NASA Headquarters, sent a memo to the Associate Administrator for Space Flight, the subject of which was case-to-case and nozzle-to-case O-ring seal erosion problems.23 Davids sent copies to Messrs. Weeks, Hamby, Herrington and Winterhalter.23a In the memo it was noted that there has been twelve instances of primary O-ring erosion during Shuttle flights. In addition, in one specific case there had also been erosion of the secondary O-ring seal. There were also two primary O-ring seals that were heat affected without erosion and two cases in which soot blewby the primary seals. In this memo it was noted that the prime suspect for the cause of erosion on the primary O-ring seals was the type of putty being used. It was Thiokol's position that during assembly leak check, or ignition, a hole could be formed through the putty which then initiated O-ring erosion due to a "jetting effect." It was even mentioned in this memo that Thiokol was seriously considering the deletion of putty on the QM-5 nozzle/case joint since they believed the putty was the prime cause of the erosion. Davids, however, had reservations about deleting the putty because he recognized the significance of the QM-5 firing in qualifying the FWC (Filament Wound Case) for flight.
 
 Thiokol, Philip Shadlesky, "Performance Characteristics of the SRM O-ring Assembly Test Plan". TWR-14336. dated March 1984. D. 1. ~ *O fiiokol S. Rc&ers, "Significant Problem Report DR4-5/35 5 Day Re rt O-ring Erosion at Nozzle/Ah Segment Joint of SRM 11A (STS 41-BIMiasion 4143, &-i4370-1, May 7, 1984, pp. 1-2.
 
@@ -6398,11 +6398,11 @@ w b. lbrrlo C I x d msIng/ACt S-nt Boss Joint - Perfom t e i t s with f u l l m 
 
 c. I s n I t n Mapter/Caso forward Srgwnt Boss JoInt - P r f o t n tests r I t h f u l l r t r l o h r d u r o to reccrpllsh t b l objUtlvos ln Ita 8 . above. T a t s t o d r t m l n e p m s u r e v r l u r r q u f r d t o posltion the s r l i s not r m l r e d . I t 1s hI9hly d r s l r r b l e to c m p t r t e thoso tests prior to strcktng o f STS-12. Questions concerning t h i s r a o r r n d u should be referred to Ic. Leon Ray, 3-3809.
 
-cc : SMZ/IC. U w r S M Z / l t . Denton EEll/Mr. mtn E M l / l k . &Cool EPZl/n. W a r t y EPZS/Mr. Powers E P Z W l k . Ray
+cc : SMZ/IC. U w r S M Z / l t . Denton EEll/Mr. mtn E M l / l k . &Cool EPZl/n. W a r t y EPZS/Mr. Powers E P Z W l k . Ray a r c h 7 , 1485
 
 %%page 277%%
 
-V-E a r c h 7 , 1485
+V-E
 
 TOY SAUl/nr. n u l l o y THRU: EEllNr. H o r t o n k
 
@@ -8308,11 +8308,11 @@ A Type I specimen is used in Methods A and B. 5.5.2 Care shall be taken during h
 
 'Type 2 specimen is used in Method 8. placing of the plied test specimen in the test
 
-5.2.2 When cutting the standard specimen, fixture by keeping the circular faces parallel and the circular die having the required inside dimen- at right angles to the axis of the cylinder. sions specified in 5.2.1 shall be rotated in a drill 5.5.3 The results obtained on plied specimens press or similar device and lubricated by means may be different from those obtained using solid of a soap solution. A minimum distance of I3 specimens and the results may be variable, par- mm (0.51 in.) shall be maintained between the ticularly if air is trapped between disks. cutting edge of the die and the edge of the slab. 5.5.4 The results obtained on the specimens The cutting pressure shall be as light as possible prepared hy one of the methods may be com- to minimize cupping of the put edges. The dies pared only to those prepared by the same shall be maintained carefully so that the cutting method. edges are sharp and free of nicks. 5.6 For routine or product specification test37 1
+5.2.2 When cutting the standard specimen, fixture by keeping the circular faces parallel and the circular die having the required inside dimen- at right angles to the axis of the cylinder. sions specified in 5.2.1 shall be rotated in a drill 5.5.3 The results obtained on plied specimens press or similar device and lubricated by means may be different from those obtained using solid of a soap solution. A minimum distance of I3 specimens and the results may be variable, par- mm (0.51 in.) shall be maintained between the ticularly if air is trapped between disks. cutting edge of the die and the edge of the slab. 5.5.4 The results obtained on the specimens The cutting pressure shall be as light as possible prepared hy one of the methods may be com- to minimize cupping of the put edges. The dies pared only to those prepared by the same shall be maintained carefully so that the cutting method. edges are sharp and free of nicks. 5.6 For routine or product specification test37 1 ing, it is sometimes more convenient to prepare 7.2. I . I The spring shall be calibrated at room specimens of a different size or shape, or both. * temperature 23 5'C (73.4 k 9°F) by applying When such specimens are used, the results should successive increments of force not exceeding 250 be compared only with those obtained from spec- N (50 Ibf) and measuring the corresponding de- imens of similar size and shape and not with flection to the nearest 0.2 mm (0.01 in.). The those obtained with standard specimen. For such curve obtained by plotting the forces against the cases, the product specification should define the corresponding deflections shall have a slope of specimen as to the size and shape. If suitable 70 f 3.5 kN/m (400 f 20 Ibf/in.) at 1.8 kN (400 specimens cannot be prepared from the product, Ibf). The slope is obtained by dividing the two the test method and allowable limits must be forces above and below I .8 kN by the difference agreed upon between the producer and the pur- between the corresponding deflections. chaser. 7.2. I .2 \The original dimensions of the spring shall not change due to fatigue by more than 0.3 6. Conditioning mm (0.01 in.) after it has been mounted in the
 
 %%page 3#2%%
 
-D395 ing, it is sometimes more convenient to prepare 7.2. I . I The spring shall be calibrated at room specimens of a different size or shape, or both. * temperature 23 5'C (73.4 k 9°F) by applying When such specimens are used, the results should successive increments of force not exceeding 250 be compared only with those obtained from spec- N (50 Ibf) and measuring the corresponding de- imens of similar size and shape and not with flection to the nearest 0.2 mm (0.01 in.). The those obtained with standard specimen. For such curve obtained by plotting the forces against the cases, the product specification should define the corresponding deflections shall have a slope of specimen as to the size and shape. If suitable 70 f 3.5 kN/m (400 f 20 Ibf/in.) at 1.8 kN (400 specimens cannot be prepared from the product, Ibf). The slope is obtained by dividing the two the test method and allowable limits must be forces above and below I .8 kN by the difference agreed upon between the producer and the pur- between the corresponding deflections. chaser. 7.2. I .2 \The original dimensions of the spring shall not change due to fatigue by more than 0.3 6. Conditioning mm (0.01 in.) after it has been mounted in the
+D395
 
 6.1 Store all vulcanized test specimens or compression device, compressed under a force of product samples to be tested at least 24 h but not 1.8 kN (400 lbf), and heated in the oven for one more than 60 days. When the date of vulcaniza- week at 70'C f 2'C ( I 58 z t 3.6'F). In ordinary tion is not known, make tests within 60 days use, a weekly check of the dimensions shall show after delivery by the producer of the article r e g no greater change than this over a period of 1 resented by the specimen. year.
 
@@ -8348,11 +8348,11 @@ METHOD A-COMPRESSION SET UNDER vision shall be made by the use of bolts and nuts
 
 mosphere controlled to 50 5 % relative humid- 1 I .3 Compression Device, consisting of two or ity. more flat steel plates between the parallel faces
 
-8.5 h i n d Thickness Measuremenl-After the of which the specimens may be compressed as rest period, measure the final thickness at the shown in Fig. 3. Steel spacers for the required center of the specimen in accordance with 8. I . percentage of compression given in 12.2 shall be
+8.5 h i n d Thickness Measuremenl-After the of which the specimens may be compressed as rest period, measure the final thickness at the shown in Fig. 3. Steel spacers for the required center of the specimen in accordance with 8. I . percentage of compression given in 12.2 shall be placed on each side of the rubber specimens to 2 h after completion of the assembly and allow control their thickness while compressed. The it to remain there for the required test period in steel surfaces contacting the rubber specimens dry air at the test temperature selected. At the shall be ground to a maximum roughness of 250 end of the test period, take the device from the pm (10 pin.) and then chromium plated and oven and remove the test specimen immediately polished. and allow them to cool.
 
 %%page 5#2%%
 
-D395 placed on each side of the rubber specimens to 2 h after completion of the assembly and allow control their thickness while compressed. The it to remain there for the required test period in steel surfaces contacting the rubber specimens dry air at the test temperature selected. At the shall be ground to a maximum roughness of 250 end of the test period, take the device from the pm (10 pin.) and then chromium plated and oven and remove the test specimen immediately polished. and allow them to cool.
+D395
 
 I 1.4 Oven, conforming to the specification for 12.4 Cooling Period-While cooling, allow a Type IIB laboratory oven given in Specification the test specimen to rest on a poor thermally E 145. conducting surface, such as wood, for 30 min
 
@@ -8672,11 +8672,11 @@ h. Procedures
 
 TNs procedure i s effective on date of l u u .
 
-R& t. LIndrtrorn Y a q e r , Shuttle Projects
+R& t. LIndrtrorn Y a q e r , Shuttle Projects ca S A O I I b . idvlngood SAOl/Mr. Askew S h O b / M r . Harden S A I IIMr. Lombudo SAJIIMr. Brldwrll SA1IIMr. Mulloy SAYIIMI. Taylor Sh711Mr. Bore S M I/*. ioiler LhOIIMr. Kingsbury EAOIIDr. T h m m EEOlIMr. Hardy EEI IIMr. Horron EC21IYr. Thomaron EE3IIMr. Nichols tE51fMr. Goerr ECOIIMr. Brook LGO3IMr. B u m EBOIIMr. Bradford EHOIIYr. Jchwingbmer EfOllDr. Deader EPOIIMr. McCool EPC3IMr. W o r l d EL0 IIMr. Hop- E W 1lDr. McDonough ElOl/Yr. Taylor PWIIMr. Manhall TMI/Mr. Odom NAOlIMr. ThanU JAOIIMr. born). DAOIILZ. L u a s DmllMr. Lee DEOllMr. B e h y DROlIMr. S n n d
 
 %%page 392%%
 
-SOP 8000.1 ca S A O I I b . idvlngood SAOl/Mr. Askew S h O b / M r . Harden S A I IIMr. Lombudo SAJIIMr. Brldwrll SA1IIMr. Mulloy SAYIIMI. Taylor Sh711Mr. Bore S M I/*. ioiler LhOIIMr. Kingsbury EAOIIDr. T h m m EEOlIMr. Hardy EEI IIMr. Horron EC21IYr. Thomaron EE3IIMr. Nichols tE51fMr. Goerr ECOIIMr. Brook LGO3IMr. B u m EBOIIMr. Bradford EHOIIYr. Jchwingbmer EfOllDr. Deader EPOIIMr. McCool EPC3IMr. W o r l d EL0 IIMr. Hop- E W 1lDr. McDonough ElOl/Yr. Taylor PWIIMr. Manhall TMI/Mr. Odom NAOlIMr. ThanU JAOIIMr. born). DAOIILZ. L u a s DmllMr. Lee DEOllMr. B e h y DROlIMr. S n n d
+SOP 8000.1
 
 > . -0 n
 
@@ -8926,7 +8926,7 @@ TO O-RING.
 
 ## SRM-23A ( L H ) HAD NO GAS SRM PERFORMANCE 'ACCEPTABLE NO PATHS THROUGH THE PUTTY
 
-AT AIlY F I E L D JOINT
+AT AIlY F I E L D JOINT a v)+t -9 -?
 
 ## (SEE SKETCH ON SUBSEOUENT CHART
 
@@ -8936,7 +8936,7 @@ AT AIlY F I E L D JOINT
 
 V
 
-0 h(' zz I 0 a v)+t -9 -?
+0 h(' zz I 0
 
 5 +u I- m- L
 
