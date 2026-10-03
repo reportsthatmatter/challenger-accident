@@ -1,0 +1,15 @@
+Relative to this last point, the NASA requirement documents state that: "The Shuttle Flight Vehicle design shall satisfy the natural environmental design requirements . . . , including air temperature extremes of 20°F to 103°F at "Ferry Sites" and 31°F to 99°F for "Vertical Flight". Also, the requirement documents state that: "Each element of the Shuttle Flight Vehicle shall be capable of withstanding the induced environments imposed during transportation, ground operations, handling and flight operations . . . , including induced Solid Rocket Booster surface temperatures as low as 25°F and induced temperatures as low as 21°F at the point where the aft strut attaches the Solid Rocket Boosters to the External Tank. (Excerpts documenting these temperature requirements are contained in a briefing given by NASA to Joseph Sutter of the Rogers Commission on May 19, 1986, which is reproduced in Appendix VI-A-4 of this report.)
+
+Of principal concern to the Committee is the fact that none of the extensive systems of checks and balances within the Space Shuttle program discovered the lack of adequate testing and certification of the Solid Rocket Motor. This failure of the management and review system indicates to the Committee that other elements of Shuttle flight hardware or other subelements of the Solid Rocket Motor may also be inadequately understood or certified. This will obviously require NASA and its contractors to conduct a careful review of all the testing and certification efforts that have been conducted to date for each element of Space Shuttle flight hardware.
+
+A parallel concern of the Committee is that NASA does not yet know how or why this break-down occurred in this comprehensive system of reviews, checks, and balances. Without such an understanding, the teams that will now be conducting the required reviews of each element of flight hardware will be somewhat disadvantaged because they cannot be certain that they are "asking the right questions" or "looking for the right things." Further, without an understanding of how and why the existing management and control system broke down, NASA will not be able to make the necessary managerial and procedural changes required to be confident that this problem will not reoccur in the future.
+
+## Issue 2
+
+Does the Space Shuttle Main Engine have adequate operating margins, and is the "fleet leader" concept adequate to ensure safe operation?
+
+## Findings
+
+1. The Space Shuttle Main Engine is an impressive technological achievement. However, it also is one of the higher risk elements of the Space Shuttle system. Anomalous component performance or premature engine shutdown could prove catastrophic to the Space Shuttle and its crew.
+
+2. Some NASA officials familiar with the Space Shuttle Main Engine believe that it should be operated at a throttle setting of 109 percent only in an emergency; others believe the engine could be safely operated at 109 percent on a routine basis.

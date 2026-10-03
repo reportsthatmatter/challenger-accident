@@ -1,0 +1,31 @@
+December 11, 1985. Thiokol management holds a Solid Rocket Motor Flight Readiness Review for STS 51-L. No discussion of ring anomalies occurs.
+
+December 17, 1985. Larry Wear holds a Flight 51-L Solid Rocket Motor Project Flight Readiness Review at Marshall Space Flight Center.
+
+January 3, 1986. The Level III Flight Readiness Review for Flight 51-L takes place at Marshall. SRB recovery system changes are the primary point of discussion.
+
+January 9, 1986. Larry Mulloy makes his Flight 51-L presentation at the MSFC Shuttle Projects Office Readiness Review. SRB parachutes are discussed. O-rings are not.
+
+January 12, 1986. STS 61-C experienced nozzle Joint O-ring erosion and blow-by and a field joint O-ring was eroded 0.011 inches over an 8 inch span at the 162 degree location. There was blow-by past the primary O-ring in the left-hand nozzle joint between the 255 degree and 335 degree locations. The primary O-ring in the left SRM aft field joint was eroded 0.004 inches over a 3.5 inch span at the 154 degree location.
+
+January 13, 1986. Marshall Space Flight Center 51-L Readiness Review. Mulloy again does not mention O-ring anomalies.
+
+January 14, 1986. Mulloy's Flight 51-L presentation to the Level II Flight Readiness Review indicates there were "no 61-C flight anomalies."
+
+January 15, 1986. During the STS 51-L Level I Flight Readiness Review, Mr. Mulloy noted that there were "No 61-C Flight Anomalies," and that there were "No major problems or issues."
+
+January 25, 1986. According to Mr. McDonald, Mr. Mulloy mentioned that 61-C had suffered O-ring erosion "within experience base" at the STS 51-L L-1 Flight Readiness Review.
+
+January 26, 1986. The Orlando Sentinel printed an article titled, "Bitter freeze is expected to clobber state Tuesday."[^32a]
+
+January 27, 1986. Thiokol and Marshall personnel spend approximately three hours in a teleconference debating the effect that predicted low temperatures will have on the performance of the O-ring seals.
+
+January 28, 1986. The ice/frost evaluation team visits Launch Complex 39B at 1:45 a.m., 6:45 a.m. and 10:30 a.m. Meeting with Rockwell personnel concluded with a decision to continue the launch countdown.
+
+January 28, 1986. STS 51-L was launched at approximately 11:38 a.m. Eastern Standard Time.
+
+## 2. SUMMARY OF CASING JOINT DESIGN
+
+## Issue
+
+Why did the aft field joint between the steel containers that hold the Solid Rocket Motor propellant fail to contain the burning gases of the propellant during lift-off and flight operations?

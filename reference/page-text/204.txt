@@ -1,0 +1,19 @@
+ary O-ring lift-off during pressurization. The letter concerned the situation wherein one O-ring might not seal subsequent to joint rotation. The letter stated:
+
+Because of recent experiences of flight and ground test motors having increasing incidences of putty blow-holes and the associated burning of primary O-ring, it would seem prudent for us to attempt to assure that the secondary O-ring is capable of sealing during the entire SRM burn. [^27]
+
+The letter requested an assessment of the possibility of lift-off of the secondary O-ring.
+
+In August of 1985 Jim Thomas, MSFC's Deputy SRM Element Manager, wrote a memo for Mr. Mulloy to Mr. Hamby at NASA Headquarters, which was apparently never signed or sent. The subject of the memo was SRM Joint/O-ring Erosion. The memo stated:
+
+On July 11, 1985, you and Irv Davids were briefed by Jim Thomas of my office on the history of the effort under way to resolve the issues and concerns of the above subject.
+
+The memo than went on to discuss a number of questions.
+
+1. What would happen if the secondary seal lifted off the mating surface during motor pressurization, and, also, how long it would take for the seal to return to a position where contact was made? The answer to that question stated that bench test data indicated that the O-ring resiliency, that is, its capability to fill the gap between the tang and the clevis, was a function of temperature and the rate at which the gap opened.
+
+The memo stated, "at 100 deg. F the O-ring maintained contact. At 75 deg. F the O-ring lost contact for 2.4 seconds. At 50 deg. F the O-ring did not reestablish contact in 10 minutes at which time the test was terminated." The memo then stated, "the conclusion is that secondary sealing capability in the SRM field joint cannot be guaranteed." [^28]
+
+2. Another question concerned whether or not the secondary O-ring would seal in sufficient time to prevent joint leakage if the primary O-ring had not sealed. The answer to that question was as follows:
+
+MTI has no reason to suspect that the primary seal would ever fail after pressure equilibrium is reached, i.e., after the ignition transient. If the primary O-ring were to fail from 0 to 170 milliseconds, there is a very high probability that the secondary O-ring would hold pressure since the case has not expanded appreciable at this point. If the primary seal were to fail from 170 to 330 milliseconds, the probability of the secondary seal holding is reduced. From 330 to 600 milliseconds the chance of the secondary seal

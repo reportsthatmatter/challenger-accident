@@ -1,0 +1,21 @@
+through. I don't think it is possible to build such a system.[^42]
+
+Specifically, the Committee finds that the Space Shuttle System was not designed to survive a failure of the Solid Rocket Boosters during the first 2 minutes of flight; that is, until all the solid rocket propellant fuel has been expended. There were no corrective actions that could have been taken once the boosters ignited. The Challenger was not equipped with any means for separation during the first two minutes of flight. In addition, the crew did not have any means to escape from the Orbiter during this first-stage ascent. Neither the Mission Control Team nor the 51-L crew had any warning of impending disaster. Even if there had been warning, there were no actions that could have been taken to save the crew.[^43] (The issue of launch abort and crew escape is discussed in Section VI.A.2.d.)
+
+Joseph P. Kerwin of NASA's Johnson Space Center summarized the circumstances in a memo to Rear Admiral Richard H. Truly, Associate Administrator for Space Flight. The undated memo read as follows:
+
+Dear Admiral TRULY: The search for wreckage of the Challenger crew cabin has been completed. A team of engineers and scientists has analyzed the wreckage and all other available evidence in an attempt to determine the cause of death of the Challenger crew. This letter is to report to you the results of this effort.
+
+The findings are inconclusive. The impact of the crew compartment with the ocean surface was so violent that evidence of damage occurring in the seconds which followed the explosion was masked. Our final conclusions are:
+
+The cause of death of the Challenger astronauts cannot be positively determined;
+
+The forces to which the crew were exposed during Orbiter breakup were probably not sufficient to cause death or serious injury; and
+
+The crew possibly, but not certainly, lost consciousness in the seconds following Orbiter breakup due to in-flight loss of crew module pressure.
+
+Our inspection and analyses revealed certain facts which support the above conclusions, and these are related below:
+
+The forces on the Orbiter at breakup were probably too low to cause death or serious injury to the crew but were sufficient to separate the crew compartment from the forward fuselage, cargo bay, nose cone, and forward reaction control compartment. The forces applied to the Orbiter to cause such destruction clearly exceed its design limits.
+
+The data available to estimate the magnitude and direction of these forces included ground photographs and measurements from onboard accelerometers, which were lost two-tenths of a second after vehicle breakup.

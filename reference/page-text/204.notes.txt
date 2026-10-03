@@ -1,0 +1,2 @@
+[^27]: NASA, Larry Wear, "SRM Field Joint Secondary O-ring Lift-Off During Pressurization," SA 41-326-85, August 2, 1985.
+[^28]: Engineering consultants to the Committee have serious questions as to how this test relates to actual O-ring performance in flight hardware.

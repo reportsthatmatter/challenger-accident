@@ -1,0 +1,23 @@
+December 29, 1983 SOP 8000.1 Shuttle Projects Office
+
+Subject: SHUTTLE PROJECT FLIGHT READINESS REVIEW
+
+## 1. PURPOSE
+
+This procedure defines the responsibilities, requirements, and procedures to insure effective planning for and conduct of the Shuttle Projects Flight Readiness Review.
+
+## 2. SCOPE
+
+This procedure is applicable to all STS missions.
+
+## 3. POLICY
+
+a. It is the policy of the Manager, Shuttle Projects to make an assessment of flight readiness of the Shuttle projects prior to each flight. This will be accomplished by a consolidated Flight Readiness Review (FRR) of all MSFC Shuttle Projects Office elements necessary for safe and successful conduct of the launch, flight, and post-landing operations. The review will be supported by all MSFC organizations which participate in MSFC Shuttle Projects activities.
+
+b. The Shuttle Project FRR will be preceded by separate detailed readiness reviews (pre-FRR's) of individual elements by the prime contractor's and the element project offices, under the cognizance of the responsible Managers.
+
+## 4. RESPONSIBILITIES
+
+a. The conduct of the Shuttle Projects FRR is the responsibility of the Manager, Shuttle Projects or his designated representative.
+
+b. The Program Plans and Management Systems Office is responsible for FRR scheduling, planning and requirements, coordinating the FRR agenda, FRR action items and action item closeouts, and preparing the readiness assessment and maintenance of all records associated therewith. The Program Plans and Management Systems Office will be the focal point with the JSC Level II National Space Transportation System (NSTS) Program Manager and the Level I FRR under the cognizance of the Director, Space Shuttle Operations.
