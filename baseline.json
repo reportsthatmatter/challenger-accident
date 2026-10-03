@@ -1,11 +1,11 @@
 {
-  "markdownSha": "c76b41e08fb93b58472789c881086280eab3413f5f3380613892b356e14f0754",
-  "words": 151092,
+  "markdownSha": "867b23f6c5f71b344078f831413578c3600f2fe8a943b489688bc617c8d4efd2",
+  "words": 151098,
   "blocks": {
     "heading": 499,
-    "quote": 744,
+    "quote": 745,
     "list": 98,
-    "paragraph": 2801
+    "paragraph": 2795
   },
   "headings": [
     "INVESTIGATION OF THE CHALLENGER ACCIDENT",
@@ -509,6 +509,6 @@
     "Notes"
   ],
   "footnotes": 264,
-  "pageMarkers": 395,
+  "pageMarkers": 421,
   "poppler": "26.08.0"
 }

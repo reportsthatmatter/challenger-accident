@@ -1,4 +1,4 @@
-import { layoutPageJoins, quoteListRunOns, pageBreakContinuations, pipeline, type BodyPass, shiftedPages, quoteRunOn, visionStructure } from "@rtm/ingest";
+import { layoutPageJoins, quoteListRunOns, pageBreakContinuations, pipeline, type BodyPass, shiftedPages, quoteRunOn, visionStructure, parenFolios, foliosInStep } from "@rtm/ingest";
 
 /**
  * The Committee sets each Issue/Finding/Recommendation label on its own
@@ -174,6 +174,11 @@ export default pipeline({
     // A scan: its OCR layer sizes consecutive lines a point apart.
     layoutPageJoins({ scanned: true }),
     quoteListRunOns(), isolateDivisionLabels, dropCaptionHeadings, dropGpoSignatures, pageBreakContinuations(), shiftedPages(), quoteRunOn(),
+    // Folios: "(3)" at the foot of the Conclusions and chapter openers is the page's number, and the OCR'd
+    // figure and test-report pages of the appendices read digits of their garble as a folio ("2", "0", "77"):
+    // those out of step with the pages round them are dropped, and the pages numbered from their neighbours
+    // (reportsthatmatter-uw50).
+    parenFolios(), foliosInStep(),
     // Block structure from a vision model's reading of the page images (granite-docling, committed in
     // reference/vision/ by reportsthatmatter-kyj3), on the pages where it agrees with this scan's own
     // text layer: at least 80% of a page's blocks verified word for word (lenient setting), no notes or
