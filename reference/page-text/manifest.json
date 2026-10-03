@@ -49,12 +49,14 @@
   "274": {
    "pdf": 274,
    "label": "266",
-   "stratum": "random"
+   "stratum": "random",
+   "exhibit": true
   },
   "395": {
    "pdf": 395,
    "label": "387",
-   "stratum": "random"
+   "stratum": "random",
+   "exhibit": true
   }
  }
 }
