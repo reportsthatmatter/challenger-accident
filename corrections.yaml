@@ -224,13 +224,13 @@ corrections:
   # --- 2026-09-18: appendix prose and its footnote apparatus (printed
   # pp.195-251), checked against the scanned page images. ---
   - id: c-0034
-    where: { printed: 195 }
+    where: { printed: 194 }
     find: "pr0blems.~3Davids"
     replace: "problems.23 Davids"
     reason: '"0" read for "o" in "problems" and the leading 2 of inline footnote 23 dropped; checked against the scan'
     added: 2026-09-18
   - id: c-0035
-    where: { printed: 195 }
+    where: { printed: 194 }
     find: 'Winterhalter.23"'
     replace: "Winterhalter.23a"
     reason: footnote 23a; the lettered suffix was read as a closing quote; checked against the scan
