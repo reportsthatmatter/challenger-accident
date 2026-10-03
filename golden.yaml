@@ -27,8 +27,6 @@ pages:
     printed: 21
     verified_by: "Claude (Sonnet 5.5), 2026-10-02, against the page image"
     features: [I, C]
-    xfail: reportsthatmatter-liv
-    xfail_only: [blocks]
     continues_previous: true
     opens_with: "tributing factor in a mission-threatening incident on Flight 61-C"
     blocks:
@@ -51,7 +49,7 @@ pages:
     verified_by: "Claude (Sonnet 5.5), 2026-10-02, against the page image"
     features: [E, F]
     xfail: reportsthatmatter-48o
-    xfail_only: [blocks, footnotes, markers, opens]
+    xfail_only: [blocks, markers]
     continues_previous: true
     opens_with: "er program which was supported by limited data"
     blocks:
@@ -71,7 +69,7 @@ pages:
     verified_by: "Claude (Sonnet 5.5), 2026-10-02, against the page image"
     features: [C, I, E]
     xfail: reportsthatmatter-yt8
-    xfail_only: [blocks, must_not_contain]
+    xfail_only: [blocks]
     blocks:
       - paragraph: {start: "December 11, 1985. Thiokol management holds", end: "No discussion of O-ring anomalies occurs."}
       - paragraph: {start: "December 17, 1985. Larry Wear holds", end: "Marshall Space Flight Center."}
@@ -96,7 +94,7 @@ pages:
     verified_by: "Claude (Sonnet 5.5), 2026-10-02, against the page image"
     features: [A, B, C, E]
     xfail: reportsthatmatter-48o
-    xfail_only: [blocks, footnotes, markers, must_contain, opens]
+    xfail_only: [blocks, opens]
     continues_previous: true
     opens_with: "through. I don’t think it is possible to build such a system"
     blocks:
@@ -112,7 +110,7 @@ pages:
     verified_by: "Claude (Sonnet 5.5), 2026-10-02, against the page image"
     features: [B, E, M]
     xfail: reportsthatmatter-48o
-    xfail_only: [blocks, footnotes, markers, opens]
+    xfail_only: [blocks, markers, opens]
     continues_previous: true
     opens_with: "ary O-ring lift-off during pressurization"
     blocks:
@@ -132,8 +130,6 @@ pages:
     printed: 14
     verified_by: "Claude (Sonnet 5.5), 2026-10-02, against the page image"
     features: [ordinary, I, M]
-    xfail: reportsthatmatter-liv, reportsthatmatter-pt6
-    xfail_only: [blocks]
     blocks:
       - heading: "Findings"
       - paragraph: {start: "1. The Space Shuttle Main Engine is an impressive", end: "Space Shuttle and its crew."}
