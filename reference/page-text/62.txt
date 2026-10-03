@@ -1,0 +1,15 @@
+er program which was supported by limited data. Furthermore, the 0.090 inch value was based on the concept that the O-ring would seal at 3 times the actual motor pressure even if the erosion extended to 0.095 inches thereby giving comfort in continuing with a known problem.[^8]
+
+March 1984.-Thiokol submitted their "Performance Charateristics of the SRM O-ring Assembly Test Plan," TWR-14336, which contained the following statement: "O-ring seals in rocket motors in general and the Space Shuttle SRMs in particular can suffer thermal degradation because of exposure to the high temperature motor chamber gases. Although none of the SRM primary O-rings to date have failed to perform their design function, there is some concern because of isolated events which show localized erosion as high as 0.053 inches. The postulated scenario for this thermal degradation effect is a short time duration impingement of a high energy jet which is induced during ignition pressurization by a combination of voids in the protective vacuum putty and the filling of available free volumes created by the tolerances of mating parts and the O-ring slots."
+
+March 20, 1984.-Acceptable erosion was again discussed at the Flight Readiness Review briefing to the Marshall Center Board.[^9]
+
+March 27, 1984.-Mr. Mulloy discussed O-ring erosion at the Level 1 Flight Readiness Review for STS41-C. As a result, he received an "action item" to review the case and nozzle seals. The action did not have to be completed before the flight of STS41-C.[^10]
+
+Mr. Lawrence Wear, the Solid Rocket Motor (SRM) Element Manager, then directed Thiokol to establish a plan and a test program to investigate the issue. Thiokol was directed to determine if the O-ring erosion was acceptable and if so, why?[^11]
+
+April 6, 1984.-Heat degradation of the O-ring in the left SRM aft field joint of STS41-C was found, along with "blowholes" in the putty.
+
+April 12, 1984.-In an internal Marshall Space Flight Center memorandum, John Q. Miller told Mr. Horton that "stacking difficulties and observed O-ring anomalies" were increasing with the use of Randolph putty. The former supplier, Fuller O'Brien, had discontinued producing the putty previously used in the Shuttle program. Accordingly, putty was ordered from Randolph Products. The memo requested expedited development of a putty with the characteristics of the Fuller O'Brien putty used prior to STS-8.
+
+May 4, 1984.-Morton Thiokol prepared a Program Plan for the protection of Space Shuttle SRM primary motor seals. Thiokol's objective was to isolate the joint problem and to eliminate damage to the motor seals, the O-rings. The plan called for analysis and testing of O-rings, putty and associated lubricants.[^12] See Appendix V-B.

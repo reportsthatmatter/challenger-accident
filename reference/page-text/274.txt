@@ -1,0 +1,11 @@
+## 3.5 Review and Witness Team
+
+A review and witness team shall be established consisting of experienced engineers from Morton Thiokol and NASA to inspect and assess all test results. Anomalous conditions of joints from flown motors shall be critically inspected by members of this team. The team will determine the course of action to be taken as intermediate and final results become available.
+
+## 4.0 SCHEDULE
+
+The attached schedule reflects the time available to complete the testing and qualification of the preceding items.
+
+## 5.0 REPORT
+
+A comprehensive report shall be prepared by Engineering documenting the tests and results. The original shall be released after the development testing, but prior to DM-6. A revision shall be released after DM-6 and a second and final revision shall be published after the aging program.

@@ -1,0 +1,29 @@
+## Findings
+
+1. The Space Shuttle Main Engine is an impressive, technological achievement. However, it also is one of the higher risk elements of the Space Shuttle system. Anomalous component performance or premature engine shutdown could prove catastrophic to the Space Shuttle and its crew.
+
+2. Some NASA officials familiar with the Space Shuttle Main Engine believe that it should be operated at a throttle setting of 109 percent only in an emergency; others believe the engine could be safely operated at 109 percent on a routine basis.
+
+3. It is widely accepted that the Space Shuttle Main Engine would be safer if its operating margins (for temperature, pressure, operating time, etc.) were increased.
+
+4. The Committee agrees with the sense of Dr. Feynman's concerns with respect to NASA's current "fleet leader" concept for certifying Space Shuttle Main Engine components, such as high pressure turbopumps, for flight.
+
+5. On a case by case basis, NASA regularly violates its own certification requirements by permitting individual engine components to be used for flight even though they have accumulated an operating time in excess of 50 percent of the two fleet leaders (i.e., in violation of the "2X" rule).
+
+## Recommendations
+
+1. NASA should continue its active development program for the Space Shuttle Main Engine. The program should be focused more on increasing operating margins.
+
+2. Because of the safety concerns raised by some knowledgeable officials, NASA should give serious consideration to restricting use of the 109 percent engine throttle setting to emergency situations only. If NASA decides that it needs to use the 109 percent throttle setting for other than emergency situations, the space agency should take whatever actions are required to ensure that adequate margins are present to maintain safety.
+
+3. NASA should closely scrutinize each of the concerns raised by Dr. Feynman regarding the agency's "fleet leader" concept for certifying Space Shuttle Main Engine components. The agency should also closely reassess its practice of selectively violating its "2X" rule for some Main Engine flight hardware elements.
+
+## b. Recurrent Hardware Problems
+
+## Issue
+
+What resolutions of inadequacies revealed in the landing gear, tires, wheels, brakes, and nose wheel steering of the landing and deceleration system are required?
+
+## Findings
+
+1. The Orbiter landing gear, tires, wheels, brakes, and nose wheel steering, as a system, is experimental, designed to criteria outside any other experience, and uses unique combinations of materials. The original design performance specifications for speed and landing weights are routinely exceeded. The original design

@@ -1,0 +1,60 @@
+{
+ "report": "challenger-accident",
+ "pdf": "archive/GPO-CRPT-99hrpt1016-challenger-accident-1986.pdf",
+ "checked_by": "Claude (Sonnet 5.5), 2026-10-03",
+ "method": "Drafted from granite-docling output (pages 274 and 395, where the model looped and the text layer is garbage, typed from the page image), then each page read against its image (pdftoppm -r 110, with 220-300 dpi crops for small print) and every word where the draft and the PDF text layer disagree re-read at the image; footnote markers as [^n], notes in <label>.notes.txt. Line-end hyphens are rejoined (the printed words, including original misspellings: 'Charateristics', 'guildelines'). Indented questions and findings are separate paragraphs. Not a second independent transcription: see docs/design/2026-10-03-vision-structure-pass.md for the limits.",
+ "label": "the page's %%page N%% label in full.md: the printed number. Files are named by PDF page, not label: a loader must map through pages[pdf].label",
+ "sample": "golden: pages golden.yaml already verifies (the pipeline was tuned on them). random: python random.seed(20261003); random.sample(range(14,440) minus golden, 3) gave 92, 192, 274; 92 (a blank page, no text layer) and 192 (a diagram) have no words to check and were replaced by the first two text pages (>=150 layer words) of random.shuffle with the same seed: 96, 395; 274 kept",
+ "pages": {
+  "11": {
+   "pdf": 11,
+   "label": "2",
+   "stratum": "golden"
+  },
+  "22": {
+   "pdf": 22,
+   "label": "14",
+   "stratum": "golden"
+  },
+  "29": {
+   "pdf": 29,
+   "label": "21",
+   "stratum": "golden"
+  },
+  "62": {
+   "pdf": 62,
+   "label": "54",
+   "stratum": "golden"
+  },
+  "68": {
+   "pdf": 68,
+   "label": "60",
+   "stratum": "golden"
+  },
+  "85": {
+   "pdf": 85,
+   "label": "77",
+   "stratum": "golden"
+  },
+  "96": {
+   "pdf": 96,
+   "label": "88",
+   "stratum": "random"
+  },
+  "204": {
+   "pdf": 204,
+   "label": "196",
+   "stratum": "golden"
+  },
+  "274": {
+   "pdf": 274,
+   "label": "266",
+   "stratum": "random"
+  },
+  "395": {
+   "pdf": 395,
+   "label": "387",
+   "stratum": "random"
+  }
+ }
+}
