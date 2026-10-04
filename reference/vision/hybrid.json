@@ -63,31 +63,32 @@
    "accepted": 22,
    "starts": {
     "vision": 0,
-    "pipeline": 11
+    "pipeline": 10
    },
    "notes": {
     "vision": 0,
     "pipeline": 0
    },
-   "words": 251,
+   "words": 250,
    "reason": "22 of 36 blocks accepted"
   },
   {
    "volume": 1,
    "pdfIndex": 3,
    "printed": null,
-   "source": "vision",
+   "source": "pipeline",
    "blocks": 11,
-   "accepted": 9,
+   "accepted": 8,
    "starts": {
-    "vision": 8,
-    "pipeline": 8
+    "vision": 0,
+    "pipeline": 7
    },
    "notes": {
     "vision": 0,
     "pipeline": 0
    },
-   "words": 96
+   "words": 95,
+   "reason": "8 of 11 blocks accepted"
   },
   {
    "volume": 1,
@@ -145,19 +146,19 @@
   {
    "volume": 1,
    "pdfIndex": 9,
-   "printed": null,
+   "printed": 1,
    "source": "pipeline",
    "blocks": 16,
    "accepted": 11,
    "starts": {
     "vision": 0,
-    "pipeline": 17
+    "pipeline": 16
    },
    "notes": {
     "vision": 0,
     "pipeline": 0
    },
-   "words": 299,
+   "words": 298,
    "reason": "11 of 16 blocks accepted"
   },
   {
@@ -180,19 +181,19 @@
   {
    "volume": 1,
    "pdfIndex": 11,
-   "printed": null,
+   "printed": 3,
    "source": "vision",
    "blocks": 11,
    "accepted": 11,
    "starts": {
     "vision": 12,
-    "pipeline": 10
+    "pipeline": 9
    },
    "notes": {
     "vision": 0,
     "pipeline": 0
    },
-   "words": 387
+   "words": 386
   },
   {
    "volume": 1,
@@ -265,19 +266,19 @@
   {
    "volume": 1,
    "pdfIndex": 17,
-   "printed": null,
+   "printed": 9,
    "source": "pipeline",
    "blocks": 17,
    "accepted": 17,
    "starts": {
     "vision": 17,
-    "pipeline": 20
+    "pipeline": 19
    },
    "notes": {
     "vision": 0,
     "pipeline": 0
    },
-   "words": 289,
+   "words": 288,
    "reason": "the pipeline's section heading \"recommendations\" is not a heading in the vision reading"
   },
   {
@@ -695,19 +696,19 @@
   {
    "volume": 1,
    "pdfIndex": 43,
-   "printed": null,
+   "printed": 35,
    "source": "pipeline",
    "blocks": 12,
    "accepted": 11,
    "starts": {
     "vision": 12,
-    "pipeline": 10
+    "pipeline": 9
    },
    "notes": {
     "vision": 0,
     "pipeline": 0
    },
-   "words": 366,
+   "words": 365,
    "reason": "the pipeline's section heading \"background initial events following the \" is not a heading in the vision reading"
   },
   {
@@ -767,19 +768,19 @@
   {
    "volume": 1,
    "pdfIndex": 47,
-   "printed": null,
+   "printed": 39,
    "source": "vision",
    "blocks": 7,
    "accepted": 7,
    "starts": {
     "vision": 8,
-    "pipeline": 9
+    "pipeline": 8
    },
    "notes": {
     "vision": 0,
     "pipeline": 0
    },
-   "words": 403
+   "words": 402
   },
   {
    "volume": 1,
@@ -1544,19 +1545,19 @@
   {
    "volume": 1,
    "pdfIndex": 93,
-   "printed": null,
+   "printed": 85,
    "source": "vision",
    "blocks": 15,
    "accepted": 15,
    "starts": {
     "vision": 15,
-    "pipeline": 16
+    "pipeline": 15
    },
    "notes": {
     "vision": 0,
     "pipeline": 0
    },
-   "words": 331
+   "words": 330
   },
   {
    "volume": 1,
@@ -1715,7 +1716,7 @@
   {
    "volume": 1,
    "pdfIndex": 103,
-   "printed": 2,
+   "printed": null,
    "source": "pipeline",
    "blocks": 16,
    "accepted": 0,
@@ -2234,7 +2235,7 @@
   {
    "volume": 1,
    "pdfIndex": 133,
-   "printed": 6,
+   "printed": null,
    "source": "pipeline",
    "blocks": 0,
    "accepted": 0,
@@ -3234,19 +3235,19 @@
   {
    "volume": 1,
    "pdfIndex": 191,
-   "printed": null,
+   "printed": 183,
    "source": "vision",
    "blocks": 8,
    "accepted": 8,
    "starts": {
     "vision": 7,
-    "pipeline": 9
+    "pipeline": 8
    },
    "notes": {
     "vision": 1,
     "pipeline": 0
    },
-   "words": 240
+   "words": 239
   },
   {
    "volume": 1,
@@ -3638,19 +3639,19 @@
   {
    "volume": 1,
    "pdfIndex": 215,
-   "printed": null,
+   "printed": 207,
    "source": "pipeline",
    "blocks": 14,
    "accepted": 11,
    "starts": {
     "vision": 0,
-    "pipeline": 13
+    "pipeline": 12
    },
    "notes": {
     "vision": 0,
     "pipeline": 0
    },
-   "words": 361,
+   "words": 360,
    "reason": "11 of 14 blocks accepted"
   },
   {
@@ -4417,19 +4418,19 @@
   {
    "volume": 1,
    "pdfIndex": 261,
-   "printed": null,
+   "printed": 253,
    "source": "vision",
    "blocks": 48,
-   "accepted": 48,
+   "accepted": 47,
    "starts": {
     "vision": 48,
-    "pipeline": 6
+    "pipeline": 5
    },
    "notes": {
     "vision": 0,
     "pipeline": 0
    },
-   "words": 210
+   "words": 209
   },
   {
    "volume": 1,
@@ -4451,19 +4452,19 @@
   {
    "volume": 1,
    "pdfIndex": 263,
-   "printed": null,
+   "printed": 255,
    "source": "pipeline",
    "blocks": 347,
    "accepted": 0,
    "starts": {
     "vision": 0,
-    "pipeline": 9
+    "pipeline": 8
    },
    "notes": {
     "vision": 0,
     "pipeline": 0
    },
-   "words": 122,
+   "words": 121,
    "reason": "0 of 347 blocks accepted"
   },
   {
@@ -4577,7 +4578,7 @@
   {
    "volume": 1,
    "pdfIndex": 270,
-   "printed": 2,
+   "printed": null,
    "source": "pipeline",
    "blocks": 13,
    "accepted": 0,
@@ -4793,7 +4794,7 @@
   {
    "volume": 1,
    "pdfIndex": 282,
-   "printed": 2,
+   "printed": null,
    "source": "pipeline",
    "blocks": 22,
    "accepted": 0,
@@ -4865,7 +4866,7 @@
   {
    "volume": 1,
    "pdfIndex": 286,
-   "printed": 2,
+   "printed": null,
    "source": "pipeline",
    "blocks": 15,
    "accepted": 0,
@@ -5099,7 +5100,7 @@
   {
    "volume": 1,
    "pdfIndex": 299,
-   "printed": 4,
+   "printed": null,
    "source": "pipeline",
    "blocks": 2,
    "accepted": 0,
@@ -6485,7 +6486,7 @@
   {
    "volume": 1,
    "pdfIndex": 378,
-   "printed": 2,
+   "printed": null,
    "source": "pipeline",
    "blocks": 90,
    "accepted": 1,
@@ -6503,7 +6504,7 @@
   {
    "volume": 1,
    "pdfIndex": 379,
-   "printed": 3,
+   "printed": null,
    "source": "pipeline",
    "blocks": 60,
    "accepted": 1,
@@ -6521,7 +6522,7 @@
   {
    "volume": 1,
    "pdfIndex": 380,
-   "printed": 4,
+   "printed": null,
    "source": "pipeline",
    "blocks": 66,
    "accepted": 1,
@@ -6539,7 +6540,7 @@
   {
    "volume": 1,
    "pdfIndex": 381,
-   "printed": 5,
+   "printed": null,
    "source": "pipeline",
    "blocks": 64,
    "accepted": 0,
@@ -6557,7 +6558,7 @@
   {
    "volume": 1,
    "pdfIndex": 382,
-   "printed": 6,
+   "printed": null,
    "source": "pipeline",
    "blocks": 29,
    "accepted": 1,
@@ -6575,7 +6576,7 @@
   {
    "volume": 1,
    "pdfIndex": 383,
-   "printed": 7,
+   "printed": null,
    "source": "pipeline",
    "blocks": 11,
    "accepted": 0,
@@ -6845,7 +6846,7 @@
   {
    "volume": 1,
    "pdfIndex": 399,
-   "printed": 77,
+   "printed": null,
    "source": "pipeline",
    "blocks": 345,
    "accepted": 0,
@@ -6953,7 +6954,7 @@
   {
    "volume": 1,
    "pdfIndex": 405,
-   "printed": 8,
+   "printed": null,
    "source": "pipeline",
    "blocks": 0,
    "accepted": 0,
@@ -7205,7 +7206,7 @@
   {
    "volume": 1,
    "pdfIndex": 420,
-   "printed": 1,
+   "printed": null,
    "source": "pipeline",
    "blocks": 2,
    "accepted": 0,
@@ -7313,7 +7314,7 @@
   {
    "volume": 1,
    "pdfIndex": 426,
-   "printed": 0,
+   "printed": null,
    "source": "pipeline",
    "blocks": 320,
    "accepted": 0,
@@ -7367,7 +7368,7 @@
   {
    "volume": 1,
    "pdfIndex": 429,
-   "printed": 0,
+   "printed": null,
    "source": "pipeline",
    "blocks": 2,
    "accepted": 0,
@@ -7619,7 +7620,7 @@
   {
    "volume": 1,
    "pdfIndex": 444,
-   "printed": 3,
+   "printed": null,
    "source": "pipeline",
    "blocks": 2,
    "accepted": 0,
@@ -7691,7 +7692,7 @@
   {
    "volume": 1,
    "pdfIndex": 448,
-   "printed": 0,
+   "printed": null,
    "source": "pipeline",
    "blocks": 0,
    "accepted": 0,
@@ -7727,7 +7728,7 @@
   {
    "volume": 1,
    "pdfIndex": 450,
-   "printed": 0,
+   "printed": null,
    "source": "pipeline",
    "blocks": 354,
    "accepted": 0,
@@ -7864,67 +7865,53 @@
    "opening": "\"Serving on Committee on the Budget for 99th Congress"
   },
   {
-   "pdf": 2,
-   "printed": null,
-   "source": "pipeline",
-   "kind": "paragraph",
-   "opening": "(11)"
-  },
-  {
    "pdf": 3,
    "printed": null,
-   "source": "vision",
+   "source": "pipeline",
    "kind": "heading",
    "opening": "LETTER OF SUBMITTAL"
   },
   {
    "pdf": 3,
    "printed": null,
-   "source": "vision",
+   "source": "pipeline",
    "kind": "quote",
    "opening": "U.S.HOUSEOF REPRESENTATIVES, Washington, DC, October 29, 198"
   },
   {
    "pdf": 3,
    "printed": null,
-   "source": "vision",
+   "source": "pipeline",
    "kind": "paragraph",
-   "opening": "Hon. THOMAS P. O'NEILL,Jr.,"
+   "opening": "Hon. THOMAS P. O'NEILL,Jr., The Speaker of the US.House of R"
   },
   {
    "pdf": 3,
    "printed": null,
-   "source": "vision",
-   "kind": "paragraph",
-   "opening": "The Speaker of the US.House of Representatives, Washington, "
-  },
-  {
-   "pdf": 3,
-   "printed": null,
-   "source": "vision",
+   "source": "pipeline",
    "kind": "paragraph",
    "opening": "DEARMR. SPEAKER:"
   },
   {
    "pdf": 3,
    "printed": null,
-   "source": "vision",
+   "source": "pipeline",
    "kind": "paragraph",
    "opening": "By direction of the Committee on Science and Technology, 1 h"
   },
   {
    "pdf": 3,
    "printed": null,
-   "source": "vision",
+   "source": "pipeline",
    "kind": "quote",
    "opening": "Sincerely, DONFUQUA,Chairman."
   },
   {
    "pdf": 3,
    "printed": null,
-   "source": "vision",
+   "source": "pipeline",
    "kind": "paragraph",
-   "opening": "Enclosure. (111)"
+   "opening": "Enclosure."
   },
   {
    "pdf": 5,
@@ -8075,108 +8062,101 @@
   },
   {
    "pdf": 9,
-   "printed": null,
+   "printed": 1,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "Union Calendar No. 600 9 9 ~ ~"
   },
   {
    "pdf": 9,
-   "printed": null,
+   "printed": 1,
    "source": "pipeline",
    "kind": "heading",
    "opening": "CONGRESS"
   },
   {
    "pdf": 9,
-   "printed": null,
+   "printed": 1,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "2d session } HOUSE OF REPRESENTATIVES I REPORT gg-io16"
   },
   {
    "pdf": 9,
-   "printed": null,
+   "printed": 1,
    "source": "pipeline",
    "kind": "heading",
    "opening": "INVESTIGATION OF THE CHALLENGER ACCIDENT"
   },
   {
    "pdf": 9,
-   "printed": null,
+   "printed": 1,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "OCTOBES29, 1986.-Committed to the Committee of the Whole Hou"
   },
   {
    "pdf": 9,
-   "printed": null,
+   "printed": 1,
    "source": "pipeline",
    "kind": "quote",
    "opening": "Mr. FUQUA, from the Committee on Science and Teshnology, sub"
   },
   {
    "pdf": 9,
-   "printed": null,
+   "printed": 1,
    "source": "pipeline",
    "kind": "heading",
    "opening": "REPORT"
   },
   {
    "pdf": 9,
-   "printed": null,
+   "printed": 1,
    "source": "pipeline",
    "kind": "heading",
    "opening": "INTRODUCTION"
   },
   {
    "pdf": 9,
-   "printed": null,
+   "printed": 1,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "On January 28, at 11:39 a.m., the Space Shuttle Challenger a"
   },
   {
    "pdf": 9,
-   "printed": null,
+   "printed": 1,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "During consideration of the resolution Chairman Fuqua inform"
   },
   {
    "pdf": 9,
-   "printed": null,
+   "printed": 1,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "This report is the result of the Committee's inquiry. It con"
   },
   {
    "pdf": 9,
-   "printed": null,
+   "printed": 1,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "In addition to reviewing the five volumes of the Rogers Comm"
   },
   {
    "pdf": 9,
-   "printed": null,
+   "printed": 1,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "The findings and recommendations contained in this report ar"
   },
   {
    "pdf": 9,
-   "printed": null,
+   "printed": 1,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "' Report of the Presidential Commission on the Space Shuttle"
-  },
-  {
-   "pdf": 9,
-   "printed": null,
-   "source": "pipeline",
-   "kind": "paragraph",
-   "opening": "(1) which includes materials submitted for the record, staff"
   },
   {
    "pdf": 10,
@@ -8208,77 +8188,77 @@
   },
   {
    "pdf": 11,
-   "printed": null,
+   "printed": 3,
    "source": "vision",
    "kind": "heading",
    "opening": "CONCLUSIONS"
   },
   {
    "pdf": 11,
-   "printed": null,
+   "printed": 3,
    "source": "vision",
    "kind": "paragraph",
    "opening": "In execution of its oversight responsibilities, the Committe"
   },
   {
    "pdf": 11,
-   "printed": null,
+   "printed": 3,
    "source": "vision",
    "kind": "paragraph",
    "opening": "What we as a Committee, NASA as an agency, and the Nation as"
   },
   {
    "pdf": 11,
-   "printed": null,
+   "printed": 3,
    "source": "vision",
    "kind": "paragraph",
    "opening": "The Committee's investigation included: ten formal hearings "
   },
   {
    "pdf": 11,
-   "printed": null,
+   "printed": 3,
    "source": "vision",
    "kind": "paragraph",
    "opening": "From the outset, the focus of the Committee's investigation "
   },
   {
    "pdf": 11,
-   "printed": null,
+   "printed": 3,
    "source": "vision",
    "kind": "quote",
    "opening": "What was the cause, or causes, of the Challenger accident?"
   },
   {
    "pdf": 11,
-   "printed": null,
+   "printed": 3,
    "source": "vision",
    "kind": "quote",
    "opening": "Are there other inherent hardware or management-related defi"
   },
   {
    "pdf": 11,
-   "printed": null,
+   "printed": 3,
    "source": "vision",
    "kind": "quote",
    "opening": "What must be done to correct all of these problems so that t"
   },
   {
    "pdf": 11,
-   "printed": null,
+   "printed": 3,
    "source": "vision",
    "kind": "paragraph",
    "opening": "The Committee found that NASA's drive to achieve a launch sc"
   },
   {
    "pdf": 11,
-   "printed": null,
+   "printed": 3,
    "source": "vision",
    "kind": "paragraph",
    "opening": "The Committee, the Congress, and the Administration have pla"
   },
   {
    "pdf": 11,
-   "printed": null,
+   "printed": 3,
    "source": "vision",
    "kind": "paragraph",
    "opening": "Pressures within NASA to attempt to evolve from an R&D agenc"
@@ -8460,143 +8440,136 @@
   },
   {
    "pdf": 17,
-   "printed": null,
+   "printed": 9,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "111. COMPILATION OF ISSUES, FINDINGS, AND"
   },
   {
    "pdf": 17,
-   "printed": null,
+   "printed": 9,
    "source": "pipeline",
    "kind": "heading",
    "opening": "RECOMMENDATIONS"
   },
   {
    "pdf": 17,
-   "printed": null,
+   "printed": 9,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "This compilation is taken from the body of the report. In or"
   },
   {
    "pdf": 17,
-   "printed": null,
+   "printed": 9,
    "source": "pipeline",
    "kind": "heading",
    "opening": "THEACCIDENT"
   },
   {
    "pdf": 17,
-   "printed": null,
+   "printed": 9,
    "source": "pipeline",
    "kind": "heading",
    "opening": "INTRODUCTION"
   },
   {
    "pdf": 17,
-   "printed": null,
+   "printed": 9,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "Discussion Only"
   },
   {
    "pdf": 17,
-   "printed": null,
+   "printed": 9,
    "source": "pipeline",
    "kind": "heading",
    "opening": "SOLID ROCKET MOTORS"
   },
   {
    "pdf": 17,
-   "printed": null,
+   "printed": 9,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "1. History"
   },
   {
    "pdf": 17,
-   "printed": null,
+   "printed": 9,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "Issue"
   },
   {
    "pdf": 17,
-   "printed": null,
+   "printed": 9,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "Was there sufficient time to correct the problems with the S"
   },
   {
    "pdf": 17,
-   "printed": null,
+   "printed": 9,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "Findings"
   },
   {
    "pdf": 17,
-   "printed": null,
+   "printed": 9,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "1. Problems with the joints which connect the Solid Rocket M"
   },
   {
    "pdf": 17,
-   "printed": null,
+   "printed": 9,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "2. The joint seal problem was recognized by engineers in bot"
   },
   {
    "pdf": 17,
-   "printed": null,
+   "printed": 9,
    "source": "pipeline",
    "kind": "heading",
    "opening": "Summary of Casing Joint Design"
   },
   {
    "pdf": 17,
-   "printed": null,
+   "printed": 9,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "Issue"
   },
   {
    "pdf": 17,
-   "printed": null,
+   "printed": 9,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "Why did the aft field joint between the steel containers tha"
   },
   {
    "pdf": 17,
-   "printed": null,
+   "printed": 9,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "Findings"
   },
   {
    "pdf": 17,
-   "printed": null,
+   "printed": 9,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "1. The design of the field joint was unsatisfactory and coul"
   },
   {
    "pdf": 17,
-   "printed": null,
+   "printed": 9,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "2. The O-ring materials and putty used in the design of the "
-  },
-  {
-   "pdf": 17,
-   "printed": null,
-   "source": "pipeline",
-   "kind": "paragraph",
-   "opening": "(9) only by the manufacturer and which can be changed withou"
   },
   {
    "pdf": 18,
@@ -11295,73 +11268,80 @@
   },
   {
    "pdf": 43,
-   "printed": null,
+   "printed": 35,
    "source": "pipeline",
    "kind": "heading",
    "opening": "BACKGROUND INITIAL EVENTS FOLLOWING THE ACCIDENT"
   },
   {
    "pdf": 43,
-   "printed": null,
+   "printed": 35,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "On January 28, Chairman Fuqua stated on the floor of the Hou"
   },
   {
    "pdf": 43,
-   "printed": null,
+   "printed": 35,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "In preparation for this time, Mr. Fuqua working with Mr. Luj"
   },
   {
    "pdf": 43,
-   "printed": null,
+   "printed": 35,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "However, this plan and timetable were changed when President"
   },
   {
    "pdf": 43,
-   "printed": null,
+   "printed": 35,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "With this important new development, the Committee Steering "
   },
   {
    "pdf": 43,
-   "printed": null,
+   "printed": 35,
    "source": "pipeline",
    "kind": "heading",
    "opening": "PREPARATION COMMITTEE"
   },
   {
    "pdf": 43,
-   "printed": null,
+   "printed": 35,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "On February 5, the Chairman, Mr. Fuqua, and Mr. Lujan, wrote"
   },
   {
    "pdf": 43,
-   "printed": null,
+   "printed": 35,
    "source": "pipeline",
    "kind": "quote",
    "opening": "We would like to begin our oversight process by asking you t"
   },
   {
    "pdf": 43,
-   "printed": null,
+   "printed": 35,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "On January 27, 1967, astronauts Virgil Grissom, Edward White"
   },
   {
-   "pdf": 43,
-   "printed": null,
+   "pdf": 44,
+   "printed": 36,
+   "source": "pipeline",
+   "kind": "quote",
+   "opening": "the activities of your Commission. At the conclusion of the "
+  },
+  {
+   "pdf": 44,
+   "printed": 36,
    "source": "pipeline",
    "kind": "paragraph",
-   "opening": "(35) the activities of your Commission. At the conclusion of"
+   "opening": "with completing its report in 120 days. In light of this fac"
   },
   {
    "pdf": 44,
@@ -11631,56 +11611,56 @@
   },
   {
    "pdf": 47,
-   "printed": null,
+   "printed": 39,
    "source": "vision",
    "kind": "heading",
    "opening": "THE ACCIDENT"
   },
   {
    "pdf": 47,
-   "printed": null,
+   "printed": 39,
    "source": "vision",
    "kind": "heading",
    "opening": "INTRODUCTION"
   },
   {
    "pdf": 47,
-   "printed": null,
+   "printed": 39,
    "source": "vision",
    "kind": "paragraph",
    "opening": "This section as well as Sections VII and VIII identify what "
   },
   {
    "pdf": 47,
-   "printed": null,
+   "printed": 39,
    "source": "vision",
    "kind": "paragraph",
    "opening": "By the time the Rogers Commission had completed its report, "
   },
   {
    "pdf": 47,
-   "printed": null,
+   "printed": 39,
    "source": "vision",
    "kind": "paragraph",
    "opening": "There were human as well as technical failings that combined"
   },
   {
    "pdf": 47,
-   "printed": null,
+   "printed": 39,
    "source": "vision",
    "kind": "paragraph",
    "opening": "It should also be recognized that this report has the advant"
   },
   {
    "pdf": 47,
-   "printed": null,
+   "printed": 39,
    "source": "vision",
    "kind": "paragraph",
    "opening": "We hope the lessons learned from this accident will lead to "
   },
   {
    "pdf": 47,
-   "printed": null,
+   "printed": 39,
    "source": "vision",
    "kind": "paragraph",
    "opening": "We hope this section, as well as Sections VII and VIII, prop"
@@ -14487,105 +14467,105 @@
   },
   {
    "pdf": 93,
-   "printed": null,
+   "printed": 85,
    "source": "vision",
    "kind": "heading",
    "opening": "DISCUSSION OF CRITICAL ISSUES"
   },
   {
    "pdf": 93,
-   "printed": null,
+   "printed": 85,
    "source": "vision",
    "kind": "heading",
    "opening": "TECHNICAL ISSUES"
   },
   {
    "pdf": 93,
-   "printed": null,
+   "printed": 85,
    "source": "vision",
    "kind": "heading",
    "opening": "HARDWARE DEVELOPMENT AND PRODUCTION"
   },
   {
    "pdf": 93,
-   "printed": null,
+   "printed": 85,
    "source": "vision",
    "kind": "heading",
    "opening": "a. Problems in Hardware Certification"
   },
   {
    "pdf": 93,
-   "printed": null,
+   "printed": 85,
    "source": "vision",
    "kind": "heading",
    "opening": "Issue 1"
   },
   {
    "pdf": 93,
-   "printed": null,
+   "printed": 85,
    "source": "vision",
    "kind": "paragraph",
    "opening": "Having all elements of Space Shuttle flight hardware been ad"
   },
   {
    "pdf": 93,
-   "printed": null,
+   "printed": 85,
    "source": "vision",
    "kind": "heading",
    "opening": "Findings"
   },
   {
    "pdf": 93,
-   "printed": null,
+   "printed": 85,
    "source": "vision",
    "kind": "paragraph",
    "opening": "1. The overall design and certification processes prescribed"
   },
   {
    "pdf": 93,
-   "printed": null,
+   "printed": 85,
    "source": "vision",
    "kind": "paragraph",
    "opening": "2. Prior to the STS 51-L accident, in spite of the comprehen"
   },
   {
    "pdf": 93,
-   "printed": null,
+   "printed": 85,
    "source": "vision",
    "kind": "paragraph",
    "opening": "3. The deficiencies in Solid Rocket Motor testing and certif"
   },
   {
    "pdf": 93,
-   "printed": null,
+   "printed": 85,
    "source": "vision",
    "kind": "paragraph",
    "opening": "4. These deficiencies in testing and certification of one ma"
   },
   {
    "pdf": 93,
-   "printed": null,
+   "printed": 85,
    "source": "vision",
    "kind": "paragraph",
    "opening": "5. If NASA is unable to explain why the deficiencies in Soli"
   },
   {
    "pdf": 93,
-   "printed": null,
+   "printed": 85,
    "source": "vision",
    "kind": "heading",
    "opening": "Recommendations"
   },
   {
    "pdf": 93,
-   "printed": null,
+   "printed": 85,
    "source": "vision",
    "kind": "paragraph",
    "opening": "1. NASA should devote more attention to determining why the "
   },
   {
    "pdf": 93,
-   "printed": null,
+   "printed": 85,
    "source": "vision",
    "kind": "paragraph",
    "opening": "2. NASA and its contractors should thoroughly reassess the a"
@@ -15082,7 +15062,7 @@
   },
   {
    "pdf": 103,
-   "printed": 2,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "w"
@@ -17056,168 +17036,168 @@
   },
   {
    "pdf": 133,
-   "printed": 6,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "1s 14 13 12 11 10 9 8 7 6 5 4 3 2 1 s"
   },
   {
    "pdf": 133,
-   "printed": 6,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "I I I I I I I I I I I I I I I"
   },
   {
    "pdf": 133,
-   "printed": 6,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "I I I I"
   },
   {
    "pdf": 133,
-   "printed": 6,
+   "printed": null,
    "source": "pipeline",
    "kind": "contents",
    "opening": ": -L I I I"
   },
   {
    "pdf": 133,
-   "printed": 6,
+   "printed": null,
    "source": "pipeline",
    "kind": "quote",
    "opening": "I I"
   },
   {
    "pdf": 133,
-   "printed": 6,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "I I I I . . I"
   },
   {
    "pdf": 133,
-   "printed": 6,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "I I"
   },
   {
    "pdf": 133,
-   "printed": 6,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "I I"
   },
   {
    "pdf": 133,
-   "printed": 6,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "I"
   },
   {
    "pdf": 133,
-   "printed": 6,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "I I"
   },
   {
    "pdf": 133,
-   "printed": 6,
+   "printed": null,
    "source": "pipeline",
    "kind": "quote",
    "opening": "I CREW nwuw uyc I"
   },
   {
    "pdf": 133,
-   "printed": 6,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "1 I"
   },
   {
    "pdf": 133,
-   "printed": 6,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "I"
   },
   {
    "pdf": 133,
-   "printed": 6,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "I I"
   },
   {
    "pdf": 133,
-   "printed": 6,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "I"
   },
   {
    "pdf": 133,
-   "printed": 6,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "I"
   },
   {
    "pdf": 133,
-   "printed": 6,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "< . M~DoQ)yyulWN"
   },
   {
    "pdf": 133,
-   "printed": 6,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "I I"
   },
   {
    "pdf": 133,
-   "printed": 6,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "I I I"
   },
   {
    "pdf": 133,
-   "printed": 6,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "I I I"
   },
   {
    "pdf": 133,
-   "printed": 6,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "I 1 I"
   },
   {
    "pdf": 133,
-   "printed": 6,
+   "printed": null,
    "source": "pipeline",
    "kind": "quote",
    "opening": "I I I I I Oll*T€@ SYSTEMSh W V % S I I I I I I I I I I I I I"
   },
   {
    "pdf": 133,
-   "printed": 6,
+   "printed": null,
    "source": "pipeline",
    "kind": "quote",
    "opening": "0 L.3 b.5 1-7.7"
   },
   {
    "pdf": 133,
-   "printed": 6,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "VI-2"
@@ -20836,49 +20816,49 @@
   },
   {
    "pdf": 191,
-   "printed": null,
+   "printed": 183,
    "source": "vision",
    "kind": "heading",
    "opening": "CASING JOINT DESIGN"
   },
   {
    "pdf": 191,
-   "printed": null,
+   "printed": 183,
    "source": "vision",
    "kind": "heading",
    "opening": "Discussion"
   },
   {
    "pdf": 191,
-   "printed": null,
+   "printed": 183,
    "source": "vision",
    "kind": "heading",
    "opening": "(a)Introduction"
   },
   {
    "pdf": 191,
-   "printed": null,
+   "printed": 183,
    "source": "vision",
    "kind": "paragraph",
    "opening": "The fact that the aft field joint of the right-hand Solid Ro"
   },
   {
    "pdf": 191,
-   "printed": null,
+   "printed": 183,
    "source": "vision",
    "kind": "paragraph",
    "opening": "For the purpose of redesigning the joint it is important tha"
   },
   {
    "pdf": 191,
-   "printed": null,
+   "printed": 183,
    "source": "vision",
    "kind": "heading",
    "opening": "(b) Probable Cause of Failure"
   },
   {
    "pdf": 191,
-   "printed": null,
+   "printed": 183,
    "source": "vision",
    "kind": "paragraph",
    "opening": "1. Both the primary O-ring and the secondary O-ring were sea"
@@ -22495,87 +22475,80 @@
   },
   {
    "pdf": 215,
-   "printed": null,
+   "printed": 207,
    "source": "pipeline",
    "kind": "heading",
    "opening": "LAUNCH OPERATIONS * INTRODUCTION"
   },
   {
    "pdf": 215,
-   "printed": null,
+   "printed": 207,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "The purpose of this section is to document the series of dec"
   },
   {
    "pdf": 215,
-   "printed": null,
+   "printed": 207,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "Section B describes a specific example where the launch crew"
   },
   {
    "pdf": 215,
-   "printed": null,
+   "printed": 207,
    "source": "pipeline",
    "kind": "heading",
    "opening": "THE STS 51-L LAUNCH DECISION"
   },
   {
    "pdf": 215,
-   "printed": null,
+   "printed": 207,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "Discussion"
   },
   {
    "pdf": 215,
-   "printed": null,
+   "printed": 207,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "Before each flight of the Space Shuttle, the ground support "
   },
   {
    "pdf": 215,
-   "printed": null,
+   "printed": 207,
    "source": "pipeline",
    "kind": "quote",
    "opening": "It is the policy of the Associate Administrator for Space Fl"
   },
   {
    "pdf": 215,
-   "printed": null,
+   "printed": 207,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "The FRR policy directive offers the following guidance to pr"
   },
   {
    "pdf": 215,
-   "printed": null,
+   "printed": 207,
    "source": "pipeline",
    "kind": "quote",
    "opening": "The Project/Element Managers will conduct pre-FRR's to devel"
   },
   {
    "pdf": 215,
-   "printed": null,
+   "printed": 207,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "As for the agenda at these reviews, the directive has this t"
   },
   {
    "pdf": 215,
-   "printed": null,
+   "printed": 207,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "* James Abrahamson, NASA, Headquarters, \"Space Shuttle Fligh"
-  },
-  {
-   "pdf": 215,
-   "printed": null,
-   "source": "pipeline",
-   "kind": "paragraph",
-   "opening": "(207)"
   },
   {
    "pdf": 216,
@@ -26450,339 +26423,339 @@
   },
   {
    "pdf": 261,
-   "printed": null,
+   "printed": 253,
    "source": "vision",
    "kind": "heading",
    "opening": "IX.DEFINITIONS OF TERMS AND ACRONYMS"
   },
   {
    "pdf": 261,
-   "printed": null,
+   "printed": 253,
    "source": "vision",
    "kind": "paragraph",
    "opening": "AA-SF-Associate Administrator for Space Flight."
   },
   {
    "pdf": 261,
-   "printed": null,
+   "printed": 253,
    "source": "vision",
    "kind": "paragraph",
    "opening": "AFPRO-Air Force Plant Representative Wice."
   },
   {
    "pdf": 261,
-   "printed": null,
+   "printed": 253,
    "source": "vision",
    "kind": "paragraph",
    "opening": "APU-Auxiliary Power Unit."
   },
   {
    "pdf": 261,
-   "printed": null,
+   "printed": 253,
    "source": "vision",
    "kind": "paragraph",
    "opening": "BOC-Base Operations Contractor."
   },
   {
    "pdf": 261,
-   "printed": null,
+   "printed": 253,
    "source": "vision",
    "kind": "paragraph",
    "opening": "BTU-British Thermal Unit."
   },
   {
    "pdf": 261,
-   "printed": null,
+   "printed": 253,
    "source": "vision",
    "kind": "paragraph",
    "opening": "CAR-Confguration Acceptance Review."
   },
   {
    "pdf": 261,
-   "printed": null,
+   "printed": 253,
    "source": "vision",
    "kind": "paragraph",
    "opening": "CDR-Chmmander."
   },
   {
    "pdf": 261,
-   "printed": null,
+   "printed": 253,
    "source": "vision",
    "kind": "paragraph",
    "opening": "CDR-Critical Design Review."
   },
   {
    "pdf": 261,
-   "printed": null,
+   "printed": 253,
    "source": "vision",
    "kind": "paragraph",
    "opening": "CIL-Critical Items List."
   },
   {
    "pdf": 261,
-   "printed": null,
+   "printed": 253,
    "source": "vision",
    "kind": "paragraph",
    "opening": "CoFR-Certification of Flight Readiness."
   },
   {
    "pdf": 261,
-   "printed": null,
+   "printed": 253,
    "source": "vision",
    "kind": "paragraph",
    "opening": "CPIF-Cost-plus, Incentive-fee."
   },
   {
    "pdf": 261,
-   "printed": null,
+   "printed": 253,
    "source": "vision",
    "kind": "paragraph",
    "opening": "CTS-Call-to-stations."
   },
   {
    "pdf": 261,
-   "printed": null,
+   "printed": 253,
    "source": "vision",
    "kind": "paragraph",
    "opening": "DAR-Deviation Approval Request."
   },
   {
    "pdf": 261,
-   "printed": null,
+   "printed": 253,
    "source": "vision",
    "kind": "paragraph",
    "opening": "DCAS-Defense Contract Administration Service."
   },
   {
    "pdf": 261,
-   "printed": null,
+   "printed": 253,
    "source": "vision",
    "kind": "paragraph",
    "opening": "DCR-Design Certification Review."
   },
   {
    "pdf": 261,
-   "printed": null,
+   "printed": 253,
    "source": "vision",
    "kind": "paragraph",
    "opening": "DFRF-Dryden Flight Research Facility."
   },
   {
    "pdf": 261,
-   "printed": null,
+   "printed": 253,
    "source": "vision",
    "kind": "paragraph",
    "opening": "DR-Discrepancy Report."
   },
   {
    "pdf": 261,
-   "printed": null,
+   "printed": 253,
    "source": "vision",
    "kind": "paragraph",
    "opening": "EGhG--Edgerton, Germeshausen and Grier."
   },
   {
    "pdf": 261,
-   "printed": null,
+   "printed": 253,
    "source": "vision",
    "kind": "paragraph",
    "opening": "ESMC-Eastern SDace and Missile Center. ~"
   },
   {
    "pdf": 261,
-   "printed": null,
+   "printed": 253,
    "source": "vision",
    "kind": "paragraph",
    "opening": "EST-Eastern Stahdard Time."
   },
   {
    "pdf": 261,
-   "printed": null,
+   "printed": 253,
    "source": "vision",
    "kind": "paragraph",
    "opening": "ET-External Tank."
   },
   {
    "pdf": 261,
-   "printed": null,
+   "printed": 253,
    "source": "vision",
    "kind": "paragraph",
    "opening": "FEAT-Flight Element Assignment Table."
   },
   {
    "pdf": 261,
-   "printed": null,
+   "printed": 253,
    "source": "vision",
    "kind": "paragraph",
    "opening": "FDO-Flight Dynamics Officer."
   },
   {
    "pdf": 261,
-   "printed": null,
+   "printed": 253,
    "source": "vision",
    "kind": "paragraph",
    "opening": "FMEA-Failure Modes and Effects Analyses."
   },
   {
    "pdf": 261,
-   "printed": null,
+   "printed": 253,
    "source": "vision",
    "kind": "paragraph",
    "opening": "FRR-Flight Readiness Review."
   },
   {
    "pdf": 261,
-   "printed": null,
+   "printed": 253,
    "source": "vision",
    "kind": "paragraph",
    "opening": "FSS-Fixed Service Structure."
   },
   {
    "pdf": 261,
-   "printed": null,
+   "printed": 253,
    "source": "vision",
    "kind": "paragraph",
    "opening": "GOX-Gaseous oxygen."
   },
   {
    "pdf": 261,
-   "printed": null,
+   "printed": 253,
    "source": "vision",
    "kind": "paragraph",
    "opening": "GSE-Ground Support Equipment."
   },
   {
    "pdf": 261,
-   "printed": null,
+   "printed": 253,
    "source": "vision",
    "kind": "paragraph",
    "opening": "H A - H m d Anal"
   },
   {
    "pdf": 261,
-   "printed": null,
+   "printed": 253,
    "source": "vision",
    "kind": "paragraph",
    "opening": "MS. HDP-Holddown 4 O S ~ ."
   },
   {
    "pdf": 261,
-   "printed": null,
+   "printed": 253,
    "source": "vision",
    "kind": "paragraph",
    "opening": "ILL-Impact Limit Line."
   },
   {
    "pdf": 261,
-   "printed": null,
+   "printed": 253,
    "source": "vision",
    "kind": "paragraph",
    "opening": "IPR-Interim Problem Report."
   },
   {
    "pdf": 261,
-   "printed": null,
+   "printed": 253,
    "source": "vision",
    "kind": "paragraph",
    "opening": "IR-In fra-red."
   },
   {
    "pdf": 261,
-   "printed": null,
+   "printed": 253,
    "source": "vision",
    "kind": "paragraph",
    "opening": "IUS-Inertial Upper Stage."
   },
   {
    "pdf": 261,
-   "printed": null,
+   "printed": 253,
    "source": "vision",
    "kind": "paragraph",
    "opening": "s"
   },
   {
    "pdf": 261,
-   "printed": null,
+   "printed": 253,
    "source": "vision",
    "kind": "paragraph",
    "opening": "JSC-Johnson S ace Center."
   },
   {
    "pdf": 261,
-   "printed": null,
+   "printed": 253,
    "source": "vision",
    "kind": "paragraph",
    "opening": "KSC-Kennedy pace Center."
   },
   {
    "pdf": 261,
-   "printed": null,
+   "printed": 253,
    "source": "vision",
    "kind": "paragraph",
    "opening": "hi-thousands of pounds per square inch."
   },
   {
    "pdf": 261,
-   "printed": null,
+   "printed": 253,
    "source": "vision",
    "kind": "paragraph",
    "opening": "LCG-Launch Control Center."
   },
   {
    "pdf": 261,
-   "printed": null,
+   "printed": 253,
    "source": "vision",
    "kind": "paragraph",
    "opening": "LFC-Left Forward Center."
   },
   {
    "pdf": 261,
-   "printed": null,
+   "printed": 253,
    "source": "vision",
    "kind": "paragraph",
    "opening": "L/H-Left Hand."
   },
   {
    "pdf": 261,
-   "printed": null,
+   "printed": 253,
    "source": "vision",
    "kind": "paragraph",
    "opening": "LOS--Loss of signal."
   },
   {
    "pdf": 261,
-   "printed": null,
+   "printed": 253,
    "source": "vision",
    "kind": "paragraph",
    "opening": "LOX-Liquid oxygen."
   },
   {
    "pdf": 261,
-   "printed": null,
+   "printed": 253,
    "source": "vision",
    "kind": "paragraph",
    "opening": "LPS-Launch Processing System."
   },
   {
    "pdf": 261,
-   "printed": null,
+   "printed": 253,
    "source": "vision",
    "kind": "paragraph",
    "opening": "LRU-Line Replaceable Unit."
   },
   {
    "pdf": 261,
-   "printed": null,
+   "printed": 253,
    "source": "vision",
    "kind": "paragraph",
    "opening": "MEOP-Maximum Expected Operating Pressure."
   },
   {
    "pdf": 261,
-   "printed": null,
+   "printed": 253,
    "source": "vision",
    "kind": "paragraph",
-   "opening": "MER-Mission Evaluation Room. (253)"
+   "opening": "MER-Mission Evaluation Room."
   },
   {
    "pdf": 262,
@@ -27143,66 +27116,59 @@
   },
   {
    "pdf": 263,
-   "printed": null,
+   "printed": 255,
    "source": "pipeline",
    "kind": "heading",
    "opening": "APPENDICES"
   },
   {
    "pdf": 263,
-   "printed": null,
+   "printed": 255,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "V-A"
   },
   {
    "pdf": 263,
-   "printed": null,
+   "printed": 255,
    "source": "pipeline",
    "kind": "heading",
    "opening": "XATIONAL AERONAUTICS AND SPACE ADMIYISTRATIOV"
   },
   {
    "pdf": 263,
-   "printed": null,
+   "printed": 255,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "WASHtNGTCR ::546"
   },
   {
    "pdf": 263,
-   "printed": null,
+   "printed": 255,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "R E R Y TC 4moF: 30-1"
   },
   {
    "pdf": 263,
-   "printed": null,
+   "printed": 255,
    "source": "pipeline",
    "kind": "quote",
    "opening": "T3 : M a r s h a l l Space Flight Center At'&: Mr. G a r l a"
   },
   {
    "pdf": 263,
-   "printed": null,
+   "printed": 255,
    "source": "pipeline",
    "kind": "quote",
    "opening": "Z.TZ'2: Selectioa o f Conzrector for @ace Snur-de -Drs,g= 3 "
   },
   {
    "pdf": 263,
-   "printed": null,
+   "printed": 255,
    "source": "pipeline",
    "kind": "quote",
    "opening": "9dbject s+atezent, signed by the A&inisTrazor, is enclosed f"
-  },
-  {
-   "pdf": 263,
-   "printed": null,
-   "source": "pipeline",
-   "kind": "paragraph",
-   "opening": "(255)"
   },
   {
    "pdf": 264,
@@ -27325,98 +27291,98 @@
   },
   {
    "pdf": 270,
-   "printed": 2,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "PROCMn PLAN"
   },
   {
    "pdf": 270,
-   "printed": 2,
+   "printed": null,
    "source": "pipeline",
    "kind": "quote",
    "opening": "PROTECTION O? SPACE SHUTTLE Su( P R W Y HUT011 S w 8"
   },
   {
    "pdf": 270,
-   "printed": 2,
+   "printed": null,
    "source": "pipeline",
    "kind": "heading",
    "opening": "1.0 INTRODUCTIOR"
   },
   {
    "pdf": 270,
-   "printed": 2,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "Thara hava been incidanta on S11( flight and atatic taat mot"
   },
   {
    "pdf": 270,
-   "printed": 2,
+   "printed": null,
    "source": "pipeline",
    "kind": "heading",
    "opening": "2.0 OBJECTIVE"
   },
   {
    "pdf": 270,
-   "printed": 2,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "h a program objactivaa A K ~to ayateutically isolate tha p r"
   },
   {
    "pdf": 270,
-   "printed": 2,
+   "printed": null,
    "source": "pipeline",
    "kind": "heading",
    "opening": "3.0 APPROACH"
   },
   {
    "pdf": 270,
-   "printed": 2,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "The program approach vill consist of analysis. aubrcale (hot"
   },
   {
    "pdf": 270,
-   "printed": 2,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "The analysis vill attampt to identify the cauae of o-rini ar"
   },
   {
    "pdf": 270,
-   "printed": 2,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "Tearing vill include laboratory material characterization, -"
   },
   {
    "pdf": 270,
-   "printed": 2,
+   "printed": null,
    "source": "pipeline",
    "kind": "quote",
    "opening": "- hot motora vill ba in tho range of 3 30 aaconda dopanding "
   },
   {
    "pdf": 270,
-   "printed": 2,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "a ~ l l results of pravioua amall rcala motor taat result.. "
   },
   {
    "pdf": 270,
-   "printed": 2,
+   "printed": null,
    "source": "pipeline",
    "kind": "quote",
    "opening": ",, . I , 1."
   },
   {
    "pdf": 270,
-   "printed": 2,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "m-14359 3.1 Analyria The following teat. s h a l l be p e r "
@@ -28081,21 +28047,21 @@
   },
   {
    "pdf": 282,
-   "printed": 2,
+   "printed": null,
    "source": "pipeline",
    "kind": "quote",
    "opening": "f. GMer.1 - Design changes t o t h e i n s u l a t l o n i n"
   },
   {
    "pdf": 282,
-   "printed": 2,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "Q. niller- -- ~ ief, Solid &tor Branch t4 ' cc:"
   },
   {
    "pdf": 282,
-   "printed": 2,
+   "printed": null,
    "source": "pipeline",
    "kind": "quote",
    "opening": "UOl/*. m y EEOl/C*. 1ittl.s SAIIl/K. Ilrlloy S A W * . w0.s "
@@ -28326,28 +28292,28 @@
   },
   {
    "pdf": 286,
-   "printed": 2,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "( u ' Pepeat tests ( 1 ) and ( 2 ) except w i t h v e n t s "
   },
   {
    "pdf": 286,
-   "printed": 2,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "The above t a s k s a r e intended to complement TUR-14359 r"
   },
   {
    "pdf": 286,
-   "printed": 2,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "h%G C-CE, 1.1. nocoo1 Director S t r u c t u r e s and P r o"
   },
   {
    "pdf": 286,
-   "printed": 2,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "Enclosures: As stated cc: SA42/nessrs. Mcfntosh/Donton EEllR"
@@ -28879,70 +28845,70 @@
   },
   {
    "pdf": 299,
-   "printed": 4,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "29 1"
   },
   {
    "pdf": 299,
-   "printed": 4,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "- .--- .1.: ... ..... . ."
   },
   {
    "pdf": 299,
-   "printed": 4,
+   "printed": null,
    "source": "pipeline",
    "kind": "quote",
    "opening": "... . . . . . . . . . ----. . ,. .. .-. -- .._._ . i_- ---A "
   },
   {
    "pdf": 299,
-   "printed": 4,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": ". . .. .. . . ."
   },
   {
    "pdf": 299,
-   "printed": 4,
+   "printed": null,
    "source": "pipeline",
    "kind": "quote",
    "opening": ". . . . . . .: . ."
   },
   {
    "pdf": 299,
-   "printed": 4,
+   "printed": null,
    "source": "pipeline",
    "kind": "quote",
    "opening": ". . . . . . . . . . . . . . . .. .. ...1.' ..\".:-. . . ' . '"
   },
   {
    "pdf": 299,
-   "printed": 4,
+   "printed": null,
    "source": "pipeline",
    "kind": "quote",
    "opening": "n P"
   },
   {
    "pdf": 299,
-   "printed": 4,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "c"
   },
   {
    "pdf": 299,
-   "printed": 4,
+   "printed": null,
    "source": "pipeline",
    "kind": "quote",
    "opening": "u N"
   },
   {
    "pdf": 299,
-   "printed": 4,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "W"
@@ -34220,399 +34186,399 @@
   },
   {
    "pdf": 378,
-   "printed": 2,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "4Snl D 395 appropriate method, is calculated according to 5."
   },
   {
    "pdf": 378,
-   "printed": 2,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "4.1 Compression set tests are intended to mea- NOTE 2-11 sho"
   },
   {
    "pdf": 378,
-   "printed": 2,
+   "printed": null,
    "source": "pipeline",
    "kind": "quote",
    "opening": "and 13.2 i 0.1 mm (0.52 0.004 in.) in diameter will provide "
   },
   {
    "pdf": 378,
-   "printed": 2,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "5. Test Specimens 5.4 When the standard test specimen is to "
   },
   {
    "pdf": 378,
-   "printed": 2,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "5.1 Specimens from each sample may be replaced by a specimen"
   },
   {
    "pdf": 378,
-   "printed": 2,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "5.2 The standard test specimen shall be a cy- a standard she"
   },
   {
    "pdf": 378,
-   "printed": 2,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "Type I* 2. menting, to the thickness required. Such plies Th"
   },
   {
    "pdf": 378,
-   "printed": 2,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "A 0.02) *0.01) _____ mens."
   },
   {
    "pdf": 378,
-   "printed": 2,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "A Type I specimen is used in Methods A and B. 5.5.2 Care sha"
   },
   {
    "pdf": 378,
-   "printed": 2,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "'Type 2 specimen is used in Method 8. placing of the plied t"
   },
   {
    "pdf": 378,
-   "printed": 2,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "5.2.2 When cutting the standard specimen, fixture by keeping"
   },
   {
    "pdf": 379,
-   "printed": 3,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "D395"
   },
   {
    "pdf": 379,
-   "printed": 3,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "6.1 Store all vulcanized test specimens or compression devic"
   },
   {
    "pdf": 379,
-   "printed": 3,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "6.2 Allow buffed specimens to rest at least 30 7.2. I .3 The"
   },
   {
    "pdf": 379,
-   "printed": 3,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "6.3 Condition all specimens before testing for 7.2.2 Exiernu"
   },
   {
    "pdf": 379,
-   "printed": 3,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "+ controlled to 50 5 ?6 relative humidity. masses may be use"
   },
   {
    "pdf": 379,
-   "printed": 3,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "METHOD A-COMPRESSION SET UNDER vision shall be made by the u"
   },
   {
    "pdf": 379,
-   "printed": 3,
+   "printed": null,
    "source": "pipeline",
    "kind": "quote",
    "opening": "CONSTANT FORCE IN AIR or other devices to prevent the specim"
   },
   {
    "pdf": 379,
-   "printed": 3,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "7. Apparatus the external force is removed. The spring shall"
   },
   {
    "pdf": 379,
-   "printed": 3,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "7. I Dial Micromeler-A dial micrometer, for have essentially"
   },
   {
    "pdf": 379,
-   "printed": 3,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "7.2.1 Culibrured Spring Force Applicurion- test. The require"
   },
   {
    "pdf": 380,
-   "printed": 4,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "8.2 Application of Compressive Force-As- semble the specimen"
   },
   {
    "pdf": 380,
-   "printed": 4,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "8.3 Test Time and Test Temperature- 10.I .4 Type of test spe"
   },
   {
    "pdf": 380,
-   "printed": 4,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "1 j. Apparatus compression device in the oven within 2 h aft"
   },
   {
    "pdf": 380,
-   "printed": 4,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "8.4 Cooling Period-While cooling, allow the 11.2 Spacer Bars"
   },
   {
    "pdf": 380,
-   "printed": 4,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "0.02 mm (0.375 f the cooling period at a standard laboratory"
   },
   {
    "pdf": 380,
-   "printed": 4,
+   "printed": null,
    "source": "pipeline",
    "kind": "quote",
    "opening": "* '"
   },
   {
    "pdf": 380,
-   "printed": 4,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "mosphere controlled to 50 5 % relative humid- 1 I .3 Compres"
   },
   {
    "pdf": 380,
-   "printed": 4,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "8.5 h i n d Thickness Measuremenl-After the of which the spe"
   },
   {
    "pdf": 381,
-   "printed": 5,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "D395"
   },
   {
    "pdf": 381,
-   "printed": 5,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "I 1.4 Oven, conforming to the specification for 12.4 Cooling"
   },
   {
    "pdf": 381,
-   "printed": 5,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "I 1.5 Plates-The plates between which the before making the "
   },
   {
    "pdf": 381,
-   "printed": 5,
+   "printed": null,
    "source": "pipeline",
    "kind": "heading",
    "opening": "Calculation 12. Procedure"
   },
   {
    "pdf": 381,
-   "printed": 5,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "13. I Calculate the compression set expressed"
   },
   {
    "pdf": 381,
-   "printed": 5,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "12.1 Original Thickness Measurementas a percentage of the or"
   },
   {
    "pdf": 381,
-   "printed": 5,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "12.2 Application of CompressiveForce-Place percentage of the"
   },
   {
    "pdf": 381,
-   "printed": 5,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "1. = thickness of the spacer bar used. the rubber when compr"
   },
   {
    "pdf": 382,
-   "printed": 6,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "D 395"
   },
   {
    "pdf": 382,
-   "printed": 6,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "14.1.8 Ntinlth.. :pecimens tested. A testing, therefore the "
   },
   {
    "pdf": 382,
-   "printed": 6,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "15.4 The precision results are given in Tables"
   },
   {
    "pdf": 382,
-   "printed": 6,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "15.1 These precision ,,atements have been I and 2. prepared "
   },
   {
    "pdf": 382,
-   "printed": 6,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "15.2 Prepared test specimens of two rubbers, value. Referenc"
   },
   {
    "pdf": 382,
-   "printed": 6,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "15.3 One laboratory did not run the Method RequestRRD-11-113"
   },
   {
    "pdf": 382,
-   "printed": 6,
+   "printed": null,
    "source": "pipeline",
    "kind": "quote",
    "opening": "TABLE I LQC Pmisioa Data Comprearion Set-Method A Within Lab"
   },
   {
    "pdf": 382,
-   "printed": 6,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "A An averagc value. the value of S varies with mean level."
   },
   {
    "pdf": 382,
-   "printed": 6,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": ".LSD based on 95 Iconfidence level: two results are consider"
   },
   {
    "pdf": 382,
-   "printed": 6,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "CThe LSD values are relative percent. that is, a percent of "
   },
   {
    "pdf": 382,
-   "printed": 6,
+   "printed": null,
    "source": "pipeline",
    "kind": "quote",
    "opening": "TABLE 2 LQC Precision D.1. Colnprrssh Set-Melhod 6 Within La"
   },
   {
    "pdf": 382,
-   "printed": 6,
+   "printed": null,
    "source": "pipeline",
    "kind": "quote",
    "opening": "Average or Pooled 0.579 0.OM7 4.329 0.1124 valuei Repeatabil"
   },
   {
    "pdf": 382,
-   "printed": 6,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "An average value, the value oTS varies with mean level."
   },
   {
    "pdf": 382,
-   "printed": 6,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "LSO b a d on 95 A oonfdence level: two results are considere"
   },
   {
    "pdf": 382,
-   "printed": 6,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "The LSD values are relative percent. that is. a percent of t"
   },
   {
    "pdf": 383,
-   "printed": 7,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "D 395"
   },
   {
    "pdf": 383,
-   "printed": 7,
+   "printed": null,
    "source": "pipeline",
    "kind": "quote",
    "opening": "FIG. I Device for Compreash Sef Test, Usins Chlibnted Spring"
   },
   {
    "pdf": 383,
-   "printed": 7,
+   "printed": null,
    "source": "pipeline",
    "kind": "quote",
    "opening": "FIG. 3 Device for C o m p ~ i u asct Test Under Consmat Dell"
   },
   {
    "pdf": 383,
-   "printed": 7,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "The American Societyfor Testingand Materials rakes no positi"
   },
   {
    "pdf": 383,
-   "printed": 7,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "This standard is subject to revision at any rime by the resp"
@@ -35403,28 +35369,28 @@
   },
   {
    "pdf": 399,
-   "printed": 77,
+   "printed": null,
    "source": "pipeline",
    "kind": "quote",
    "opening": "0 Guidelines Approximately * r e mb prior to the USFC Shuttl"
   },
   {
    "pdf": 399,
-   "printed": 77,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "8. tFFECWEDATC"
   },
   {
    "pdf": 399,
-   "printed": 77,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "TNs procedure i s effective on date of l u u ."
   },
   {
    "pdf": 399,
-   "printed": 77,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "R& t. LIndrtrorn Y a q e r , Shuttle Projects ca S A O I I b"
@@ -35543,14 +35509,14 @@
   },
   {
    "pdf": 405,
-   "printed": 8,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "E"
   },
   {
    "pdf": 405,
-   "printed": 8,
+   "printed": null,
    "source": "pipeline",
    "kind": "contents",
    "opening": "0 0 0 0"
@@ -35725,14 +35691,14 @@
   },
   {
    "pdf": 420,
-   "printed": 1,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "#"
   },
   {
    "pdf": 420,
-   "printed": 1,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "0 sd"
@@ -35914,42 +35880,42 @@
   },
   {
    "pdf": 426,
-   "printed": 0,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "3 w> OIu L"
   },
   {
    "pdf": 426,
-   "printed": 0,
+   "printed": null,
    "source": "pipeline",
    "kind": "quote",
    "opening": "- fl u c +"
   },
   {
    "pdf": 426,
-   "printed": 0,
+   "printed": null,
    "source": "pipeline",
    "kind": "quote",
    "opening": ">- CL"
   },
   {
    "pdf": 426,
-   "printed": 0,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "Iz v)"
   },
   {
    "pdf": 426,
-   "printed": 0,
+   "printed": null,
    "source": "pipeline",
    "kind": "quote",
    "opening": "s1 W -1 m"
   },
   {
    "pdf": 426,
-   "printed": 0,
+   "printed": null,
    "source": "pipeline",
    "kind": "quote",
    "opening": "r. Q"
@@ -36068,7 +36034,7 @@
   },
   {
    "pdf": 429,
-   "printed": 0,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "Y"
@@ -36530,105 +36496,105 @@
   },
   {
    "pdf": 444,
-   "printed": 3,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "EG21/G. Butler"
   },
   {
    "pdf": 444,
-   "printed": 3,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "EGZZ/T. T u r r , e r / R . D o n a l d s o n / S . Wig~i-s/"
   },
   {
    "pdf": 444,
-   "printed": 3,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "R. Jackson/J. Gross/R. R i e m e r"
   },
   {
    "pdf": 444,
-   "printed": 3,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "EG23/E. B o a r d / D . H e r Z a / D . GlaCish/A. T o , ? u"
   },
   {
    "pdf": 444,
-   "printed": 3,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "EG2 4/E. Lowe/J. Davis/Z. B a k e r / B . N r s e l l e y"
   },
   {
    "pdf": 444,
-   "printed": 3,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "EY 0 1 / R . S c h w i a q n u e r"
   },
   {
    "pdf": 444,
-   "printed": 3,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "ELOl/?. I s b e l l"
   },
   {
    "pdf": 444,
-   "printed": 3,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "EPOl/A. Mecool. . E?13/C. Gaines/E. E n g l e r m . Earr~sar"
   },
   {
    "pdf": 444,
-   "printed": 3,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "EP 14/B - N e i n / R . W h i t e / R . B e c k / W . Ru.?E;"
   },
   {
    "pdf": 444,
-   "printed": 3,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "2?21/0. G o e t = / G . S n i t h / E . Sacchs"
   },
   {
    "pdf": 444,
-   "printed": 3,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "E? 2 2 /R ."
   },
   {
    "pdf": 444,
-   "printed": 3,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "E?23/P. E?25/J. Ei'31JG. Geller"
   },
   {
    "pdf": 444,
-   "printed": 3,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "E? 3 2/M. E? 3 3 / F --.I?."
   },
   {
    "pdf": 444,
-   "printed": 3,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "rr-.5/'=."
   },
   {
    "pdf": 444,
-   "printed": 3,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "E?.: 3/Z -Distziburion: (Cont'd)"
@@ -36663,28 +36629,28 @@
   },
   {
    "pdf": 448,
-   "printed": 0,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": ". . .,., ,... .*. ... ... ... . . *. .* .. * ."
   },
   {
    "pdf": 448,
-   "printed": 0,
+   "printed": null,
    "source": "pipeline",
    "kind": "quote",
    "opening": ",I. \" i r ; ; . i: . a . . .* . . . . . . . ,. .. .. .. . ."
   },
   {
    "pdf": 448,
-   "printed": 0,
+   "printed": null,
    "source": "pipeline",
    "kind": "contents",
    "opening": "-lmkn 2"
   },
   {
    "pdf": 448,
-   "printed": 0,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "l b"
@@ -36705,35 +36671,35 @@
   },
   {
    "pdf": 450,
-   "printed": 0,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "*E t"
   },
   {
    "pdf": 450,
-   "printed": 0,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": ".."
   },
   {
    "pdf": 450,
-   "printed": 0,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "4."
   },
   {
    "pdf": 450,
-   "printed": 0,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "."
   },
   {
    "pdf": 450,
-   "printed": 0,
+   "printed": null,
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "f"
