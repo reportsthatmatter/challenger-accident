@@ -5,7 +5,7 @@ published_at: "October 1986"
 source_url: "https://www.govinfo.gov/app/details/GPO-CRPT-99hrpt1016"
 pages: 438
 footnotes: 264
-corrections: 65
+corrections: 64
 ---
 
 Union Calendar No. 600 99th Congress, 2d Session - - - - - - - - - - - - - House Report 99-1016
@@ -1622,7 +1622,7 @@ January 15, 1986. During the STS 51-L Level I Flight Readiness Review, Mr. Mullo
 
 January 25, 1986. According to Mr. McDonald, Mr. Mulloy mentioned that 61-C had suffered O-ring erosion "within experience base" at the STS 51-L L-1 Flight Readiness Review.
 
-January 26, 1986. The Orlando Sentinel printed an article titled, "Bitter freeze is expected to clobber state Tuesday."[^323]
+January 26, 1986. The Orlando Sentinel printed an article titled, "Bitter freeze is expected to clobber state Tuesday." 32a
 
 January 27, 1986. Thiokol and Marshall personnel spend approximately three hours in a teleconference debating the effect that predicted low temperatures will have on the performance of the O-ring seals.
 

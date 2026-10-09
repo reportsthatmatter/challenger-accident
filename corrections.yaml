@@ -421,12 +421,6 @@ corrections:
     replace: "3.5 inch span at the 154 degree location."
     reason: span read as man, a speck read as a quotation mark; checked against the scan (PDF p.68); golden page p.68 (reportsthatmatter-yt8)
     added: 2026-10-09
-  - id: c-0067
-    where: { printed: 60 }
-    find: 'clobber state Tuesday." 32a'
-    replace: 'clobber state Tuesday."[^323]'
-    reason: the raised note number 32a (note 323, "Bitter Freeze is Expected to Clobber State Tuesday") read as 32a, set apart from the closing quotation mark; checked against the scan (PDF p.68)
-    added: 2026-10-09
 
 # Suspects looked at against the scan and judged correct as they stand. They
 # leave the review queue for good; the entry stays here as the record of who

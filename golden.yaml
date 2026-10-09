@@ -68,6 +68,9 @@ pages:
     printed: 60
     verified_by: "Claude (Sonnet 5.5), 2026-10-02, against the page image"
     features: [C, I, E]
+    # The article note "32a" (a letter-suffixed note, OCR'd 323) stays a bare marker after "Tuesday.”" (reportsthatmatter-mtkr).
+    xfail: reportsthatmatter-mtkr
+    xfail_only: [blocks]
     blocks:
       - paragraph: {start: "December 11, 1985. Thiokol management holds", end: "No discussion of O-ring anomalies occurs."}
       - paragraph: {start: "December 17, 1985. Larry Wear holds", end: "Marshall Space Flight Center."}
