@@ -1,4 +1,4 @@
-import { layoutPageJoins, quoteListRunOns, pageBreakContinuations, pipeline, type BodyPass, shiftedPages, quoteRunOn, visionStructure, parenFolios, foliosInStep, hyphenFragments } from "@rtm/ingest";
+import { layoutPageJoins, quoteListRunOns, pageBreakContinuations, pipeline, type BodyPass, shiftedPages, quoteRunOn, visionStructure, parenFolios, foliosInStep, hyphenFragments, divisionLabels } from "@rtm/ingest";
 
 /**
  * The Committee sets each Issue/Finding/Recommendation label on its own
@@ -180,6 +180,8 @@ export default pipeline({
     // (reportsthatmatter-uw50).
     // Words broken at a line end that the document writes whole nowhere ("investiga- tions"): closed when the head is no word (reportsthatmatter-pt6).
     hyphenFragments(),
+    // A lone "Findings" or "Issue" line is a division label, a heading (reportsthatmatter-liv).
+    divisionLabels(),
     parenFolios(), foliosInStep(),
     // Block structure from a vision model's reading of the page images (granite-docling, committed in
     // reference/vision/ by reportsthatmatter-kyj3), on the pages where it agrees with this scan's own

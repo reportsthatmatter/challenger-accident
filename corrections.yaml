@@ -379,6 +379,54 @@ corrections:
     replace: "3. NASA should stop routine cannibalization"
     reason: a speck on the S read as J; checked against the scan (PDF p.29, Recommendation 3); golden page p.29 (reportsthatmatter-jsqw)
     added: 2026-10-03
+  - id: c-0060
+    where: { printed: 60 }
+    find: "No discussion of 0- ring anomalies occurs"
+    replace: "No discussion of O-ring anomalies occurs"
+    reason: capital O read as the digit 0 and the hyphen split by the line end; checked against the scan (PDF p.68, 11 December 1985); golden page p.68 (reportsthatmatter-yt8)
+    added: 2026-10-09
+  - id: c-0061
+    where: { printed: 60 }
+    find: "The Level 111 Flight Readiness Review for Flight 51-L"
+    replace: "The Level III Flight Readiness Review for Flight 51-L"
+    reason: roman III read as 111; checked against the scan (PDF p.68); golden page p.68 (reportsthatmatter-yt8)
+    added: 2026-10-09
+  - id: c-0062
+    where: { printed: 60 }
+    find: "primary point of discussion. ,"
+    replace: "primary point of discussion."
+    reason: stray comma from a speck after the full stop; checked against the scan (PDF p.68); golden page p.68 (reportsthatmatter-yt8)
+    added: 2026-10-09
+  - id: c-0063
+    where: { printed: 60 }
+    find: "Januarv 13. 1986. Marshall"
+    replace: "January 13, 1986. Marshall"
+    reason: y read as v, comma as full stop; checked against the scan (PDF p.68); golden page p.68 (reportsthatmatter-yt8)
+    added: 2026-10-09
+  - id: c-0064
+    where: { printed: 60 }
+    find: "January 26 1986. The Orlando"
+    replace: "January 26, 1986. The Orlando"
+    reason: comma dropped from the date; checked against the scan (PDF p.68); golden page p.68 (reportsthatmatter-yt8)
+    added: 2026-10-09
+  - id: c-0065
+    where: { printed: 60 }
+    find: "Mulloy's Flight 51-L presentation to the Level I1 Flight"
+    replace: "Mulloy's Flight 51-L presentation to the Level II Flight"
+    reason: roman II read as I1; checked against the scan (PDF p.68); golden page p.68 (reportsthatmatter-yt8)
+    added: 2026-10-09
+  - id: c-0066
+    where: { printed: 60 }
+    find: '3.5 inch man at the 154 degree"location.'
+    replace: "3.5 inch span at the 154 degree location."
+    reason: span read as man, a speck read as a quotation mark; checked against the scan (PDF p.68); golden page p.68 (reportsthatmatter-yt8)
+    added: 2026-10-09
+  - id: c-0067
+    where: { printed: 60 }
+    find: 'clobber state Tuesday." 32a'
+    replace: 'clobber state Tuesday."[^323]'
+    reason: the raised note number 32a (note 323, "Bitter Freeze is Expected to Clobber State Tuesday") read as 32a, set apart from the closing quotation mark; checked against the scan (PDF p.68)
+    added: 2026-10-09
 
 # Suspects looked at against the scan and judged correct as they stand. They
 # leave the review queue for good; the entry stays here as the record of who

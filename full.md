@@ -5,7 +5,7 @@ published_at: "October 1986"
 source_url: "https://www.govinfo.gov/app/details/GPO-CRPT-99hrpt1016"
 pages: 438
 footnotes: 264
-corrections: 57
+corrections: 65
 ---
 
 Union Calendar No. 600 99th Congress, 2d Session - - - - - - - - - - - - - House Report 99-1016
@@ -238,11 +238,11 @@ Discussion Only
 
 1. History
 
-Issue
+#### Issue
 
 Was there sufficient time to correct the problems with the Solid Rocket Motor?
 
-Findings
+#### Findings
 
 1\. Problems with the joints which connect the Solid Rocket Motor casings were recognized for many years. While attempts were made to correct these problems, the measures taken were insufficient to provide a reliable joint.
 
@@ -250,11 +250,11 @@ Findings
 
 ### Summary of Casing Joint Design
 
-Issue
+#### Issue
 
 Why did the aft field joint between the steel containers that hold the Solid Rocket Motor propellant fail to contain the burning gases of the propellant during lift-off and flight operations?
 
-Findings
+#### Findings
 
 1\. The design of the field joint was unsatisfactory and could not reliably contain the burning propellant gases under the range of operating conditions to be expected during the lift-off and flight phases.
 
@@ -262,7 +262,7 @@ Findings
 
 %%page 10%%
 
-Recommendations
+#### Recommendations
 
 1\. NASA should write and issue a new and more accurate performance specification which would cover the full range of thermal and structural requirements for the Solid Rocket Motors, with an adequate factor of safety for unusually low temperatures.
 
@@ -280,21 +280,21 @@ Discussion Only
 
 ### Stacking Operations
 
-Issue
+#### Issue
 
 Was there any damage to the casing joints or contamination that occurred during the stacking operations when the Shuttle was assembled in the Vehicle Assembly Building (VAB) that could have contributed to the failure?
 
-Finding
+#### Finding
 
 There was no evidence of joint contamination, fracture or other damage from foreign objects or due to casing ovality that contributed to the joint failure. Although certain problems occurred during stacking and the procedures were violated once, there was no evidence that these events contributed to the Flight 51-L accident.
 
 ### Summary of Launch Operations
 
-Issue 1
+#### Issue 1
 
 How was the decision to launch STS 51-L arrived at and why was it wrong?
 
-Findings
+#### Findings
 
 1\. The Flight Readiness Review for STS 51-L was conducted in accordance with established procedure.
 
@@ -318,21 +318,21 @@ Findings
 
 11\. Failure to enforce a clear requirement for definite readiness statements contributed to failures in communication between NASA and its contractors during launch preparations.
 
-Issue 2
+#### Issue 2
 
 Should firing room personnel be allowed to waive launch commit criteria or equipment redlines during a launch countdown without a well-developed technical reason for doing so?
 
-Finding
+#### Finding
 
 NASA's management waived its own launch commit criteria on January 28, 1986, without a valid technical reason for doing so.
 
 ### Retrieval, Transportation and Refurbishment
 
-Issue
+#### Issue
 
 Were the motor casings used on STS 51-L damaged as a result of the retrieval, transportation and refurbishment operations following previous launches?
 
-Finding
+#### Finding
 
 There was no evidence of damage to the casings or joint due to prior use or preparation for reuse.
 
@@ -388,11 +388,11 @@ As of September 15, 1986, the Committee has not found any credible evidence to s
 
 a. Problems in Hardware Certification
 
-Issue I
+#### Issue I
 
 Have all elements of Space Shuttle flight hardware been adequately certified?
 
-Findings
+#### Findings
 
 1\. The overall design and certification processes prescribed by NASA for each major element of Space Shuttle flight hardware are very comprehensive.
 
@@ -404,13 +404,13 @@ Findings
 
 5\. If NASA is unable to explain why the deficiences in Solid Rocket Motor testing and certification went undetected by the existing comprehensive set of processes and procedures, the agency will not be able to protect against a similar breakdown in its system of checks and balances in the future.
 
-Recommendations
+#### Recommendations
 
 1\. NASA should devote more attention to determining why the deficiencies in Solid Rocket Motor testing and certification went undetected, so that appropriate action can be taken to uncover latent problems in existing hardware and to prevent similar problems in future development programs.
 
 2\. NASA and its contractors should thoroughly reassess the adequacy of all the testing and certification that has been conducted to date on each element of Space Shuttle flight hardware. Where deficiencies are found, they must be corrected.
 
-Issue 2
+#### Issue 2
 
 Does the Space Shuttle Main Engine have adequate operating margins, and is the "fleet leader'' concept adequate to ensure safe operation?
 
@@ -934,7 +934,7 @@ Is the change control process sufficiently defined for all elements of the Shutt
 
 %%page 29%%
 
-Recommendation
+#### Recommendation
 
 NASA should review its change control process to determine the usefulness of differentiating between minor changes and significant changes.
 
@@ -942,31 +942,31 @@ NASA should review its change control process to determine the usefulness of dif
 
 a. Management Structure
 
-Issue 1
+#### Issue 1
 
 Does the management of the Shuttle Program adequately define the lines of authority and are managers given authority commensurate with their responsibilities?
 
-Finding
+#### Finding
 
 The management of the Shuttle Program is complex and diversified and it is not always clear who has authority or responsibility. NASA's "lead center" concept has resulted in placing the management of the program at JSC, one of three centers participating in the program; however, because Johnson does not have control of the other centers' resources, the NSTS Program Manager's authority to manage the program is limited and the responsibility is unclear. Recommendation
 
 NASA should restructure the Shuttle Program management to define clear lines of authority and responsibilities. This restructuring should take into account the special role each center must play and be especially sensitive to the need for the cooperation and support of all the participants to achieve a common goal. NASA should give special consideration to moving the Program Manager to NASA Headquarters to avoid the confusion and intercenter rivalry that result from having a large multi-center program managed out of one of the participating centers.
 
-Issue 2
+#### Issue 2
 
 Are astronauts adequately represented in management?
 
-Finding
+#### Finding
 
 The Committee finds no evidence that astronauts are denied the opportunity to enter management if they so choose.
 
 b. Communication
 
-Issue 1
+#### Issue 1
 
 Are there adequate opportunities to communicate problems within the Shuttle Program management structure?
 
-Finding
+#### Finding
 
 There are many regularly scheduled meetings and telecons at all levels of management throughout the Shuttle Program. In addition, "special" meetings and telecons are routine. No evidence was found to support a conclusion that the system inhibited communication or that it was difficult to surface problems.
 
@@ -1604,25 +1604,25 @@ December 4, 1985. At the STS 61-C Shuttle Project Board, Mr. Mulloy noted "SRM j
 
 %%page 60%%
 
-December 11, 1985. Thiokol management holds a Solid Rocket Motor Flight Readiness Review for STS 51-L. No discussion of 0- ring anomalies occurs.
+December 11, 1985. Thiokol management holds a Solid Rocket Motor Flight Readiness Review for STS 51-L. No discussion of O-ring anomalies occurs.
 
 December 17, 1985. Larry Wear holds a Flight 51-L Solid Rocket Motor Project Flight Readiness Review at Marshall Space Flight Center.
 
-January 3, 1986. The Level 111 Flight Readiness Review for Flight 51-L takes place at Marshall. SRB recovery system changes are the primary point of discussion. ,
+January 3, 1986. The Level III Flight Readiness Review for Flight 51-L takes place at Marshall. SRB recovery system changes are the primary point of discussion.
 
 January 9, 1986. Larry Mulloy makes his Flight 51-L presentation at the MSFC Shuttle Projects Office Readiness Review. SRB parachutes are discussed. O-rings are not.
 
-January 12, 1986. STS 61-C experienced nozzle Joint O-ring erosion and blow-by and a field joint O-ring was eroded 0.011 inches over an 8 inch span at the 162 degree location. There was blow-by past the primary O-ring in the left-hand nozzle joint between the 255 degree and 335 degree locations. The primary O-ring in the left SRM aft field ioint was eroded 0.004 inches over a 3.5 inch man at the 154 degree"location.
+January 12, 1986. STS 61-C experienced nozzle Joint O-ring erosion and blow-by and a field joint O-ring was eroded 0.011 inches over an 8 inch span at the 162 degree location. There was blow-by past the primary O-ring in the left-hand nozzle joint between the 255 degree and 335 degree locations. The primary O-ring in the left SRM aft field ioint was eroded 0.004 inches over a 3.5 inch span at the 154 degree location.
 
-Januarv 13. 1986. Marshall Space Flight Center 51-L Readiness Review. Mulloy again does not mention O-ring anomalies.
+January 13, 1986. Marshall Space Flight Center 51-L Readiness Review. Mulloy again does not mention O-ring anomalies.
 
-January 14, 1986. Mulloy's Flight 51-L presentation to the Level I1 Flight Readiness Review indicates there were "no 61-C flight anomalies."
+January 14, 1986. Mulloy's Flight 51-L presentation to the Level II Flight Readiness Review indicates there were "no 61-C flight anomalies."
 
 January 15, 1986. During the STS 51-L Level I Flight Readiness Review, Mr. Mulloy noted that there were "No 61-C Flight Anomalies," and that there were "NO major problems or issues."
 
 January 25, 1986. According to Mr. McDonald, Mr. Mulloy mentioned that 61-C had suffered O-ring erosion "within experience base" at the STS 51-L L-1 Flight Readiness Review.
 
-January 26 1986. The Orlando Sentinel printed an article titled, "Bitter freeze is expected to clobber state Tuesday." 32a
+January 26, 1986. The Orlando Sentinel printed an article titled, "Bitter freeze is expected to clobber state Tuesday."[^323]
 
 January 27, 1986. Thiokol and Marshall personnel spend approximately three hours in a teleconference debating the effect that predicted low temperatures will have on the performance of the O-ring seals.
 
@@ -1902,11 +1902,11 @@ The aft field joint on Flight 51-L was between two casings that were used previo
 
 TANK
 
-Issue
+#### Issue
 
 The External Tank was obviously involved in the accident. Was that involvement a cause or an effect?
 
-Findings
+#### Findings
 
 1\. The Committee adopts the "Finding" of the Rogers Commission that: "A review of the External Tank's construction records, acceptance testing, pre-launch and flight data and recovered hardware, does not support anything relating to the External Tank which caused or contributed to the cause of the accident."35
 
@@ -2228,11 +2228,11 @@ Possibly the most disturbing observation regarding the Space Shuttle Main Engine
 
 b. Recurrent Hardware Problems
 
-Issue 1
+#### Issue 1
 
 What resolutions of inadequacies revealed in the landing gear, tires, wheels, brakes, and nose wheel steering of the landing and deceleration system are required?
 
-Findings
+#### Findings
 
 1\. The Orbiter landing gear, tires, wheels, brakes, and nose wheel steering, as a system, is experimental, designed to criteria outside any other experience, and uses unique combinations of materials. The original design performance specifications for speed and landing weights are routinely exceeded. The original design did not consider asymmetrical braking for cross wind steering as the normal case although it has become standard practice. Stresses which were not taken into account in the design have surfaced in as yet a very small real world sample.
 
@@ -2500,11 +2500,11 @@ Therefore, the Committee believes that as part of an overall review of safety re
 
 e. Production/Refurbishment Issues
 
-Issue 1
+#### Issue 1
 
 Should 100 percent X-ray inspection of the propellant and insulation for the Solid Rocket Motors (SRM) be resumed?
 
-Findings
+#### Findings
 
 1\. Previous X-ray inspections led to only one SRM being rejected for Shuttle use.
 
@@ -2512,7 +2512,7 @@ Findings
 
 3\. Although there is no guarantee that X-ray inspection has been a particularly effective method of detecting propellant and insulation SRM flaws, it remains one of the best available methods to monitor the SRM manufacturing process,
 
-Recommendations
+#### Recommendations
 
 1\. NASA should consider reinstating full X-ray inspection of the propellant and insulation for all motors used on succeeding flights until new, more accurate inspection methods can be developed and implemented and there is unquestionable confidence in the SRM production process.
 
@@ -2796,17 +2796,17 @@ The adequacy of and adherence to Operations and Maintenance Instructions (OMI's)
 
 NASA's own review of flight 51-L showed several examples of improperly implemented procedures. The most serious error occurred when a console operator improperly closed the liquid hydrogen disconnect valve to the External Tank liquid hydrogen manifold. Although the valve appeared to function during 51-L, improper valve operation could have doomed 51-L just as surely as the failed rocket booster. As important as the failure to follow the OM1 was the fact that the valve closure problem was never documented. Without proper documentation a full assessment of the problem was not made prior to launch of 51-L.89 This lack of documentation is reminiscent of what occurred during "de-stacking" of Solid Rocket Motor segments from STS-9. Although destacking revealed water in the joints, this incident was never documented-an oversight which ultimately may have prevented an appreciation of the dangers of ice formation in booster joints during a cold-weather launch.s0 b. Pressures on Shuttle Operations
 
-Issue
+#### Issue
 
 Was NASA under pressure to fly more flights? How did this pressure originate? Will it recur?
 
-Findings
+#### Findings
 
 1\. The Congress and the Executive Branch jointly developed the policy that the Space Shuttle should, in a reliable fashion and at an internationally competitive cost, provide for most of the Free World's space launch needs. By and large, both Branches failed to appreciate the impact that this policy was having on the operational safety of the system.
 
 2\. NASA was under internal and external pressure to build its Shuttle flight rate to 24 per year, primarily to reduce costs per flight, but also to demonstrate and achieve routine access to space. NASA has never achieved its planned flight rate.
 
-Recommendations
+#### Recommendations
 
 1\. NASA must not attempt to achieve a flight rate beyond that which (i) can be supported by the budget and staff resources available; and (ii) is consistent with the technical maturity of the Shuttle and the flexibility desired and needed in scheduling payloads. Management should ensure efficient use of resources but should not impose a flight rate on the system.
 
@@ -3412,15 +3412,15 @@ The Committee finds that Thiokol's advice and recommendations to NASA were incon
 
 %%page 151%%
 
-Issue 5
+#### Issue 5
 
 Do the principal contractors have a n appropriate role in the launch decision making process?
 
-Finding
+#### Finding
 
 The principal contractors have a n active role throughout the decision making process right up to the launch; however, the look of a firm requirement for their concurrence at the time of launch does partially relieve them of responsibility for mission success.
 
-Recommendation
+#### Recommendation
 
 Principal contractors should be required to make a clear, unambiguous statement concerning launch readiness just prior to launch. Discussion
 
@@ -3828,11 +3828,11 @@ There was agreement among the astronauts that the astronaut office should be mov
 
 > I think I would recommend that the Flight Crew Operations Directorate be moved up to report to the Center Director as well as the Flight Operations Director. I think both of those organizations are very key to flying, and having them go through another layer of management before they get to the Center Director creates a filter which is not necessary or desirable for either one of them. I think it also gets them on the same level as the engineering arganizations within the manned spacecraft center, and gives them better access to the program.lgg b. Communication
 
-Issue 1
+#### Issue 1
 
 Are there adequate opportunities to communicate problems within the Shuttle Program management structure?
 
-Finding
+#### Finding
 
 There are many regularly scheduled meetings and teleconferences at all levels of management throughout the Shuttle Program. In addition, "special" meetings and telecons are routine. No evidence was found to support a conclusion that the system inhibited communication or that it was difficult to surface problems.
 
@@ -3920,11 +3920,11 @@ In hindsight, the August 19th briefing, as well as the January 27th telephone co
 
 This conclusion was accepted by all who heard the briefing, and this was the information that was transmitted throughout NASA. The evidence does not support a conclusion that the top decision makers would have arrived at a different conclusion from the managers at Marshall and the Level I managers with propulsion backgrounds. (For additional discussion on this issue, see Section VI.B.l.c.1 c. Safety, Reliability and Quality Assurance
 
-Issue 1
+#### Issue 1
 
 Is NASA's decision to establish a new Office of Safety, Reliability, and Quality Assurance appropriate and, if so, what should its role be?
 
-Finding
+#### Finding
 
 The Committee finds that the Rogers Commission recommendation that NASA should establish an Office of Safety, Reliability and Quality Assurance that reports directly to the Administrator is indeed appropriate. However it is not clear what the activities of this office will encompass.
 
