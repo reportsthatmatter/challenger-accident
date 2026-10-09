@@ -1,4 +1,4 @@
-import { layoutPageJoins, quoteListRunOns, pageBreakContinuations, pipeline, type BodyPass, shiftedPages, quoteRunOn, visionStructure, parenFolios, foliosInStep } from "@rtm/ingest";
+import { layoutPageJoins, quoteListRunOns, pageBreakContinuations, pipeline, type BodyPass, shiftedPages, quoteRunOn, visionStructure, parenFolios, foliosInStep, hyphenFragments } from "@rtm/ingest";
 
 /**
  * The Committee sets each Issue/Finding/Recommendation label on its own
@@ -178,6 +178,8 @@ export default pipeline({
     // figure and test-report pages of the appendices read digits of their garble as a folio ("2", "0", "77"):
     // those out of step with the pages round them are dropped, and the pages numbered from their neighbours
     // (reportsthatmatter-uw50).
+    // Words broken at a line end that the document writes whole nowhere ("investiga- tions"): closed when the head is no word (reportsthatmatter-pt6).
+    hyphenFragments(),
     parenFolios(), foliosInStep(),
     // Block structure from a vision model's reading of the page images (granite-docling, committed in
     // reference/vision/ by reportsthatmatter-kyj3), on the pages where it agrees with this scan's own
