@@ -8498,7 +8498,7 @@
    "pdf": 17,
    "printed": 9,
    "source": "pipeline",
-   "kind": "paragraph",
+   "kind": "heading",
    "opening": "Issue"
   },
   {
@@ -8512,7 +8512,7 @@
    "pdf": 17,
    "printed": 9,
    "source": "pipeline",
-   "kind": "paragraph",
+   "kind": "heading",
    "opening": "Findings"
   },
   {
@@ -8540,7 +8540,7 @@
    "pdf": 17,
    "printed": 9,
    "source": "pipeline",
-   "kind": "paragraph",
+   "kind": "heading",
    "opening": "Issue"
   },
   {
@@ -8554,7 +8554,7 @@
    "pdf": 17,
    "printed": 9,
    "source": "pipeline",
-   "kind": "paragraph",
+   "kind": "heading",
    "opening": "Findings"
   },
   {
@@ -8575,7 +8575,7 @@
    "pdf": 18,
    "printed": 10,
    "source": "pipeline",
-   "kind": "paragraph",
+   "kind": "heading",
    "opening": "Recommendations"
   },
   {
@@ -8638,7 +8638,7 @@
    "pdf": 18,
    "printed": 10,
    "source": "pipeline",
-   "kind": "paragraph",
+   "kind": "heading",
    "opening": "Issue"
   },
   {
@@ -8652,7 +8652,7 @@
    "pdf": 18,
    "printed": 10,
    "source": "pipeline",
-   "kind": "paragraph",
+   "kind": "heading",
    "opening": "Finding"
   },
   {
@@ -8673,7 +8673,7 @@
    "pdf": 18,
    "printed": 10,
    "source": "pipeline",
-   "kind": "paragraph",
+   "kind": "heading",
    "opening": "Issue 1"
   },
   {
@@ -8687,7 +8687,7 @@
    "pdf": 18,
    "printed": 10,
    "source": "pipeline",
-   "kind": "paragraph",
+   "kind": "heading",
    "opening": "Findings"
   },
   {
@@ -8764,7 +8764,7 @@
    "pdf": 19,
    "printed": 11,
    "source": "pipeline",
-   "kind": "paragraph",
+   "kind": "heading",
    "opening": "Issue 2"
   },
   {
@@ -8778,7 +8778,7 @@
    "pdf": 19,
    "printed": 11,
    "source": "pipeline",
-   "kind": "paragraph",
+   "kind": "heading",
    "opening": "Finding"
   },
   {
@@ -8799,7 +8799,7 @@
    "pdf": 19,
    "printed": 11,
    "source": "pipeline",
-   "kind": "paragraph",
+   "kind": "heading",
    "opening": "Issue"
   },
   {
@@ -8813,7 +8813,7 @@
    "pdf": 19,
    "printed": 11,
    "source": "pipeline",
-   "kind": "paragraph",
+   "kind": "heading",
    "opening": "Finding"
   },
   {
@@ -8995,7 +8995,7 @@
    "pdf": 21,
    "printed": 13,
    "source": "pipeline",
-   "kind": "paragraph",
+   "kind": "heading",
    "opening": "Issue I"
   },
   {
@@ -9009,7 +9009,7 @@
    "pdf": 21,
    "printed": 13,
    "source": "pipeline",
-   "kind": "paragraph",
+   "kind": "heading",
    "opening": "Findings"
   },
   {
@@ -9051,7 +9051,7 @@
    "pdf": 21,
    "printed": 13,
    "source": "pipeline",
-   "kind": "paragraph",
+   "kind": "heading",
    "opening": "Recommendations"
   },
   {
@@ -9072,7 +9072,7 @@
    "pdf": 21,
    "printed": 13,
    "source": "pipeline",
-   "kind": "paragraph",
+   "kind": "heading",
    "opening": "Issue 2"
   },
   {
@@ -10794,7 +10794,7 @@
    "pdf": 37,
    "printed": 29,
    "source": "pipeline",
-   "kind": "paragraph",
+   "kind": "heading",
    "opening": "Recommendation"
   },
   {
@@ -10822,7 +10822,7 @@
    "pdf": 37,
    "printed": 29,
    "source": "pipeline",
-   "kind": "paragraph",
+   "kind": "heading",
    "opening": "Issue 1"
   },
   {
@@ -10836,7 +10836,7 @@
    "pdf": 37,
    "printed": 29,
    "source": "pipeline",
-   "kind": "paragraph",
+   "kind": "heading",
    "opening": "Finding"
   },
   {
@@ -10857,7 +10857,7 @@
    "pdf": 37,
    "printed": 29,
    "source": "pipeline",
-   "kind": "paragraph",
+   "kind": "heading",
    "opening": "Issue 2"
   },
   {
@@ -10871,7 +10871,7 @@
    "pdf": 37,
    "printed": 29,
    "source": "pipeline",
-   "kind": "paragraph",
+   "kind": "heading",
    "opening": "Finding"
   },
   {
@@ -10892,7 +10892,7 @@
    "pdf": 37,
    "printed": 29,
    "source": "pipeline",
-   "kind": "paragraph",
+   "kind": "heading",
    "opening": "Issue 1"
   },
   {
@@ -10906,7 +10906,7 @@
    "pdf": 37,
    "printed": 29,
    "source": "pipeline",
-   "kind": "paragraph",
+   "kind": "heading",
    "opening": "Finding"
   },
   {
@@ -12944,7 +12944,7 @@
    "printed": 60,
    "source": "vision",
    "kind": "paragraph",
-   "opening": "January 3, 1986. The Level 111 Flight Readiness Review for F"
+   "opening": "January 3, 1986. The Level III Flight Readiness Review for F"
   },
   {
    "pdf": 68,
@@ -12965,7 +12965,7 @@
    "printed": 60,
    "source": "vision",
    "kind": "paragraph",
-   "opening": "Januarv 13. 1986. Marshall Space Flight Center 51-L Readines"
+   "opening": "January 13, 1986. Marshall Space Flight Center 51-L Readines"
   },
   {
    "pdf": 68,
@@ -12993,7 +12993,7 @@
    "printed": 60,
    "source": "vision",
    "kind": "paragraph",
-   "opening": "January 26 1986. The Orlando Sentinel printed an article tit"
+   "opening": "January 26, 1986. The Orlando Sentinel printed an article ti"
   },
   {
    "pdf": 68,
@@ -13874,7 +13874,7 @@
    "pdf": 82,
    "printed": 74,
    "source": "pipeline",
-   "kind": "paragraph",
+   "kind": "heading",
    "opening": "Issue"
   },
   {
@@ -13888,7 +13888,7 @@
    "pdf": 82,
    "printed": 74,
    "source": "pipeline",
-   "kind": "paragraph",
+   "kind": "heading",
    "opening": "Findings"
   },
   {
@@ -14896,7 +14896,7 @@
    "pdf": 100,
    "printed": 92,
    "source": "pipeline",
-   "kind": "paragraph",
+   "kind": "heading",
    "opening": "Issue 1"
   },
   {
@@ -14910,7 +14910,7 @@
    "pdf": 100,
    "printed": 92,
    "source": "pipeline",
-   "kind": "paragraph",
+   "kind": "heading",
    "opening": "Findings"
   },
   {
@@ -15757,7 +15757,7 @@
    "pdf": 113,
    "printed": 105,
    "source": "pipeline",
-   "kind": "paragraph",
+   "kind": "heading",
    "opening": "Issue 1"
   },
   {
@@ -15771,7 +15771,7 @@
    "pdf": 113,
    "printed": 105,
    "source": "pipeline",
-   "kind": "paragraph",
+   "kind": "heading",
    "opening": "Findings"
   },
   {
@@ -15799,7 +15799,7 @@
    "pdf": 113,
    "printed": 105,
    "source": "pipeline",
-   "kind": "paragraph",
+   "kind": "heading",
    "opening": "Recommendations"
   },
   {
@@ -16695,7 +16695,7 @@
    "pdf": 127,
    "printed": 119,
    "source": "pipeline",
-   "kind": "paragraph",
+   "kind": "heading",
    "opening": "Issue"
   },
   {
@@ -16709,7 +16709,7 @@
    "pdf": 127,
    "printed": 119,
    "source": "pipeline",
-   "kind": "paragraph",
+   "kind": "heading",
    "opening": "Findings"
   },
   {
@@ -16730,7 +16730,7 @@
    "pdf": 127,
    "printed": 119,
    "source": "pipeline",
-   "kind": "paragraph",
+   "kind": "heading",
    "opening": "Recommendations"
   },
   {
@@ -18627,7 +18627,7 @@
    "pdf": 159,
    "printed": 151,
    "source": "pipeline",
-   "kind": "paragraph",
+   "kind": "heading",
    "opening": "Issue 5"
   },
   {
@@ -18641,7 +18641,7 @@
    "pdf": 159,
    "printed": 151,
    "source": "pipeline",
-   "kind": "paragraph",
+   "kind": "heading",
    "opening": "Finding"
   },
   {
@@ -18655,7 +18655,7 @@
    "pdf": 159,
    "printed": 151,
    "source": "pipeline",
-   "kind": "paragraph",
+   "kind": "heading",
    "opening": "Recommendation"
   },
   {
@@ -19950,7 +19950,7 @@
    "pdf": 178,
    "printed": 170,
    "source": "pipeline",
-   "kind": "paragraph",
+   "kind": "heading",
    "opening": "Issue 1"
   },
   {
@@ -19964,7 +19964,7 @@
    "pdf": 178,
    "printed": 170,
    "source": "pipeline",
-   "kind": "paragraph",
+   "kind": "heading",
    "opening": "Finding"
   },
   {
@@ -20244,7 +20244,7 @@
    "pdf": 182,
    "printed": 174,
    "source": "pipeline",
-   "kind": "paragraph",
+   "kind": "heading",
    "opening": "Issue 1"
   },
   {
@@ -20258,7 +20258,7 @@
    "pdf": 182,
    "printed": 174,
    "source": "pipeline",
-   "kind": "paragraph",
+   "kind": "heading",
    "opening": "Finding"
   },
   {

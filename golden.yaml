@@ -3,20 +3,20 @@
 # A page marked xfail is a known pipeline defect: it stays red here, verify stays green, and the bead says why.
 # The source is a page scan with an OCR text layer: line-end hyphens ("Chal- lenger") and garbled note numbers are expected noise.
 pages:
-  # Opening of the Conclusions: a heading, four paragraphs, three indented questions (one quotation), printed folio "(3)" (not text).
+  # Opening of the Conclusions: a heading, four paragraphs, three indented questions (three quotations, one per question), printed folio "(3)" (not text).
   - pdf: 11
     printed: "(3)"
     verified_by: "Claude (Sonnet 5.5), 2026-10-02, against the page image"
     features: [I, D, K]
-    xfail: reportsthatmatter-15h
-    xfail_only: [blocks]
     blocks:
       - heading: "II. CONCLUSIONS"
       - paragraph: {start: "In execution of its oversight responsibilities", end: "organizational and programmatic excellence across the board."}
       - paragraph: {start: "What we as a Committee, NASA as an agency", end: "will serve this much larger purpose."}
       - paragraph: {start: "The Committee’s investigation included", end: "and other interested parties."}
       - paragraph: {start: "From the outset, the focus of the Committee’s investigation", end: "each of the following:"}
-      - quote: {start: "What was the cause, or causes, of the Challenger accident", end: "returned to flight status?"}
+      - quote: {start: "What was the cause, or causes, of the Challenger accident", end: "Challenger accident?"}
+      - quote: {start: "Are there other inherent hardware or management-related deficiencies", end: "in the future?"}
+      - quote: {start: "What must be done to correct all of these problems", end: "returned to flight status?"}
       - paragraph: {start: "The Committee found that NASA’s drive to achieve a launch schedule", end: "throughout the Shuttle program."}
       - paragraph: {start: "The Committee, the Congress, and the Administration have played", end: "was a near-term objective."}
       - paragraph: {start: "Pressures within NASA to attempt to evolve from an R&D agency", end: "at the cost of safety."}
@@ -68,7 +68,8 @@ pages:
     printed: 60
     verified_by: "Claude (Sonnet 5.5), 2026-10-02, against the page image"
     features: [C, I, E]
-    xfail: reportsthatmatter-yt8
+    # The article note "32a" (a letter-suffixed note, OCR'd 323) stays a bare marker after "Tuesday.”" (reportsthatmatter-mtkr).
+    xfail: reportsthatmatter-mtkr
     xfail_only: [blocks]
     blocks:
       - paragraph: {start: "December 11, 1985. Thiokol management holds", end: "No discussion of O-ring anomalies occurs."}
