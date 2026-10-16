@@ -15,9 +15,9 @@ The NASA scan of the Rogers Commission report (NTRS 19860015255) was also
 checked and rejected: its OCR is poor ("Presidential Conimissiun", "Sfiace
 Shuttle", letter-spaced words throughout). The GPO text layer is clean.
 
-## License
+## Licence
 
-Work of the United States federal government — public domain.
+Text of the report: Public domain: a work of the United States Government (17 U.S.C. § 105). Our markup, processing and editorial additions: CC BY 4.0. Code: MIT. Evidence, caveats and the full statement are in [LICENSE](LICENSE); the MIT text is in [LICENSE-MIT](LICENSE-MIT).
 
 ## Rebuilding the text
 
