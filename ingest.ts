@@ -1,4 +1,6 @@
-import { layoutPageJoins, quoteListRunOns, pageBreakContinuations, pipeline, type BodyPass, shiftedPages, quoteRunOn, visionStructure, parenFolios, foliosInStep, hyphenFragments, divisionLabels } from "@rtm/ingest";
+import { readFileSync } from "node:fs";
+import { join } from "node:path";
+import { layoutPageJoins, quoteListRunOns, pageBreakContinuations, pipeline, type BodyPass, type SourcePass, shiftedPages, quoteRunOn, visionStructure, parenFolios, foliosInStep, hyphenFragments, divisionLabels, footnoteResets } from "@rtm/ingest";
 
 /**
  * The Committee sets each Issue/Finding/Recommendation label on its own
@@ -151,6 +153,102 @@ const dropGpoSignatures: BodyPass = {
 };
 
 /**
+ * The running head of the reprinted NASA Reliability Desk Instruction 100-26 (Appendix VI-D, PDF pp. 335-376):
+ * "DI NO. 100-26" over "Page 8 of 34" (and "APPENDIX B" between them in its own appendix), set at the top of
+ * each of its pages and OCR'd as "01 NO.", "OI NO.", "100-2C", "Page 1 4of 94", "Page 2 34" over "of". Nothing
+ * else takes it off, so it opened the page's first paragraph or stood as one, and its "APPENDIX B" line read as
+ * a heading. The head line only among a page's first five lines, then at most three lines under it that are
+ * nothing but the page count or the appendix letter, so the Desk Instruction's own text is untouched; and the
+ * form number at its pages' foot, which with the head gone would open the next page's first paragraph.
+ */
+const DI_HEAD = /^\s*(?:DI|D1|01|0I|OI|OX)[:.]?\s*[N#][O0o]\.\s*100-[0-9A-Za-z]{1,2}\b[\s,'.]*$/;
+const DI_HEAD_MORE = /^[\s.\-]*(?:APP\S*\s+[A-Z8]\b[\s']*|Page\b[\s\dJIl'\u2014of-]*|[\d\s'\u2014]*\bo\s?f\b[\s\d]*)$/;
+
+/** Its form number at the foot of each page ("0246j/l3", "0246jA 5", "02463 /21"), on its own last line. */
+const DI_FOOT = /^\s*0246[j3][\S ]{0,8}$/;
+const DI_PAGES = { from: 335, to: 376 };
+
+const dropDeskInstructionHeads: BodyPass = {
+  name: "dropDeskInstructionHeads",
+  stage: "body",
+  run(lines, _context, at) {
+    const filled = lines.flatMap((line, i) => (line.trim() ? [i] : []));
+    const last = filled[filled.length - 1];
+    const inDocument = at !== undefined && at.pdfIndex >= DI_PAGES.from && at.pdfIndex <= DI_PAGES.to;
+    if (inDocument && last !== undefined && DI_FOOT.test(lines[last])) {
+      const kept = lines.filter((_, i) => i !== last);
+      if (kept.some((line) => /[A-Za-z]{2}/.test(line))) lines = kept;
+    }
+    // PDF p.364 (printed 356) keeps its head: the page before it is the head alone, and without this page's head
+    // its first line would run on into that one, under the wrong page.
+    if (at?.pdfIndex === 364) return lines;
+    const top = lines.flatMap((line, i) => (line.trim() ? [i] : [])).slice(0, 5);
+    const head = top.find((i) => DI_HEAD.test(lines[i]));
+    if (head === undefined) return lines;
+    const drop = new Set([head]);
+    for (const i of top) if (i > head && i <= head + 4 && DI_HEAD_MORE.test(lines[i]) && drop.has(top[top.indexOf(i) - 1])) drop.add(i);
+    const kept = lines.filter((_, i) => !drop.has(i));
+    return kept.some((line) => /[A-Za-z]{2}/.test(line)) ? kept : lines;
+  },
+};
+
+/**
+ * Table rules and figure strokes the OCR read as letters, in the appendices (PDF p.263 on: reprinted test
+ * reports, desk instructions and briefing charts): a line that is nothing but rules and stray marks ("I",
+ * "I I I I", "l", "~", ". ."), or one letter alone. 95 lone "I" paragraphs from the ruled tables, and the
+ * "P" axis labels of a chart on printed p.424, two paragraphs with no words to take an id from, cited as
+ * positional "p-2" and "p-3" (reportsthatmatter-4ofu). Letter-spaced words ("R E P O R T") are kept. Not in
+ * the body of the report, where a line's removal can change which pages take the vision reading. A page that
+ * has no word left without such marks keeps them, so that it keeps its page anchor.
+ */
+const APPENDICES_FROM = 263;
+const STROKES = /^\s*(?:[Il|.~\-_'",!/\\:;*]\s*)+$/;
+const LONE_LETTER = /^\s*[A-Za-z]\s*$/;
+
+const dropStrokeNoise: BodyPass = {
+  name: "dropStrokeNoise",
+  stage: "body",
+  run(lines, _context, at) {
+    if (!at || at.pdfIndex < APPENDICES_FROM) return lines;
+    const kept = lines.filter((line) => !(STROKES.test(line) || LONE_LETTER.test(line)));
+    // A page that is nothing but strokes keeps them: with no line left it would lose its page anchor.
+    return kept.some((line) => /[A-Za-z]{2}/.test(line)) ? kept : lines;
+  },
+};
+
+/**
+ * Page-foot note numbers the OCR lost or garbled, restored from the page images before the page's notes are
+ * read (reportsthatmatter-48o). With its number gone ("    bid." for "29 Ibid.", "  ss Cmte H" for "35 Cmte
+ * Hgs") a note is not read as one: its text stays in the body, glued to the paragraph above or standing
+ * between the two halves of a paragraph carried over the page break. `note-repairs.json` holds, per PDF page,
+ * each repaired line's opening as the text layer has it (`find`, an exact prefix of one line on that page),
+ * what the page image shows (`replace`; empty blanks a line whose words moved to the line above) and the
+ * note as printed (`seen`); a repair that no longer matches exactly one line fails the run, like a correction.
+ * `resets` give the number of the first note that opens on those pages, read off the same images, since the
+ * report numbers its notes afresh in each chapter and a page whose numbers were garbled loses the count.
+ */
+type NoteRepair = { page: number; find: string; replace: string; seen?: string };
+const NOTES: { repairs: NoteRepair[]; resets: { page: number; note: number }[] } = JSON.parse(
+  readFileSync(join(import.meta.dirname, "note-repairs.json"), "utf8")
+);
+
+const repairNoteNumbers: SourcePass = {
+  name: "repairNoteNumbers",
+  stage: "source",
+  run(lines, at) {
+    const repairs = NOTES.repairs.filter((r) => r.page === at.pdfIndex);
+    if (!repairs.length) return lines;
+    const out = [...lines];
+    for (const r of repairs) {
+      const hits = out.flatMap((line, i) => (line.trimEnd() === r.find.trimEnd() || line.startsWith(r.find) ? [i] : []));
+      if (hits.length !== 1) throw new Error(`challenger-accident: note repair on PDF p.${r.page} matched ${hits.length} lines: ${JSON.stringify(r.find)}`);
+      out[hits[0]] = r.replace ? r.replace + out[hits[0]].slice(r.find.length) : "";
+    }
+    return out;
+  },
+};
+
+/**
  * How this report is built. Owned by the report: every decision that shaped
  * its text is named here, and the passes it composes are library code, so a
  * fix to a shared pass reaches every report that calls it.
@@ -172,8 +270,9 @@ export default pipeline({
     // quotation mark (or follows a full stop on a justified page) joins when the
     // layout says it runs on: no first-line indent, same face (reportsthatmatter-38s.10).
     // A scan: its OCR layer sizes consecutive lines a point apart.
+    repairNoteNumbers,
     layoutPageJoins({ scanned: true }),
-    quoteListRunOns(), isolateDivisionLabels, dropCaptionHeadings, dropGpoSignatures, pageBreakContinuations(), shiftedPages(), quoteRunOn(),
+    quoteListRunOns(), isolateDivisionLabels, dropCaptionHeadings, dropGpoSignatures, dropStrokeNoise, dropDeskInstructionHeads, pageBreakContinuations(), shiftedPages(), quoteRunOn(),
     // Folios: "(3)" at the foot of the Conclusions and chapter openers is the page's number, and the OCR'd
     // figure and test-report pages of the appendices read digits of their garble as a folio ("2", "0", "77"):
     // those out of step with the pages round them are dropped, and the pages numbered from their neighbours
@@ -182,6 +281,7 @@ export default pipeline({
     hyphenFragments(),
     // A lone "Findings" or "Issue" line is a division label, a heading (reportsthatmatter-liv).
     divisionLabels(),
+    footnoteResets(NOTES.resets),
     parenFolios(), foliosInStep(),
     // Block structure from a vision model's reading of the page images (granite-docling, committed in
     // reference/vision/ by reportsthatmatter-kyj3), on the pages where it agrees with this scan's own

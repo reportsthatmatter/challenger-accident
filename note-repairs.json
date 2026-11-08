@@ -1,0 +1,1183 @@
+{
+ "repairs": [
+  {
+   "page": 9,
+   "find": "  ’ Report of",
+   "replace": "  1 Report of",
+   "seen": "1 Report of the Presidential Commission on the Space Shuttle"
+  },
+  {
+   "page": 43,
+   "find": "    On January 27, 1967, astronauts",
+   "replace": " 1 On January 27, 1967, astronauts",
+   "seen": "1 On January 27, 1967, astronauts Virgil Grissom"
+  },
+  {
+   "page": 44,
+   "find": "   On April 13, 1971, Apollo 13",
+   "replace": " 2 On April 13, 1971, Apollo 13",
+   "seen": "2 On April 13, 1971, Apollo 13's Command"
+  },
+  {
+   "page": 63,
+   "find": "   l 3 NASA",
+   "replace": "   13 NASA",
+   "seen": "13 NASA, letter from John Miller, MSFC"
+  },
+  {
+   "page": 63,
+   "find": "   “-ern    Commission",
+   "replace": "   14 Rogers Commission",
+   "seen": "14 Rogers Commission Report, Volume II, p. H-1."
+  },
+  {
+   "page": 63,
+   "find": "  I5 Ibid.",
+   "replace": "  15 Ibid.",
+   "seen": "15 Ibid."
+  },
+  {
+   "page": 63,
+   "find": "  I6Ibid.",
+   "replace": "  16 Ibid.",
+   "seen": "16 Ibid."
+  },
+  {
+   "page": 63,
+   "find": "  I’Ibid., p. H-2.",
+   "replace": "  17 Ibid., p. H-2.",
+   "seen": "17 Ibid., p. H-2."
+  },
+  {
+   "page": 63,
+   "find": "  ‘OIbid.",
+   "replace": "  18 Ibid.",
+   "seen": "18 Ibid."
+  },
+  {
+   "page": 63,
+   "find": "  IsIbid.",
+   "replace": "  19 Ibid.",
+   "seen": "19 Ibid."
+  },
+  {
+   "page": 64,
+   "find": "  a a mid.",
+   "replace": "  20 Ibid.",
+   "seen": "20 Ibid."
+  },
+  {
+   "page": 64,
+   "find": "  a s NASA, MSFC",
+   "replace": "  23 NASA, MSFC",
+   "seen": "23 NASA, MSFC, Memo from Mr. Alex McCool"
+  },
+  {
+   "page": 64,
+   "find": "      Rogers Commission Report, Volume 11",
+   "replace": "  24 Rogers Commission Report, Volume 11",
+   "seen": "24 Rogers Commission Report, Volume II, p. H-2."
+  },
+  {
+   "page": 64,
+   "find": "  *5”hiokol",
+   "replace": "  25 Thiokol",
+   "seen": "25 Thiokol, S.H. Cardall, SRM Evaluation of Second Source"
+  },
+  {
+   "page": 65,
+   "find": " 2T  Ibid.",
+   "replace": " 27  Ibid.",
+   "seen": "27 Ibid."
+  },
+  {
+   "page": 65,
+   "find": " 2 9 Ibid.",
+   "replace": " 29 Ibid.",
+   "seen": "29 Ibid."
+  },
+  {
+   "page": 65,
+   "find": " 30 Kid.",
+   "replace": " 30 Ibid.",
+   "seen": "30 Ibid., p. H-3."
+  },
+  {
+   "page": 82,
+   "find": " ss Rogers",
+   "replace": " 35 Rogers",
+   "seen": "35 Rogers Commission Report, Volume I, p. 42."
+  },
+  {
+   "page": 82,
+   "find": " 3T Ibid.",
+   "replace": " 37 Ibid.",
+   "seen": "37 Ibid., Volume I, p. 41"
+  },
+  {
+   "page": 83,
+   "find": "  38  bid., Volume I",
+   "replace": "  39 Ibid., Volume I",
+   "seen": "39 Ibid., Volume I, p. 42."
+  },
+  {
+   "page": 83,
+   "find": "  *In  It should",
+   "replace": "  41a It should",
+   "seen": "41a It should be noted that the right Solid Rocket Booster"
+  },
+  {
+   "page": 97,
+   "find": " :a,,  era Commission",
+   "replace": "  7 Rogers Commission",
+   "seen": "7 Rogers Commission Report, Volume II, p. K-3."
+  },
+  {
+   "page": 97,
+   "find": "         p. F-2.",
+   "replace": "  8 Ibid., p. F-2.",
+   "seen": "8 Ibid., p. F-2."
+  },
+  {
+   "page": 97,
+   "find": "   bid., p. K-3.",
+   "replace": "  9 Ibid., p. K-3.",
+   "seen": "9 Ibid., p. K-3."
+  },
+  {
+   "page": 97,
+   "find": " l o bid., Volume I",
+   "replace": " 10 Ibid., Volume I",
+   "seen": "10 Ibid., Volume I, p. 182."
+  },
+  {
+   "page": 100,
+   "find": "     Rogers Commission Report, Volume",
+   "replace": "  17 Rogers Commission Report, Volume",
+   "seen": "17 Rogers Commission Report, Volume II, p. F-3."
+  },
+  {
+   "page": 100,
+   "find": "     bid.",
+   "replace": "  18 Ibid.",
+   "seen": "18 Ibid."
+  },
+  {
+   "page": 106,
+   "find": "  2 ’ The two",
+   "replace": "  21 The two",
+   "seen": "21 The two events mentioned in this and the preceding paragraph"
+  },
+  {
+   "page": 106,
+   "find": "  22Rogers",
+   "replace": "  22 Rogers",
+   "seen": "22 Rogers Commission Report, Volume I, pp. 129-31."
+  },
+  {
+   "page": 106,
+   "find": "  ZaNASA,",
+   "replace": "  23 NASA,",
+   "seen": "23 NASA, Shuttle Flight Data and Inflight Anomaly List"
+  },
+  {
+   "page": 106,
+   "find": "  2 4 Ibid.",
+   "replace": "  24 Ibid.",
+   "seen": "24 Ibid., pp. 2-6 and 2-7."
+  },
+  {
+   "page": 106,
+   "find": "  2 5 Ibid.",
+   "replace": "  25 Ibid.",
+   "seen": "25 Ibid., pp. 2-16 and 2-17."
+  },
+  {
+   "page": 106,
+   "find": "  2 6 Rogers",
+   "replace": "  26 Rogers",
+   "seen": "26 Rogers Commission Report, Volume I, p. 148."
+  },
+  {
+   "page": 114,
+   "find": "  4 8 Rogers",
+   "replace": "  49 Rogers",
+   "seen": "49 Rogers Commission Report, Volume I, p. 121."
+  },
+  {
+   "page": 114,
+   "find": "  JODavid",
+   "replace": "  50 David",
+   "seen": "50 David E. Sanger, Flaw in Titan's Boosters is Identified"
+  },
+  {
+   "page": 114,
+   "find": "  5 1 Isikoff",
+   "replace": "  51 Isikoff",
+   "seen": "51 Isikoff, pp. A-1, A-20."
+  },
+  {
+   "page": 114,
+   "find": "  5 2 Sanger",
+   "replace": "  52 Sanger",
+   "seen": "52 Sanger, p. A-23."
+  },
+  {
+   "page": 119,
+   "find": " Be Cmte Hgs",
+   "replace": " 66 Cmte Hgs",
+   "seen": "66 Cmte Hgs, Transcript, July 15, 1986, p. 95."
+  },
+  {
+   "page": 120,
+   "find": " 87   Ibid., p. 96.",
+   "replace": " 67   Ibid., p. 96.",
+   "seen": "67 Ibid., p. 96."
+  },
+  {
+   "page": 120,
+   "find": "      Ibid., p. 98.",
+   "replace": " 68   Ibid., p. 98.",
+   "seen": "68 Ibid., p. 98."
+  },
+  {
+   "page": 120,
+   "find": " 59   Ibid., p. 50.",
+   "replace": " 69   Ibid., p. 50.",
+   "seen": "69 Ibid., p. 50."
+  },
+  {
+   "page": 124,
+   "find": "     71   bid.",
+   "replace": "     74   Ibid.",
+   "seen": "74 Ibid."
+  },
+  {
+   "page": 124,
+   "find": "     7s   Cmte HE",
+   "replace": "     75   Cmte Hgs",
+   "seen": "75 Cmte Hgs, Transcript, July 16, 1986, p. 42."
+  },
+  {
+   "page": 124,
+   "find": "          Rogers mmiasion",
+   "replace": "     76   Rogers Commission",
+   "seen": "76 Rogers Commission Report, Volume I, p. 173."
+  },
+  {
+   "page": 128,
+   "find": "   9 1 Hearings",
+   "replace": "   91 Hearings",
+   "seen": "91 Hearings before the House Committee on Science and Technology"
+  },
+  {
+   "page": 128,
+   "find": "   9 1 Rogers",
+   "replace": "   92 Rogers",
+   "seen": "92 Rogers Commission Report, Volume I, pp. 164-77."
+  },
+  {
+   "page": 128,
+   "find": "   9 3 Wid.",
+   "replace": "   93 Ibid.",
+   "seen": "93 Ibid., p. 201."
+  },
+  {
+   "page": 128,
+   "find": "   9 4 NASA",
+   "replace": "   94 NASA",
+   "seen": "94 NASA Response to Rogers Commission, July 14, 1986"
+  },
+  {
+   "page": 128,
+   "find": "   9 5 Rogers",
+   "replace": "   95 Rogers",
+   "seen": "95 Rogers Commission Report, Volume I, p. 177."
+  },
+  {
+   "page": 129,
+   "find": " s 6 NASA",
+   "replace": " 96 NASA",
+   "seen": "96 NASA Response to Rogers Commission, July 14, 1986, p. 31."
+  },
+  {
+   "page": 129,
+   "find": " 9‘bid.",
+   "replace": " 97 Ibid.",
+   "seen": "97 Ibid., p. 33."
+  },
+  {
+   "page": 129,
+   "find": " 9*Rogers",
+   "replace": " 98 Rogers",
+   "seen": "98 Rogers Commission Report, Volume II, p. I-14."
+  },
+  {
+   "page": 129,
+   "find": " 99NASA",
+   "replace": " 99 NASA",
+   "seen": "99 NASA Response to Rogers commission, July 14, 1986, p. 40."
+  },
+  {
+   "page": 136,
+   "find": " lo8   Ibid.",
+   "replace": " 108   Ibid.",
+   "seen": "108 Ibid., pp. J-7-12."
+  },
+  {
+   "page": 136,
+   "find": " * O Q Ibid.",
+   "replace": " 109 Ibid.",
+   "seen": "109 Ibid., p. J-42."
+  },
+  {
+   "page": 138,
+   "find": " 1‘4   Ibid.",
+   "replace": " 114 Ibid.",
+   "seen": "114 Ibid., p. J-38."
+  },
+  {
+   "page": 143,
+   "find": "  121Briefing",
+   "replace": "  121 Briefing",
+   "seen": "121 Briefing to Committee Staff, May 28, 1986"
+  },
+  {
+   "page": 149,
+   "find": " lZ4   Cmt Hgs",
+   "replace": " 124 Cmte Hgs",
+   "seen": "124 Cmt Hgs, Transcript, June 12, 1986, p. 186."
+  },
+  {
+   "page": 149,
+   "find": " lZs   =id.",
+   "replace": " 125 Ibid.",
+   "seen": "125 Ibid. p. 187."
+  },
+  {
+   "page": 150,
+   "find": "         bid., July",
+   "replace": " 126 Ibid., July",
+   "seen": "126 Ibid., July 24, 1986, p. 106."
+  },
+  {
+   "page": 150,
+   "find": "   12’ It is the prime",
+   "replace": "   127 It is the prime",
+   "seen": "127 It is the prime responsibility of the design engineers"
+  },
+  {
+   "page": 150,
+   "find": "         Rogers Commlsslon",
+   "replace": "         128 Rogers Commlsslon",
+   "seen": "128 Rogers Commission Report, Volume II, p. F-4."
+  },
+  {
+   "page": 150,
+   "find": "   1 2 9 Hearine",
+   "replace": "   129 Hearing",
+   "seen": "129 Hearing before Subcommittee on Energy Research and Production"
+  },
+  {
+   "page": 155,
+   "find": "    Rogers Commission Report, Volume 11",
+   "replace": "    137 Rogers Commission Report, Volume 11",
+   "seen": "137 Rogers Commission Report, Volume II, pp. J22-23."
+  },
+  {
+   "page": 164,
+   "find": "  18s   Ibid.",
+   "replace": "  165 Ibid.",
+   "seen": "165 Ibid."
+  },
+  {
+   "page": 164,
+   "find": "  1eeCmte Hgs",
+   "replace": "  166 Cmte Hgs",
+   "seen": "166 Cmte Hgs, Transcript, July 24, 1986, pp. 119-23."
+  },
+  {
+   "page": 165,
+   "find": "   1 7 0 Cmte Hgs",
+   "replace": "   170 Cmte Hgs",
+   "seen": "170 Cmte Hgs, Transcript, July 24, 1986, p. 97."
+  },
+  {
+   "page": 167,
+   "find": "   1 7 8 Ibid.",
+   "replace": "   178 Ibid.",
+   "seen": "178 Ibid., June 17, 1986, pp. 97-8, 101."
+  },
+  {
+   "page": 174,
+   "find": " ‘87   Rogers Commission",
+   "replace": " 187 Rogers Commission",
+   "seen": "187 Rogers Commission Report, Volume V, p. 1490."
+  },
+  {
+   "page": 176,
+   "find": " I s 1 Ibid.",
+   "replace": " 191 Ibid.",
+   "seen": "191 Ibid., p. 99."
+  },
+  {
+   "page": 176,
+   "find": " 192 bid.",
+   "replace": " 192 Ibid.",
+   "seen": "192 Ibid., July 23, 1986, p. 10."
+  },
+  {
+   "page": 176,
+   "find": " Ig3 bid.",
+   "replace": " 193 Ibid.",
+   "seen": "193 Ibid., June 25, 1986, p. 101."
+  },
+  {
+   "page": 183,
+   "find": " *O‘   bid., Volume I",
+   "replace": " 207 Ibid., Volume I",
+   "seen": "207 Ibid., Volume I, p. 152."
+  },
+  {
+   "page": 183,
+   "find": " *08   NASA Response",
+   "replace": " 208 NASA Response",
+   "seen": "208 NASA Response to Rogers Commission, July 14, 1986, p. 20."
+  },
+  {
+   "page": 189,
+   "find": "                discussion focuses on possible",
+   "replace": " 220 While this discussion focuses on possible",
+   "seen": "220 While this discussion focuses on possible contract penalties"
+  },
+  {
+   "page": 190,
+   "find": " as1 Rugem Commission",
+   "replace": " 221 Rogers Commission",
+   "seen": "221 Rogers Commission Report, Volume I, pp. 249-51."
+  },
+  {
+   "page": 190,
+   "find": "     Cmte Hgs, Transcript, June 18",
+   "replace": " 222 Cmte Hgs, Transcript, June 18",
+   "seen": "222 Cmte Hgs, Transcript, June 18, 1986, p. 18."
+  },
+  {
+   "page": 195,
+   "find": "  * NASA, MSFC Memo",
+   "replace": "  2 NASA, MSFC Memo",
+   "seen": "2 NASA, MSFC Memo, Miller to Horton, April 12, 1984."
+  },
+  {
+   "page": 195,
+   "find": "    Thiokol, “Erosion",
+   "replace": "  3 Thiokol, “Erosion",
+   "seen": "3 Thiokol, “Erosion of SRM Pressure Seals,” TWR 15160"
+  },
+  {
+   "page": 200,
+   "find": "   NASA, MSFC, Problem",
+   "replace": "  13 NASA, MSFC, Problem",
+   "seen": "13 NASA, MSFC, Problem Assessment System Record No. A07934"
+  },
+  {
+   "page": 200,
+   "find": " 1‘Rogers Commission",
+   "replace": " 14 Rogers Commission",
+   "seen": "14 Rogers Commission Report, Volume V, p. 1510."
+  },
+  {
+   "page": 200,
+   "find": " ‘SCmte H",
+   "replace": " 15 Cmte H",
+   "seen": "15 Cmte Hgs, Transcript, June 18, 1986, p. 51."
+  },
+  {
+   "page": 200,
+   "find": " 1eMortOn%iokol,",
+   "replace": " 16 Morton Thiokol,",
+   "seen": "16 Morton Thiokol, TWR-10212 (CD), Table 4-9, Typical Propellant"
+  },
+  {
+   "page": 201,
+   "find": "   Is N h , “Evaluation",
+   "replace": "   18 NASA, “Evaluation",
+   "seen": "18 NASA, “Evaluation of TWR-12690 CD, Test Plan for Space Shuttle"
+  },
+  {
+   "page": 203,
+   "find": "  23. Mr. Weeks",
+   "replace": "  23a Mr. Weeks",
+   "seen": "23a Mr. Weeks, Dep. Assoc. Administrator for Space Flight"
+  },
+  {
+   "page": 203,
+   "find": "  z 4 hid., p. 2.",
+   "replace": "  24 Ibid., p. 2.",
+   "seen": "24 Ibid., p. 2."
+  },
+  {
+   "page": 203,
+   "find": "  86   bid.",
+   "replace": "  25 Ibid.",
+   "seen": "25 Ibid."
+  },
+  {
+   "page": 203,
+   "find": "       hid.",
+   "replace": "  26 Ibid.",
+   "seen": "26 Ibid."
+  },
+  {
+   "page": 206,
+   "find": "  35 -..~",
+   "replace": "  35 Thiokol, “Temperature Concern on SRM Joints,” January 27, 1986, chart 2-1.",
+   "seen": "35 Thiokol, “Temperature Concern on SRM Joints,” January 27, 1986"
+  },
+  {
+   "page": 206,
+   "find": "      Thiokol. “Temuerature Concern on SRM Joints,” January 27, 1986, chart 2-1.",
+   "replace": ""
+  },
+  {
+   "page": 206,
+   "find": "  30 bid.",
+   "replace": "  36 Ibid.",
+   "seen": "36 Ibid."
+  },
+  {
+   "page": 206,
+   "find": "  3 7 bid., Chart",
+   "replace": "  37 Ibid., Chart",
+   "seen": "37 Ibid., Chart 2-2."
+  },
+  {
+   "page": 206,
+   "find": "  3s bid.. Chart",
+   "replace": "  38 Ibid., Chart",
+   "seen": "38 Ibid., Chart 3-1."
+  },
+  {
+   "page": 206,
+   "find": "  39 Kid.; Chart",
+   "replace": "  39 Ibid., Chart",
+   "seen": "39 Ibid., Chart 4-1."
+  },
+  {
+   "page": 207,
+   "find": "   40Ibid.",
+   "replace": "  40 Ibid.",
+   "seen": "40 Ibid., Chart 4-2."
+  },
+  {
+   "page": 207,
+   "find": "   41Ibid.",
+   "replace": "  41 Ibid.",
+   "seen": "41 Ibid., Chart “Conclusions.”"
+  },
+  {
+   "page": 207,
+   "find": " 4 2 Ibid..",
+   "replace": "  42 Ibid.,",
+   "seen": "42 Ibid., Chart “Recommendations.”"
+  },
+  {
+   "page": 207,
+   "find": " 4 3 This",
+   "replace": "  43 This",
+   "seen": "43 This Chart was prepared by the Committee and"
+  },
+  {
+   "page": 209,
+   "find": "   “Thiokol, S. Stein",
+   "replace": "  43a Thiokol, S. Stein",
+   "seen": "43a Thiokol, S. Stein, “Analytical Evaluation of the Space Shuttle"
+  },
+  {
+   "page": 209,
+   "find": "  4 4 Thiokol",
+   "replace": "  44 Thiokol",
+   "seen": "44 Thiokol, S. Stein, “Analytical Evaluation of Space Shuttle"
+  },
+  {
+   "page": 209,
+   "find": "  ‘5 Ibid.",
+   "replace": "  45 Ibid.",
+   "seen": "45 Ibid."
+  },
+  {
+   "page": 209,
+   "find": "  4 e Ibid.",
+   "replace": "  46 Ibid.",
+   "seen": "46 Ibid."
+  },
+  {
+   "page": 209,
+   "find": "  4 7 Discussion",
+   "replace": "  47 Discussion",
+   "seen": "47 Discussion with Dr. Richard Feynman, California Institute"
+  },
+  {
+   "page": 209,
+   "find": "  4 8 1000",
+   "replace": "  48 1000",
+   "seen": "48 1000 pounds per square inch equals 1 ksi."
+  },
+  {
+   "page": 209,
+   "find": "  4 9 American",
+   "replace": "  49 American",
+   "seen": "49 American Society for Metals, Handbook Edited by H.E. Boyer"
+  },
+  {
+   "page": 210,
+   "find": "  5 0 NASA",
+   "replace": "  50 NASA",
+   "seen": "50 NASA, John Miller, “Concerns with Randolph Vacuum Putty,”"
+  },
+  {
+   "page": 210,
+   "find": "  5 1 NASA",
+   "replace": "  51 NASA",
+   "seen": "51 NASA, John Miller, “Zinc Chromate Putty Installation in Nozzle"
+  },
+  {
+   "page": 210,
+   "find": "  5 2 Thiokol",
+   "replace": "  52 Thiokol",
+   "seen": "52 Thiokol, “Vacuum Putty Telecon,” June 29, 1984."
+  },
+  {
+   "page": 215,
+   "find": " * James Abrahamson",
+   "replace": "  1 James Abrahamson",
+   "seen": "1 James Abrahamson, NASA, Headquarters, “Space Shuttle Flight Readiness"
+  },
+  {
+   "page": 215,
+   "find": "   bid., pp.",
+   "replace": "  2 Ibid., pp.",
+   "seen": "2 Ibid., pp. 1-2."
+  },
+  {
+   "page": 216,
+   "find": "  sIbid. pp.",
+   "replace": "  3 Ibid., pp.",
+   "seen": "3 Ibid., pp. 2-3."
+  },
+  {
+   "page": 216,
+   "find": "  ‘Table I (9, e 44)",
+   "replace": "  4 Table I (page 44)",
+   "seen": "4 Table I (page 44) indicates the date and scope for each of these eight"
+  },
+  {
+   "page": 216,
+   "find": "  5Thiok0l %S-51L (STS33)",
+   "replace": "  5 Thiokol, “STS-51L (STS-33)",
+   "seen": "5 Thiokol, “STS-51L (STS-33) Solid Rocket Motor (SRM-25) Flight Readiness"
+  },
+  {
+   "page": 216,
+   "find": "  6 Rogera Commkion &port",
+   "replace": "  6 Rogers Commission Report",
+   "seen": "6 Rogers Commission Report, Volume II, p. H-3."
+  },
+  {
+   "page": 218,
+   "find": "  l e Larry Mullo NASA,",
+   "replace": "  16 Larry Mulloy, NASA,",
+   "seen": "16 Larry Mulloy, NASA, Marshall Space Flight Center, “Center Board"
+  },
+  {
+   "page": 218,
+   "find": "  1 7 lhirl",
+   "replace": "  17 Ibid.",
+   "seen": "17 Ibid."
+  },
+  {
+   "page": 218,
+   "find": "      %;; Chart SRB-28.",
+   "replace": "  18 Ibid, Chart SRB-28.",
+   "seen": "18 Ibid, Chart SRB-28."
+  },
+  {
+   "page": 218,
+   "find": "      Lark Mulloy, NASA,",
+   "replace": "  19 Larry Mulloy, NASA,",
+   "seen": "19 Larry Mulloy, NASA, Marshall Space Flight Center, “STS-51L Level"
+  },
+  {
+   "page": 218,
+   "find": "  2o bid., Chart",
+   "replace": "  20 Ibid., Chart",
+   "seen": "20 Ibid., Chart SRB-4."
+  },
+  {
+   "page": 218,
+   "find": "  2 1 Larry Mulloy",
+   "replace": "  21 Larry Mulloy",
+   "seen": "21 Larry Mulloy, NASA, Marshall Space Flight Center, “STS-51L Level"
+  },
+  {
+   "page": 218,
+   "find": "  2 2 Discussion",
+   "replace": "  22 Discussion",
+   "seen": "22 Discussion with Allan McDonald, September 4, 1986."
+  },
+  {
+   "page": 218,
+   "find": "  Z3 Rogers",
+   "replace": "  23 Rogers",
+   "seen": "23 Rogers Commission Report, Volume II. See Chart 15 (p. H-10)"
+  },
+  {
+   "page": 219,
+   "find": " 2s Ibid.,",
+   "replace": " 25 Ibid.,",
+   "seen": "25 Ibid., Chart 30 (p. H-18)."
+  },
+  {
+   "page": 220,
+   "find": "    bid.",
+   "replace": " 29 Ibid.",
+   "seen": "29 Ibid."
+  },
+  {
+   "page": 222,
+   "find": "  ss Cmte H ",
+   "replace": "  35 Cmte H ",
+   "seen": "35 Cmte Hgs, Transcript, June 17, 1986, pp. 203-206."
+  },
+  {
+   "page": 222,
+   "find": "  50            Vi",
+   "replace": "  36 Section VI.B.1.c. of this report.",
+   "seen": "36 Section VI.B.1.c. of this report."
+  },
+  {
+   "page": 222,
+   "find": "      Section .B.l.c. of this report.",
+   "replace": "",
+   "seen": "(the rest of note 36, moved onto its number's line)"
+  },
+  {
+   "page": 226,
+   "find": " 5JSee also",
+   "replace": " 53 See also",
+   "seen": "53 See also “Safety, Reliability and Quality Assurance,” Section"
+  },
+  {
+   "page": 226,
+   "find": " 6 4 This is",
+   "replace": " 54 This is",
+   "seen": "54 This is documented in Section VI.B.2.c(1) of this report."
+  },
+  {
+   "page": 226,
+   "find": " s 6 PAS Record",
+   "replace": " 55 PAS Record",
+   "seen": "55 PAS Record A09288, p. 1."
+  },
+  {
+   "page": 226,
+   "find": "     Rogers Commission Report, Volume I, p.",
+   "replace": "  56 Rogers Commission Report, Volume I, p.",
+   "seen": "56 Rogers Commission Report, Volume I, p. 159."
+  },
+  {
+   "page": 228,
+   "find": "   6 9 Solid Rocket",
+   "replace": "  59 Solid Rocket",
+   "seen": "59 Solid Rocket Motor Igniter and Final Assembly Manager, Thiokol."
+  },
+  {
+   "page": 228,
+   "find": "   8 0 Thiokol",
+   "replace": "  60 Thiokol",
+   "seen": "60 Thiokol, Robert Ebeling, Interview before the Presidential Commission"
+  },
+  {
+   "page": 228,
+   "find": "   6 1 Rogers Commission Report, Volume f V",
+   "replace": "  61 Rogers Commission Report, Volume IV,",
+   "seen": "61 Rogers Commission Report, Volume IV, p. 715."
+  },
+  {
+   "page": 228,
+   "find": "   8' Bid.",
+   "replace": "  62 Ibid.",
+   "seen": "62 Ibid."
+  },
+  {
+   "page": 234,
+   "find": "    bid.",
+   "replace": " 71 Ibid.",
+   "seen": "71 Ibid."
+  },
+  {
+   "page": 234,
+   "find": " 72 bid.",
+   "replace": " 72 Ibid.",
+   "seen": "72 Ibid."
+  },
+  {
+   "page": 234,
+   "find": " 7s Ibid., Volume",
+   "replace": " 73 Ibid., Volume",
+   "seen": "73 Ibid., Volume IV, p. 717."
+  },
+  {
+   "page": 234,
+   "find": " 7‘ bid., Volume",
+   "replace": " 74 Ibid., Volume",
+   "seen": "74 Ibid., Volume IV, p. 604."
+  },
+  {
+   "page": 236,
+   "find": "  713bid.",
+   "replace": "  78 Ibid.",
+   "seen": "78 Ibid."
+  },
+  {
+   "page": 236,
+   "find": "  lS Cmte Hgs",
+   "replace": "  79 Cmte Hgs",
+   "seen": "79 Cmte Hgs, Transcript, June 18, 1986, p. 85."
+  },
+  {
+   "page": 236,
+   "find": "  no The Committee",
+   "replace": "  80 The Committee",
+   "seen": "80 The Committee has learned that (apparently due to an error"
+  },
+  {
+   "page": 244,
+   "find": "  9 s Bid. pp.",
+   "replace": "  98 Ibid. pp.",
+   "seen": "98 Ibid. pp. 579-81."
+  },
+  {
+   "page": 244,
+   "find": "  09   Ibid.,",
+   "replace": "  99 Ibid.,",
+   "seen": "99 Ibid., pp. 581-82."
+  },
+  {
+   "page": 248,
+   "find": "  108   01s Channel",
+   "replace": "  108 OIS Channel",
+   "seen": "108 OIS Channel 216, pp. 345-48."
+  },
+  {
+   "page": 248,
+   "find": "  logNASA, Johnson",
+   "replace": "  109 NASA, Johnson",
+   "seen": "109 NASA, Johnson Space Flight Center, “Presidential Commission Action Item"
+  },
+  {
+   "page": 249,
+   "find": " ’   lo01s Channel",
+   "replace": " 110 OIS Channel",
+   "seen": "110 OIS Channel 216, p. 353."
+  },
+  {
+   "page": 249,
+   "find": "       Ibid., p. 1014.",
+   "replace": " 113 Ibid., p. 1014.",
+   "seen": "113 Ibid., p. 1014."
+  },
+  {
+   "page": 249,
+   "find": " 1 1 4 Ibid.",
+   "replace": " 114 Ibid.",
+   "seen": "114 Ibid., p. 1025."
+  },
+  {
+   "page": 252,
+   "find": "  lZoMr. Richard",
+   "replace": "  120 Mr. Richard",
+   "seen": "120 Mr. Richard Davis, President, Martin Marietta Michoud Aerospace."
+  },
+  {
+   "page": 252,
+   "find": "  121Mr. George",
+   "replace": "  121 Mr. George",
+   "seen": "121 Mr. George Murphy, Executive Vice President and General Manager"
+  },
+  {
+   "page": 254,
+   "find": "  12501s    Channel",
+   "replace": "  125 OIS Channel",
+   "seen": "125 OIS Channel 245, p. 217."
+  },
+  {
+   "page": 254,
+   "find": "  ‘*@Ibid. 218.",
+   "replace": "  126 Ibid., p. 218.",
+   "seen": "126 Ibid., p. 218."
+  },
+  {
+   "page": 254,
+   "find": "  12’ 01s &annel",
+   "replace": "  127 OIS Channel",
+   "seen": "127 OIS Channel 245, pp. 219-20."
+  },
+  {
+   "page": 254,
+   "find": "  1 2 8 See",
+   "replace": "  128 See",
+   "seen": "128 See Appendix VIII-L."
+  },
+  {
+   "page": 254,
+   "find": "  ‘2OIbid.",
+   "replace": "  129 Ibid.",
+   "seen": "129 Ibid."
+  },
+  {
+   "page": 254,
+   "find": "  131 bid.,",
+   "replace": "  131 Ibid.,",
+   "seen": "131 Ibid., p. 5.1-4B. See Appendix VIII-K."
+  },
+  {
+   "page": 259,
+   "find": "  14. W   o n with Carver Kennedy",
+   "replace": "  145 Discussion with Carver Kennedy",
+   "seen": "145 Discussion with Carver Kennedy, Thiokol Wasatch Operations, Brigham City"
+  },
+  {
+   "page": 259,
+   "find": "  141     Channel 245",
+   "replace": "  146 OIS Channel 245",
+   "seen": "146 OIS Channel 245, p. 218."
+  }
+ ],
+ "resets": [
+  {
+   "page": 9,
+   "note": 1
+  },
+  {
+   "page": 43,
+   "note": 1
+  },
+  {
+   "page": 46,
+   "note": 1
+  },
+  {
+   "page": 63,
+   "note": 13
+  },
+  {
+   "page": 64,
+   "note": 20
+  },
+  {
+   "page": 65,
+   "note": 26
+  },
+  {
+   "page": 82,
+   "note": 35
+  },
+  {
+   "page": 83,
+   "note": 39
+  },
+  {
+   "page": 87,
+   "note": 44
+  },
+  {
+   "page": 97,
+   "note": 7
+  },
+  {
+   "page": 100,
+   "note": 17
+  },
+  {
+   "page": 106,
+   "note": 21
+  },
+  {
+   "page": 114,
+   "note": 49
+  },
+  {
+   "page": 119,
+   "note": 66
+  },
+  {
+   "page": 120,
+   "note": 67
+  },
+  {
+   "page": 124,
+   "note": 73
+  },
+  {
+   "page": 128,
+   "note": 91
+  },
+  {
+   "page": 129,
+   "note": 96
+  },
+  {
+   "page": 136,
+   "note": 107
+  },
+  {
+   "page": 138,
+   "note": 114
+  },
+  {
+   "page": 143,
+   "note": 121
+  },
+  {
+   "page": 144,
+   "note": 122
+  },
+  {
+   "page": 149,
+   "note": 124
+  },
+  {
+   "page": 150,
+   "note": 126
+  },
+  {
+   "page": 155,
+   "note": 137
+  },
+  {
+   "page": 164,
+   "note": 161
+  },
+  {
+   "page": 165,
+   "note": 170
+  },
+  {
+   "page": 167,
+   "note": 176
+  },
+  {
+   "page": 174,
+   "note": 187
+  },
+  {
+   "page": 176,
+   "note": 191
+  },
+  {
+   "page": 183,
+   "note": 207
+  },
+  {
+   "page": 189,
+   "note": 218
+  },
+  {
+   "page": 190,
+   "note": 221
+  },
+  {
+   "page": 195,
+   "note": 2
+  },
+  {
+   "page": 200,
+   "note": 13
+  },
+  {
+   "page": 201,
+   "note": 17
+  },
+  {
+   "page": 203,
+   "note": 23
+  },
+  {
+   "page": 206,
+   "note": 33
+  },
+  {
+   "page": 207,
+   "note": 40
+  },
+  {
+   "page": 209,
+   "note": 43
+  },
+  {
+   "page": 210,
+   "note": 50
+  },
+  {
+   "page": 215,
+   "note": 1
+  },
+  {
+   "page": 216,
+   "note": 3
+  },
+  {
+   "page": 218,
+   "note": 16
+  },
+  {
+   "page": 219,
+   "note": 24
+  },
+  {
+   "page": 222,
+   "note": 35
+  },
+  {
+   "page": 226,
+   "note": 53
+  },
+  {
+   "page": 228,
+   "note": 59
+  },
+  {
+   "page": 234,
+   "note": 69
+  },
+  {
+   "page": 236,
+   "note": 78
+  },
+  {
+   "page": 244,
+   "note": 97
+  },
+  {
+   "page": 248,
+   "note": 108
+  },
+  {
+   "page": 249,
+   "note": 110
+  },
+  {
+   "page": 252,
+   "note": 120
+  },
+  {
+   "page": 254,
+   "note": 125
+  },
+  {
+   "page": 259,
+   "note": 145
+  }
+ ]
+}
