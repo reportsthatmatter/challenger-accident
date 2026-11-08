@@ -1,3 +1,5 @@
+import { readFileSync } from "node:fs";
+import { join } from "node:path";
 import { layoutPageJoins, quoteListRunOns, pageBreakContinuations, pipeline, type BodyPass, type SourcePass, shiftedPages, quoteRunOn, visionStructure, parenFolios, foliosInStep, hyphenFragments, divisionLabels, footnoteResets } from "@rtm/ingest";
 
 /**
@@ -170,7 +172,8 @@ const dropDeskInstructionHeads: BodyPass = {
     if (head === undefined) return lines;
     const drop = new Set([head]);
     for (const i of top) if (i > head && i <= head + 4 && DI_HEAD_MORE.test(lines[i]) && drop.has(top[top.indexOf(i) - 1])) drop.add(i);
-    return lines.filter((_, i) => !drop.has(i));
+    const kept = lines.filter((_, i) => !drop.has(i));
+    return kept.some((line) => /[A-Za-z]{2}/.test(line)) ? kept : lines;
   },
 };
 
@@ -180,7 +183,8 @@ const dropDeskInstructionHeads: BodyPass = {
  * "I I I I", "l", "~", ". ."), or one letter alone. 95 lone "I" paragraphs from the ruled tables, and the
  * "P" axis labels of a chart on printed p.424, two paragraphs with no words to take an id from, cited as
  * positional "p-2" and "p-3" (reportsthatmatter-4ofu). Letter-spaced words ("R E P O R T") are kept. Not in
- * the body of the report, where a line's removal can change which pages take the vision reading.
+ * the body of the report, where a line's removal can change which pages take the vision reading. A page that
+ * has no word left without such marks keeps them, so that it keeps its page anchor.
  */
 const APPENDICES_FROM = 263;
 const STROKES = /^\s*(?:[Il|.~\-_'",!/\\:;*]\s*)+$/;
@@ -189,35 +193,35 @@ const LONE_LETTER = /^\s*[A-Za-z]\s*$/;
 const dropStrokeNoise: BodyPass = {
   name: "dropStrokeNoise",
   stage: "body",
-  run: (lines, _context, at) =>
-    at && at.pdfIndex >= APPENDICES_FROM ? lines.filter((line) => !(STROKES.test(line) || LONE_LETTER.test(line))) : lines,
+  run(lines, _context, at) {
+    if (!at || at.pdfIndex < APPENDICES_FROM) return lines;
+    const kept = lines.filter((line) => !(STROKES.test(line) || LONE_LETTER.test(line)));
+    // A page that is nothing but strokes keeps them: with no line left it would lose its page anchor.
+    return kept.some((line) => /[A-Za-z]{2}/.test(line)) ? kept : lines;
+  },
 };
 
 /**
- * Page-foot note numbers the OCR lost or garbled, restored from the page image before the page's notes are
- * read (reportsthatmatter-48o). With its number gone ("    bid." for "29 Ibid.") a note is not read as one:
- * its text stays in the body, glued to the paragraph above or standing between the two halves of a paragraph
- * carried over the page break. Each repair is one line's number, read off the scan at the page given (PDF page
- * index), and must match exactly one line there, like a correction: a stale one fails the run.
+ * Page-foot note numbers the OCR lost or garbled, restored from the page images before the page's notes are
+ * read (reportsthatmatter-48o). With its number gone ("    bid." for "29 Ibid.", "  ss Cmte H" for "35 Cmte
+ * Hgs") a note is not read as one: its text stays in the body, glued to the paragraph above or standing
+ * between the two halves of a paragraph carried over the page break. `note-repairs.json` holds, per PDF page,
+ * each repaired line's opening as the text layer has it (`find`, an exact prefix of one line on that page),
+ * what the page image shows (`replace`; empty blanks a line whose words moved to the line above) and the
+ * note as printed (`seen`); a repair that no longer matches exactly one line fails the run, like a correction.
+ * `resets` give the number of the first note that opens on those pages, read off the same images, since the
+ * report numbers its notes afresh in each chapter and a page whose numbers were garbled loses the count.
  */
-type NoteRepair = { page: number; find: string; replace: string };
-const NOTE_REPAIRS: NoteRepair[] = [
-  { page: 43, find: "    On January 27, 1967, astronauts", replace: " 1 On January 27, 1967, astronauts" },
-  { page: 44, find: "   On April 13, 1971, Apollo 13", replace: " 2 On April 13, 1971, Apollo 13" },
-  { page: 220, find: "    bid.", replace: " 29 Ibid." },
-  { page: 222, find: "  ss Cmte H ", replace: "  35 Cmte H " },
-  { page: 222, find: "  50            Vi", replace: "  36 Section VI.B.1.c. of this report." },
-  { page: 222, find: "      Section .B.l.c. of this report.", replace: "" },
-];
-
-/** Where a chapter's notes start over at 1 on a page the numbering cannot be followed onto (`footnoteResets`). */
-const NOTE_RESETS = [{ page: 43, note: 1 }];
+type NoteRepair = { page: number; find: string; replace: string; seen?: string };
+const NOTES: { repairs: NoteRepair[]; resets: { page: number; note: number }[] } = JSON.parse(
+  readFileSync(join(import.meta.dirname, "note-repairs.json"), "utf8")
+);
 
 const repairNoteNumbers: SourcePass = {
   name: "repairNoteNumbers",
   stage: "source",
   run(lines, at) {
-    const repairs = NOTE_REPAIRS.filter((r) => r.page === at.pdfIndex);
+    const repairs = NOTES.repairs.filter((r) => r.page === at.pdfIndex);
     if (!repairs.length) return lines;
     const out = [...lines];
     for (const r of repairs) {
@@ -262,7 +266,7 @@ export default pipeline({
     hyphenFragments(),
     // A lone "Findings" or "Issue" line is a division label, a heading (reportsthatmatter-liv).
     divisionLabels(),
-    footnoteResets(NOTE_RESETS),
+    footnoteResets(NOTES.resets),
     parenFolios(), foliosInStep(),
     // Block structure from a vision model's reading of the page images (granite-docling, committed in
     // reference/vision/ by reportsthatmatter-kyj3), on the pages where it agrees with this scan's own

@@ -108,11 +108,6 @@ corrections:
     replace: "erosion.\" 20"
     reason: footnote 20; bracketed by clean footnotes 19 and 21/22 on the same page (printed p.56)
     added: 2026-09-11
-  - id: c-0014
-    find: "7s Cmte HE Transcript, July 16, 1986, p. 42."
-    replace: "75 Cmte Hgs Transcript, July 16, 1986, p. 42."
-    reason: footnote 75; the same page's body prose already cites footnotes 74 and 75 cleanly inline (printed p.116)
-    added: 2026-09-11
   # c-0015 intentionally not used: reportsthatmatter-3jb (corrections.yaml
   # couldn't reach footnote-definition text at all) is fixed as of @rtm/ingest
   # v0.12.6, but this specific one still can't land as a plain find/replace.
@@ -124,25 +119,10 @@ corrections:
   # definition — "1bid" is what's left of footnote 11's number inside that
   # merged blob. Splitting it back into five correctly-numbered notes is a
   # structural fix, not a text substitution; see reportsthatmatter-lie.
-  - id: c-0016
-    find: "I6Ibid."
-    replace: "16 Ibid."
-    reason: footnote 16, bracketed by clean "I5 Ibid." before and "I'Ibid." (17) after (printed p.55)
-    added: 2026-09-11
-  - id: c-0017
-    find: "26 Ibid. 2T Ibid."
-    replace: "26 Ibid. 27 Ibid."
-    reason: footnote 27, bracketed by 26 immediately before and 28 immediately after (printed p.57)
-    added: 2026-09-11
   - id: c-0018
     find: "1ocation."
     replace: "location."
     reason: dropped "l" read as "1"; the scan prints "the 154 degree \"location.\"" (printed p.60)
-    added: 2026-09-11
-  - id: c-0019
-    find: "3T Ibid., Volume I, p. 41"
-    replace: "37 Ibid., Volume I, p. 41"
-    reason: footnote 37, bracketed by 36 immediately before and 38 immediately after (printed p.74)
     added: 2026-09-11
   - id: c-0020
     find: "2nySeas"
@@ -153,11 +133,6 @@ corrections:
     find: "lZ3Douglas"
     replace: "123Douglas"
     reason: footnote 123; the same paragraph's body prose already cites "Figure VI-3,123" cleanly (printed p.139)
-    added: 2026-09-11
-  - id: c-0022
-    find: "1eeCmte Hgs, Transcript, July 24, 1986, pp. 119-23"
-    replace: "166Cmte Hgs, Transcript, July 24, 1986, pp. 119-23"
-    reason: footnote 166; confirmed against the page image — bracketed by clean inline citations to footnotes 165 and 167 (printed p.156)
     added: 2026-09-11
   - id: c-0023
     find: "ments2O 0"
@@ -189,11 +164,6 @@ corrections:
     replace: "31a Thiokol, Roger Boisjoly, \"SRM 0-Ring Erosion/Potential Failure Criticality,\" Memo 2870 FY 86:073, July 31, 1985."
     reason: footnote 31a (a lettered sub-note); confirmed against the page image, where the body text reads "...on STS 51-B.31a See Appendix V-J.)" (printed p.58)
     added: 2026-09-11
-  - id: c-0029
-    find: "1eMortOn%iokol, &-10212 (CD), Tab, 4-9, npical Propellant Design Data."
-    replace: "16Morton Thiokol, TWR-10212 (CD), Table 4-9, Typical Propellant Design Data."
-    reason: footnote 16; confirmed against the page image (printed p.192)
-    added: 2026-09-11
   # c-0030 intentionally not used, for the same reason as c-0015 (see its
   # comment above): checked against the actual scanned page image (PDF p.61,
   # printed p.53), footnotes 5, 6, 7 read "5 Ibid." "6 Ibid. [NOTE.—The
@@ -205,11 +175,6 @@ corrections:
   # [^5]:'s definition; "iNm" is what survives of "6 Ibid. [NOTE.—" inside
   # that merged blob. Splitting it back into three correctly-numbered notes
   # is a structural fix, not a text substitution; see reportsthatmatter-lie.
-  - id: c-0031
-    find: "lZ4 Cmt Hgs, Transcript, June 12, 1986, p. 186. lZs =id. p. 187."
-    replace: "124 Cmt Hgs, Transcript, June 12, 1986, p. 186. 125 Ibid. p. 187."
-    reason: footnotes 124 and 125; confirmed against the page image (printed p.141)
-    added: 2026-09-11
   - id: c-0032
     find: "lSo Rogers Commission Report, Volume 11, pp. K25-26"
     replace: "130 Rogers Commission Report, Volume 11, pp. K25-26"
@@ -247,41 +212,11 @@ corrections:
     replace: "'O' Ring Seal Erosion Problems"
     reason: 'letter O and closing quote read as zero/no character in the title of footnote 23; checked against the scan'
     added: 2026-09-18
-  - id: c-0038
-    where: { printed: 195 }
-    find: "23. Mr. Weeks"
-    replace: "23a Mr. Weeks"
-    reason: footnote 23a; its lettered suffix was read as punctuation; checked against the scan
-    added: 2026-09-18
   - id: c-0039
     where: { printed: 198 }
     find: "8RM O-ring $ask Force"
     replace: "SRM O-ring Task Force"
     reason: '"8" read for "S" and "$" for "T" in the title of footnote 34; checked against the scan'
-    added: 2026-09-18
-  - id: c-0040
-    where: { printed: 198 }
-    find: "30 bid."
-    replace: "36 Ibid."
-    reason: footnote 36; both digits/letters were misread, bracketed by footnotes 35 and 37 and checked against the scan
-    added: 2026-09-18
-  - id: c-0041
-    where: { printed: 198 }
-    find: "3 7 bid., Chart 2 2."
-    replace: "37 Ibid., Chart 2-2."
-    reason: footnote 37; spaces and the hyphen were lost; checked against the scan
-    added: 2026-09-18
-  - id: c-0042
-    where: { printed: 198 }
-    find: "3s bid.. Chart 3-1."
-    replace: "38 Ibid., Chart 3-1."
-    reason: footnote 38; 8 read as s and I dropped; checked against the scan
-    added: 2026-09-18
-  - id: c-0043
-    where: { printed: 198 }
-    find: "39 Kid.; Chart 4-1"
-    replace: "39 Ibid., Chart 4-1."
-    reason: footnote 39; Ibid. was misread as Kid.; checked against the scan
     added: 2026-09-18
   - id: c-0044
     where: { printed: 202 }
@@ -313,12 +248,6 @@ corrections:
     replace: '"as they are the same generic problem."46'
     reason: inline footnote 46; 6 read as s; checked against the scan
     added: 2026-09-18
-  - id: c-0049
-    where: { printed: 218 }
-    find: '5JSee also "Safety, Reliability'
-    replace: '53 See also "Safety, Reliability'
-    reason: footnote 53; 3 read as J and spacing lost; checked against the scan
-    added: 2026-09-18
   - id: c-0050
     where: { printed: 228 }
     find: "and it was.8o"
@@ -337,18 +266,6 @@ corrections:
     replace: "123 Cmte. Hgs, Transcript"
     reason: footnote 123 and its citation abbreviation were mangled; checked against the scan
     added: 2026-09-18
-  - id: c-0053
-    where: { printed: 246 }
-    find: "'2OIbid."
-    replace: "129 Ibid."
-    reason: footnote 129; 1/9 read as quote/capital O and spacing lost; checked against the scan
-    added: 2026-09-18
-  - id: c-0054
-    where: { printed: 251 }
-    find: "14. W o n with Carver Kennedy,ThioLol Wasateh Operations"
-    replace: "145 Discussion with Carver Kennedy, Thiokol Wasatch Operations"
-    reason: opening of footnote 145 was heavily mangled; restored verbatim from the scan
-    added: 2026-09-18
   - id: c-0055
     where: { printed: 251 }
     find: "General Kutyna aL0 nded thb in the Commimion'r hearing"
@@ -360,18 +277,6 @@ corrections:
     find: "Cornmimion Ibpon Volume N. 660). l S a0s ( 7 r"
     replace: "Rogers Commission Report, Volume IV, p. 660)."
     reason: end of footnote 145 was heavily mangled; restored verbatim from the scan
-    added: 2026-09-18
-  - id: c-0057
-    where: { printed: 251 }
-    find: "141 Channel 245, p. 218."
-    replace: "146 OIS Channel 245, p. 218."
-    reason: footnote 146; digit and acronym were misread; checked against the scan
-    added: 2026-09-18
-  - id: c-0058
-    where: { printed: 211 }
-    find: "24 Ibid., p. H-13. 2s Ibid., Chart 30 (p. H-18). 26 Ibid., p. H-42."
-    replace: "24 Ibid., p. H-13. 25 Ibid., Chart 30 (p. H-18). 26 Ibid., p. H-42."
-    reason: footnote 25 definition; 5 read as s; checked against the scan
     added: 2026-09-18
   - id: c-0059
     where: { printed: 21 }
@@ -425,6 +330,157 @@ corrections:
 # Suspects looked at against the scan and judged correct as they stand. They
 # leave the review queue for good; the entry stays here as the record of who
 # decided what, and why.
+  # Corrections c-0014, c-0016, c-0017, c-0019, c-0022, c-0029, c-0031, c-0038, c-0040 to c-0043, c-0049,
+  # c-0053, c-0054, c-0057 and c-0058 repaired the garbled numbers of notes the parser had left in the body. Their numbers are now
+  # restored at the source (note-repairs.json, reportsthatmatter-4ofu run, 2026-11-08), so the notes are read
+  # as notes; what those corrections fixed beyond the number stays fixed here, in the notes' own text.
+  - id: c-0070
+    where: { printed: 192 }
+    find: "Morton Thiokol, &-10212 (CD), Tab, 4-9, npical"
+    replace: "Morton Thiokol, TWR-10212 (CD), Table 4-9, Typical"
+    reason: footnote 16 (was c-0029); checked against the scan
+    added: 2026-11-08
+  - id: c-0071
+    where: { printed: 198 }
+    find: "Ibid., Chart 2 2."
+    replace: "Ibid., Chart 2-2."
+    reason: footnote 37 (was c-0041); checked against the scan
+    added: 2026-11-08
+  - id: c-0072
+    where: { printed: 198 }
+    find: "Ibid., Chart 4-1"
+    replace: "Ibid., Chart 4-1."
+    reason: footnote 39 (was c-0043); checked against the scan
+    added: 2026-11-08
+  - id: c-0073
+    find: "a Mr. Weeks, Dep."
+    replace: "23a Mr. Weeks, Dep."
+    reason: footnote 23a (was c-0038), read into note 23 since a letter-suffixed note has no label of its own (reportsthatmatter-mtkr); checked against the scan
+    added: 2026-11-08
+  - id: c-0074
+    find: "Discussion with Carver Kennedy,ThioLol Wasateh Operations"
+    replace: "Discussion with Carver Kennedy, Thiokol Wasatch Operations"
+    reason: footnote 145 (was c-0054); checked against the scan
+    added: 2026-11-08
+  # Sentences the page layout cut in two, one half read as a paragraph and the other as a quotation (or as a
+  # second paragraph) because the scan sets a quoted line a column in or out (severed-paragraph and
+  # severed-into-quote, reportsthatmatter-4ofu run, 2026-11-08). Each is one sentence on the page image.
+  - id: c-0075
+    find: "ts of their hardware. In particular, Rockwell\n\nis doing a total independent assess"
+    replace: "ts of their hardware. In particular, Rockwell is doing a total independent assess"
+    reason: one sentence severed at a line where the scan shifts a column (printed p.112); checked against the scan
+    added: 2026-11-08
+  - id: c-0076
+    find: " of fact, at the L-minus-one-day review, they\n\nare required to stand up and commit"
+    replace: " of fact, at the L-minus-one-day review, they are required to stand up and commit"
+    reason: one sentence severed at a line where the scan shifts a column (printed p.151); checked against the scan
+    added: 2026-11-08
+  - id: c-0077
+    find: " by Mr. Ray, Parker officials \"also expressed\n\nsurmise that the seal had wrformed "
+    replace: " by Mr. Ray, Parker officials \"also expressed surmise that the seal had wrformed "
+    reason: one sentence severed at a line where the scan shifts a column (printed p.204); checked against the scan
+    added: 2026-11-08
+  - id: c-0078
+    find: "the visit with the Parker officials, the memo\n\nstated. \"their first thought was th"
+    replace: "the visit with the Parker officials, the memo stated. \"their first thought was th"
+    reason: one sentence severed at a line where the scan shifts a column (printed p.204); checked against the scan
+    added: 2026-11-08
+  - id: c-0079
+    find: "irical curve fitting. To be more detailed, it\n\nwas supposed a stream of hot gas im"
+    replace: "irical curve fitting. To be more detailed, it was supposed a stream of hot gas im"
+    reason: one sentence severed at a line where the scan shifts a column (printed p.211); checked against the scan
+    added: 2026-11-08
+  - id: c-0080
+    find: " \"Therefore it is inconceivable that Level 1,\n\nwhich is top management, would not "
+    replace: " \"Therefore it is inconceivable that Level 1, which is top management, would not "
+    reason: one sentence severed at a line where the scan shifts a column (printed p.213); checked against the scan
+    added: 2026-11-08
+  - id: c-0081
+    find: "TYNA. \"If I could use an analogy, if you want\n\nto report a fire you don't go to th"
+    replace: "TYNA. \"If I could use an analogy, if you want to report a fire you don't go to th"
+    reason: one sentence severed at a line where the scan shifts a column (printed p.229); checked against the scan
+    added: 2026-11-08
+  - id: c-0082
+    find: "~ ~ I can tell you how it runs now. Up \"Well,\n\nto and including the Lminus-one day"
+    replace: "~ ~ I can tell you how it runs now. Up \"Well, to and including the Lminus-one day"
+    reason: one sentence severed at a line where the scan shifts a column (printed p.244); checked against the scan
+    added: 2026-11-08
+  - id: c-0083
+    find: ". ~ ~I~agree with what Rick has said. I \"Yes,\n\nthink that we have found out that w"
+    replace: ". ~ ~I~agree with what Rick has said. I \"Yes, think that we have found out that w"
+    reason: one sentence severed at a line where the scan shifts a column (printed p.244); checked against the scan
+    added: 2026-11-08
+  - id: c-0084
+    find: "s the sea state and winds in the SRB recovery\n\narea. Another is the cross-winds at"
+    replace: "s the sea state and winds in the SRB recovery area. Another is the cross-winds at"
+    reason: one sentence severed at a line where the scan shifts a column (printed p.250); checked against the scan
+    added: 2026-11-08
+  - id: c-0085
+    find: " ROE. Therefore, some people who were at that\n\n> specific meeting had to be the peop"
+    replace: " ROE. Therefore, some people who were at that specific meeting had to be the peop"
+    reason: one sentence severed at a line where the scan shifts a column (printed p.160); checked against the scan
+    added: 2026-11-08
+  - id: c-0086
+    find: "ll-defined plume was deflected indicating the\n\n> plume had burned through the liquid"
+    replace: "ll-defined plume was deflected indicating the plume had burned through the liquid"
+    reason: one sentence severed at a line where the scan shifts a column (printed p.189); checked against the scan
+    added: 2026-11-08
+  - id: c-0087
+    find: "... . [Leak confirmed when hydrogem tank leak\n\n> pressurization system was unable to"
+    replace: "... . [Leak confirmed when hydrogem tank leak pressurization system was unable to"
+    reason: one sentence severed at a line where the scan shifts a column (printed p.189); checked against the scan
+    added: 2026-11-08
+  - id: c-0088
+    find: ". [Right Solid Racket Booster motion differed\n\n> from Orbiter and left Solid Rocket "
+    replace: ". [Right Solid Racket Booster motion differed from Orbiter and left Solid Rocket "
+    reason: one sentence severed at a line where the scan shifts a column (printed p.189); checked against the scan
+    added: 2026-11-08
+  - id: c-0089
+    find: "rcumferential white pattern around the Exter-\n\n> nal Tank aft bulkhead suggested liq"
+    replace: "rcumferential white pattern around the Exter- nal Tank aft bulkhead suggested liq"
+    reason: one sentence severed at a line where the scan shifts a column (printed p.189); checked against the scan
+    added: 2026-11-08
+  - id: c-0090
+    find: "apor observed at inter-tank which was indica-\n\n> tive of the liquid oxygen tank fail"
+    replace: "apor observed at inter-tank which was indica- tive of the liquid oxygen tank fail"
+    reason: one sentence severed at a line where the scan shifts a column (printed p.189); checked against the scan
+    added: 2026-11-08
+  - id: c-0091
+    find: "esses at retrieval. impacting Ocean at joints\n\n> about 60 mph (vertical)"
+    replace: "esses at retrieval. impacting Ocean at joints about 60 mph (vertical)"
+    reason: one sentence severed at a line where the scan shifts a column (printed p.201); checked against the scan
+    added: 2026-11-08
+  - id: c-0092
+    find: " the SRM O-ring extrusion gap was larger than\n\n> that covered by their experience.\" "
+    replace: " the SRM O-ring extrusion gap was larger than that covered by their experience.\" "
+    reason: one sentence severed at a line where the scan shifts a column (printed p.204); checked against the scan
+    added: 2026-11-08
+  - id: c-0093
+    find: " the seal had wrformed so well in the present\n\n> appiication.\""
+    replace: " the seal had wrformed so well in the present appiication.\""
+    reason: one sentence severed at a line where the scan shifts a column (printed p.204); checked against the scan
+    added: 2026-11-08
+  - id: c-0094
+    find: " first thought was the O-ring was being asked\n\n> to perkorm beyond its intended desi"
+    replace: " first thought was the O-ring was being asked to perkorm beyond its intended desi"
+    reason: one sentence severed at a line where the scan shifts a column (printed p.204); checked against the scan
+    added: 2026-11-08
+  - id: c-0095
+    find: "ed a stream of hot gas impinged on the O-ring\n\n> material, and the heat was determin"
+    replace: "ed a stream of hot gas impinged on the O-ring material, and the heat was determin"
+    reason: one sentence severed at a line where the scan shifts a column (printed p.211); checked against the scan
+    added: 2026-11-08
+  - id: c-0096
+    find: "by a nearest fit. At any rate, adjusting some\n\n> other numbers, it was determined th"
+    replace: "by a nearest fit. At any rate, adjusting some other numbers, it was determined th"
+    reason: one sentence severed at a line where the scan shifts a column (printed p.211); checked against the scan
+    added: 2026-11-08
+  - id: c-0097
+    find: "at the weatherman was projecting temperatures\n\n> as low as 18 degrees F [Fahrenheit]"
+    replace: "at the weatherman was projecting temperatures as low as 18 degrees F [Fahrenheit]"
+    reason: one sentence severed at a line where the scan shifts a column (printed p.220); checked against the scan
+    added: 2026-11-08
+
 dismissed:
   # --- 2026-09-18: appendix prose (printed pp.195-251). Corrected suspects
   # are retired here because the suspect scan runs before corrections. ---
@@ -654,19 +710,19 @@ dismissed:
     reason: "Corrected, not confirmed as printed — see correction c-0013 (footnote 20)."
     added: 2026-09-11
   - match: "7s"
-    reason: "Corrected, not confirmed as printed — see correction c-0014 (footnote 75)."
+    reason: "Corrected, not confirmed as printed — see note-repairs.json (was correction c-0014) (footnote 75)."
     added: 2026-09-11
   - match: "I6Ibid"
-    reason: "Corrected, not confirmed as printed — see correction c-0016 (footnote 16)."
+    reason: "Corrected, not confirmed as printed — see note-repairs.json (was correction c-0016) (footnote 16)."
     added: 2026-09-11
   - match: "2T"
-    reason: "Corrected, not confirmed as printed — see correction c-0017 (footnote 27)."
+    reason: "Corrected, not confirmed as printed — see note-repairs.json (was correction c-0017) (footnote 27)."
     added: 2026-09-11
   - match: "1ocation"
     reason: "Corrected, not confirmed as printed — see correction c-0018 (\"location\")."
     added: 2026-09-11
   - match: "3T"
-    reason: "Corrected, not confirmed as printed — see correction c-0019 (footnote 37)."
+    reason: "Corrected, not confirmed as printed — see note-repairs.json (was correction c-0019) (footnote 37)."
     added: 2026-09-11
   - match: "2nySeas"
     reason: "Corrected, not confirmed as printed — see correction c-0020 (\"2nd Sess\")."
@@ -675,7 +731,7 @@ dismissed:
     reason: "Corrected, not confirmed as printed — see correction c-0021 (footnote 123)."
     added: 2026-09-11
   - match: "1eeCmte"
-    reason: "Corrected, not confirmed as printed — see correction c-0022 (footnote 166)."
+    reason: "Corrected, not confirmed as printed — see note-repairs.json (was correction c-0022) (footnote 166)."
     added: 2026-09-11
   - match: "ments2O"
     reason: "Corrected, not confirmed as printed — see correction c-0023 (footnote 200)."
@@ -696,10 +752,10 @@ dismissed:
     reason: "Corrected, not confirmed as printed — see correction c-0028 (footnote 31a)."
     added: 2026-09-11
   - match: "1eMortOn"
-    reason: "Corrected, not confirmed as printed — see correction c-0029 (footnote 16, \"Morton Thiokol\")."
+    reason: "Corrected, not confirmed as printed — see note-repairs.json (was correction c-0029) (footnote 16, \"Morton Thiokol\")."
     added: 2026-09-11
   - match: "lZs"
-    reason: "Corrected, not confirmed as printed — see correction c-0031 (footnote 125)."
+    reason: "Corrected, not confirmed as printed — see note-repairs.json (was correction c-0031) (footnote 125)."
     added: 2026-09-11
   - match: "lSo"
     reason: "Corrected, not confirmed as printed — see correction c-0032 (footnote 130)."
