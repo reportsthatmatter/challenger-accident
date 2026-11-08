@@ -158,15 +158,30 @@ const dropGpoSignatures: BodyPass = {
  * each of its pages and OCR'd as "01 NO.", "OI NO.", "100-2C", "Page 1 4of 94", "Page 2 34" over "of". Nothing
  * else takes it off, so it opened the page's first paragraph or stood as one, and its "APPENDIX B" line read as
  * a heading. The head line only among a page's first five lines, then at most three lines under it that are
- * nothing but the page count or the appendix letter, so the Desk Instruction's own text is untouched.
+ * nothing but the page count or the appendix letter, so the Desk Instruction's own text is untouched; and the
+ * form number at its pages' foot, which with the head gone would open the next page's first paragraph.
  */
 const DI_HEAD = /^\s*(?:DI|D1|01|0I|OI|OX)[:.]?\s*[N#][O0o]\.\s*100-[0-9A-Za-z]{1,2}\b[\s,'.]*$/;
 const DI_HEAD_MORE = /^[\s.\-]*(?:APP\S*\s+[A-Z8]\b[\s']*|Page\b[\s\dJIl'\u2014of-]*|[\d\s'\u2014]*\bo\s?f\b[\s\d]*)$/;
 
+/** Its form number at the foot of each page ("0246j/l3", "0246jA 5", "02463 /21"), on its own last line. */
+const DI_FOOT = /^\s*0246[j3][\S ]{0,8}$/;
+const DI_PAGES = { from: 335, to: 376 };
+
 const dropDeskInstructionHeads: BodyPass = {
   name: "dropDeskInstructionHeads",
   stage: "body",
-  run(lines) {
+  run(lines, _context, at) {
+    const filled = lines.flatMap((line, i) => (line.trim() ? [i] : []));
+    const last = filled[filled.length - 1];
+    const inDocument = at !== undefined && at.pdfIndex >= DI_PAGES.from && at.pdfIndex <= DI_PAGES.to;
+    if (inDocument && last !== undefined && DI_FOOT.test(lines[last])) {
+      const kept = lines.filter((_, i) => i !== last);
+      if (kept.some((line) => /[A-Za-z]{2}/.test(line))) lines = kept;
+    }
+    // PDF p.364 (printed 356) keeps its head: the page before it is the head alone, and without this page's head
+    // its first line would run on into that one, under the wrong page.
+    if (at?.pdfIndex === 364) return lines;
     const top = lines.flatMap((line, i) => (line.trim() ? [i] : [])).slice(0, 5);
     const head = top.find((i) => DI_HEAD.test(lines[i]));
     if (head === undefined) return lines;

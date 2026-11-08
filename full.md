@@ -6944,8 +6944,6 @@ conditions f o r a specified duration.[^1]
 
 > NOTE: See Appendix 8. paragraph 3.1.1, Ground Rules, sub-paragraphs 1 and 2. 8. Single Failure Point (SFPI - i s a s i n g l e item of hardware. t h e f a i l u r e of which would lead d i r e c t l y t o l o s s of l i f e , vehicle, br mission. Where safety considerations d i c t a t e t h a t abort be i n i t i a t e d when a redundant ftem f a i l s . t h a t item i s a l s o considered a single f a i l u r e point.
 
-0246j I 2
-
 %%page 329%%
 
 > 9. Functional Mode - I d e n t i f i e s each f u n c t i o n t o be performed by t h e item being analyzed. 10. - Multiple Order F a i l u r e d e s c r i b e s t h e f a i l u r e due t o a s i n g l e cause o r e v e n t of a l l u n i t s which perform a necessary ( c r i t i c a l ) function.
@@ -6961,8 +6959,6 @@ conditions f o r a specified duration.[^1]
 3.0 FMEAKIL PREPARATIOl
 
 FMEA's will be prepared j o i n t l y by t h e responsible designer and t h e assigned R e l i a b i l i t y Subsystem Analyst (RSA) i n accordance with t h e a t t a c h e 4 format, Appendix 0 (Ground Rules and C r i t e r i a ) and a s shown i n FIGURE 1. Safety. o t h e r engineering d i s c l p l i n e s , and t e c h n i c a l support f u n c t i o n s ( s e e EOM D i r e c t i v e
-
-0246jj3
 
 %%page 330%%
 
@@ -6987,8 +6983,6 @@ The backup infonnation. including rationale and anaylses involved i n assessing 
 ## 3.3 ANALYSIS REOUIREMENTS
 
 > 1. FMEA's W i l l be perforned f o r each functional mode o f a subsystem or functional k i t . Electrical FMEA's w i l l be conducted t o the "black box" level and wfthin the 'black box" t o pursue functions whkh have ,single f a i l u r e point potential e f f e c t on the o r b i t e r safety or mission success. The level o f detail required i n mechanical FMEA's below the component level i n pursuit o f c r i t f c a l f a i l u r e modes w i l l vary. Standard design, such as check valves. r e l i e f valves, i s o l a t i o n valves. etc.. require only c m o n types o f f a i l u r e causes t o be l i s t e d .
-
-02463 /4
 
 %%page 331%%
 
@@ -7122,8 +7116,6 @@ Comnunicati ons 6 Track1 ng: 05-6PA 05-2A Audio 05-6PB 05-28 UHF 05-6PC 05-2C TA
 
 05-6UA 05-6V 06-2 Smoke Oetection, F i r e Suppression 05-6VA 06-1 ARPCS 05-6VB 06-2 Gal 1ey 05-6VC 06-2 Waste Management 05-6VD 06-2 Water Management 05-661 06-3 Active Thermal Control 05-6Y 07-1 Crew S t a t i o n 6 Equipment 05-62 07-2 Crew Escape
 
-02463/10
-
 %%page 337%%
 
 4.1.4 (JlO) FUNCTION: Descrfbe t h e function perfonned by t h e ccmponent. Also, e n t e r t h e component designator(s1 a s i d e n t i f i e d on the desig? schematic.
@@ -7188,9 +7180,7 @@ FAILS OUT O F TOLERANCE F A I L S TO SWITCH LEAKAGE ( E t E r n I C A L )
 
 4.1.14 (C38. CS81 ABORT CRITICAL COMPONENTS:
 
-> a. For t h o s e items whose c r i t i c a l i t y i s increased t o 1/1 during an a b o r t r e s u l t i n g from unrelated f a i l u r e s . e n t e r t h e word "Abort" (C38 s i x - spaces o n l y ) , followed by t h e a p p r o p r i a t e acronym(s); i .e., (CS8) RTLS Return t o Landing S i t e (C58) g - Abort Once Around (C.58) ATO - Abort t o O r b i t b. F o r non-redundant modes where normal mission e f f e c t i s c r i t i c a l i t y 3 b u t a r e hardware c r i t i c a l i t y 1 unique t o I n t a c t abort. c l a s s i f y t h e s e modes
-
-0246j/l3 as hardware c r i t i c a l i t y 1 and functional c r i t i c a l i t y 1. Add i n J10 (FUNCTION) the notation, "Unique t o Intact Abort'. Add'appropriate Intact abort notation In a. above. Additional Information must also be entered under 5240, EFFECT(S) see - paragraph 4.1.16. E: For SSME induced aborts, maximum two engine burn time I s approximately twelve minutes. If "TIME TO EFFECT" Is equal t o or
+> a. For t h o s e items whose c r i t i c a l i t y i s increased t o 1/1 during an a b o r t r e s u l t i n g from unrelated f a i l u r e s . e n t e r t h e word "Abort" (C38 s i x - spaces o n l y ) , followed by t h e a p p r o p r i a t e acronym(s); i .e., (CS8) RTLS Return t o Landing S i t e (C58) g - Abort Once Around (C.58) ATO - Abort t o O r b i t b. F o r non-redundant modes where normal mission e f f e c t i s c r i t i c a l i t y 3 b u t a r e hardware c r i t i c a l i t y 1 unique t o I n t a c t abort. c l a s s i f y t h e s e modes as hardware c r i t i c a l i t y 1 and functional c r i t i c a l i t y 1. Add i n J10 (FUNCTION) the notation, "Unique t o Intact Abort'. Add'appropriate Intact abort notation In a. above. Additional Information must also be entered under 5240, EFFECT(S) see - paragraph 4.1.16. E: For SSME induced aborts, maximum two engine burn time I s approximately twelve minutes. If "TIME TO EFFECT" Is equal t o or
 
 %%page 340%%
 
@@ -7212,8 +7202,6 @@ FAILS OUT O F TOLERANCE F A I L S TO SWITCH LEAKAGE ( E t E r n I C A L )
 
 > subsystem and such i s provided, the effect on mission i s "lone" with explanation for each mission phase as appropriate. See section 4.1.21d. f o r screening of functional c r i t i c a l i t y 3 f a i l u r e modes. For thqse items identified as abort c r i t i c a l (see paragraph 4.1.14) enter. sibsequent t o the ( A ) . ( 8 ) . ( C ) and ( D ) entries. the c r i t i c a l i t y and effects per the following example:
 
-0246j/14
-
 %%page 341%%
 
 > "Crit 1 for RTLS - Loss o f additional engine-vehicle loss" or 'Crit 1 f o r RTLS Incomplete propellant dump, s t a b i l i t y problem. probable vehicle loss." Where functional c r i t i c a l i t y f s 1R o r 2R per paragraph 4.3.2 and hardware c r i t i c a l i t y i s 3. t h e appropriate entry f o r "FUNCTIONAL" ~, effects should be included. The "FUNCTONAL" effects entry relative t o t h e loss of a l l functional redundancy will b e entered per the following example: (El FUNCTIONAL CRITICALITY EFFECT: Possible loss of crewhehicle (specify) op probable loss o f crew/ vehicle (describe) or loss o f crew/vehicle.
@@ -7228,9 +7216,7 @@ FAILS OUT O F TOLERANCE F A I L S TO SWITCH LEAKAGE ( E t E r n I C A L )
 
 4.1.19 (5490)-60RRECTING ACTION: Describe any action, automatlc o r manual, which
 
-> may be taken t o circumvent the specified failure. Also identify any alternate means (utilizing *unlike" hardware) of acconplishing the function performed by the item o r its assembly. If none. so indicate: For instruments (sensors, transducers, etc. ) t h a t provide measurements assessed
-
-0246jA 5 as critical t o v e h i c l e k r e w s a f e t y o r mission continuation. t h e FMEA s h a l l i d e n t i f y the redundant o r a l t e r n a t e measurements by Measummyt Lf st i d e n t i f i c a t i o n nmber
+> may be taken t o circumvent the specified failure. Also identify any alternate means (utilizing *unlike" hardware) of acconplishing the function performed by the item o r its assembly. If none. so indicate: For instruments (sensors, transducers, etc. ) t h a t provide measurements assessed as critical t o v e h i c l e k r e w s a f e t y o r mission continuation. t h e FMEA s h a l l i d e n t i f y the redundant o r a l t e r n a t e measurements by Measummyt Lf st i d e n t i f i c a t i o n nmber
 
 %%page 342%%
 
@@ -7242,13 +7228,9 @@ FAILS OUT O F TOLERANCE F A I L S TO SWITCH LEAKAGE ( E t E r n I C A L )
 
 > modes (see FIGURE 8 and paragraphs 4.3.1 and 4.3.2) circle 'P" (PASS). 'F' (FAIL]. o r "A" (NOT APPLICABLE) f o r each o f t h e following t e s t s : a. Redundant elements are capable of checkout during normal ground turnaround with no v e h i c l e design modification. Where a subsystem i s c h a r a c t e r i z e d by redundant s t r i n g s and t h e s t a t u s o f each s t r i n g can be v e r i f i e d during ground turnaround, no i n d i v i d u a l canponent(s) i n any One s t r i n g should be shown as f a i l i n g this screen. NOTE: T h i s screen i s not a p p l i c a b l e under t h e following conditions: ( 1 Pyrotechnic devices, excluding electrical c o n t r o l C i r c u i t r y . ( 2 ) Non-redundant ftem. b. LOSS of a redundant element is r e a d i l y d e t e c t a b l e during f l i g h t . Yhere a subsystem i s c h a r a c t e r i z e d by redundant s t r i n g s and t h e status Of each S d n g can be v e r i f i e d i n f l i g h t , no i n d i v i d u a l component(s) i n any one s t r i n g should be shown as f a i l i n g t h i s screen. N O T : This screen is not a p p l i c a b l e under t h e following conditions: ( 1 ) Standby redundancy (redundant p a t h s were only one path i s operational a t any given time). (2) A l l functional p a t h s o f any subsystem which is i n o p e r a t i v e ( d u r i n g such i n o p e r a t i v e periods). This groundrule does n o t apply i f t h e - - r e d u n d a n t elements a r e o p e r a t i v e d u r i n g any nonnal mission phase; I&., t h e screen i s considered a p p l i c a b l e i f t h e element i s o p e r a t i v e during any normal mission phase. ( 3 ) Pyrotechnic devices. ( 4 ) Mechanical linkage. ( 5) Won-redundant Item. ( 6 ) S u b t i e r l e v e l redundant functional path( s) (power/control c i r c u i t s , etc.. f a i l u r e s where t h e primary f u n c t i o n a l path (LRU. etc.) 1s
 
-0246jf l 6
-
 %%page 343%%
 
 > Criticality 1R3 o r 2R3 and the primary redundancy would not be degraded (i.e.. loss of two of the subtier functiooal paths would not result i n an abort decision). C. Failure of an element t o pass t h i s screen should be i n d i r e c t relation t o the noted failure mode under n o n a l l y expected environmental conditions. Consideration of environmental extremes a s caused which could induce 'multiple order failure" is limited t o abnormal conditions generally resulting from some other failure. Where multiple f a t l u r e s must f i r s t occur t o result i n environmental extremes, such events may be considered non-credible. As a ground rule, i t may be assmed t h a t hardware Items will be qualified and properly installed t o withstand the 'design-to" environmental envelope. The following are typical questions t o be answered i n t h i s phase o f the analysis: (1) Contamination: ( a ) A r e t h e items being evaluated susceptible to contamination? ( b ) IS contamination a credible event o r does t h e design (fK1Uding f i l t e r s ) r e s u l t i n t h i s failure mode being categorized a s non-credible? ( 2 ) Explosion: ( a ) 1s there a credible source? ( b ) Must other multiple failures occur f i r s t t o result i n the explosion? (C) IS the explosfon catastrophic t o crew or vehicle? (d) Is the container frangible? (el A r e the Items being considered susceptible t o t h i s type of damage i n view of t h e i r physical characteristics and location; i.e.. shielding? 3. Temperature: ( a ) A r e cwponents susceptible t o damage o r failure from h i g h .I temperature? (b) Other than a s a result of multiple failures, i s such exposure credible? T h i s implies temperature peaks or sustained levels sufficient t o cause catastrophic effects on 6 e component in a short time. For example, temperature Increases t o certain levels merely increase electronic parts f a f l u r e rates the actual failure and time o f occurrexe a r e stlll probabfl Istic.
-
-0246jA 7
 
 %%page 344%%
 
@@ -7292,9 +7274,7 @@ nlALlf7R .
 
 > b. Data Entry Change: Circle t h e "R" (Revise) on the "Data Idenifier" line (01. FIGURE 4 or 5 ) and e i t h e r "red-llne" the appropriate sheet of the data printout o r re-enter t h e data a s i t should appear, u s i n g the appropriate data entry sheet a s described i n section 4.2, paragraph ( a ) Data Entry Sheets. To clear the "3" f i e l d of any remaining unwanted Information, asterisk (*) the blank l i n e s w i t h i n t h e -.- block on the master record and supporting record work sheets.
 
-> C. Data Deletion: (1) To delete data, c i r c l e the 'R" on the "Data Identifier" l i n e (01. FIGURE 6 or 7 ) of the appropriate data p r i n t o u t sheet. cross O u t the entry t o be deleted w i t h a colored pen Or pencil
-
-0246j/2D and submit f o r keypunching. If a blank data sheet is used. enter an asterisk (*) f n the block which corresponds t o the entry t o be deleted.
+> C. Data Deletion: (1) To delete data, c i r c l e the 'R" on the "Data Identifier" l i n e (01. FIGURE 6 or 7 ) of the appropriate data p r i n t o u t sheet. cross O u t the entry t o be deleted w i t h a colored pen Or pencil and submit f o r keypunching. If a blank data sheet is used. enter an asterisk (*) f n the block which corresponds t o the entry t o be deleted.
 
 %%page 347%%
 
@@ -7308,9 +7288,9 @@ nlALlf7R .
 
 > a. Critical Items List (CIL) Updates will include the following: (1 ) Any new CIL Itens ( 2 ) Updates t o existing items having technical changes affecting the following sections: -- - ( a ) function ( b ) f a i l u r e mode ( c ) f a i l u r e effects (d) c r i t i c a l i t y ( e ) abort c r i t i c a l cmponents ( f ) f a f l u r e detectability (redundancy screen) .' Other changes w i l l be incorporated when pages are s u h i t t e d f o r the above reasons.
 
-02463 /21 b. FMEA's Updates o f the FMEA's will be a t six month intervals linked t o nearest scheduled CIL FRR publication. Only those changes related t o the CIL submittals (5 above) and other technical changes wtll be submitted.
-
 %%page 348%%
+
+> b. FMEA's Updates o f the FMEA's will be a t six month intervals linked t o nearest scheduled CIL FRR publication. Only those changes related t o the CIL submittals (5 above) and other technical changes wtll be submitted.
 
 4.3 IMPLEMENTATION GROUND RULES (See a ls o Appendix B - Ground Rules and Criteria)
 
@@ -7350,9 +7330,7 @@ nlALlf7R .
 
 > This sectlon of the Critical Items List contains those c r i t i c a l Items asscciated with Orbiter subsystems t h a t have been added t o or modified by Orbiter Mlssion Klts t o support special missions. These CIL items will only apply t o specific vehicle missions as noted i h t h i s speclfic CIL subsectlon.
 
-> T h i s CIL section contains the single fa ilure paints and c r l t l c a l i t y 1~ and 2R CIL items identifled by the Failure Mode Effects Analysis IFMEA) conducted on t h e Orbiter subsystems tha t have been added t o or modified
-
-02463123 t o support 'special mission application. These vehicle changes are Identlfied by individual Mission Klts which are Installed specifically f o r these special missions and wuld be removed when t h C mission objectives have been achieved. Each vehicle change is identifled by a Master Change Record (MCR) and I s referenced i n the applicable FMU.
+> T h i s CIL section contains the single fa ilure paints and c r l t l c a l i t y 1~ and 2R CIL items identifled by the Failure Mode Effects Analysis IFMEA) conducted on t h e Orbiter subsystems tha t have been added t o or modified t o support 'special mission application. These vehicle changes are Identlfied by individual Mission Klts which are Installed specifically f o r these special missions and wuld be removed when t h C mission objectives have been achieved. Each vehicle change is identifled by a Master Change Record (MCR) and I s referenced i n the applicable FMU.
 
 %%page 350%%
 
@@ -7371,8 +7349,6 @@ Each c r i t i c a l f a i l u r e mode identified in the vehicle modification ,
 > a. En& under "CAUSE" (5380). each applicable failure mode of t h e electromechanical device reflecting the avionics ma1 function causing the failure mode; i .e.. loss o f electrical power, premature;electrical signal, etc.
 
 > b. Identify under "REFERENCE OOCUMENTS" (Cll-141, the specific mechanical/ avlonics Interface.
-
-0246j/24
 
 %%page 351%%
 
@@ -7404,8 +7380,6 @@ Requirements and procedures f o r conducting interfacing analyses and for elemen
 
 For items identified as GFE hardware, NASA will identify those which require FMEA's and w i l l perform FMEA's on the hardware identified t o the level defined by t h e i r ground rules. Upon ccinpletion of the FMEA, MASA w i l l provide Rockwell w i t h a copy. In addition t o the completed copy. a preliminary copy may b6 transmitted. Upon receipt of the GFE FMEA, Rockwell will evaluate t h e interface effects on the Orbiter defined by the'GFE FMU.
 
-02463 I26
-
 %%page 353%%
 
 Appropriate conrments shall be included t o insure t h a t t h i s area i s correct an'd complete. Rockwell will conduct FMEA'S f o r a l l interfaces between CFE and GFE. The Rockwell FMEA will consider a l l f a i l u r e modes consistent'with t h i s desk instruction. The analysis is t o consider a s a "RUSE" any f a i l u r e mode identified by the GFE FMEA which could produce a failure i n the CFE interface. Where GFE failures are identified a s a 'CAUSE'. the appropriate GFE FUEA and document number shall be identified a s a part of the "CAUSE" section. In addition, those vehicle failures which could cause M U failure modes will be identified t o NASA In the corrments t o t h e GFE FMEA. Uhere structural failures a r e identified, appropriate hazards analyses shall be 1ncl uded 1n avai 1abl e.
@@ -7430,9 +7404,13 @@ FIGURE 1 - F k R PROCESS
 
 %%page 355%%
 
-> DI NO. 100-26 Page 29 o f 34 ms ..--. = -................. yY
+> DI NO. 100-26 Page 29 o f 34
 
 %%page 356%%
+
+> DI NO. 100-26 Page 30 o f 34
+
+> ms ..--. = -................. yY
 
 ## PILYI
 
@@ -7558,8 +7536,6 @@ The following ground r u l e s and c r i t e r i a a r e of a general category f
 
 > 4. Categorization of a hardware item by t h e worst case p o t i n t i a l e f f e c t of f a i l u r e of t h a t item w i l l define c r i t i c a l i t y . 5. Failure modes t h a t could propagate t o interfacing subsystems Or experiments will be Identified.
 
-0246j/30
-
 %%page 364%%
 
 > 6. Uhen defining FMEA's/CIL for a particular subsystem. iniedacing subsystems will be considered t o be operattng d t h i n t h e i r specified tolerances.
@@ -7577,8 +7553,6 @@ The following ground r u l e s and c r i t e r i a a r e of a general category f
 > 12. Subsystem analysis dl1 include an evaluation of the effects of instrumentation failure u p o n h i t h i n the subsystem.
 
 > 13. External Leakage: a. The external leakage mode 3f functional hardware items from any source (except matlng of two surfaces by welding, brazing, o r pennaswage) will be considered. If t h i s mode raises the - . - c r i t i c a l i t y of the items i n question, i t will be documented and the potentlal leak source identifjed under "aU.SE(S)". * Otherwise. t h e external leakage w i l l be treated generically by media. However, in those instances where external leakage results i n hardware c r i t i c a l i t y 1 effect, the f a i l u r e mode will be documented regardless of the basic c r l t i c a l i t y o f the item being considered. Uhere applicable, seal failure should be l i s t e d as a cause and worst case (comlete seal f a i l u r e ) shall be assumed. considering
-
-0246j /31
 
 %%page 365%%
 
@@ -7628,9 +7602,9 @@ The following ground r u l e s and c r i t e r i a a r e of a general category f
 
 > a. Generic f a i l u r e modes and causes. b. Released and controlled cmponent. assembly, and d e t a i l engineering drawings and specifications. c. Training a i d s , a s available; e.g., cross section drawings, photographs, exploded drawings ( n o t referenced I n FMEA). d. Actual hardware. i f available. e. Use experience, including f a i l u r e hlstory and- s i m i l a r components.
 
-02463 134 f. Controlled and released operational procedures. . g. Component FMEA's prepared by component suppliers.
-
 %%page 368%%
+
+> f. Controlled and released operational procedures. . g. Component FMEA's prepared by component suppliers.
 
 8\. Failure of structural items (primary and secondary) w i l l not b e considered a s a part of this ananysis. (Structural items are assumed t o be designed t o preclude failure by use of adequate design Safety factors.[^1]
 

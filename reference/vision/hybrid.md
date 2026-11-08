@@ -6,7 +6,7 @@ Pages with the vision model's structure: **159 of 438** (47.1% of the words). Th
 
 Page breaks between a vision page and a pipeline page: 110, of which the page-break joins closed 46.
 
-Blocks: 1687 from the vision reading, 2117 from the pipeline (a block joined over a page break keeps the source of the page it starts on).
+Blocks: 1687 from the vision reading, 2104 from the pipeline (a block joined over a page break keeps the source of the page it starts on).
 
 | why a page kept the pipeline's structure | pages |
 |---|---:|
@@ -354,12 +354,12 @@ Blocks: 1687 from the vision reading, 2117 from the pipeline (a block joined ove
 | 341 | 333 | pipeline | 6/28 |  |  | 6 of 28 blocks accepted |
 | 342 | 334 | pipeline | 0/0 |  |  | a contents page |
 | 343 | 335 | pipeline | 2/10 |  |  | 2 of 10 blocks accepted |
-| 344 | 336 | pipeline | 3/14 |  |  | 3 of 14 blocks accepted |
+| 344 | 336 | pipeline | 2/14 |  |  | 2 of 14 blocks accepted |
 | 345 | 337 | pipeline | 4/31 |  |  | 4 of 31 blocks accepted |
 | 346 | 338 | pipeline | 22/44 |  |  | 22 of 44 blocks accepted |
 | 347 |  | pipeline | 6/38 |  |  | 6 of 38 blocks accepted |
-| 348 | 340 | pipeline | 3/23 |  |  | 3 of 23 blocks accepted |
-| 349 | 341 | pipeline | 11/26 |  |  | 11 of 26 blocks accepted |
+| 348 | 340 | pipeline | 2/23 |  |  | 2 of 23 blocks accepted |
+| 349 | 341 | pipeline | 10/26 |  |  | 10 of 26 blocks accepted |
 | 350 | 342 | pipeline | 3/25 |  |  | 3 of 25 blocks accepted |
 | 351 | 343 | pipeline | 3/30 |  |  | 3 of 30 blocks accepted |
 | 352 | 344 | pipeline | 2/20 |  |  | 2 of 20 blocks accepted |
@@ -367,10 +367,10 @@ Blocks: 1687 from the vision reading, 2117 from the pipeline (a block joined ove
 | 354 | 346 | pipeline | 4/32 |  |  | 4 of 32 blocks accepted |
 | 355 | 347 | pipeline | 9/27 |  |  | 9 of 27 blocks accepted |
 | 356 | 348 | pipeline | 5/29 |  |  | 5 of 29 blocks accepted |
-| 357 | 349 | pipeline | 3/26 |  |  | 3 of 26 blocks accepted |
-| 358 | 350 | pipeline | 3/19 |  |  | 3 of 19 blocks accepted |
+| 357 | 349 | pipeline | 2/26 |  |  | 2 of 26 blocks accepted |
+| 358 | 350 | pipeline | 2/19 |  |  | 2 of 19 blocks accepted |
 | 359 |  | pipeline | 2/27 |  |  | 2 of 27 blocks accepted |
-| 360 | 352 | pipeline | 5/26 |  |  | 5 of 26 blocks accepted |
+| 360 | 352 | pipeline | 4/26 |  |  | 4 of 26 blocks accepted |
 | 361 | 353 | pipeline | 0/15 |  |  | 0 of 15 blocks accepted |
 | 362 |  | pipeline | 0/0 |  |  | a contents page |
 | 363 | 355 | pipeline | 0/331 |  |  | 0 of 331 blocks accepted |
@@ -381,7 +381,7 @@ Blocks: 1687 from the vision reading, 2117 from the pipeline (a block joined ove
 | 369 | 361 | pipeline | 19/40 |  |  | 19 of 40 blocks accepted |
 | 370 |  | pipeline | 0/0 |  |  | a contents page |
 | 371 |  | pipeline | 3/24 |  |  | 3 of 24 blocks accepted |
-| 372 |  | pipeline | 3/22 |  |  | 3 of 22 blocks accepted |
+| 372 |  | pipeline | 2/22 |  |  | 2 of 22 blocks accepted |
 | 373 |  | pipeline | 4/28 |  |  | 4 of 28 blocks accepted |
 | 374 | 366 | pipeline | 8/29 |  |  | 8 of 29 blocks accepted |
 | 375 | 367 | pipeline | 1/24 |  |  | 1 of 24 blocks accepted |

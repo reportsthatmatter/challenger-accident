@@ -5772,13 +5772,13 @@
    "accepted": 1,
    "starts": {
     "vision": 0,
-    "pipeline": 9
+    "pipeline": 8
    },
    "notes": {
     "vision": 0,
     "pipeline": 0
    },
-   "words": 529,
+   "words": 526,
    "reason": "1 of 17 blocks accepted"
   },
   {
@@ -5790,13 +5790,13 @@
    "accepted": 0,
    "starts": {
     "vision": 0,
-    "pipeline": 8
+    "pipeline": 7
    },
    "notes": {
     "vision": 0,
     "pipeline": 0
    },
-   "words": 744,
+   "words": 743,
    "reason": "0 of 16 blocks accepted"
   },
   {
@@ -5808,13 +5808,13 @@
    "accepted": 11,
    "starts": {
     "vision": 0,
-    "pipeline": 12
+    "pipeline": 11
    },
    "notes": {
     "vision": 0,
     "pipeline": 0
    },
-   "words": 456,
+   "words": 454,
    "reason": "11 of 42 blocks accepted"
   },
   {
@@ -5913,17 +5913,17 @@
    "printed": 336,
    "source": "pipeline",
    "blocks": 14,
-   "accepted": 3,
+   "accepted": 2,
    "starts": {
     "vision": 0,
-    "pipeline": 10
+    "pipeline": 9
    },
    "notes": {
     "vision": 0,
     "pipeline": 0
    },
-   "words": 243,
-   "reason": "3 of 14 blocks accepted"
+   "words": 241,
+   "reason": "2 of 14 blocks accepted"
   },
   {
    "volume": 1,
@@ -5970,13 +5970,13 @@
    "accepted": 6,
    "starts": {
     "vision": 0,
-    "pipeline": 9
+    "pipeline": 8
    },
    "notes": {
     "vision": 0,
     "pipeline": 0
    },
-   "words": 553,
+   "words": 551,
    "reason": "6 of 38 blocks accepted"
   },
   {
@@ -5985,17 +5985,17 @@
    "printed": 340,
    "source": "pipeline",
    "blocks": 23,
-   "accepted": 3,
+   "accepted": 2,
    "starts": {
     "vision": 0,
-    "pipeline": 11
+    "pipeline": 10
    },
    "notes": {
     "vision": 0,
     "pipeline": 0
    },
-   "words": 432,
-   "reason": "3 of 23 blocks accepted"
+   "words": 430,
+   "reason": "2 of 23 blocks accepted"
   },
   {
    "volume": 1,
@@ -6003,17 +6003,17 @@
    "printed": 341,
    "source": "pipeline",
    "blocks": 26,
-   "accepted": 11,
+   "accepted": 10,
    "starts": {
     "vision": 0,
-    "pipeline": 8
+    "pipeline": 7
    },
    "notes": {
     "vision": 0,
     "pipeline": 0
    },
-   "words": 347,
-   "reason": "11 of 26 blocks accepted"
+   "words": 345,
+   "reason": "10 of 26 blocks accepted"
   },
   {
    "volume": 1,
@@ -6024,13 +6024,13 @@
    "accepted": 3,
    "starts": {
     "vision": 0,
-    "pipeline": 6
+    "pipeline": 5
    },
    "notes": {
     "vision": 0,
     "pipeline": 0
    },
-   "words": 781,
+   "words": 778,
    "reason": "3 of 25 blocks accepted"
   },
   {
@@ -6042,13 +6042,13 @@
    "accepted": 3,
    "starts": {
     "vision": 0,
-    "pipeline": 2
+    "pipeline": 1
    },
    "notes": {
     "vision": 0,
     "pipeline": 0
    },
-   "words": 404,
+   "words": 402,
    "reason": "3 of 30 blocks accepted"
   },
   {
@@ -6096,13 +6096,13 @@
    "accepted": 4,
    "starts": {
     "vision": 0,
-    "pipeline": 6
+    "pipeline": 5
    },
    "notes": {
     "vision": 0,
     "pipeline": 0
    },
-   "words": 429,
+   "words": 427,
    "reason": "4 of 32 blocks accepted"
   },
   {
@@ -6114,13 +6114,13 @@
    "accepted": 9,
    "starts": {
     "vision": 0,
-    "pipeline": 7
+    "pipeline": 6
    },
    "notes": {
     "vision": 0,
     "pipeline": 0
    },
-   "words": 339,
+   "words": 337,
    "reason": "9 of 27 blocks accepted"
   },
   {
@@ -6147,17 +6147,17 @@
    "printed": 349,
    "source": "pipeline",
    "blocks": 26,
-   "accepted": 3,
+   "accepted": 2,
    "starts": {
     "vision": 0,
-    "pipeline": 11
+    "pipeline": 10
    },
    "notes": {
     "vision": 0,
     "pipeline": 0
    },
-   "words": 446,
-   "reason": "3 of 26 blocks accepted"
+   "words": 445,
+   "reason": "2 of 26 blocks accepted"
   },
   {
    "volume": 1,
@@ -6165,17 +6165,17 @@
    "printed": 350,
    "source": "pipeline",
    "blocks": 19,
-   "accepted": 3,
+   "accepted": 2,
    "starts": {
     "vision": 0,
-    "pipeline": 11
+    "pipeline": 10
    },
    "notes": {
     "vision": 0,
     "pipeline": 0
    },
-   "words": 387,
-   "reason": "3 of 19 blocks accepted"
+   "words": 385,
+   "reason": "2 of 19 blocks accepted"
   },
   {
    "volume": 1,
@@ -6201,17 +6201,17 @@
    "printed": 352,
    "source": "pipeline",
    "blocks": 26,
-   "accepted": 5,
+   "accepted": 4,
    "starts": {
     "vision": 0,
-    "pipeline": 7
+    "pipeline": 6
    },
    "notes": {
     "vision": 0,
     "pipeline": 0
    },
-   "words": 445,
-   "reason": "5 of 26 blocks accepted"
+   "words": 443,
+   "reason": "4 of 26 blocks accepted"
   },
   {
    "volume": 1,
@@ -6276,13 +6276,13 @@
    "accepted": 0,
    "starts": {
     "vision": 0,
-    "pipeline": 9
+    "pipeline": 10
    },
    "notes": {
     "vision": 0,
     "pipeline": 0
    },
-   "words": 31,
+   "words": 40,
    "reason": "0 of 346 blocks accepted"
   },
   {
@@ -6384,13 +6384,13 @@
    "accepted": 3,
    "starts": {
     "vision": 0,
-    "pipeline": 8
+    "pipeline": 7
    },
    "notes": {
     "vision": 0,
     "pipeline": 0
    },
-   "words": 588,
+   "words": 586,
    "reason": "3 of 24 blocks accepted"
   },
   {
@@ -6399,17 +6399,17 @@
    "printed": null,
    "source": "pipeline",
    "blocks": 22,
-   "accepted": 3,
+   "accepted": 2,
    "starts": {
     "vision": 0,
-    "pipeline": 9
+    "pipeline": 8
    },
    "notes": {
     "vision": 0,
     "pipeline": 0
    },
-   "words": 367,
-   "reason": "3 of 22 blocks accepted"
+   "words": 365,
+   "reason": "2 of 22 blocks accepted"
   },
   {
    "volume": 1,
@@ -6456,13 +6456,13 @@
    "accepted": 1,
    "starts": {
     "vision": 0,
-    "pipeline": 9
+    "pipeline": 8
    },
    "notes": {
     "vision": 0,
     "pipeline": 0
    },
-   "words": 469,
+   "words": 467,
    "reason": "1 of 24 blocks accepted"
   },
   {
@@ -29814,13 +29814,6 @@
    "opening": "NOTE: See Appendix 8. paragraph 3.1.1, Ground Rules, sub-par"
   },
   {
-   "pdf": 336,
-   "printed": null,
-   "source": "pipeline",
-   "kind": "paragraph",
-   "opening": "0246j I 2"
-  },
-  {
    "pdf": 337,
    "printed": 329,
    "source": "pipeline",
@@ -29868,13 +29861,6 @@
    "source": "pipeline",
    "kind": "paragraph",
    "opening": "FMEA's will be prepared j o i n t l y by t h e responsible d"
-  },
-  {
-   "pdf": 337,
-   "printed": 329,
-   "source": "pipeline",
-   "kind": "paragraph",
-   "opening": "0246jj3"
   },
   {
    "pdf": 338,
@@ -29952,13 +29938,6 @@
    "source": "pipeline",
    "kind": "quote",
    "opening": "1. FMEA's W i l l be perforned f o r each functional mode o "
-  },
-  {
-   "pdf": 338,
-   "printed": 330,
-   "source": "pipeline",
-   "kind": "paragraph",
-   "opening": "02463 /4"
   },
   {
    "pdf": 339,
@@ -30381,13 +30360,6 @@
    "opening": "05-6UA 05-6V 06-2 Smoke Oetection, F i r e Suppression 05-6V"
   },
   {
-   "pdf": 344,
-   "printed": 336,
-   "source": "pipeline",
-   "kind": "paragraph",
-   "opening": "02463/10"
-  },
-  {
    "pdf": 345,
    "printed": 337,
    "source": "pipeline",
@@ -30598,13 +30570,6 @@
    "opening": "a. For t h o s e items whose c r i t i c a l i t y i s incre"
   },
   {
-   "pdf": 347,
-   "printed": null,
-   "source": "pipeline",
-   "kind": "paragraph",
-   "opening": "0246j/l3 as hardware c r i t i c a l i t y 1 and functional "
-  },
-  {
    "pdf": 348,
    "printed": 340,
    "source": "pipeline",
@@ -30668,13 +30633,6 @@
    "opening": "subsystem and such i s provided, the effect on mission i s \""
   },
   {
-   "pdf": 348,
-   "printed": 340,
-   "source": "pipeline",
-   "kind": "paragraph",
-   "opening": "0246j/14"
-  },
-  {
    "pdf": 349,
    "printed": 341,
    "source": "pipeline",
@@ -30724,13 +30682,6 @@
    "opening": "may be taken t o circumvent the specified failure. Also iden"
   },
   {
-   "pdf": 349,
-   "printed": 341,
-   "source": "pipeline",
-   "kind": "paragraph",
-   "opening": "0246jA 5 as critical t o v e h i c l e k r e w s a f e t y o"
-  },
-  {
    "pdf": 350,
    "printed": 342,
    "source": "pipeline",
@@ -30759,25 +30710,11 @@
    "opening": "modes (see FIGURE 8 and paragraphs 4.3.1 and 4.3.2) circle '"
   },
   {
-   "pdf": 350,
-   "printed": 342,
-   "source": "pipeline",
-   "kind": "paragraph",
-   "opening": "0246jf l 6"
-  },
-  {
    "pdf": 351,
    "printed": 343,
    "source": "pipeline",
    "kind": "quote",
    "opening": "Criticality 1R3 o r 2R3 and the primary redundancy would not"
-  },
-  {
-   "pdf": 351,
-   "printed": 343,
-   "source": "pipeline",
-   "kind": "paragraph",
-   "opening": "0246jA 7"
   },
   {
    "pdf": 352,
@@ -30913,13 +30850,6 @@
    "opening": "C. Data Deletion: (1) To delete data, c i r c l e the 'R\" on"
   },
   {
-   "pdf": 354,
-   "printed": 346,
-   "source": "pipeline",
-   "kind": "paragraph",
-   "opening": "0246j/2D and submit f o r keypunching. If a blank data sheet"
-  },
-  {
    "pdf": 355,
    "printed": 347,
    "source": "pipeline",
@@ -30955,11 +30885,11 @@
    "opening": "a. Critical Items List (CIL) Updates will include the follow"
   },
   {
-   "pdf": 355,
-   "printed": 347,
+   "pdf": 356,
+   "printed": 348,
    "source": "pipeline",
-   "kind": "paragraph",
-   "opening": "02463 /21 b. FMEA's Updates o f the FMEA's will be a t six m"
+   "kind": "quote",
+   "opening": "b. FMEA's Updates o f the FMEA's will be a t six month inter"
   },
   {
    "pdf": 356,
@@ -31095,13 +31025,6 @@
    "opening": "T h i s CIL section contains the single fa ilure paints and "
   },
   {
-   "pdf": 357,
-   "printed": 349,
-   "source": "pipeline",
-   "kind": "paragraph",
-   "opening": "02463123 t o support 'special mission application. These veh"
-  },
-  {
    "pdf": 358,
    "printed": 350,
    "source": "pipeline",
@@ -31156,13 +31079,6 @@
    "source": "pipeline",
    "kind": "quote",
    "opening": "b. Identify under \"REFERENCE OOCUMENTS\" (Cll-141, the specif"
-  },
-  {
-   "pdf": 358,
-   "printed": 350,
-   "source": "pipeline",
-   "kind": "paragraph",
-   "opening": "0246j/24"
   },
   {
    "pdf": 359,
@@ -31256,13 +31172,6 @@
    "opening": "For items identified as GFE hardware, NASA will identify tho"
   },
   {
-   "pdf": 360,
-   "printed": 352,
-   "source": "pipeline",
-   "kind": "paragraph",
-   "opening": "02463 I26"
-  },
-  {
    "pdf": 361,
    "printed": 353,
    "source": "pipeline",
@@ -31330,7 +31239,21 @@
    "printed": 355,
    "source": "pipeline",
    "kind": "quote",
-   "opening": "DI NO. 100-26 Page 29 o f 34 ms ..--. = -................. y"
+   "opening": "DI NO. 100-26 Page 29 o f 34"
+  },
+  {
+   "pdf": 364,
+   "printed": 356,
+   "source": "pipeline",
+   "kind": "quote",
+   "opening": "DI NO. 100-26 Page 30 o f 34"
+  },
+  {
+   "pdf": 364,
+   "printed": 356,
+   "source": "pipeline",
+   "kind": "quote",
+   "opening": "ms ..--. = -................. yY"
   },
   {
    "pdf": 364,
@@ -31725,13 +31648,6 @@
    "opening": "4. Categorization of a hardware item by t h e worst case p o"
   },
   {
-   "pdf": 371,
-   "printed": null,
-   "source": "pipeline",
-   "kind": "paragraph",
-   "opening": "0246j/30"
-  },
-  {
    "pdf": 372,
    "printed": null,
    "source": "pipeline",
@@ -31786,13 +31702,6 @@
    "source": "pipeline",
    "kind": "quote",
    "opening": "13. External Leakage: a. The external leakage mode 3f functi"
-  },
-  {
-   "pdf": 372,
-   "printed": null,
-   "source": "pipeline",
-   "kind": "paragraph",
-   "opening": "0246j /31"
   },
   {
    "pdf": 373,
@@ -31942,11 +31851,11 @@
    "opening": "a. Generic f a i l u r e modes and causes. b. Released and c"
   },
   {
-   "pdf": 375,
-   "printed": 367,
+   "pdf": 376,
+   "printed": null,
    "source": "pipeline",
-   "kind": "paragraph",
-   "opening": "02463 134 f. Controlled and released operational procedures."
+   "kind": "quote",
+   "opening": "f. Controlled and released operational procedures. . g. Comp"
   },
   {
    "pdf": 376,
